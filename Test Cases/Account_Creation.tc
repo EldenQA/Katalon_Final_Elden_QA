@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Account_Creation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9fb7c0c-4221-4f8a-bbe2-46b684e4e2bf</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\atsharma\\\\Pictures\\\\photos.jpg'</defaultValue>
+      <description></description>
+      <id>06e44c03-e060-436d-8189-1a5e2f56a2c7</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>
