@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent 
 WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/button_Create New Account'))
 
 WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/input__accountName'), 
-    'katalon_3')
+    'katalon_4')
 
 WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/input__email'), 'katalon@yopmail.com')
 
@@ -62,6 +62,7 @@ WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Bebo Talen
 
 WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/input__vm.accountDetailsForm.contactDTO.city'), 
     'katalon')
+
 WebUI.clickImage(findTestObject('vm.accountDetailsForm.attachment'))
 
 WebUI.uploadFile(findTestObject('Account_Creation/Page_Mobile Talent  Mobile Recruitment/Page_Bebo Talent  Mobile Recruitment/input_Browse_vm.accountDetailsForm.attachment'), 
