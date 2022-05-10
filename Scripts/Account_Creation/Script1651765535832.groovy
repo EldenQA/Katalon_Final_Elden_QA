@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent 
 WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/button_Create New Account'))
 
 WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/input__accountName'), 
-    'katalon_4')
+    'katalon_5')
 
 WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/input__email'), 'katalon@yopmail.com')
 
