@@ -3,6 +3,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+
+import javax.swing.ListSelectionModel
 import javax.swing.text.html.CSS as CSS
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -15,8 +17,15 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
+import internal.GlobalVariable
+
+import org.openqa.selenium.By
+import org.openqa.selenium.Keys
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.remote.DriverCommand
+import org.openqa.selenium.remote.server.DriverFactory
+import org.openqa.selenium.By.ByCssSelector
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 WebUI.openBrowser('')
@@ -37,10 +46,15 @@ WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Tale
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Manage Templates'))
 
+
+
+
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/button_Create New Template'))
 
+
 WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input__templateName'), 
-    'Katalon_' + RandomStringUtils.randomAlphabetic(4))
+ 'Katalon_' + RandomStringUtils.randomAlphabetic(4))
+
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/li__multiselect-search-list-item multiselec_b05554'))
 
@@ -49,14 +63,12 @@ WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Tale
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/li_Job Family_multiselect-search-list-item _bf01f7'))
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/li_Telecommunications'))
-
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/i_Add page_fa fa-plus icon-grey'))
 
 WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Enter Page Name_form-control ng-prist_3b5161'), 
-    'Capture')
+   'Capture')
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/img'))
-
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/div_Template has been saved successfully'))
