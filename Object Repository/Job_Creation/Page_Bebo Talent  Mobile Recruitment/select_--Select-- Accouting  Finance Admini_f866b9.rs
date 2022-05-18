@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--Select-- Accouting  Finance Admini_f866b9</name>
+   <tag></tag>
+   <elementGuidId>fd4187f0-d069-4b45-be71-b906199467e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;campaignFamilyId&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='campaignFamilyId']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>fbdcc189-3b43-46de-98a4-3536a7f7b17d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>campaignFamilyId</value>
+      <webElementGuid>2444284b-e168-432e-8053-91633ff15353</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-change</name>
+      <type>Main</type>
+      <value>$ctrl.getFunctionByID($ctrl.campaign.familyId, $ctrl.campaignForm)</value>
+      <webElementGuid>15ef42b0-1379-4ad7-9dcd-f3565758994b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>$ctrl.campaign.familyId</value>
+      <webElementGuid>d2e265ee-81a0-49a8-b74f-2147edca2690</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-invalid ng-invalid-required</value>
+      <webElementGuid>9ba055e9-0de1-4a3c-a5d6-b42a7eccca9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> --Select-- Accouting &amp; Finance Administrative Arts, Entertainment &amp; Publishing Banking &amp; Loans Computer &amp; Information Technology Construction &amp; Facilities Customer Service Education &amp; Training Engineering &amp; Architecture Government &amp; Military Jobs Healthcare Jobs Hospitality &amp; Restaurant Human Resource Insurance Law Enforement Legal Manufacturing &amp; Mechanical Marketing, Advertising &amp; PR Non-Profit &amp; Volunteer Jobs Pharmacist &amp; Biotech Real Estate Retail Sales Telecommunications Transportation &amp; Logistics Upper Management &amp; Consulting </value>
+      <webElementGuid>4cacec0c-aa4c-4ac4-b3be-8b858895c32d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contentMainDiv&quot;)/div[@class=&quot;container-main ptop10 ng-scope&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;fadeIn ng-scope&quot;]/form[@class=&quot;mnone ng-scope ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-ta-min-text ng-valid-min ng-dirty ng-valid-parse ng-valid-is-exists&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;wizard-area mobile-campaign-wizard&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;col-md-10 col-lg-7 request-campaign&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-6&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-invalid ng-invalid-required&quot;]</value>
+      <webElementGuid>90163a4c-606f-4027-8888-dd5df57c6c16</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='campaignFamilyId']</value>
+      <webElementGuid>c78708ab-19e2-4eb2-8066-1622c75ff346</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='contentMainDiv']/div[2]/div/div[4]/form/div/div/div[2]/div[3]/div/div/div/div[3]/div/select</value>
+      <webElementGuid>fb7224ca-065f-42e1-a1b6-ff650d1eb9f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/following::select[1]</value>
+      <webElementGuid>b4ce86a8-eb28-4498-8ed2-e91466380ebf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/preceding::select[1]</value>
+      <webElementGuid>3f63d2f5-a976-46d5-8d08-5e56c3f2c01d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/select</value>
+      <webElementGuid>34e22248-06b3-4a20-bbd0-c237acd16fc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'campaignFamilyId' and (text() = ' --Select-- Accouting &amp; Finance Administrative Arts, Entertainment &amp; Publishing Banking &amp; Loans Computer &amp; Information Technology Construction &amp; Facilities Customer Service Education &amp; Training Engineering &amp; Architecture Government &amp; Military Jobs Healthcare Jobs Hospitality &amp; Restaurant Human Resource Insurance Law Enforement Legal Manufacturing &amp; Mechanical Marketing, Advertising &amp; PR Non-Profit &amp; Volunteer Jobs Pharmacist &amp; Biotech Real Estate Retail Sales Telecommunications Transportation &amp; Logistics Upper Management &amp; Consulting ' or . = ' --Select-- Accouting &amp; Finance Administrative Arts, Entertainment &amp; Publishing Banking &amp; Loans Computer &amp; Information Technology Construction &amp; Facilities Customer Service Education &amp; Training Engineering &amp; Architecture Government &amp; Military Jobs Healthcare Jobs Hospitality &amp; Restaurant Human Resource Insurance Law Enforement Legal Manufacturing &amp; Mechanical Marketing, Advertising &amp; PR Non-Profit &amp; Volunteer Jobs Pharmacist &amp; Biotech Real Estate Retail Sales Telecommunications Transportation &amp; Logistics Upper Management &amp; Consulting ')]</value>
+      <webElementGuid>f81524ee-2e2c-49fa-9a80-9e7b27080b13</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
