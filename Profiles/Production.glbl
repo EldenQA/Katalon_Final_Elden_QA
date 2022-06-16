@@ -24,4 +24,9 @@
       <initValue>'Software Engineer_Perl Developer'</initValue>
       <name>JobName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Saransh Mehta'</initValue>
+      <name>candidateName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

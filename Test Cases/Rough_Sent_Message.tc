@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Template_Creation_With_Multiple_Questions</name>
+   <name>Rough_Sent_Message</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fbea79f7-0dd4-44be-8239-abec52c3655b</testCaseGuid>
+   <testCaseGuid>ba6fb6f4-8406-4035-b945-31399642139e</testCaseGuid>
 </TestCaseEntity>

@@ -24,4 +24,9 @@
       <initValue>'Perl Developer'</initValue>
       <name>JobName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'prajakta'</initValue>
+      <name>candidateName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

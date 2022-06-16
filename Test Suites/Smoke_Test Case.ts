@@ -15,14 +15,14 @@
       <guid>a6686d80-e6cb-4c72-b54a-0cbf990d6231</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Smoke_Scenarios/Template_Creation_With_Multiple_Questions</testCaseId>
+      <testCaseId>Test Cases/Smoke_Scenarios/Verify that user is able to create the template with Multiple Question (Only one question)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>04554d28-eb67-4798-ab98-a37835048516</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Smoke_Scenarios/Template_Creation_With_QuestionnareFile</testCaseId>
+      <testCaseId>Test Cases/Smoke_Scenarios/Verify that user is able to create the Template with Questionniare File</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -35,7 +35,7 @@
       <guid>ec12a508-715a-4c26-a380-cadca62e36f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Smoke_Scenarios/Template_Creation_With_Questio_QuestionniareForm_Location</testCaseId>
+      <testCaseId>Test Cases/Smoke_Scenarios/Verify that user is able to create the template with Multiple Questions,file,Location fields</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -63,7 +63,7 @@
       <guid>7cfb75c8-4c5e-46f7-9b67-ced72ab8fb69</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Smoke_Scenarios/Schedule_Job</testCaseId>
+      <testCaseId>Test Cases/Smoke_Scenarios/Verify that user is able to schedule the Job</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

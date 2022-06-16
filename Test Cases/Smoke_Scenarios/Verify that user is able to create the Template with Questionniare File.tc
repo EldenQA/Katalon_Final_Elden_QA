@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Template_Creation_With_QuestionnareFile</name>
+   <name>Verify that user is able to create the Template with Questionniare File</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9f689781-a86b-4573-a07e-5e1a4645db0d</testCaseGuid>
