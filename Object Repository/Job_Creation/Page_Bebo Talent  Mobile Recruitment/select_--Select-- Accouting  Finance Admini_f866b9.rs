@@ -6,12 +6,12 @@
    <elementGuidId>fd4187f0-d069-4b45-be71-b906199467e3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>select[name=&quot;campaignFamilyId&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@name='campaignFamilyId']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;campaignFamilyId&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,10 +22,66 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>fbdcc189-3b43-46de-98a4-3536a7f7b17d</webElementGuid>
+      <webElementGuid>461d6b4e-3f2a-455a-8b10-04753b5eef50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>campaignFamilyId</value>
+      <webElementGuid>de94eaa0-3239-472b-8276-0082ace0a87e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-change</name>
+      <type>Main</type>
+      <value>$ctrl.getFunctionByID($ctrl.campaign.familyId, $ctrl.campaignForm)</value>
+      <webElementGuid>46c98d26-f16a-46b5-8566-3663fe61aa4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>$ctrl.campaign.familyId</value>
+      <webElementGuid>a46466ca-9bd6-4a4c-a1d2-6095253b2067</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-invalid ng-invalid-required</value>
+      <webElementGuid>b39eb794-5be1-47fd-a274-5b0b38a6273b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> --Select-- Accouting &amp; Finance Administrative Arts, Entertainment &amp; Publishing Banking &amp; Loans Computer &amp; Information Technology Construction &amp; Facilities Customer Service Education &amp; Training Engineering &amp; Architecture Government &amp; Military Jobs Healthcare Jobs Hospitality &amp; Restaurant Human Resource Insurance Law Enforement Legal Manufacturing &amp; Mechanical Marketing, Advertising &amp; PR Non-Profit &amp; Volunteer Jobs Pharmacist &amp; Biotech Real Estate Retail Sales Telecommunications Transportation &amp; Logistics Upper Management &amp; Consulting </value>
+      <webElementGuid>ff50a643-04b5-409e-b036-30ae0b4e8c87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contentMainDiv&quot;)/div[@class=&quot;container-main ptop10 ng-scope&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;fadeIn ng-scope&quot;]/form[@class=&quot;mnone ng-scope ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-ta-min-text ng-valid-min ng-dirty ng-valid-parse ng-valid-is-exists&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;wizard-area mobile-campaign-wizard&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;col-md-10 col-lg-7 request-campaign&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-6&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-invalid ng-invalid-required&quot;]</value>
+      <webElementGuid>f06591ff-5e89-4030-94eb-b9787065fc48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>fbdcc189-3b43-46de-98a4-3536a7f7b17d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -57,7 +113,7 @@
       <webElementGuid>9ba055e9-0de1-4a3c-a5d6-b42a7eccca9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -78,7 +134,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@name='campaignFamilyId']</value>
-      <webElementGuid>c78708ab-19e2-4eb2-8066-1622c75ff346</webElementGuid>
+      <webElementGuid>49b91d97-e191-43a1-a82c-f2b71fcefdb6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +142,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='contentMainDiv']/div[2]/div/div[4]/form/div/div/div[2]/div[3]/div/div/div/div[3]/div/select</value>
-      <webElementGuid>fb7224ca-065f-42e1-a1b6-ff650d1eb9f0</webElementGuid>
+      <webElementGuid>674a0f46-d7f2-4ee3-8f33-bd52d1236699</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +150,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/following::select[1]</value>
-      <webElementGuid>b4ce86a8-eb28-4498-8ed2-e91466380ebf</webElementGuid>
+      <webElementGuid>bcd327e9-7bd6-447f-a9f3-a5eefa35d43b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +158,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/preceding::select[1]</value>
-      <webElementGuid>3f63d2f5-a976-46d5-8d08-5e56c3f2c01d</webElementGuid>
+      <webElementGuid>3ada865d-48e5-4891-ba0b-de0893b20386</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +166,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/select</value>
-      <webElementGuid>34e22248-06b3-4a20-bbd0-c237acd16fc0</webElementGuid>
+      <webElementGuid>8cdb76e1-7e61-4234-ae7c-67d8686fb3f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +174,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@name = 'campaignFamilyId' and (text() = ' --Select-- Accouting &amp; Finance Administrative Arts, Entertainment &amp; Publishing Banking &amp; Loans Computer &amp; Information Technology Construction &amp; Facilities Customer Service Education &amp; Training Engineering &amp; Architecture Government &amp; Military Jobs Healthcare Jobs Hospitality &amp; Restaurant Human Resource Insurance Law Enforement Legal Manufacturing &amp; Mechanical Marketing, Advertising &amp; PR Non-Profit &amp; Volunteer Jobs Pharmacist &amp; Biotech Real Estate Retail Sales Telecommunications Transportation &amp; Logistics Upper Management &amp; Consulting ' or . = ' --Select-- Accouting &amp; Finance Administrative Arts, Entertainment &amp; Publishing Banking &amp; Loans Computer &amp; Information Technology Construction &amp; Facilities Customer Service Education &amp; Training Engineering &amp; Architecture Government &amp; Military Jobs Healthcare Jobs Hospitality &amp; Restaurant Human Resource Insurance Law Enforement Legal Manufacturing &amp; Mechanical Marketing, Advertising &amp; PR Non-Profit &amp; Volunteer Jobs Pharmacist &amp; Biotech Real Estate Retail Sales Telecommunications Transportation &amp; Logistics Upper Management &amp; Consulting ')]</value>
-      <webElementGuid>f81524ee-2e2c-49fa-9a80-9e7b27080b13</webElementGuid>
+      <webElementGuid>3911b423-0320-468b-9482-4b04105f417a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

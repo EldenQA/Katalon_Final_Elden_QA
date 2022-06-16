@@ -6,16 +6,80 @@
    <elementGuidId>65306537-6645-4805-8765-8761ce590cb1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>select[name=&quot;campaignQuarter&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@name='campaignQuarter']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;campaignQuarter&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>82100200-d40b-44f6-9123-bd411e44a8cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-required</name>
+      <type>Main</type>
+      <value>$ctrl.isJobReqEnabled</value>
+      <webElementGuid>5d4302b0-9636-4eb3-8415-373b15e0ea48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>campaignQuarter</value>
+      <webElementGuid>83abec35-f22c-4275-8446-82ecf735e047</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>$ctrl.campaign.quarter</value>
+      <webElementGuid>c67710a9-f96d-4a67-ab20-7cfa38911743</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-invalid ng-invalid-required</value>
+      <webElementGuid>105a0509-7b81-46f8-8b88-c30079f5fe77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>required</name>
+      <type>Main</type>
+      <value>required</value>
+      <webElementGuid>1c214eca-87b3-426f-99e6-864ef7333b62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> --Select--  Apr-Jun 2022  Jul-Sep 2022  Oct-Dec 2022  Jan-Mar 2023  Apr-Jun 2023 </value>
+      <webElementGuid>b391a679-757c-4045-8d73-476a0b24a199</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contentMainDiv&quot;)/div[@class=&quot;container-main ptop10 ng-scope&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;fadeIn ng-scope&quot;]/form[@class=&quot;mnone ng-scope ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-min ng-dirty ng-valid-parse ng-valid-is-exists ng-valid-ta-min-text ng-valid-number&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;wizard-area mobile-campaign-wizard&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;col-md-10 col-lg-7 request-campaign&quot;]/div[@class=&quot;form-group overflow-visible&quot;]/div[@class=&quot;col-sm-6&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-invalid ng-invalid-required&quot;]</value>
+      <webElementGuid>63edf665-baf9-42b0-adaa-907697277700</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -33,7 +97,7 @@
       <webElementGuid>704baf7d-3187-4cfa-af2f-89f56f8fb30a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -65,7 +129,7 @@
       <webElementGuid>22433fab-03d4-4c5f-a93d-cd6f29b700c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -86,7 +150,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@name='campaignQuarter']</value>
-      <webElementGuid>7077c110-49e5-4038-af0d-a5aaab6c2bf2</webElementGuid>
+      <webElementGuid>8964417b-46a3-4256-9b54-c443c5c125f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +158,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='contentMainDiv']/div[2]/div/div[4]/form/div/div/div[2]/div[4]/div/div/div/div/div[5]/div/select</value>
-      <webElementGuid>4fea79ea-f70b-45d1-82a2-e8239acfd0c2</webElementGuid>
+      <webElementGuid>658625cd-9098-4acf-ac47-5a8bbe4ac0d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +166,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[19]/following::select[1]</value>
-      <webElementGuid>2dd63177-303c-49b1-b7a2-8d0de59e0b0c</webElementGuid>
+      <webElementGuid>a2666d6a-0286-49eb-8be6-504f37b2b0ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +174,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[20]/preceding::select[1]</value>
-      <webElementGuid>dece1391-e2d9-42a1-be65-257324f247ee</webElementGuid>
+      <webElementGuid>bf88183b-c157-495f-98a3-48c70da49d86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +182,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/select</value>
-      <webElementGuid>e4ff2d77-a560-4a5b-9685-400719115e0b</webElementGuid>
+      <webElementGuid>bb2f302b-58c3-48bc-8607-e51b547971cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +190,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@name = 'campaignQuarter' and (text() = ' --Select--  Apr-Jun 2022  Jul-Sep 2022  Oct-Dec 2022  Jan-Mar 2023  Apr-Jun 2023 ' or . = ' --Select--  Apr-Jun 2022  Jul-Sep 2022  Oct-Dec 2022  Jan-Mar 2023  Apr-Jun 2023 ')]</value>
-      <webElementGuid>a92480be-15be-4df3-9c30-26a4ad8cb41c</webElementGuid>
+      <webElementGuid>54871a84-3927-4f6e-bbb1-9a8d754a2213</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

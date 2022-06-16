@@ -6,16 +6,120 @@
    <elementGuidId>7289589a-d24b-4a1b-9e0c-439cd39ffc07</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;postitonCount&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='postitonCount']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;postitonCount&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>14b7abeb-f6ab-4192-b0a5-a5f1d47a947e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-valid-min ng-invalid ng-invalid-required ng-valid-maxlength ng-animate ng-pristine-remove ng-invalid-remove ng-invalid-required-remove ng-dirty-add ng-valid-number-add ng-valid-add ng-valid-required-add</value>
+      <webElementGuid>4338c8e3-65bd-4447-b41a-e9edc1537feb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-model</name>
+      <type>Main</type>
+      <value>$ctrl.campaign.postitonCount</value>
+      <webElementGuid>7d4ebdc7-874d-4ce7-9578-4d486c3bf453</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>postitonCount</value>
+      <webElementGuid>09e0f9d5-376a-45f3-a1fe-ffc4f0cd9592</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>b9d25125-8c67-47f5-a53d-1eb6650c76fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-maxlength</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>c7567f34-030f-42e1-8aba-69c28c9c0a74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>04</value>
+      <webElementGuid>721f6930-f7f5-47bd-87b9-8cd89691384c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>ae651a57-b05b-4432-ad3b-69f6987d7e21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-required</name>
+      <type>Main</type>
+      <value>$ctrl.isJobReqEnabled</value>
+      <webElementGuid>ab08edc5-f9eb-49c2-8486-d75005f0c1db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>min</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>27633574-6479-4b15-b819-02865d31378d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>oninput</name>
+      <type>Main</type>
+      <value>validity.valid||(value='')</value>
+      <webElementGuid>626ea940-356e-4510-b452-6c052088e353</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>required</name>
+      <type>Main</type>
+      <value>required</value>
+      <webElementGuid>bc7f3384-3e3c-4c9c-9e8a-fdad4c19c2cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contentMainDiv&quot;)/div[@class=&quot;container-main ptop10 ng-scope&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;fadeIn ng-scope&quot;]/form[@class=&quot;mnone ng-scope ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-min ng-dirty ng-valid-parse ng-valid-is-exists ng-valid-ta-min-text ng-animate ng-valid-number-add&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;wizard-area mobile-campaign-wizard&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;col-md-10 col-lg-7 request-campaign&quot;]/div[@class=&quot;form-group overflow-visible&quot;]/div[@class=&quot;col-sm-6&quot;]/input[@class=&quot;form-control ng-pristine ng-untouched ng-valid-min ng-invalid ng-invalid-required ng-valid-maxlength ng-animate ng-pristine-remove ng-invalid-remove ng-invalid-required-remove ng-dirty-add ng-valid-number-add ng-valid-add ng-valid-required-add&quot;]</value>
+      <webElementGuid>5cd10d6d-8abb-4953-9d93-cf63ea6711dc</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -41,7 +145,7 @@
       <webElementGuid>a7ef947d-8881-475e-9549-f73e2caa7b09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -49,7 +153,7 @@
       <webElementGuid>baf0796c-54bb-47f2-9b95-37dbe5d99437</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -65,7 +169,7 @@
       <webElementGuid>629dc36d-9a61-464b-938d-829598ce9071</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -126,7 +230,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='postitonCount']</value>
-      <webElementGuid>5de9171d-19ed-4f50-b99c-1dc50e080452</webElementGuid>
+      <webElementGuid>5359221a-3cee-412b-a0e1-a75e8de39a62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +238,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='contentMainDiv']/div[2]/div/div[4]/form/div/div/div[2]/div[4]/div/div/div/div/div[4]/div/input</value>
-      <webElementGuid>fcdcb9aa-58d5-4da0-be36-c9eb10452ce4</webElementGuid>
+      <webElementGuid>de7a8cf3-a3d6-41db-ad68-9a478ff8456a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +246,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/input</value>
-      <webElementGuid>a57e7e08-569f-45d5-a861-89f0708399e6</webElementGuid>
+      <webElementGuid>a8b97ac8-0f68-437d-99c5-70474898a637</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +254,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'postitonCount' and @type = 'number' and @placeholder = '04']</value>
-      <webElementGuid>4bb17a4f-4129-4eba-9f5e-0c02791d8f9e</webElementGuid>
+      <webElementGuid>a3adc4d3-20fa-4bcf-83fc-eaa1ad5bf3c6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

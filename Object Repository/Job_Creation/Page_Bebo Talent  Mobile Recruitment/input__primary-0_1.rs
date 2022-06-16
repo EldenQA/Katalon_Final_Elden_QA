@@ -6,16 +6,88 @@
    <elementGuidId>1f2ffa44-9d1c-43d7-8216-147ac3ee729a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#ch-a-0</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='ch-a-0']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ch-a-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>548e4188-8236-49d5-9f02-e01b7649ae9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-checked</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>e42941da-54d1-46df-be07-2a9005f1b5c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>c62bf772-f3c4-451f-bd83-bc755dfb73cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ch-a-0</value>
+      <webElementGuid>45653766-9850-4209-a055-ea34e3218701</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>$ctrl.onRadioClick($index,$item,$event.target.checked, 'ALTERNATE')</value>
+      <webElementGuid>6eb26489-e28a-4763-9098-18fa9db0f740</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>$item.isPrimary</value>
+      <webElementGuid>8d9f649e-02de-48fc-9732-c66be4b6d14e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>primary-0</value>
+      <webElementGuid>5a72e4bf-3552-40fb-8c96-830f6c04809e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-pristine ng-untouched ng-valid</value>
+      <webElementGuid>423e7d6d-a1f7-4bc3-9ae0-e592b6c7193e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ch-a-0&quot;)</value>
+      <webElementGuid>d0678793-867b-42c4-be7e-54c2d9f815da</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -33,7 +105,7 @@
       <webElementGuid>4c475386-496d-4c9a-8150-5cbeb9b577a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -41,7 +113,7 @@
       <webElementGuid>979f433b-4a2e-4168-8c0c-c334e267eebc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -65,7 +137,7 @@
       <webElementGuid>20b1ff84-83d1-4136-9ca3-a707bbcb97f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -94,7 +166,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='ch-a-0']</value>
-      <webElementGuid>84f0e0d8-7460-49d9-9d1f-eee53fedc0b6</webElementGuid>
+      <webElementGuid>f556f4d7-9001-498f-8d15-470be7655c67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +174,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='contentMainDiv']/div[2]/div/div[4]/form/div/div/div[2]/div[3]/div/div/div/div[7]/div[5]/div/div/div/div/span/span/span/span[2]/div/input</value>
-      <webElementGuid>9ffc17f8-7423-431b-a62b-f9fa1ba21dd2</webElementGuid>
+      <webElementGuid>65c817df-9a78-430d-93f0-8e76e51daf96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +182,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/div/div/span/span/span/span[2]/div/input</value>
-      <webElementGuid>7f74bbe0-eb54-43c1-b4a5-3d3011c1cd5f</webElementGuid>
+      <webElementGuid>5f0c5d46-dc39-4096-9469-088a391b572e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +190,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'checkbox' and @id = 'ch-a-0' and @name = 'primary-0']</value>
-      <webElementGuid>c9b46259-1f55-4c7b-bc7d-9b062556a519</webElementGuid>
+      <webElementGuid>8bc75ec0-31e4-48a0-920f-b7098034d9cf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

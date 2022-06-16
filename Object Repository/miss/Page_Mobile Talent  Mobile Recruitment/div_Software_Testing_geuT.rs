@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Software_Testing_geuT</name>
+   <tag></tag>
+   <elementGuidId>6dc49875-e536-40b2-931f-1178c0f4b388</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='campaignDetailsDialog']/div/div/div[2]/div[2]/div/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-group > div.col-sm-8</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>56644d59-7908-43a0-a7a4-3de4028724c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-sm-8</value>
+      <webElementGuid>1582361d-d7db-43ef-a4be-0eca35a48adc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Software_Testing_geuT  </value>
+      <webElementGuid>affdca78-9fb5-4be6-aa39-b53b3b9dc797</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;campaignDetailsDialog&quot;)/div[@class=&quot;modal-dialog modal-large&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body-lg padding10&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-8 col-md-8&quot;]/div[@class=&quot;mtop row&quot;]/div[@class=&quot;col-md-8&quot;]/div[@class=&quot;col-lg-12 padding-none&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-8&quot;]</value>
+      <webElementGuid>e71e1def-3b05-493e-bf2a-0085b979976e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='campaignDetailsDialog']/div/div/div[2]/div[2]/div/div/div/div/div/div</value>
+      <webElementGuid>38888408-d5a8-42dc-b977-211dac06701c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Job Title -'])[1]/following::div[1]</value>
+      <webElementGuid>473227d9-e18d-416f-9a06-b875b35dcbb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Job Details'])[1]/following::div[10]</value>
+      <webElementGuid>e5b23661-22ab-422e-b2b7-4ff174e8f231</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Industry -'])[1]/preceding::div[1]</value>
+      <webElementGuid>e0dbeaf1-9895-415b-9a4e-474277df5747</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/div/div/div</value>
+      <webElementGuid>465689f8-a1fe-4033-bbb4-0a01f579552e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '  Software_Testing_geuT  ' or . = '  Software_Testing_geuT  ')]</value>
+      <webElementGuid>a8aa55cf-aa27-41c3-a578-d5fcfba4882f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>c19162d5-b994-4e75-bdae-76f033108f9b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;dueDate&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='dueDate']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;dueDate&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,10 +22,106 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a1688872-5056-48d5-97cd-ef0fd9f2c64a</webElementGuid>
+      <webElementGuid>255aef5c-9bb5-4f1c-aa7d-ef134c67461c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>f84c5d03-c227-4ea2-82db-8e391f2ef19b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>33079098-dd69-4f12-a7bd-25c2304e391a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>date-format</name>
+      <type>Main</type>
+      <value>MM/dd/yyyy</value>
+      <webElementGuid>c8d712c7-0ead-493a-889b-40c6dfd78446</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-min-date</name>
+      <type>Main</type>
+      <value>today</value>
+      <webElementGuid>b467d791-5cc4-44c2-90dc-38d73ec004cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>dueDate</value>
+      <webElementGuid>3153c7f7-1b16-4905-814f-3859bc2be422</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-required</name>
+      <type>Main</type>
+      <value>$ctrl.isJobReqEnabled</value>
+      <webElementGuid>ba7f28f5-af6e-4e4c-8743-24e99fa0e01c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter a Due Date</value>
+      <webElementGuid>015455c2-3344-494b-9343-7d02c2a90d39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-invalid ng-invalid-required</value>
+      <webElementGuid>8bfaf937-c03a-4730-8796-c61a66dc6e54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>$ctrl.campaign.dueDate</value>
+      <webElementGuid>ed76996c-e2cd-47e0-83e1-50e116ed79ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>required</name>
+      <type>Main</type>
+      <value>required</value>
+      <webElementGuid>d56397ef-68b9-4f6d-bc37-e2fb8333be1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contentMainDiv&quot;)/div[@class=&quot;container-main ptop10 ng-scope&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;fadeIn ng-scope&quot;]/form[@class=&quot;mnone ng-scope ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-min ng-dirty ng-valid-parse ng-valid-is-exists ng-valid-ta-min-text ng-valid-number&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;wizard-area mobile-campaign-wizard&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;col-md-10 col-lg-7 request-campaign&quot;]/div[@class=&quot;form-group overflow-visible&quot;]/div[@class=&quot;col-sm-6&quot;]/input[@class=&quot;form-control ng-pristine ng-untouched ng-invalid ng-invalid-required&quot;]</value>
+      <webElementGuid>c20b83a1-6a26-45c2-ba15-7c561c9ce51f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>a1688872-5056-48d5-97cd-ef0fd9f2c64a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -57,7 +153,7 @@
       <webElementGuid>81d98fda-c299-4e35-942b-262009da9877</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -73,7 +169,7 @@
       <webElementGuid>ed69cdba-bab4-4e29-af25-109153558cb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -118,7 +214,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='dueDate']</value>
-      <webElementGuid>edefd286-69a3-42a4-adea-87f7bd871511</webElementGuid>
+      <webElementGuid>443e7e73-2c6e-40f9-8236-fd5beb94c4fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +222,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='contentMainDiv']/div[2]/div/div[4]/form/div/div/div[2]/div[4]/div/div/div/div/div[6]/div/input</value>
-      <webElementGuid>ebf347d3-c98d-42c0-85b4-2241a101645f</webElementGuid>
+      <webElementGuid>88a81726-5fb7-4d63-9d6b-3d08c0d81935</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +230,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/input</value>
-      <webElementGuid>952567d0-6e9c-489d-affa-c43ef1346977</webElementGuid>
+      <webElementGuid>7c5dfa9b-c1cd-4ed3-87dd-86add99c1ba1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +238,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'dueDate' and @placeholder = 'Enter a Due Date']</value>
-      <webElementGuid>b85c3f66-2e8a-4580-ab0c-3a22509452b5</webElementGuid>
+      <webElementGuid>28c4d003-2f60-46b0-a60d-b892a247c8df</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

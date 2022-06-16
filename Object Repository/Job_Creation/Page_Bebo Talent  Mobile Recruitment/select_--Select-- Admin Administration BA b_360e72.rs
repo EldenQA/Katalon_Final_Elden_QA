@@ -6,16 +6,80 @@
    <elementGuidId>193a35f6-af29-4ee8-bd9a-e72b2e011a3a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>select[name=&quot;campaignDepartmentId&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@name='campaignDepartmentId']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;campaignDepartmentId&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>9bc8744a-7d16-423a-a042-d456e6aaa935</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-required</name>
+      <type>Main</type>
+      <value>$ctrl.isJobReqEnabled</value>
+      <webElementGuid>01e4104e-d437-4f51-8aac-d11d1c02e122</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>campaignDepartmentId</value>
+      <webElementGuid>9a06605d-e6cc-4330-bca6-3eee7ff6d1a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>$ctrl.campaign.department.id</value>
+      <webElementGuid>d939b7d4-8142-4ae6-9353-29ca287c7235</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-invalid ng-invalid-required</value>
+      <webElementGuid>f1d9dc86-2311-4719-a50e-a2dec9984880</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>required</name>
+      <type>Main</type>
+      <value>required</value>
+      <webElementGuid>129f0c91-f4f8-4c2e-b2f1-7ee8544c1dc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> --Select-- Admin Administration BA beboIndia beboMX bebonetweb BTES Cafeteria Committee Construction Database Development DevOps Finance and Accounts Head Technical Operation HR Human Resources ISO QMS IT IT and Network Lead System Architect Marketing Maternity Online Marketing Production_Dummy PSO Purchase and Procurement Dept QA Research and Development_Dummy Resource pool Sr. Data Scientist Level 1 Sr. Data Scientist Level 2 Technical Technical Support Test Dept. MX Web </value>
+      <webElementGuid>7a048a68-0ae6-4898-b642-f006247c0f9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contentMainDiv&quot;)/div[@class=&quot;container-main ptop10 ng-scope&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;fadeIn ng-scope&quot;]/form[@class=&quot;mnone ng-scope ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-min ng-dirty ng-valid-parse ng-valid-is-exists ng-valid-ta-min-text&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;wizard-area mobile-campaign-wizard&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;col-md-10 col-lg-7 request-campaign&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-6&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-invalid ng-invalid-required&quot;]</value>
+      <webElementGuid>9de440ad-799a-4ea2-aaa5-5bc46d226150</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -33,7 +97,7 @@
       <webElementGuid>9733e753-81f5-4892-9fd3-d5dd2e818f88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -65,7 +129,7 @@
       <webElementGuid>d9e2d113-4b7b-49f5-8d00-75a4a6b166b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -86,7 +150,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@name='campaignDepartmentId']</value>
-      <webElementGuid>ef217dc8-504d-43f0-9204-17552204c338</webElementGuid>
+      <webElementGuid>ffdc344c-b1b4-4b8c-adbd-213d9eec4256</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +158,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='contentMainDiv']/div[2]/div/div[4]/form/div/div/div[2]/div[4]/div/div/div/div/div/div/select</value>
-      <webElementGuid>c965858d-94ac-44b6-a4af-b7891786fd15</webElementGuid>
+      <webElementGuid>69f120cc-ad3b-4649-82a7-60a06af9db1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +166,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[15]/following::select[1]</value>
-      <webElementGuid>16a4bd91-05fc-4889-9719-dd47b0669c2c</webElementGuid>
+      <webElementGuid>cf191309-926b-404a-bf91-9136b58a4b2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +174,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[16]/preceding::select[1]</value>
-      <webElementGuid>21284f2a-d70b-4703-a2ce-2bea2e747786</webElementGuid>
+      <webElementGuid>2c9ab515-2814-4f89-960a-68cd126fa5bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +182,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div/div/div/div/select</value>
-      <webElementGuid>981705d7-eaf5-436c-b1f5-4a7c0af1484e</webElementGuid>
+      <webElementGuid>b0a6fc0b-5fe0-4af2-8182-00af0ff774fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +190,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@name = 'campaignDepartmentId' and (text() = ' --Select-- Admin Administration BA beboIndia beboMX bebonetweb BTES Cafeteria Committee Construction Database Development DevOps Finance and Accounts Head Technical Operation HR Human Resources ISO QMS IT IT and Network Lead System Architect Marketing Maternity Online Marketing Production_Dummy PSO Purchase and Procurement Dept QA Research and Development_Dummy Resource pool Sr. Data Scientist Level 1 Sr. Data Scientist Level 2 Technical Technical Support Test Dept. MX Web ' or . = ' --Select-- Admin Administration BA beboIndia beboMX bebonetweb BTES Cafeteria Committee Construction Database Development DevOps Finance and Accounts Head Technical Operation HR Human Resources ISO QMS IT IT and Network Lead System Architect Marketing Maternity Online Marketing Production_Dummy PSO Purchase and Procurement Dept QA Research and Development_Dummy Resource pool Sr. Data Scientist Level 1 Sr. Data Scientist Level 2 Technical Technical Support Test Dept. MX Web ')]</value>
-      <webElementGuid>40b1e73c-76b0-482c-9810-503679270688</webElementGuid>
+      <webElementGuid>d80ef129-d3d6-4497-bc48-8bded1702f2d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

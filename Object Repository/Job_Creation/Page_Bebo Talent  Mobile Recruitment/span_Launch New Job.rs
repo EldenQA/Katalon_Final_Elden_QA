@@ -6,16 +6,56 @@
    <elementGuidId>4304c20a-e720-49ce-8f3d-a6fd8a8fc82c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.dropdown.ng-scope.open > a.dropdown-toggle.js-activated.disabled > span.ng-scope</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='bs-example-navbar-collapse-1']/ul/li[3]/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.dropdown.ng-scope > a.dropdown-toggle.js-activated.disabled > span.ng-scope</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f3be8e63-5e83-4f2d-9905-c19573c9d292</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-translate</name>
+      <type>Main</type>
+      <value>label.campaign.newsourcing</value>
+      <webElementGuid>039aec1f-1dff-4e6a-b8b7-a05fae9dea2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-scope</value>
+      <webElementGuid>b76029d9-cc95-4d01-b8f0-002c852e37dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Launch New Job</value>
+      <webElementGuid>76cb7f5b-2d9e-46dd-af36-29c8af2ee0f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bs-example-navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav active-menu&quot;]/li[@class=&quot;dropdown ng-scope&quot;]/a[@class=&quot;dropdown-toggle js-activated disabled&quot;]/span[@class=&quot;ng-scope&quot;]</value>
+      <webElementGuid>95278e89-36ac-45c4-97a5-5b0e8a9f3004</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -41,7 +81,7 @@
       <webElementGuid>a348e409-e681-49e4-9211-2ec8ccfe5023</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -62,7 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='bs-example-navbar-collapse-1']/ul/li[3]/a/span</value>
-      <webElementGuid>808f6891-eacc-40af-b93b-494c59629049</webElementGuid>
+      <webElementGuid>18b438a5-693f-443d-817e-9ad8dea925db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All Jobs'])[1]/following::span[1]</value>
-      <webElementGuid>2c4f155b-42b3-4b9b-a210-64a1d9adb00f</webElementGuid>
+      <webElementGuid>4e6eb4bc-5579-44f4-8ca2-af8408a629dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[2]</value>
-      <webElementGuid>49700ee1-e3c1-4be3-a14b-b5cc4c7bf220</webElementGuid>
+      <webElementGuid>d4658090-cca4-4446-b841-341b3074579a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Support'])[1]/preceding::span[1]</value>
-      <webElementGuid>ab567eab-b767-4f3c-ad35-63ed9178c758</webElementGuid>
+      <webElementGuid>c349af7f-176f-4b94-8b99-887fe434b633</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Support Ticket'])[1]/preceding::span[2]</value>
-      <webElementGuid>b3b6c59d-6579-4145-968c-20c184937db3</webElementGuid>
+      <webElementGuid>98319874-687c-4f7b-bb8b-a520a32d498e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Launch New Job']/parent::*</value>
-      <webElementGuid>fc9e5c79-0c41-4fd5-bd62-3df90956a393</webElementGuid>
+      <webElementGuid>706ef941-195c-4d4d-ba59-12363ffffc47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +150,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/a/span</value>
-      <webElementGuid>1404789a-8294-4167-97e5-a5ec5c688f10</webElementGuid>
+      <webElementGuid>6b0f4e26-c0b3-4ea6-97c0-34d4c905fdad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +158,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Launch New Job' or . = 'Launch New Job')]</value>
-      <webElementGuid>b3d738d3-0cc9-4f11-acd7-fcc16ea1d02b</webElementGuid>
+      <webElementGuid>98bb26db-71b9-4cfb-8199-95d2a3d69c74</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

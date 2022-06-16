@@ -6,16 +6,56 @@
    <elementGuidId>ebeb8c3a-eb76-474f-9338-91360b3159be</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.ng-binding.ng-scope</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='ui-select-choices-row-4-0']/span/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ng-binding.ng-scope</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fd49b963-455b-4373-a111-f9436155f0af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind-html</name>
+      <type>Main</type>
+      <value>locale.displayName | highlight: $select.search</value>
+      <webElementGuid>5f71d497-cde6-4453-a2ce-5cc2b030ccbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding ng-scope</value>
+      <webElementGuid>275206df-29f5-4faa-9d2e-3dbe36a5bb39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>English</value>
+      <webElementGuid>b65e0541-1804-4461-9f14-f670094520ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ui-select-choices-row-4-0&quot;)/span[@class=&quot;ui-select-choices-row-inner&quot;]/div[@class=&quot;ng-binding ng-scope&quot;]</value>
+      <webElementGuid>2d813f83-b3ac-4255-a16d-16776524f4a4</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -41,7 +81,7 @@
       <webElementGuid>fd70b4eb-cb2e-42f7-9c31-8e52d6b0f523</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -62,7 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='ui-select-choices-row-4-0']/span/div</value>
-      <webElementGuid>31f8b2e5-f2e2-4928-b7a1-422cf7dc47a2</webElementGuid>
+      <webElementGuid>44f1de1a-d601-4d3d-bd76-20a39ab16150</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/following::div[4]</value>
-      <webElementGuid>4b67e79e-39b1-42fe-b912-46b6fb69d806</webElementGuid>
+      <webElementGuid>d3cf681d-a4ce-414b-a3fe-f080cdeef011</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a Locale...'])[1]/following::div[4]</value>
-      <webElementGuid>c0a27457-7e9f-4df5-bae6-5dbe276356bc</webElementGuid>
+      <webElementGuid>74dd8be9-37d8-49ac-b0db-d63fe890834a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Portuguese (Brazil)'])[1]/preceding::div[1]</value>
-      <webElementGuid>9226fd5f-257a-4668-8399-c8f33e88d961</webElementGuid>
+      <webElementGuid>23ce1bbd-49fb-4500-be26-c9d9e2d71220</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Spanish (Argentina)'])[1]/preceding::div[3]</value>
-      <webElementGuid>f3644369-b65b-45b5-bb33-25622313478a</webElementGuid>
+      <webElementGuid>9d0298f0-0885-4615-acbb-59c344404702</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/div</value>
-      <webElementGuid>4815a702-8798-4e27-adf5-ded50e6a3cfd</webElementGuid>
+      <webElementGuid>7b2927b2-fb5c-4ff6-8bfa-e59517273fdc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'English' or . = 'English')]</value>
-      <webElementGuid>c907e692-97ab-400c-badf-fc65f453b528</webElementGuid>
+      <webElementGuid>128f5c46-54f2-4b19-b6ed-ef9395a6c6ab</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

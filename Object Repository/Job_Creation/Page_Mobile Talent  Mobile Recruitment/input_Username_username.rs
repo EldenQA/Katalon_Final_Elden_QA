@@ -6,12 +6,12 @@
    <elementGuidId>8012d898-071e-49d5-9e76-15c5e55b0c12</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#username</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='username']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#username</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a3317a97-1376-45dc-8bbc-80f53fefc372</webElementGuid>
+      <webElementGuid>68f63fc8-11bc-441d-b72b-07dd152e473e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,10 +30,82 @@
       <name>id</name>
       <type>Main</type>
       <value>username</value>
-      <webElementGuid>8b084bbd-65ac-474d-b69b-914f70d71849</webElementGuid>
+      <webElementGuid>18be66b1-3ee6-4aed-bec8-c4833c478d83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>username</value>
+      <webElementGuid>e2ca6342-d7fb-4d47-8a27-0e8ad486be92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>username</value>
+      <webElementGuid>753e41bb-2b9f-46ba-9778-31dc1c6113ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>email</value>
+      <webElementGuid>605a030f-66b6-4bdf-818d-3d6e20bdc6c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-valid-email ng-invalid ng-invalid-required ng-animate ng-pristine-remove ng-valid-email-remove ng-invalid-required-remove ng-dirty-add ng-invalid-email-add ng-valid-required-add</value>
+      <webElementGuid>fb2798a0-1995-4dbc-949e-75e30f5056b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Username</value>
+      <webElementGuid>f2e7d7df-abaf-4baa-b12d-1e5f1044489c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-focus</name>
+      <type>Main</type>
+      <value>submitted=false;</value>
+      <webElementGuid>63c11b2e-76f7-4521-ac0e-71ef97748442</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;username&quot;)</value>
+      <webElementGuid>dbd4416e-1b04-4296-ac6c-ed0b286fc4ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>a3317a97-1376-45dc-8bbc-80f53fefc372</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>username</value>
+      <webElementGuid>8b084bbd-65ac-474d-b69b-914f70d71849</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -49,7 +121,7 @@
       <webElementGuid>002bce0a-4632-439e-9912-78aeb4b93a82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -65,7 +137,7 @@
       <webElementGuid>224aaa7e-f3b2-4ca5-bbe2-188078f3440b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -94,7 +166,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='username']</value>
-      <webElementGuid>713c3076-d729-4bc2-b6ed-0ae92339238e</webElementGuid>
+      <webElementGuid>109a368d-8398-4ce4-a261-8057b5b85509</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +174,31 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='contentMainDiv']/section/div/div/div/div/div/form/div[2]/input</value>
-      <webElementGuid>3460a90b-140a-4d84-95dc-0f76bc224cf2</webElementGuid>
+      <webElementGuid>8711cbe7-2a62-496b-a417-cf4c5d2729f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::input[1]</value>
+      <webElementGuid>565b562d-045e-4af8-a481-1ccd0b052ddc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The email address is invalid'])[1]/preceding::input[1]</value>
+      <webElementGuid>50c30c87-d355-4919-b0c4-7b66c7487d13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username is required.'])[1]/preceding::input[1]</value>
+      <webElementGuid>ee328f4a-b87a-486e-b917-e767328d0fde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +206,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>f6448f17-d74b-4728-a8aa-4171877256e8</webElementGuid>
+      <webElementGuid>ce7e635a-ec42-4e34-ab0d-3c5397b77bb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +214,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'username' and @name = 'username' and @type = 'email' and @placeholder = 'Username']</value>
-      <webElementGuid>e2377aa7-39e5-48bd-a266-22a1def5160e</webElementGuid>
+      <webElementGuid>f5e3eff2-748e-4ec1-8b83-d3ade8846751</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

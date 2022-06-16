@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Data_File</name>
+   <name>New Test Data</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
-   <csvSeperator></csvSeperator>
-   <dataFileGUID>690841ec-3f54-4f37-bee9-c23533980e71</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
-   <driver>ExcelFile</driver>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>54260f36-48d0-49c1-af54-41a9fe6b1456</dataFileGUID>
+   <dataSourceUrl>C:\Users\atsharma\Desktop\Question_spanis.csv</dataSourceUrl>
+   <driver>CSV</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>

@@ -30,7 +30,3 @@ driver.findElement(By.cssSelector('input[name="password"]')).sendKeys('11251023'
 driver.findElement(By.cssSelector('button[type="submit"]')).click()
 driver.findElement(By.cssSelector("div#wrapper li.dropdown > a > i")).click()
 driver.findElement(By.cssSelector("div#wrapper li.dropdown.open > ul > li:nth-child(2) > a")).click()
-
-
-
-

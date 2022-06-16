@@ -6,16 +6,112 @@
    <elementGuidId>200890aa-0bf3-4ee3-9d49-e03cabc3be30</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;campaignName&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='campaignName']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;campaignName&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>8c277774-5897-4b73-9ddf-57ba1d1fde74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-change</name>
+      <type>Main</type>
+      <value>$ctrl.isCampaignExist()</value>
+      <webElementGuid>d27442c6-8acd-455b-9171-bb4af6ee0699</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-model-options</name>
+      <type>Main</type>
+      <value>{debounce: 500}</value>
+      <webElementGuid>46375ba9-58fd-4d0f-a457-665d2cb2e4cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>$ctrl.isCampaignExist ? 'custom-error form-control' : 'form-control'</value>
+      <webElementGuid>ba8c528b-6840-4fa7-967f-25b5273f8c10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>campaignName</value>
+      <webElementGuid>e300b5ff-25f3-4928-8189-1e1488311805</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>d83fbf57-6e24-4c9f-823b-7226dc9a4237</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-maxlength</name>
+      <type>Main</type>
+      <value>150</value>
+      <webElementGuid>d0b09152-d59c-467c-a001-22c405bcb608</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>$ctrl.campaign.campaignTitle</value>
+      <webElementGuid>222997af-4415-4288-b95d-94693f03bcd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter a Campaign Name</value>
+      <webElementGuid>7a267a64-4543-474d-8d34-fe946480b75e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>150</value>
+      <webElementGuid>6683680f-2d48-4415-8d66-9c364215b76f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-maxlength custom-error form-control</value>
+      <webElementGuid>3e77cc9d-0293-4b4d-ab76-1385d2284a44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contentMainDiv&quot;)/div[@class=&quot;container-main ptop10 ng-scope&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;fadeIn ng-scope&quot;]/form[@class=&quot;mnone ng-pristine ng-scope ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-ta-min-text ng-valid-min&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;wizard-area mobile-campaign-wizard&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;col-md-10 col-lg-7 request-campaign&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-6&quot;]/input[@class=&quot;ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-maxlength custom-error form-control&quot;]</value>
+      <webElementGuid>0a1e0290-c58d-410e-a46a-a589011b3422</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -49,7 +145,7 @@
       <webElementGuid>f1a436f8-d524-4731-a730-af6974777bba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -57,7 +153,7 @@
       <webElementGuid>8a9dc7d5-2d85-4e9f-b836-59c0cec1638a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -81,7 +177,7 @@
       <webElementGuid>f242e025-afb1-4594-b5fe-b2a7bfb2ddbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -118,7 +214,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='campaignName']</value>
-      <webElementGuid>4533f67b-4f36-4894-b2e7-85681ad3b812</webElementGuid>
+      <webElementGuid>018701f4-e562-4542-8ce8-e004044ae972</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +222,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='contentMainDiv']/div[2]/div/div[4]/form/div/div/div[2]/div/div/div/div/div/div/input</value>
-      <webElementGuid>ad456b56-1e5e-469f-9dc5-b1afeb25c1ae</webElementGuid>
+      <webElementGuid>96ae5805-cb08-4c91-a066-239a63829409</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +230,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/input</value>
-      <webElementGuid>1f77c89e-b538-46d4-aadd-ad86a8a2a806</webElementGuid>
+      <webElementGuid>7b3d1e83-e595-4ccd-9dce-42186a3c7180</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +238,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'campaignName' and @type = 'text' and @placeholder = 'Enter a Campaign Name']</value>
-      <webElementGuid>1bcb3b68-fc19-430a-858d-21028c6b522b</webElementGuid>
+      <webElementGuid>f8029960-1bd2-4881-9446-05c71b4d3152</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
