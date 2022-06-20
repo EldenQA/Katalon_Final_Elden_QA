@@ -25,7 +25,6 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.interactions.Actions as Actions
-//import org.openqa.selenium.support.ui.Select as WebDriver
 
 WebUI.openBrowser('')
 
@@ -33,14 +32,6 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 WebUI.maximizeWindow()
 
-//WebUI.navigateToUrl('https://motzie-staging.mobile-recruit.com')
-//WebUI.navigateToUrl(GlobalVariable.Url)
-//
-//WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
-//    GlobalVariable.username)
-//
-//WebUI.setEncryptedText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
-//    GlobalVariable.password)
 WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
@@ -51,7 +42,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Account_Creation/Page_M
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Administration'))
+WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Administration_2'))
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Manage Templates'))
 
@@ -166,7 +157,7 @@ WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Tale
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/div_Template has been saved successfully'))
 
-WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Administration'))
+WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Administration_2'))
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Manage Templates'))
 
@@ -179,6 +170,6 @@ WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Tale
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/b_Romit Romit'))
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
-driver.findElement(By.cssSelector("div#wrapper li.dropdown > a > i")).click()
-driver.findElement(By.cssSelector("div#wrapper li.dropdown.open > ul > li:nth-child(2) > a")).click()
+//driver.findElement(By.cssSelector("div#wrapper li.dropdown > a > i")).click()
+//driver.findElement(By.cssSelector("div#wrapper li.dropdown.open > ul > li:nth-child(2) > a")).click()
 WebUI.closeBrowser()

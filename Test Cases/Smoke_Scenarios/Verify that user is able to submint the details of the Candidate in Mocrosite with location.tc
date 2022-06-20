@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Register_Candidate_NewJob_with_Location_LatestCreated_Through_Automation</name>
+   <name>Verify that user is able to submint the details of the Candidate in Mocrosite with location</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>93bc6a15-7681-46b4-97b1-edd57ffceacb</testCaseGuid>

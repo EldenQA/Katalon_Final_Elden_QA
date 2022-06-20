@@ -103,5 +103,23 @@ if (expectedCount == afterSentCount) {
     System.out.println('Message Sent Successfully')
 }
 
+WebUI.click(findTestObject('Object Repository/Toggle Button/Page_Mobile Talent  Mobile Recruitment/span_Manage Accounts'))
+
+WebUI.setText(findTestObject('Object Repository/Toggle Button/Page_Mobile Talent  Mobile Recruitment/input_Create New Account_form-control ng-pr_ad5695'), 
+    'Test Account')
+
+WebUI.sendKeys(findTestObject('Object Repository/Toggle Button/Page_Mobile Talent  Mobile Recruitment/input_Create New Account_form-control ng-pr_ad5695'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/Toggle Button/Page_Mobile Talent  Mobile Recruitment/i_QA Testing Team_fa fa-cogs fa-lg icon-gre_e7871b'))
+
+WebUI.click(findTestObject('Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/toggleButtonOff'))
+
+WebUI.click(findTestObject('Object Repository/Toggle Button/Page_Mobile Talent  Mobile Recruitment/b_Romit Romit'))
+
+WebUI.click(findTestObject('Object Repository/Toggle Button/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
+
+WebUI.click(findTestObject('Object Repository/Toggle Button/Page_Mobile Talent  Mobile Recruitment/div_Enable Candidate Excel Download    Enab_7336b9'))
+
 WebUI.closeBrowser()
 

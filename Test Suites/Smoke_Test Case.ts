@@ -5,11 +5,11 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>true</rerunImmediately>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>872c56ca-12db-4d6f-9993-a5bbc78e061c</testSuiteGuid>
    <testCaseLink>
       <guid>a6686d80-e6cb-4c72-b54a-0cbf990d6231</guid>
@@ -49,14 +49,14 @@
       <guid>8701b76a-b8a0-454f-b10e-0bf85e65a809</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Smoke_Scenarios/Register_Candidate_Existed_Job</testCaseId>
+      <testCaseId>Test Cases/Smoke_Scenarios/Verify that user is able to submit the detail of candidate in Existed Campaign</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>570dbf98-cf06-4253-9e19-e77dcb05f5b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Smoke_Scenarios/Register_Candidate_NewJob_with_Location_LatestCreated_Through_Automation</testCaseId>
+      <testCaseId>Test Cases/Smoke_Scenarios/Verify that user is able to submint the details of the Candidate in Mocrosite with location</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -64,6 +64,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Verify that user is able to schedule the Job</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>37e16948-7164-4417-bf15-b6c5f2aa1f49</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Verify that Recruiter is able to send the message to Candidate when Automated bot is on</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f69d1dce-98a1-4d28-88cb-b7ab022fab89</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Verify that Recruiter is able to send the message to Candidate when Automated bot is OFF</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

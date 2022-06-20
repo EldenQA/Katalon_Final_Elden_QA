@@ -3,15 +3,15 @@
    <description></description>
    <name>span_Administration</name>
    <tag></tag>
-   <elementGuidId>37317368-92ae-4e1a-9880-5fc102d1add5</elementGuidId>
+   <elementGuidId>b34bdc05-8a02-47e5-9e9e-7d813ca5de0d</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>a.dropdown-toggle.ng-scope > span.ng-scope</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='bs-example-navbar-collapse-1']/ul/li[6]/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.dropdown-toggle.ng-scope > span.ng-scope</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>0e7bd319-ec41-4cce-9c07-ee16249debdb</webElementGuid>
+      <webElementGuid>b3010124-adc8-40c0-9444-802bd9466754</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>data-translate</name>
       <type>Main</type>
       <value>label.administration</value>
-      <webElementGuid>ec61d3a8-4aee-483d-94f7-26060d3595ec</webElementGuid>
+      <webElementGuid>48d352e7-83df-4bad-8441-426bfd561a9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-scope</value>
-      <webElementGuid>d8b2ff75-f836-4193-8808-ebf51a115520</webElementGuid>
+      <webElementGuid>d1b4eca7-8680-43c8-9ba9-f87f1d18b4c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Administration</value>
-      <webElementGuid>fc2446f5-87fa-4759-a42e-0d8c1fc562e3</webElementGuid>
+      <webElementGuid>5bfd4689-da29-4079-9d4d-4a0ae1ba57a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;bs-example-navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav active-menu&quot;]/li[@class=&quot;dropdown ng-scope open&quot;]/a[@class=&quot;dropdown-toggle ng-scope&quot;]/span[@class=&quot;ng-scope&quot;]</value>
-      <webElementGuid>7c2553a6-b998-4dc0-a1d2-66edfa83f2a0</webElementGuid>
+      <webElementGuid>861ead3d-3918-4288-9da7-488539f76a76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>8e322505-4711-4189-94d6-1bfe96920d49</webElementGuid>
+      <webElementGuid>292d68e7-650f-428d-91d4-0f6e9ecb5b74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>data-translate</name>
       <type>Main</type>
       <value>label.administration</value>
-      <webElementGuid>bc8df376-2a26-44a9-a166-276670d32e4f</webElementGuid>
+      <webElementGuid>3482c61a-7d60-4fd2-81e4-2b5c4d7140ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-scope</value>
-      <webElementGuid>ff13e6b0-ed41-492b-9ae0-04be690e5ed0</webElementGuid>
+      <webElementGuid>241b69e2-9bab-4a49-ac9e-13b3c1bf29a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Administration</value>
-      <webElementGuid>80848e01-401e-42cf-b3c2-aa51e014679c</webElementGuid>
+      <webElementGuid>41d4bb62-d5c4-4b11-a99d-5ece79ab9005</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;bs-example-navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav active-menu&quot;]/li[@class=&quot;dropdown ng-scope open&quot;]/a[@class=&quot;dropdown-toggle ng-scope&quot;]/span[@class=&quot;ng-scope&quot;]</value>
-      <webElementGuid>7d5ffa36-2d04-40d1-a204-b00933d55869</webElementGuid>
+      <webElementGuid>950f3ee0-3318-4636-948b-89722887198a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>bf32c1b9-e193-4eaf-8e7d-d79a1e0b83fe</webElementGuid>
+      <webElementGuid>a0e39c1b-7a39-4a3e-86ae-f6feeb54d9a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>data-translate</name>
       <type>Main</type>
       <value>label.administration</value>
-      <webElementGuid>32b555ce-8358-4ae6-981e-c2328b6761dc</webElementGuid>
+      <webElementGuid>fd779174-28e3-4f6b-80e1-91e090ca0ad7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-scope</value>
-      <webElementGuid>40257526-2317-4c44-b882-d4cf5aabcfcd</webElementGuid>
+      <webElementGuid>0c2c1406-2f83-4423-a7e1-0424e60dc42a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Administration</value>
-      <webElementGuid>7d6322dd-fef6-4273-87ea-646f7024cd08</webElementGuid>
+      <webElementGuid>601823e1-33be-4d58-ae51-8a699c342551</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;bs-example-navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav active-menu&quot;]/li[@class=&quot;dropdown ng-scope open&quot;]/a[@class=&quot;dropdown-toggle ng-scope&quot;]/span[@class=&quot;ng-scope&quot;]</value>
-      <webElementGuid>5d7ef815-10b1-4104-ac5b-c80512292fe0</webElementGuid>
+      <webElementGuid>f831b564-46cf-42d8-89dd-c7a6eab08edb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>9d678fb5-60e8-440a-ad8e-843ab4d70c4c</webElementGuid>
+      <webElementGuid>0edc8745-d0dd-4ba2-8390-ee2486ff83c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -150,7 +150,7 @@
       <name>data-translate</name>
       <type>Main</type>
       <value>label.administration</value>
-      <webElementGuid>d32e6c5c-64a1-4ca3-8c9a-f401da74eb24</webElementGuid>
+      <webElementGuid>83734b72-6b80-4b32-8c36-9dddca491a9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -158,7 +158,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-scope</value>
-      <webElementGuid>4b3b9e4c-1cf1-4f92-952f-0584a9d96860</webElementGuid>
+      <webElementGuid>214db174-fd25-41ec-a5f5-ab94e01ae0b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -166,7 +166,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Administration</value>
-      <webElementGuid>629c06d6-69a0-4377-b80c-79534ae90955</webElementGuid>
+      <webElementGuid>1c3e93d8-4cb4-493b-9429-3ab2a8d76c30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -174,7 +174,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;bs-example-navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav active-menu&quot;]/li[@class=&quot;dropdown ng-scope open&quot;]/a[@class=&quot;dropdown-toggle ng-scope&quot;]/span[@class=&quot;ng-scope&quot;]</value>
-      <webElementGuid>f8fcba81-2430-4ddc-b90e-c2ead0412f4a</webElementGuid>
+      <webElementGuid>eb533af4-f343-4d52-9048-c0a72c951313</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -182,7 +182,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>1b0a8bed-5151-4e49-ae22-e89cff4b19fb</webElementGuid>
+      <webElementGuid>6450bfff-c481-45b1-846f-ba2d37df6191</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -190,7 +190,7 @@
       <name>data-translate</name>
       <type>Main</type>
       <value>label.administration</value>
-      <webElementGuid>07d3a3a9-9cc2-4e19-847b-e0117d632c18</webElementGuid>
+      <webElementGuid>bcbbb7a3-c4fe-4e19-8ff3-4ecce427f8bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -198,7 +198,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-scope</value>
-      <webElementGuid>b4a8471d-cf2e-4d8a-b0f3-e22e82f01781</webElementGuid>
+      <webElementGuid>fdbbe72d-a220-467c-b09c-e7acdfca9ca1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -206,7 +206,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Administration</value>
-      <webElementGuid>87385f64-5e4e-48e2-9129-102669687512</webElementGuid>
+      <webElementGuid>3ecfcc4a-65ff-47fc-8ccc-b93f202ea60e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -214,7 +214,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;bs-example-navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav active-menu&quot;]/li[@class=&quot;dropdown ng-scope open&quot;]/a[@class=&quot;dropdown-toggle ng-scope&quot;]/span[@class=&quot;ng-scope&quot;]</value>
-      <webElementGuid>0aeb526b-8f7c-4847-9abe-57c6823ddbd8</webElementGuid>
+      <webElementGuid>866bf43f-ef8a-488d-87ab-11ecb1afa2ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -222,7 +222,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>b8ea3f2b-94a2-4a17-bd25-6e7e94d5a4cb</webElementGuid>
+      <webElementGuid>3cd5778a-8476-4ca7-a8a8-57b1267116a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -230,7 +230,7 @@
       <name>data-translate</name>
       <type>Main</type>
       <value>label.administration</value>
-      <webElementGuid>d5937b5a-11d6-4738-ba2a-a2ba97b47722</webElementGuid>
+      <webElementGuid>056425b9-76b8-49ad-bd64-568356a3facc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -238,7 +238,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-scope</value>
-      <webElementGuid>65d6582a-cc79-453a-91f5-9a0af4e35411</webElementGuid>
+      <webElementGuid>cdc34847-5896-4322-af45-1ca3ebaf592c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -246,7 +246,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Administration</value>
-      <webElementGuid>35c36e44-386f-44ed-95a8-1018a3f62414</webElementGuid>
+      <webElementGuid>3f5664aa-99cc-4f82-a5bc-f3a0e50961bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -254,7 +254,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;bs-example-navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav active-menu&quot;]/li[@class=&quot;dropdown ng-scope open&quot;]/a[@class=&quot;dropdown-toggle ng-scope&quot;]/span[@class=&quot;ng-scope&quot;]</value>
-      <webElementGuid>f4ba1205-8871-4107-9806-b17d7415fe97</webElementGuid>
+      <webElementGuid>1cdfa7a9-2274-4dcc-b00d-74bb63cded97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -262,7 +262,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e0f7729c-3ea2-475d-b151-542d17b97e42</webElementGuid>
+      <webElementGuid>b0020857-69bd-4949-bc4b-552a0c848dac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -270,7 +270,7 @@
       <name>data-translate</name>
       <type>Main</type>
       <value>label.administration</value>
-      <webElementGuid>97b87621-26e3-462d-9767-5ee65e4782b2</webElementGuid>
+      <webElementGuid>d70413e6-1d5d-4d3c-97b2-89f6d2936f19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -278,7 +278,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-scope</value>
-      <webElementGuid>2a01cfc8-d4a9-4bfe-90eb-37e333d66fdd</webElementGuid>
+      <webElementGuid>644837cc-15ba-4705-8450-4f7ce9cc1370</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -286,7 +286,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Administration</value>
-      <webElementGuid>4804ca82-345b-4b6f-b6d5-be6b65739aab</webElementGuid>
+      <webElementGuid>f99d6531-ba2c-4479-b804-c80134f71b57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -294,7 +294,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;bs-example-navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav active-menu&quot;]/li[@class=&quot;dropdown ng-scope open&quot;]/a[@class=&quot;dropdown-toggle ng-scope&quot;]/span[@class=&quot;ng-scope&quot;]</value>
-      <webElementGuid>1bf356b4-48b9-4c51-8d83-70e7ac91fde2</webElementGuid>
+      <webElementGuid>aa3dab48-36fe-48b7-9c56-b2ff8c55c8bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -302,7 +302,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>8e157084-c2f7-4fdd-84d2-e88c8d5b0123</webElementGuid>
+      <webElementGuid>44c0875e-d477-45dd-a671-e9a3beccfc1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -310,7 +310,7 @@
       <name>data-translate</name>
       <type>Main</type>
       <value>label.administration</value>
-      <webElementGuid>eadb380d-c9fb-48e4-a2b3-de5a70416c39</webElementGuid>
+      <webElementGuid>9c6a1063-bfe5-46ce-8304-a6f30b465108</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -318,7 +318,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-scope</value>
-      <webElementGuid>b9762f28-c86c-49a3-8eaa-29efa599d752</webElementGuid>
+      <webElementGuid>f824ed4e-0bdc-4eed-8bb7-9420ead870d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -326,7 +326,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Administration</value>
-      <webElementGuid>d48e1665-1ed1-47d5-8486-92ee662e121b</webElementGuid>
+      <webElementGuid>b597d24d-48e4-4496-9e99-7fd8aa98601a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -334,7 +334,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;bs-example-navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav active-menu&quot;]/li[@class=&quot;dropdown ng-scope open&quot;]/a[@class=&quot;dropdown-toggle ng-scope&quot;]/span[@class=&quot;ng-scope&quot;]</value>
-      <webElementGuid>5d1826db-73ef-4ee3-8f9e-a8a6ab590b1b</webElementGuid>
+      <webElementGuid>7c0050b7-e7e6-4c8b-bbb5-ea173f512ba7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -342,7 +342,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='bs-example-navbar-collapse-1']/ul/li[6]/a/span</value>
-      <webElementGuid>f5de7d7a-6d8a-4c16-88f5-d5894349c9e7</webElementGuid>
+      <webElementGuid>600a784c-d9fa-4165-a93c-27d67f2ea36f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -350,7 +350,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobile Talent Pool'])[1]/following::span[1]</value>
-      <webElementGuid>eca1ba06-40e5-4f4e-a846-52f2744465ef</webElementGuid>
+      <webElementGuid>d5d8617b-2612-4919-b10b-c1d572ce02b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -358,7 +358,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Support Ticket'])[1]/following::span[2]</value>
-      <webElementGuid>573af264-bf8f-49b8-a06a-09d336a700e2</webElementGuid>
+      <webElementGuid>b07d05b4-8f71-416c-aa72-aff59e2e38e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -366,7 +366,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Jobs'])[1]/preceding::span[1]</value>
-      <webElementGuid>5b828064-bcb0-4980-9f56-762869b5cd98</webElementGuid>
+      <webElementGuid>1ff666ad-9712-412e-baae-f91486146ce7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -374,7 +374,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Microsites'])[1]/preceding::span[2]</value>
-      <webElementGuid>49aa671f-c50b-4fa2-88bf-b650220e22c6</webElementGuid>
+      <webElementGuid>2c83ee7c-f3e8-41a9-be78-3e5bdc4d38c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -382,7 +382,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[6]/a/span</value>
-      <webElementGuid>b9bc9819-070f-488c-b457-aa939f1d26db</webElementGuid>
+      <webElementGuid>d62f9ce6-df00-4b70-9272-06d4aa2454ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -390,6 +390,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Administration' or . = 'Administration')]</value>
-      <webElementGuid>4e7443f4-96ec-41b4-a32c-2f3bbd06097d</webElementGuid>
+      <webElementGuid>4ca10746-9179-4371-8d67-6d7b6f97de20</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

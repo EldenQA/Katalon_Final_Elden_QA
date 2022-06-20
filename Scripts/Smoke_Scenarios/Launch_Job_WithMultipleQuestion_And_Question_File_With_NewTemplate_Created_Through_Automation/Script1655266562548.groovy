@@ -193,9 +193,9 @@ ac.sendKeys(Keys.PAGE_DOWN).perform()
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Job_Creation/Page_Bebo Talent  Mobile Recruitment/button_Next'))
-
+Thread.sleep(2000)
 ac.sendKeys(Keys.PAGE_DOWN).perform()
-
+ac.sendKeys(Keys.PAGE_DOWN).perform()
 WebUI.click(findTestObject('Job_Creation/Page_Bebo Talent  Mobile Recruitment/button_Next'))
 
 driver.findElement(By.cssSelector('.ng-scope > .ng-scope > .btn.btn-black.ng-scope')).click()
