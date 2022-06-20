@@ -29,15 +29,6 @@ WebUI.openBrowser('')
 WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 WebUI.maximizeWindow()
 
-//WebUI.navigateToUrl('https://motzie-staging.mobile-recruit.com')
-//WebUI.navigateToUrl(GlobalVariable.Url)
-//
-//WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
-//    GlobalVariable.username)
-//
-//WebUI.setEncryptedText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
-//    GlobalVariable.password)
-//WebUI.navigateToUrl('https://motzie-staging.mobile-recruit.com/')
 WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 

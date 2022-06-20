@@ -30,7 +30,9 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl(GlobalVariable.url)
 
 WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
 Actions ac = new Actions(driver)
+
 WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
     GlobalVariable.userName)
 
@@ -82,7 +84,6 @@ driver.findElement(By.cssSelector('input[question=\'Mobile Number\']')).sendKeys
         6))
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/label_Do you have any degree , Choose one'))
-
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/select_OptionYESNO'), 
     'Yes', true)

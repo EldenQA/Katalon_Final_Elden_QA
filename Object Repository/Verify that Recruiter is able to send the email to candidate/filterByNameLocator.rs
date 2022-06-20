@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_username</name>
+   <name>filterByNameLocator</name>
    <tag></tag>
-   <elementGuidId>352a9dbd-82b4-4b41-a77a-d29eb2ba9737</elementGuidId>
+   <elementGuidId>8d8edfdf-0f40-41a4-a7ad-dad6092565b3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='username']</value>
+         <value>//input[@name='Name']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#username</value>
+         <value>input[name=&quot;Name&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,102 +22,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ef653e52-9048-4657-8f44-54d34f075dc7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>username</value>
-      <webElementGuid>a1cd5de1-ca26-4642-a4d0-2dc19b656689</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>username</value>
-      <webElementGuid>eadbe45e-09af-4f21-b51f-f6709c2543b4</webElementGuid>
+      <webElementGuid>442a8f3d-6c31-4983-ab82-0819df358d0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
+      <name>submit-on-enter</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>c00e769a-e47c-49b1-91df-76efe9138251</webElementGuid>
+      <value>$ctrl.searchByFilter('custom')</value>
+      <webElementGuid>3f0a219b-0e85-4e9c-8e19-16e5b334bd81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>263bf4d7-90df-42bf-a2fd-777be25d522c</webElementGuid>
+      <value>text</value>
+      <webElementGuid>30771d11-c091-47d7-b0a7-3bead33195cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>name</name>
       <type>Main</type>
-      <value>form-control ng-pristine ng-untouched ng-valid-email ng-invalid ng-invalid-required ng-animate ng-pristine-remove ng-valid-email-remove ng-invalid-required-remove ng-dirty-add ng-invalid-email-add ng-valid-required-add</value>
-      <webElementGuid>b5967433-d3c4-426b-b057-8355a0d6e74d</webElementGuid>
+      <value>Name</value>
+      <webElementGuid>01e81686-3c73-4063-9e82-091f66dc5504</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>3610b010-a43b-45d5-8676-5643e340c2a6</webElementGuid>
+      <value>Name</value>
+      <webElementGuid>c42c9610-3f1e-4d98-bde5-6b787d70064c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-focus</name>
+      <name>ng-model</name>
       <type>Main</type>
-      <value>submitted=false;</value>
-      <webElementGuid>192f3528-aa24-4453-a663-812ca3dc6eb5</webElementGuid>
+      <value>$ctrl.searchCriteria.name</value>
+      <webElementGuid>214f48a3-bbc7-4a5c-88d7-ec1fae163363</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-valid</value>
+      <webElementGuid>84c062ee-4be7-4727-8094-28a4e548078c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;username&quot;)</value>
-      <webElementGuid>8f7671e8-8d62-496b-a65d-f03b2890c9f8</webElementGuid>
+      <value>id(&quot;searchFilters&quot;)/div[@class=&quot;sidebar-contents&quot;]/filters[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;ng-scope&quot;]/form[@class=&quot;ng-pristine ng-scope ng-invalid ng-invalid-required&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control ng-pristine ng-untouched ng-valid&quot;]</value>
+      <webElementGuid>450b0f10-6a82-4fc6-937c-4de50fa7ec28</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='username']</value>
-      <webElementGuid>d09eab60-0b33-4def-bcfc-8954979fdd92</webElementGuid>
+      <value>//input[@name='Name']</value>
+      <webElementGuid>ef1fd8ac-262e-4e29-bfc8-3890c4bd7b54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='contentMainDiv']/section/div/div/div/div/div/form/div[2]/input</value>
-      <webElementGuid>a3d801d4-24a7-4fba-b5a7-f4899d2ebd25</webElementGuid>
+      <value>//aside[@id='searchFilters']/div/filters/div/form/div[8]/input</value>
+      <webElementGuid>411cca8c-1cdb-4afa-b2e9-0a4d2362bd18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>9b88cb55-5d6f-4cca-a9a0-566967ecbe32</webElementGuid>
+      <value>//div[8]/input</value>
+      <webElementGuid>887eca0d-e756-43fa-bcdf-c100e7605e44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'username' and @name = 'username' and @type = 'email' and @placeholder = 'Username']</value>
-      <webElementGuid>f349abe4-88db-4456-8c9c-ef2fc6915ac7</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'Name' and @placeholder = 'Name']</value>
+      <webElementGuid>5cedcec2-8844-4563-9300-98ed1f4b9dab</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
