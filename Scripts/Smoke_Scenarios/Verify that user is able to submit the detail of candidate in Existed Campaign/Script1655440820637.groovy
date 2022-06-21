@@ -22,6 +22,10 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.remote.server.DriverFactory as DriverFactory
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
+import java.awt.Robot as Robot
+import java.awt.Toolkit as Toolkit
+import java.awt.datatransfer.StringSelection as StringSelection
+import java.awt.event.KeyEvent as KeyEvent
 
 WebUI.openBrowser('')
 
@@ -59,7 +63,7 @@ WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  M
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/div_Software_Testing_geuT'))
 
-WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/a_httpstestaccount.mobile-recruit.commDxNmgVVV'))
+WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/micrositeLinkLocator'))
 
 WebUI.switchToWindowIndex(1)
 
@@ -91,10 +95,37 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Registration/Page_So
 WebUI.selectOptionByValue(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/select_OptionsBtechMCA'), 
     'Yes', true)
 
+WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/resumeUpload'))
+
 Thread.sleep(2000)
 
-WebUI.uploadFile(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/resumeUpload'), 
-    'D:\\\\Final_Elden_Auto\\\\Sample File For Resume.pdf')
+File f = new File('Sample File For Resume.pdf')
+
+String logoPath = f.getAbsolutePath()
+
+//This Robot class is for handling the keys
+Robot rb = new Robot()
+
+StringSelection ss = new StringSelection(logoPath)
+
+Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null)
+
+Thread.sleep(1000)
+
+rb.keyPress(KeyEvent.VK_CONTROL)
+
+rb.keyPress(KeyEvent.VK_V)
+
+rb.keyRelease(KeyEvent.VK_CONTROL)
+
+rb.keyRelease(KeyEvent.VK_V)
+
+rb.keyPress(KeyEvent.VK_ENTER)
+
+rb.keyRelease(KeyEvent.VK_ENTER)
+
+//WebUI.uploadFile(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/resumeUpload'), 
+//    'D:\\\\Final_Elden_Auto\\\\Sample File For Resume.pdf')
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/termsAndConditions'))
 

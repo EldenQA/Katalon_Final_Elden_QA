@@ -29,4 +29,14 @@
       <initValue>'prajakta'</initValue>
       <name>candidateName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'vinayak pathak'</initValue>
+      <name>hiredCandidate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'div:nth-of-type(1) > .collapse.panel-collapse div[name=\'documentList\'] > .ui-select-match > .btn.btn-default.form-control.ui-select-toggle'</initValue>
+      <name>locatorForDocumentInput</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

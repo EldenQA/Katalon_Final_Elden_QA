@@ -80,4 +80,18 @@
       <testCaseId>Test Cases/Smoke_Scenarios/Verify that Recruiter is able to send the message to Candidate when Automated bot is OFF</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>32e68a5b-92e8-4951-99cf-999721a36db3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Verify that Recruiter is able to send the Email to candidate (Recruiter side only)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8e9bd945-c43f-4883-9554-acaea8492d9f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Verify that Recruiter is able to send the doucument to candidate</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

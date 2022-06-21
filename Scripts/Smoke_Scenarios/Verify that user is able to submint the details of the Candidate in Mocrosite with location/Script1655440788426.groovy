@@ -65,7 +65,7 @@ WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  M
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/div_Software_Testing_geuT'))
 
-WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/a_httpstestaccount.mobile-recruit.commDxNmgVVV'))
+WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/micrositeLinkLocator'))
 
 WebUI.switchToWindowIndex(1)
 

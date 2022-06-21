@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_httpstestaccount.mobile-recruit.commDxNmgVVV</name>
+   <name>micrositeLinkLocator</name>
    <tag></tag>
    <elementGuidId>7b29a7c3-4d6e-4f74-bda4-cfe5f0a18ccd</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>div:nth-of-type(7) .link-text.ng-binding</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='campaignDetailsDialog']/div/div/div[2]/div[2]/div/div/div/div[7]/div/div/p/a</value>
@@ -16,6 +12,10 @@
       <entry>
          <key>BASIC</key>
          <value>//*[@ng-href = 'https://testaccount.mobile-recruit.com' and @class = 'link-text ng-binding' and @href = 'https://testaccount.mobile-recruit.com' and (text() = ' https://testaccount.mobile-recruit.com' or . = ' https://testaccount.mobile-recruit.com')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(7) .link-text.ng-binding</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

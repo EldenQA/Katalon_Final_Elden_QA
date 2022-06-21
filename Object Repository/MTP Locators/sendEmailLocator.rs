@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>UploadFileForQuestionnareThrouhVariable</name>
+   <name>sendEmailLocator</name>
    <tag></tag>
-   <elementGuidId>b961fd98-e48e-49ee-8c20-1d525a2ea462</elementGuidId>
+   <elementGuidId>2e04cecb-ceab-4dde-913f-7525af9a5a13</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[text()=' Send Email ']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[text()=' Upload File']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#collapseUploadQuestionnaires > div > div > div.row.mtop > div > div > span</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

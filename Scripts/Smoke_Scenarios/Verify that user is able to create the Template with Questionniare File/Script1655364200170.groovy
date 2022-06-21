@@ -25,7 +25,8 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.interactions.Actions as Actions
-//Place the Questionniare file in the system location and replace accordingly D:\\\\Final_Elden_Auto\\\\Speciman.csv
+
+
 WebUI.openBrowser('')
 
 WebDriver driver = DriverFactory.getWebDriver()
@@ -128,8 +129,30 @@ WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Tale
 
 Thread.sleep(2000)
 
-WebUI.uploadFile(findTestObject('Template Creation/Page_Mobile Talent  Mobile Recruitment/UploadFileForQuestionnareThrouhVariable'), 
-    'D:\\\\Final_Elden_Auto\\\\Speciman.csv')
+WebUI.click(findTestObject('Template Creation/Page_Mobile Talent  Mobile Recruitment/UploadFileForQuestionnareThrouhVariable'))
+Thread.sleep(2000)
+File f = new File('Speciman.csv')
+
+String logoPath = f.getAbsolutePath()
+
+Robot rb = new Robot()
+
+StringSelection ss = new StringSelection(logoPath)
+
+Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null)
+
+rb.keyPress(KeyEvent.VK_CONTROL)
+
+rb.keyPress(KeyEvent.VK_V)
+
+rb.keyRelease(KeyEvent.VK_CONTROL)
+
+rb.keyRelease(KeyEvent.VK_V)
+
+rb.keyPress(KeyEvent.VK_ENTER)
+
+rb.keyRelease(KeyEvent.VK_ENTER)
+
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/clickOnQuestionniareName'))
 
@@ -171,3 +194,4 @@ WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Tale
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
 
 WebUI.closeBrowser()
+

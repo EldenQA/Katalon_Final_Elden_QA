@@ -48,22 +48,22 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Toggle Button/Page_Mobi
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-WebUI.click(findTestObject('Verify that Recruiter is able to send the email to candidate/MobileTalentPoolLocatorOnDashboardBar'))
+WebUI.click(findTestObject('MTP Locators/MobileTalentPoolLocatorOnDashboardBar'))
 
-WebUI.click(findTestObject('Verify that Recruiter is able to send the email to candidate/searchFilterOnCPPLocator'))
+WebUI.click(findTestObject('MTP Locators/searchFilterOnCPPLocator'))
 
-WebUI.scrollToElement(findTestObject('Verify that Recruiter is able to send the email to candidate/filterByNameLocator'), 
+WebUI.scrollToElement(findTestObject('MTP Locators/filterByNameLocator'), 
     1)
 
-WebUI.sendKeys(findTestObject('Verify that Recruiter is able to send the email to candidate/filterByNameLocator'), 'Elden QA')
+WebUI.sendKeys(findTestObject('MTP Locators/filterByNameLocator'), 'Elden QA')
 
-WebUI.scrollToElement(findTestObject('Verify that Recruiter is able to send the email to candidate/searchLocator'), 1)
+WebUI.scrollToElement(findTestObject('MTP Locators/searchLocator'), 1)
 
-WebUI.click(findTestObject('Verify that Recruiter is able to send the email to candidate/searchLocator'))
+WebUI.click(findTestObject('MTP Locators/searchLocator'))
 
-WebUI.scrollToElement(findTestObject('Verify that Recruiter is able to send the email to candidate/EmailTabLocator'), 1)
+WebUI.scrollToElement(findTestObject('MTP Locators/EmailTabLocator'), 1)
 
-WebUI.click(findTestObject('Verify that Recruiter is able to send the email to candidate/EmailTabLocator'))
+WebUI.click(findTestObject('MTP Locators/EmailTabLocator'))
 
 //*This will calculate the number of mails on current page beforeSending
 List<WebElement> allEmailSent = driver.findElements(By.cssSelector('div[class="th-head"]'))
@@ -74,21 +74,21 @@ int expectedSize = size + 1
 
 System.out.println(size)
 //*
-WebUI.click(findTestObject('Verify that Recruiter is able to send the email to candidate/ComposeEmailLocator'))
+WebUI.click(findTestObject('MTP Locators/ComposeEmailLocator'))
 
-WebUI.click(findTestObject('Verify that Recruiter is able to send the email to candidate/subjectOfEmailLocator'))
+WebUI.click(findTestObject('MTP Locators/subjectOfEmailLocator'))
 
-WebUI.sendKeys(findTestObject('Verify that Recruiter is able to send the email to candidate/subjectOfEmailLocator'), 'This email is from Recruiter')
+WebUI.sendKeys(findTestObject('MTP Locators/subjectOfEmailLocator'), 'This email is from Recruiter')
 
 Actions ac = new Actions(driver)
 
 ac.sendKeys(Keys.PAGE_DOWN).perform()
 
-WebUI.sendKeys(findTestObject('Verify that Recruiter is able to send the email to candidate/emailBodyLocator'), 'this is the email body ')
+WebUI.sendKeys(findTestObject('MTP Locators/emailBodyLocator'), 'this is the email body ')
 
 Thread.sleep(1000)
 
-WebUI.click(findTestObject('Verify that Recruiter is able to send the email to candidate/uploadButtonOnComposeEmailLocator'), 
+WebUI.click(findTestObject('MTP Locators/uploadButtonOnComposeEmailLocator'), 
     FailureHandling.STOP_ON_FAILURE)
 //This would upload the png file 
 File f = new File('download.png')
