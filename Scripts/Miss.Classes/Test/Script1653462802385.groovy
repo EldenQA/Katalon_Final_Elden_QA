@@ -30,147 +30,108 @@ import java.awt.event.KeyEvent as KeyEvent
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl(GlobalVariable.url)
 
 WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 
-WebUI.maximizeWindow()
+Properties pro = new Properties()
 
 Actions ac = new Actions(driver)
 
-WebUI.setText(findTestObject('Object Repository/Toggle Button/Page_Mobile Talent  Mobile Recruitment/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
+pro.load(new FileInputStream('job.properties'))
+
+keyValue = pro.getProperty('JobName')
+
+WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
     GlobalVariable.userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Toggle Button/Page_Mobile Talent  Mobile Recruitment/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
     GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-WebUI.click(findTestObject('MTP Locators/MobileTalentPoolLocatorOnDashboardBar'))
+driver.findElement(By.xpath('//span[text()=\'All Jobs\']')).click()
 
-WebUI.click(findTestObject('MTP Locators/searchFilterOnCPPLocator'))
+Thread.sleep(2000)
 
-WebUI.scrollToElement(findTestObject('MTP Locators/filterByNameLocator'), 1)
+driver.findElement(By.cssSelector('span[data-title=\'Search\']')).click()
 
-WebUI.sendKeys(findTestObject('MTP Locators/filterByNameLocator'), GlobalVariable.hiredCandidate)
+WebElement element2 = driver.findElement(By.xpath('//*[@id=\'jobTitle\']'))
 
-WebUI.scrollToElement(findTestObject('MTP Locators/searchLocator'), 1)
+element2.sendKeys(keyValue)
 
-WebUI.click(findTestObject('MTP Locators/searchLocator'))
-
-WebUI.scrollToElement(findTestObject('MTP Locators/tabLocators'), 1)
-
-List<WebElement> tabs = driver.findElements(By.cssSelector('a[data-toggle=\'tab\']'))
-
-int countOfTabs = tabs.size()
-
-for (int i = 0; i < countOfTabs; i++) {
-    textOnTabs = tabs.get(i).getText()
-
-    System.out.println(textOnTabs)
-
-    if (textOnTabs.equalsIgnoreCase('On-Boarding')) {
-        tabs.get(i).click()
-
-        break
-    }
+for (int i = 0; i <= 2; i++) {
+    ac.sendKeys(Keys.PAGE_DOWN).perform()
 }
 
-WebUI.scrollToElement(findTestObject('MTP Locators/uploadDocumentLocator'), 1)
+WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/i_Search_fa fa-search'))
 
-WebUI.click(findTestObject('MTP Locators/uploadDocumentLocator'))
+WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/div_Software_Testing_geuT'))
 
-WebUI.click(findTestObject('MTP Locators/documentNameLocator'))
+WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/micrositeLinkLocator'))
 
-WebUI.setText(findTestObject('MTP Locators/documentNameLocator'), 'Document' + RandomStringUtils.randomAlphabetic(5))
-
-//driver.findElement(By.cssSelector("[type='file']")).click()
-WebUI.click(findTestObject('Upload Document/fileUploadLocator'))
-
-File f = new File('Sample File For Resume.pdf')
-
-String logoPath = f.getAbsolutePath()
-
-//This Robot class is for handling the keys
-Robot rb = new Robot()
-
-StringSelection ss = new StringSelection(logoPath)
-
-Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null)
-
-Thread.sleep(1000)
-
-rb.keyPress(KeyEvent.VK_CONTROL)
-
-rb.keyPress(KeyEvent.VK_V)
-
-rb.keyRelease(KeyEvent.VK_CONTROL)
-
-rb.keyRelease(KeyEvent.VK_V)
-
-rb.keyPress(KeyEvent.VK_ENTER)
-
-rb.keyRelease(KeyEvent.VK_ENTER)
+WebUI.switchToWindowIndex(1)
 
 ac.sendKeys(Keys.PAGE_DOWN).perform()
 
-WebUI.click(findTestObject('Upload Document/nextButtonLocatorAfterUpload'))
+WebUI.setText(findTestObject('Registration/Page_Software_Testing_geuT_micrositeCapture/zipCodeLocator'), '100')
 
-//WebUI.dragAndDropToObject(findTestObject('Upload Document/dragSignatureLocation1'), findTestObject('Upload Document/dragSignatureLocation2'))
-WebUI.dragAndDropByOffset(findTestObject('Upload Document/dragSignatureLocation1'), -400, 300)
+Thread.sleep(2000)
 
-ac.sendKeys(Keys.PAGE_DOWN).perform()
+WebUI.click(findTestObject('Registration/Page_Software_Testing_geuT_micrositeCapture/zipLocationCheckBoxLocator'))
 
-ac.sendKeys(Keys.PAGE_DOWN).perform()
+driver.findElement(By.cssSelector('a[class=\'carrot-flat-button ng-scope\']')).click()
 
-WebUI.click(findTestObject('Upload Document/saveLocator'))
+WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_First Name_id5236'), 
+    'Dinesh')
 
-WebUI.click(findTestObject('MTP Locators/searchFilterOnCPPLocator'))
+WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_Last Name_id5237'), 
+    'Yadav')
 
-WebUI.scrollToElement(findTestObject('MTP Locators/filterByNameLocator'), 1)
+email = (('d' + RandomStringUtils.randomAlphabetic(4)) + '@yopmail.com')
 
-WebUI.sendKeys(findTestObject('MTP Locators/filterByNameLocator'), GlobalVariable.hiredCandidate)
+System.out.println(email)
 
-WebUI.scrollToElement(findTestObject('MTP Locators/searchLocator'), 1)
+WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_Email_id5238'), 
+    email)
 
-WebUI.click(findTestObject('MTP Locators/searchLocator'))
+WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/div_Mobile Number_iti-flag mx'))
 
-WebUI.scrollToElement(findTestObject('MTP Locators/tabLocators'), 1)
+WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/span_India ()'))
 
-List<WebElement> tabsAfterUpload = driver.findElements(By.cssSelector('a[data-toggle=\'tab\']'))
+driver.findElement(By.cssSelector('input[question=\'Mobile Number\']')).sendKeys('1325' + RandomStringUtils.randomNumeric(
+        6))
 
-int countOfTabsAfterUpload = tabsAfterUpload.size()
+WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/label_Do you have any degree , Choose one'))
 
-for (int k = 0; k < countOfTabsAfterUpload; k++) {
-    textOnTabsafterUpload = tabsAfterUpload.get(k).getText()
+WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/selectFirstOptionFromDropdown'))
 
-    System.out.println(textOnTabsafterUpload)
+Thread.sleep(2000)
 
-    if (textOnTabsafterUpload.equalsIgnoreCase('On-Boarding')) {
-        tabsAfterUpload.get(k).click()
+WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/termsAndConditions'))
 
-        break
-    }
-}
+WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/button_Connect Now'))
 
-WebUI.scrollToElement(findTestObject('MTP Locators/sendDocumentLocator'), 0)
+WebUI.click(findTestObject('Object Repository/CandidateAppRegistration/Page_Auto_Software_EnggineerykQF_micrositeCapture/a_httpsmobile-recruit.comregister'))
 
-WebUI.click(findTestObject('MTP Locators/sendDocumentLocator'))
+WebUI.switchToWindowIndex(2)
 
-ac.sendKeys(Keys.PAGE_DOWN).perform()
+Thread.sleep(2000)
 
-WebUI.click(findTestObject('MTP Locators/sendEmailLocator'))
+WebElement element = driver.findElement(By.cssSelector('input[name=\'email\']'))
 
-WebUI.click(findTestObject('MTP Locators/confirmSendEmailLocator'))
+emailText = element.getText()
 
-WebElement successMessage = driver.findElement(By.cssSelector('div[class=\'growl-item alert ng-scope alert-success icon alert-dismissable\']'))
+System.out.println(emailText)
 
-successMessageText = successMessage.getText()
+WebUI.scrollToElement(findTestObject('CandidateAppRegistration/Page_Mobile Talent  Mobile Recruitment/termsAndConditionLocator'), 
+    1)
 
-System.out.println(successMessageText)
+WebUI.click(findTestObject('CandidateAppRegistration/Page_Mobile Talent  Mobile Recruitment/termsAndConditionLocator'))
 
-//WebUI.verifyTextPresent(successMessageText, true)
-if (WebUI.verifyTextPresent(successMessageText, true)) {
-    WebUI.closeBrowser()
-}
+WebUI.click(findTestObject('Object Repository/CandidateAppRegistration/Page_Mobile Talent  Mobile Recruitment/button_Register'))
+
+WebUI.click(findTestObject('Object Repository/CandidateAppRegistration/Page_Mobile Talent  Mobile Recruitment/h3_You have successfully Registered'))
 

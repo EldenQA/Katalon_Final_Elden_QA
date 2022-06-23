@@ -78,10 +78,10 @@ WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Tale
         }
     }
     
-    WebUI.setText(findTestObject('Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/searchAccountLocator'), 
+    WebUI.setText(findTestObject('Send Message(Bot-ON)/Page_Mobile Talent  Mobile Recruitment/searchAccountLocator'), 
         'Test Account')
 
-    WebUI.click(findTestObject('Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/searchButtonLocatorOnManageAccount'))
+    WebUI.click(findTestObject('Send Message(Bot-ON)/Page_Mobile Talent  Mobile Recruitment/searchButtonLocatorOnManageAccount'))
 
     List<WebElement> accountNames = driver.findElements(By.cssSelector('td a[ng-click = "vm.getAccountDetails(account.id)"]'))
 

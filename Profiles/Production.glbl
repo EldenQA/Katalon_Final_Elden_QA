@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'romgupta@qasource.com'</initValue>
+      <initValue>'atsharma@qasource.com'</initValue>
       <name>userName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'kz7p4/CQ+93m2i5idrXw6Q=='</initValue>
+      <initValue>'p4y+y39Ir5OTdtOb306gDg=='</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -38,5 +38,15 @@
       <description></description>
       <initValue>'div:nth-of-type(1) > .collapse.panel-collapse div[name=\'documentList\'] > .ui-select-match > .btn.btn-default.form-control.ui-select-toggle'</initValue>
       <name>locatorForDocumentInput</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'vinayak@yopmail.com'</initValue>
+      <name>candidateAppUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'p4y+y39Ir5OTdtOb306gDg=='</initValue>
+      <name>candidateAppPassword</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

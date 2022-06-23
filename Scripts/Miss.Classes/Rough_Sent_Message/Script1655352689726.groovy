@@ -29,10 +29,6 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
-WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
-
-Actions ac = new Actions(driver)
-
 WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
     GlobalVariable.userName)
 
@@ -41,69 +37,17 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobil
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-driver.findElement(By.xpath('//span[text()=\'All Jobs\']')).click()
+WebDriver driver3 = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
+driver3.findElement(By.cssSelector('a[title=\'Mobile Talent Pool\'] > .ng-scope')).click()
 
 Thread.sleep(2000)
 
-driver.findElement(By.cssSelector('span[data-title=\'Search\']')).click()
+WebUI.scrollToElement(findTestObject('MTP Locators/surveyLocator'), 2)
 
-WebElement element2 = driver.findElement(By.xpath('//*[@id=\'jobTitle\']'))
+WebUI.click(findTestObject('MTP Locators/surveyLocator'))
 
-element2.sendKeys(GlobalVariable.JobName)
-
-for (int i = 0; i <= 2; i++) {
-    ac.sendKeys(Keys.PAGE_DOWN).perform()
-}
-
-WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/i_Search_fa fa-search'))
-
-WebUI.click(findTestObject('Object Repository/Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/candidateCountLocator'))
-
-//WebUI.click(findTestObject('Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/Page_Mobile Talent  Mobile Recruitment/searchFilterOnCPPLocator'))
-
-//WebUI.scrollToElement(findTestObject('Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/Page_Mobile Talent  Mobile Recruitment/filterByNameLocator'), 
-  //  2)
-
-//WebUI.sendKeys(findTestObject('Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/Page_Mobile Talent  Mobile Recruitment/filterByNameLocator'), 
- //   'prajakta')
-
-//WebUI.scrollToElement(findTestObject('Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/Page_Mobile Talent  Mobile Recruitment/searchLocator'), 
- //   2)
-
-//WebUI.click(findTestObject('Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/Page_Mobile Talent  Mobile Recruitment/searchLocator'))
-
-//WebUI.scrollToElement(findTestObject('Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/span_SMS'), 
- //   2)
-
-WebUI.click(findTestObject('Object Repository/Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/span_SMS'))
-
-WebUI.setText(findTestObject('Object Repository/Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/textarea_Test Account_message-to-send'), 
-    'hi this is message from automation')
-
-WebUI.scrollToElement(findTestObject('Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/sendButtonLocator'), 
-    1)
-
-WebUI.click(findTestObject('Object Repository/Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/sendButtonLocator'))
-
-
-
-WebUI.scrollToElement(findTestObject('Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/Page_Mobile Talent  Mobile Recruitment/plane_Icon'), 
-    1)
-
-WebUI.verifyElementPresent(findTestObject('Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/Page_Mobile Talent  Mobile Recruitment/plane_Icon'), 
-    1)
-
-WebUI.click(findTestObject('Object Repository/Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/div_hi this is message from automation'))
-
-WebUI.click(findTestObject('Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/img'))
-
-WebUI.click(findTestObject('Object Repository/Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/div_61422, 154 pm   Test Account    Thank y_4849e8'))
-
-WebUI.click(findTestObject('Object Repository/Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/div_Today, 950 am   Romit Romit'))
-
-WebUI.click(findTestObject('Object Repository/Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/b_Romit Romit'))
-
-WebUI.click(findTestObject('Object Repository/Verify that Recruiter is able to send the message to Candidate when Automated bot is on/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
-
-WebUI.closeBrowser()
+questions= WebUI.getText(findTestObject('MTP Locators/surveyQuestionLocator'))
+System.out.println(questions)
+WebUI.verifyElementText(findTestObject('MTP Locators/surveyQuestionLocator'),questions )
 
