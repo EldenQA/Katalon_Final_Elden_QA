@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h4_dvicFyopmail.com</name>
+   <tag></tag>
+   <elementGuidId>f8c6ecc3-924f-45ad-ba6c-cb8fba4f66d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[3]/div/div/div/div/div/div[2]/h4[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>75944a4e-c84f-4fd0-afdb-0924e0e785f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-1 mt-1</value>
+      <webElementGuid>d1070a89-8262-41e6-ba4b-9129e8cefedf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> dvicF@yopmail.com</value>
+      <webElementGuid>5cdc624a-7468-45ff-8eae-e60a44f9747b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;main-panel App&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;panel-header shadow-sm bg-primary-gradient&quot;]/div[@class=&quot;page-inner&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;align-items-center col-sm-8 d-flex&quot;]/div[@class=&quot;member-detail pull-left&quot;]/h4[@class=&quot;mb-1 mt-1&quot;]</value>
+      <webElementGuid>d6383460-2c80-40a7-a0bb-3ce4d9e1f687</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/div/div/div/div/div/div[2]/h4[2]</value>
+      <webElementGuid>6e153767-6c3c-4ead-a345-60b1833951e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dinesh Yadav'])[1]/following::h4[2]</value>
+      <webElementGuid>be709c2c-6ae2-473f-b132-00be1ff2d509</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::h4[2]</value>
+      <webElementGuid>6878dc0c-f557-44f8-84ca-8c8443458d20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='In - HR Evaluation'])[1]/preceding::h4[1]</value>
+      <webElementGuid>4d55ce9b-2ad2-44c9-8d72-8b5a453c80f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Interview booking link shared with candidate.'])[1]/preceding::h4[1]</value>
+      <webElementGuid>4510632a-4a6b-4c7b-b27b-ec8266cb8fc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='dvicF@yopmail.com']/parent::*</value>
+      <webElementGuid>f9b83cd3-4de8-446b-bca6-51a4a0968cdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4[2]</value>
+      <webElementGuid>aa692341-ddb3-4f5d-889a-644ebeacfc62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = ' dvicF@yopmail.com' or . = ' dvicF@yopmail.com')]</value>
+      <webElementGuid>2bcbdf51-5073-4935-87a6-36fc18b8c259</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

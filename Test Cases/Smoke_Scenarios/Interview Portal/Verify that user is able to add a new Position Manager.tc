@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that user is able to add a new Position Manager</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18b8867f-aa5d-414e-91d5-df4abd75ca61</testCaseGuid>
+</TestCaseEntity>

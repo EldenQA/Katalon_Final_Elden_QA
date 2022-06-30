@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_271100 AMBusy</name>
+   <tag></tag>
+   <elementGuidId>479634a9-57ba-49ce-b449-6282274fea30</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[text()='day']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.fc-button.fc-button-primary.fc-timeGridDay-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b1b5a669-c06f-462f-8bc4-42755638b946</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fc-daygrid-day-frame fc-scrollgrid-sync-inner</value>
+      <webElementGuid>9e8fbb5c-afd8-4a9c-9029-b529dc2eaeb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2711:00 AM Busy</value>
+      <webElementGuid>dd8b1606-25e5-4fcd-85b9-2e14942247a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;main-panel App w-100&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;page-inner aside-container&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;fc fc-media-screen fc-direction-ltr fc-theme-standard&quot;]/div[@class=&quot;fc-view-harness fc-view-harness-active&quot;]/div[@class=&quot;fc-daygrid fc-dayGridMonth-view fc-view&quot;]/table[@class=&quot;fc-scrollgrid  fc-scrollgrid-liquid&quot;]/tbody[1]/tr[@class=&quot;fc-scrollgrid-section fc-scrollgrid-section-body  fc-scrollgrid-section-liquid&quot;]/td[1]/div[@class=&quot;fc-scroller-harness fc-scroller-harness-liquid&quot;]/div[@class=&quot;fc-scroller fc-scroller-liquid-absolute&quot;]/div[@class=&quot;fc-daygrid-body fc-daygrid-body-balanced&quot;]/table[@class=&quot;fc-scrollgrid-sync-table&quot;]/tbody[1]/tr[5]/td[@class=&quot;fc-daygrid-day fc-day fc-day-mon fc-day-today&quot;]/div[@class=&quot;fc-daygrid-day-frame fc-scrollgrid-sync-inner&quot;]</value>
+      <webElementGuid>91c5d32d-1d6c-4ef7-a375-969910574843</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/div/div[2]/div/div/div[2]/div/table/tbody/tr/td/div/div/div/table/tbody/tr[5]/td[2]/div</value>
+      <webElementGuid>07b35d87-1af6-4578-a68c-195379a16168</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::div[120]</value>
+      <webElementGuid>1ff791b2-abc1-4c81-89dc-61b458ccd3c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[1]/following::div[121]</value>
+      <webElementGuid>08f6b805-a02b-4932-9aa4-4ad5f7ade0e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]/td[2]/div</value>
+      <webElementGuid>5450e207-d6da-43d0-9674-1fd8baa00200</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '2711:00 AM Busy' or . = '2711:00 AM Busy')]</value>
+      <webElementGuid>78e58c72-b62e-465b-abc1-9819b84ce37b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

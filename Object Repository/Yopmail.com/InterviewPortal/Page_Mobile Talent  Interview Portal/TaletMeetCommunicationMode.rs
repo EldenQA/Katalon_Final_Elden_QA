@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TaletMeetCommunicationMode</name>
+   <tag></tag>
+   <elementGuidId>c725c6a5-c676-4122-86e8-beefee740852</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[3]/div/div[2]/div/div/form/div/div[2]/div/div/div[3]/div/div/span[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#root > div > div > div.main-panel.App > div > div.page-inner > div > div.col-sm-8 > form > div > div.card-body.tabs-content > div.showTab > div > div:nth-child(3) > div > div > span:nth-child(5)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>28e85bd0-2d50-4301-9e57-637c44fb470e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>active</value>
+      <webElementGuid>bc7e78e1-4890-4d18-986f-f0f3feb98efc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>tooltip</value>
+      <webElementGuid>cc66f306-934b-4d3d-b520-65202b9b7d59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-placement</name>
+      <type>Main</type>
+      <value>top</value>
+      <webElementGuid>40ba5579-422c-4a5d-8628-a21c1049deb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Talent Meet</value>
+      <webElementGuid>7b84d59e-9651-4e41-a2a4-5caa56339114</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;main-panel App&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;page-inner&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8&quot;]/form[1]/div[@class=&quot;card tabs-container&quot;]/div[@class=&quot;card-body tabs-content&quot;]/div[@class=&quot;showTab&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6&quot;]/div[@class=&quot;form-group mb-3 p-0&quot;]/div[@class=&quot;interviewMode&quot;]/span[@class=&quot;active&quot;]</value>
+      <webElementGuid>d78f2ec9-5292-40a1-966c-cd74737828ec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/div/div[2]/div/div/form/div/div[2]/div/div/div[3]/div/div/span[5]</value>
+      <webElementGuid>9d01d59f-5298-4f76-bb11-a842898bab55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Communication Mode'])[1]/following::span[5]</value>
+      <webElementGuid>2c8d92ac-967b-41cc-bb23-5c056406f9f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Atish Sharma'])[2]/following::span[5]</value>
+      <webElementGuid>73c6f6e9-b5ee-4403-b854-abe34865f4d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Feedback'])[1]/preceding::span[1]</value>
+      <webElementGuid>c697bc6d-7cd4-402c-a995-84f2c97aa1ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[5]</value>
+      <webElementGuid>d4be5aff-ded1-4090-9122-de9357c993ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@title = 'Talent Meet']</value>
+      <webElementGuid>eac3e690-4fc7-43fb-bc55-da79394dbba8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -41,7 +41,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/MTP Locators/Page_Mobil
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-for (int i=0 ; i<=100; i++)
+for (int i=0 ; i<=500; i++)
 {
 	WebUI.click(findTestObject('MTP Locators/Notification'))
 	

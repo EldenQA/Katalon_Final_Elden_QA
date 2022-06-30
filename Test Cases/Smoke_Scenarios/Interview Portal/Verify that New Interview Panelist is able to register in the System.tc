@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that New Interview Panelist is able to register in the System</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f75bdcda-fa1d-47ff-8678-dedfc1649eab</testCaseGuid>
+</TestCaseEntity>

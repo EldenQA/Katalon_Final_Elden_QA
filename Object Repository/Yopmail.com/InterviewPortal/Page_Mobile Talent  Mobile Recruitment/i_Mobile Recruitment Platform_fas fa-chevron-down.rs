@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Mobile Recruitment Platform_fas fa-chevron-down</name>
+   <tag></tag>
+   <elementGuidId>7f88c538-d5df-4649-86a5-e8d73c272762</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='wrapper']/div/div/div/nav/div/a[2]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fas.fa-chevron-down</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>60c1240c-aea8-432d-81c6-787b5e9d0f04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-chevron-down</value>
+      <webElementGuid>35dbb6bf-4ac9-4353-a22e-991d19de8969</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wrapper-main&quot;)/div[@class=&quot;ng-scope&quot;]/div[@id=&quot;wrapper&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/nav[@class=&quot;navbar-default navbar-static-top&quot;]/div[@class=&quot;navbar-header dropdown&quot;]/a[@class=&quot;dropdown-toggle app-link-caret ng-scope&quot;]/i[@class=&quot;fas fa-chevron-down&quot;]</value>
+      <webElementGuid>623ebdee-7c6a-47fe-b00e-d33d14d2efdb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wrapper']/div/div/div/nav/div/a[2]/i</value>
+      <webElementGuid>7e887c63-9e3b-4cae-afd0-c70964971292</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>bc668d08-4f23-4689-80ab-94eeac6887de</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that user is able to Shortlist the Candidate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6bfed2a-a7c0-4dfb-a118-73653e61b2dd</testCaseGuid>
+</TestCaseEntity>

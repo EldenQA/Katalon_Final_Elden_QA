@@ -39,7 +39,7 @@ pro.load(new FileInputStream('job.properties'))
 
 keyValue = pro.getProperty('JobName')
 
-WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
+WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
     GlobalVariable.userName)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
@@ -69,7 +69,6 @@ for (int j = 0; j < 11; j++) {
 
 WebUI.click(findTestObject('Survey Form/surveyFormLocator'))
 
-//WebUI.click(findTestObject('Object Repository/Survey Form/Page_Mobile Talent  Mobile Recruitment/i_Enabled_fa-clipboard-list fa-lg fas icon-_170eb9'))
 WebUI.click(findTestObject('Object Repository/Survey Form/Page_Mobile Talent  Mobile Recruitment/span_Select microsite'))
 
 WebUI.setText(findTestObject('Survey Form/Page_Mobile Talent  Mobile Recruitment/input_Select microsite_form-control ui-sele_1cb159'), 
@@ -127,7 +126,7 @@ WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testi
 WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/div_Mobile Number_iti-flag mx'))
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/span_India ()'))
-//int ph=1325
+
  
  phoneNumber = '1325' + RandomStringUtils.randomNumeric(6)
 
@@ -199,13 +198,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://yopmail.com/en/')
 WebUI.maximizeWindow()
-//WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
 WebUI.setText(findTestObject('Object Repository/Yopmail.com/input_Type the Email name of your choice_login'), 
     email)
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_YOPmail - Disposable Email Address/i_'))
 
-//WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Inbox/span_Test Account'))
+
 WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Inbox/span_Show pictures'))
 
 WebUI.switchToWindowTitle('Inbox')
@@ -249,7 +248,7 @@ WebUI.navigateToUrl(GlobalVariable.url)
 WebUI.maximizeWindow()
 
 
-WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
+WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
     GlobalVariable.userName)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 

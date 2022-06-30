@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Filters_fa fa-caret-down ml-3</name>
+   <tag></tag>
+   <elementGuidId>0576ed0d-c24d-42e9-8f46-aa6ffc9935cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[3]/div/div/div/div[2]/div/button/i[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-caret-down.ml-3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>72fa4a7a-7cfa-4499-b018-b1bdc4e561f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-caret-down ml-3</value>
+      <webElementGuid>d81ec606-d4ed-4e14-a636-ca5bddeca81e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;main-panel App&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;page-inner&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-9 d-flex justify-content-end align-items-start&quot;]/div[@class=&quot;filter-dropdown&quot;]/button[@class=&quot;btn btn-primary&quot;]/i[@class=&quot;fa fa-caret-down ml-3&quot;]</value>
+      <webElementGuid>c6cb1ba1-074c-421c-bd3d-a33fcebd10a4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/div/div/div/div[2]/div/button/i[2]</value>
+      <webElementGuid>849b30f7-e5f5-4b61-84b3-230ded2b9db0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i[2]</value>
+      <webElementGuid>b8e11969-eb69-4d69-b782-0dc6729ab9cb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that Candidate is able to schedule the Skype Interview</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8fbc833b-2a3c-4aa7-a697-b4c6dc1255a0</testCaseGuid>
+</TestCaseEntity>

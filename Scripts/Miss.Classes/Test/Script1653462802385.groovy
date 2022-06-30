@@ -21,12 +21,11 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.remote.server.DriverFactory as DriverFactory
-import org.testng.Assert as Assert
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
-import java.awt.Robot as Robot
-import java.awt.Toolkit as Toolkit
-import java.awt.datatransfer.StringSelection as StringSelection
-import java.awt.event.KeyEvent as KeyEvent
+import org.apache.commons.lang3.RandomUtils as RandomUtils
+import java.text.DateFormat as DateFormat
+import java.text.SimpleDateFormat as SimpleDateFormat
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 
 WebUI.openBrowser('')
 
@@ -44,7 +43,7 @@ pro.load(new FileInputStream('job.properties'))
 
 keyValue = pro.getProperty('JobName')
 
-WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
+WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
     GlobalVariable.userName)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
@@ -52,86 +51,110 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobil
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-driver.findElement(By.xpath('//span[text()=\'All Jobs\']')).click()
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/i_Mobile Recruitment Platform_fas fa-chevron-down'))
 
-Thread.sleep(2000)
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/a_Interview Portal'))
 
-driver.findElement(By.cssSelector('span[data-title=\'Search\']')).click()
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Clear Filter(s)'))
 
-WebElement element2 = driver.findElement(By.xpath('//*[@id=\'jobTitle\']'))
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/i_Filters_fa fa-caret-down ml-3'))
 
-element2.sendKeys(keyValue)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/select_AllNot ScheduledCalendar SharedInter_ca03d5'), 
+    'Not Scheduled', true)
 
-for (int i = 0; i <= 2; i++) {
-    ac.sendKeys(Keys.PAGE_DOWN).perform()
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Apply'))
+
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_dvicFyopmail.com'))
+
+List<WebElement> allInterviewPanelist = driver.findElements(By.cssSelector('label[for=\'{user.firstName} {user.lastName}\']'))
+
+int sizeNumber = allInterviewPanelist.size()
+
+for (int i = 0; i < sizeNumber; i++) {
+    String textOFInterviewPanelist = allInterviewPanelist.get(i).getText()
+
+    System.out.println(textOFInterviewPanelist)
+
+    if (textOFInterviewPanelist.equalsIgnoreCase(("ArmYU" + " " + "ArmYU"))) {
+        driver.findElement(By.cssSelector('input[title=\'Set as primary\']')).click()
+
+        break
+    }
 }
 
-WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/i_Search_fa fa-search'))
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/TaletMeetCommunicationMode'))
 
-WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/div_Software_Testing_geuT'))
+//WebUI.scrollToElement(findTestObject('Object Repository/InterviewPortal/sceduleInterviewButton'), 2)
 
-WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/micrositeLinkLocator'))
+//WebUI.click(findTestObject('Object Repository/InterviewPortal/sceduleInterviewButton'))
+List<WebElement> allbuttons = driver.findElements(By.cssSelector('[class="btn btn btn-primary ml-3"]'))
+
+int sizebuttons = allbuttons.size()
+
+for (int j = 0; j < sizeNumber; j++) {
+	String textOFbuttons = allbuttons.get(j).getText()
+
+	System.out.println(textOFbuttons)
+
+	if (textOFbuttons.equalsIgnoreCase("Schedule Interview")){
+		allbuttons.get(j).click()
+		break
+	}
+}
+
+WebUI.click(findTestObject('Object Repository/InterviewPortal/yesbuttonOnSceduleInterviewPopup'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/InterviewPortal/emailOfTheCandidateLocator'), 2)
+
+email = WebUI.getText(findTestObject('Object Repository/InterviewPortal/emailOfTheCandidateLocator'))
+
+WebUI.verifyTextPresent('Interview booking link shared with candidate.', true)
+
+//driver.findElement(By.cssSelector('.btn.btn-lg.btn-primary')).click()
+//WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_Dinesh Yadav 91 1325384597 dvicFyopmail.com'))
+//WebUI.scrollToElement(findTestObject('Object Repository/InterviewPortal/emailOfTheCandidateLocator'), 2)
+//WebUI.rightClick(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/h4_dvicFyopmail.com'))
+
+((driver) as JavascriptExecutor).executeScript('window.open(arguments[0])', 'https://yopmail.com/en/')
 
 WebUI.switchToWindowIndex(1)
 
-ac.sendKeys(Keys.PAGE_DOWN).perform()
-
-WebUI.setText(findTestObject('Registration/Page_Software_Testing_geuT_micrositeCapture/zipCodeLocator'), '100')
-
-Thread.sleep(2000)
-
-WebUI.click(findTestObject('Registration/Page_Software_Testing_geuT_micrositeCapture/zipLocationCheckBoxLocator'))
-
-driver.findElement(By.cssSelector('a[class=\'carrot-flat-button ng-scope\']')).click()
-
-WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_First Name_id5236'), 
-    'Dinesh')
-
-WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_Last Name_id5237'), 
-    'Yadav')
-
-email = (('d' + RandomStringUtils.randomAlphabetic(4)) + '@yopmail.com')
-
-System.out.println(email)
-
-WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_Email_id5238'), 
+WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'), 
     email)
 
-WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/div_Mobile Number_iti-flag mx'))
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/i_'))
 
-WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/span_India ()'))
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Inbox/span_Show pictures'))
 
-driver.findElement(By.cssSelector('input[question=\'Mobile Number\']')).sendKeys('1325' + RandomStringUtils.randomNumeric(
-        6))
+WebUI.switchToWindowTitle('Inbox')
 
-WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/label_Do you have any degree , Choose one'))
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Inbox/a_Book Now'))
 
-WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/selectFirstOptionFromDropdown'))
+WebUI.switchToWindowIndex(1)
 
-Thread.sleep(2000)
+//window= WebUI.getWindowTitle()
+//WebUI.navigateToUrl("https://mobile-recruit.com/interview-portal/candidate-calendar?token=2293746f11")
+Thread.sleep(18000)
 
-WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/termsAndConditions'))
+WebUI.waitForElementClickable(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_271100 AMBusy'), 
+    8)
 
-WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/button_Connect Now'))
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_271100 AMBusy'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/CandidateAppRegistration/Page_Auto_Software_EnggineerykQF_micrositeCapture/a_httpsmobile-recruit.comregister'))
+WebUI.click(findTestObject('Yopmail.com/forwardIconLocator'))
 
-WebUI.switchToWindowIndex(2)
+WebUI.click(findTestObject('Yopmail.com/FirstSlotBooking'))
 
-Thread.sleep(2000)
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Confirm'))
 
-WebElement element = driver.findElement(By.cssSelector('input[name=\'email\']'))
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_Thank YouYour slot has been booked forJ_f0af19'))
 
-emailText = element.getText()
+WebUI.switchToWindowTitle('Mobile Talent | Interview Portal')
 
-System.out.println(emailText)
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_Interview booked at  June 27th 2022 fro_9e7afc'))
 
-WebUI.scrollToElement(findTestObject('CandidateAppRegistration/Page_Mobile Talent  Mobile Recruitment/termsAndConditionLocator'), 
-    1)
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/h4_Atish Sharma'))
 
-WebUI.click(findTestObject('CandidateAppRegistration/Page_Mobile Talent  Mobile Recruitment/termsAndConditionLocator'))
-
-WebUI.click(findTestObject('Object Repository/CandidateAppRegistration/Page_Mobile Talent  Mobile Recruitment/button_Register'))
-
-WebUI.click(findTestObject('Object Repository/CandidateAppRegistration/Page_Mobile Talent  Mobile Recruitment/h3_You have successfully Registered'))
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/a_Logout'))
 

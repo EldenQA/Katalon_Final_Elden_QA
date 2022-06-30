@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Interview booking link shared with candidate</name>
+   <tag></tag>
+   <elementGuidId>79a1bc68-4d8c-41dd-871f-aa04124c493c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[3]/div/div[2]/div/div/form/div/div[2]/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.bg-grey2.border.mb-3.p-3.rounded</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e27d2551-2b99-4839-8bdc-a53343358ae7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-grey2 border mb-3 p-3 rounded</value>
+      <webElementGuid>cc529afe-ee8d-4524-9475-7d2da5f0b67c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Interview booking link shared with candidate.</value>
+      <webElementGuid>fdd808c1-1a4d-4534-a691-3b260ed8abdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;main-panel App&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;page-inner&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8&quot;]/form[1]/div[@class=&quot;card tabs-container&quot;]/div[@class=&quot;card-body tabs-content&quot;]/div[@class=&quot;showTab&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;bg-grey2 border mb-3 p-3 rounded&quot;]</value>
+      <webElementGuid>d8e13689-b291-469c-bafd-b3f893b6ea8a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/div/div[2]/div/div/form/div/div[2]/div/div/div/div</value>
+      <webElementGuid>e7a7a0b2-1fad-4bab-b255-776e5a69ddba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='In - HR Evaluation'])[1]/following::div[10]</value>
+      <webElementGuid>b2549a50-4905-49f1-a32e-9da8ba8cc3c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Atish Sharma'])[2]/preceding::div[1]</value>
+      <webElementGuid>8f8a2e7b-4a49-4460-822d-09732749ba10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Interview booking link shared with candidate.']/parent::*</value>
+      <webElementGuid>ab0c06e0-5dd5-4d14-b1ea-146dad37d85d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[2]/div/div/div/div</value>
+      <webElementGuid>aa4179e4-0934-44f2-9e12-35da5f59ae80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Interview booking link shared with candidate.' or . = 'Interview booking link shared with candidate.')]</value>
+      <webElementGuid>25b04360-fa8b-4c88-9411-18d4f1071abe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

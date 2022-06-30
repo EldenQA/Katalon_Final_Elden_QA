@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Thank YouYour slot has been booked forJ_f0af19</name>
+   <tag></tag>
+   <elementGuidId>ba7238a3-d232-4a28-a2d1-3b105dbb2457</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.thanks-container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>99022a70-624f-41ca-97a5-6619574f3631</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>thanks-container</value>
+      <webElementGuid>28a1bc91-2741-4da1-a0de-aad7246738f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Thank You!Your slot has been booked forJune 27th 2022, 12:00 pm to 12:30 pm IST The meeting URL is shared on your registered email.</value>
+      <webElementGuid>d8ebd766-3452-4867-8ea6-edd1e5c2b546</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;main-panel App w-100&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;page-inner aside-container&quot;]/div[@class=&quot;thanks-container&quot;]</value>
+      <webElementGuid>99fbba25-05ce-4868-9218-c08a556a28f0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/div</value>
+      <webElementGuid>01d9b2bd-eaa4-4aff-98b7-675e51fcc22e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[4]</value>
+      <webElementGuid>4404daa6-afd2-469c-baca-386a04b59114</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div</value>
+      <webElementGuid>bacb90c1-8778-41b5-a8da-594bea38525d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Thank You!Your slot has been booked forJune 27th 2022, 12:00 pm to 12:30 pm IST The meeting URL is shared on your registered email.' or . = 'Thank You!Your slot has been booked forJune 27th 2022, 12:00 pm to 12:30 pm IST The meeting URL is shared on your registered email.')]</value>
+      <webElementGuid>3a137b28-7ca6-4438-8db3-89a517786135</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

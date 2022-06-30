@@ -44,3 +44,20 @@ rb.keyPress(KeyEvent.VK_ENTER)
 
 rb.keyRelease(KeyEvent.VK_ENTER)
 
+
+//When there are too many interview Panelsits ad we have to choose newly entered 
+//List<WebElement> allInterviewPanelist = driver.findElements(By.cssSelector('label[for=\'{user.firstName} {user.lastName}\']'))
+//
+//int sizeNumber1 = allInterviewPanelist.size()
+//
+//for (int i = 0; i < sizeNumber1; i++) {
+//    String textOFInterviewPanelist = allInterviewPanelist.get(i).getText()
+//
+//    System.out.println(textOFInterviewPanelist)
+//
+//    if (textOFInterviewPanelist.equalsIgnoreCase((penelistName + ' ') + penelistName)) {
+//        driver.findElement(By.cssSelector('input[title=\'Set as primary\']')).click()
+//
+//        break
+//    }
+//}
