@@ -52,17 +52,12 @@ WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Bebo Talent  Mob
 
 //This will load the property file and take the value of Created Template and then store it in keyValue 
 FileWriter fw = new FileWriter('job.properties')
-
 Properties pro2 = new Properties()
 
 pro2.setProperty('JobName', (((('Auto' + '_') + 'Software') + '_') + 'Enggineer') + RandomStringUtils.randomAlphabetic(4))
-
 pro2.store(fw, 'comments')
-
 FileInputStream fis = new FileInputStream('job.properties')
-
 Input = pro2.getProperty('JobName')
-
 pro.load(new FileInputStream('console.properties'))
 
 keyValue = pro.getProperty('Template')

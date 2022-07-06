@@ -29,11 +29,17 @@ import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 
 WebUI.callTestCase(findTestCase('Smoke_Scenarios/Interview Portal/Dependent TestCases/Verify that user is able to Shortlist the Candidate'), 
 [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
 WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+Properties pro = new Properties()
+
+pro.load(new FileInputStream('job.properties'))
+
+keyValue = pro.getProperty('JobName')
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
@@ -49,16 +55,17 @@ WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_M
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/a_Interview Portal'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Clear Filter(s)'))
+WebUI.click(findTestObject('InterviewPortal/JobsLocator'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/i_Filters_fa fa-caret-down ml-3'))
+WebUI.click(findTestObject('InterviewPortal/searchJobLocator'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/select_AllNot ScheduledCalendar SharedInter_ca03d5'), 
-    'Not Scheduled', true)
+WebUI.setText(findTestObject('InterviewPortal/searchJobLocator'), keyValue)
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Apply'))
+Thread.sleep(3000)
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_dvicFyopmail.com'))
+WebUI.click(findTestObject('InterviewPortal/AppliedCandidate'))
+
+WebUI.click(findTestObject('InterviewPortal/ViewFirstCandidate'))
 
 WebUI.click(findTestObject('Yopmail.com/interviewPanelistSearchLocator'))
 
@@ -113,7 +120,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/InterviewPanelistInvita
 WebUI.click(findTestObject('Object Repository/InterviewPanelistInvitation/Page_Mobile Talent  Interview Portal/input__termsConditions'))
 
 WebUI.click(findTestObject('Object Repository/InterviewPanelistInvitation/Page_Mobile Talent  Interview Portal/input__btn btn-primary w-50 m-auto'))
+
 Thread.sleep(10000)
+
 textOnPage = WebUI.getText(findTestObject('Object Repository/InterviewPanelistInvitation/Page_Mobile Talent  Interview Portal/h2_You have successfully Registered'))
 
 System.out.println(textOnPage)
@@ -136,11 +145,11 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
-    GlobalVariable.userName)
+WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'),
+	GlobalVariable.userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
-    GlobalVariable.password)
+WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'),
+	GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
@@ -148,25 +157,25 @@ WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_M
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/a_Interview Portal'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Clear Filter(s)'))
+WebUI.click(findTestObject('InterviewPortal/JobsLocator'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/i_Filters_fa fa-caret-down ml-3'))
+WebUI.click(findTestObject('InterviewPortal/searchJobLocator'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/select_AllNot ScheduledCalendar SharedInter_ca03d5'), 
-    'Not Scheduled', true)
+WebUI.setText(findTestObject('InterviewPortal/searchJobLocator'), keyValue)
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Apply'))
+Thread.sleep(3000)
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_dvicFyopmail.com'))
+WebUI.click(findTestObject('InterviewPortal/AppliedCandidate'))
 
-WebDriver driver2 = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
-driver2.findElement(By.cssSelector('input[title=\'Set as primary\']')).click()
+WebUI.click(findTestObject('InterviewPortal/ViewFirstCandidate'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/TaletMeetCommunicationMode'))
+driver.findElement(By.cssSelector('input[title=\'Set as primary\']')).click()
+
+WebUI.click(findTestObject('InterviewPortal/InPersonCommunicationMode'))
 
 WebUI.verifyElementText(findTestObject('InterviewPortal/successMessageAfterChangingTheMode'), 'Interview comunication mode changed successfully.')
 
-List<WebElement> allbuttons = driver2.findElements(By.cssSelector('[class="btn btn btn-primary ml-3"]'))
+List<WebElement> allbuttons = driver.findElements(By.cssSelector('[class="btn btn btn-primary ml-3"]'))
 
 int sizeNumber = allbuttons.size()
 
@@ -190,7 +199,7 @@ email = WebUI.getText(findTestObject('Object Repository/InterviewPortal/emailOfT
 
 WebUI.verifyTextPresent('Interview booking link shared with candidate.', true)
 
-    ((driver2) as JavascriptExecutor).executeScript('window.open(arguments[0])', 'https://yopmail.com/en/')
+    ((driver) as JavascriptExecutor).executeScript('window.open(arguments[0])', 'https://yopmail.com/en/')
 
 WebUI.switchToWindowIndex(1)
 

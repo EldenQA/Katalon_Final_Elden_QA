@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea__form-control custom-control ng-pr_8b4879</name>
+   <name>textSMSBox</name>
    <tag></tag>
    <elementGuidId>e89cecc9-48f3-4c85-a722-17010394a76c</elementGuidId>
    <selectorCollection>

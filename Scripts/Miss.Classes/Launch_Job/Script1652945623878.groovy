@@ -32,7 +32,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://motzie-staging.mobile-recruit.com/interview-portal/candidate-calendar?token=4fc5ae6130')
+WebUI.navigateToUrl('https://motzie-staging.mobile-recruit.com/interview-portal/candidate-calendar?token=2e973ea41d')
 WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 Thread.sleep(18000)
 
@@ -54,6 +54,7 @@ time = lt.toString()
 System.out.println(time)
 List <WebElement> timeOfSlots = driver.findElements(By.cssSelector("td[class='fc-timegrid-slot fc-timegrid-slot-lane ']"))
 int allSlots1= timeOfSlots.size()
+System.out.println(allSlots1)
 List <WebElement> busySlots = driver.findElements(By.cssSelector("i[class='cl-title']"))
 int slots= busySlots.size()
 System.out.println(slots)

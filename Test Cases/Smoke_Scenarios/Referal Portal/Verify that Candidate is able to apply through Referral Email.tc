@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that Candidate is able to apply through Referral Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5ae4c5c-fc1d-4fd3-bd4e-6b77c903f1c7</testCaseGuid>
+</TestCaseEntity>

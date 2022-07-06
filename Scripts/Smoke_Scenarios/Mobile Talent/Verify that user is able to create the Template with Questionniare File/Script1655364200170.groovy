@@ -157,7 +157,7 @@ rb.keyRelease(KeyEvent.VK_ENTER)
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/clickOnQuestionniareName'))
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/clickOnUploadButtonAfterUploadingFile'))
-
+Thread.sleep(2000)
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/clickOnFileUploadConfirmationPopup'))
 
 Thread.sleep(2000)

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that Candidate is able to schedule the In-Person Interview</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d076255e-29ec-4db5-9834-e9aa5fcf76a4</testCaseGuid>
+</TestCaseEntity>

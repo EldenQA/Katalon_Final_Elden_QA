@@ -51,9 +51,10 @@ WebUI.click(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  M
 WebUI.click(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/i_All Candidates_fa fa-comments'))
 
 WebUI.click(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/input_Schedule SMS_mail-checkbox ng-pristin_aaf328'))
-text = 'This is bulk schedule message ' + RandomStringUtils.randomAlphabetic(6)
-WebUI.setText(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/textarea__form-control custom-control ng-pr_8b4879'), 
-    text)
+
+text = ('This is bulk schedule message ' + RandomStringUtils.randomAlphabetic(6))
+
+WebUI.setText(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/textSMSBox'), text)
 
 Date date = new Date()
 
@@ -61,17 +62,19 @@ SimpleDateFormat df = new SimpleDateFormat('MM/dd/yyyy')
 
 currentDate = df.format(date)
 
+System.out.println(currentDate)
+
 WebUI.click(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/input__form-control ng-pristine ng-untouche_5e30cd'))
+
+Thread.sleep(1000)
 
 WebUI.setText(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/input__form-control ng-pristine ng-untouche_5e30cd'), 
     currentDate)
 
-WebUI.click(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/span_24'))
+WebUI.click(findTestObject('MTP Locators/Page_Mobile Talent  Mobile Recruitment/textSMSBox'))
+
 WebUI.click(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/input__startTime'))
 
-WebUI.click(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/span_02'))
-
-WebUI.click(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/i_PM_glyphicon glyphicon-chevron-down_1'))
 
 WebUI.click(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/i_PM_glyphicon glyphicon-chevron-down_1'))
 
@@ -84,6 +87,8 @@ WebUI.click(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  M
 WebUI.click(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/button_Confirm'))
 
 WebUI.click(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/div_2Bulk SMS request has been posted successfully'))
+
+Thread.sleep(3000)
 
 WebUI.click(findTestObject('MTP Locators/MobileTalentPoolLocatorOnDashboardBar'))
 
@@ -103,11 +108,14 @@ WebUI.click(findTestObject('Object Repository/Send Message(Bot-ON)/Page_Mobile T
 
 WebUI.scrollToElement(findTestObject('MTP Locators/smsScheduledBoxOnSMSTab'), 2)
 
-WebElement element = driver.findElement(By.cssSelector(".table.table-striped > tbody > tr:nth-of-type(1) > td:nth-of-type(2)"))
-textOfMessage=element.getText()
-	if(textOfMessage.equalsIgnoreCase(text))
-	{
-		WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/b_Romit Romit'))
-		WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
-		WebUI.closeBrowser()
-	}
+WebElement element = driver.findElement(By.cssSelector('.table.table-striped > tbody > tr:nth-of-type(1) > td:nth-of-type(2)'))
+
+textOfMessage = element.getText()
+
+if (textOfMessage.equalsIgnoreCase(text)) {
+    WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/b_Romit Romit'))
+
+    WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
+
+    WebUI.closeBrowser()
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that Recruiter is able to associate the media Source Referal Portal to the Job</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9957b7fb-50db-49f0-af81-67fc1a850055</testCaseGuid>
+</TestCaseEntity>
