@@ -20,7 +20,8 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.interactions.Actions as Actions
-import org.openqa.selenium.remote.server.DriverFactory as DriverFactory
+import org.openqa.selenium.remote.server.DriverFactory
+import org.testng.Assert
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 WebUI.openBrowser('')
@@ -75,7 +76,7 @@ List<WebElement> allMediaSources = driver.findElements(By.cssSelector('div[class
 
 int beforecreationMediaSources = allMediaSources.size()
 
-int beforecreationMediaSources1 = beforecreationMediaSources + 1
+int beforecreationMediaSources1 = beforecreationMediaSources + 2
 
 System.out.println(beforecreationMediaSources1)
 
@@ -87,6 +88,15 @@ WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/
 
 WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/createSourceButton'))
 
+WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/AddMediaSourceLocator'))
+
+WebUI.sendKeys(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/searchMediaSourceLocator'), ' Career Page')
+
+WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/selectFromIndex'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/createSourceButton'))
+
+
 List<WebElement> allMediaSources1 = driver.findElements(By.cssSelector('div[class=\'input-group js-zeroclipboard-container\']'))
 
 int afterCreation = allMediaSources1.size()
@@ -97,6 +107,18 @@ if (beforecreationMediaSources1 == afterCreation) {
     driver.findElement(By.xpath('//span[text()=\'All Jobs\']')).click()
 }
 
+driver.findElement(By.cssSelector('span[data-title=\'Search\']')).click()
+
+WebElement element3 = driver.findElement(By.xpath('//*[@id=\'jobTitle\']'))
+
+element3.sendKeys(keyValue)
+
+for (int a = 0; a <= 2; a++) {
+	ac.sendKeys(Keys.PAGE_DOWN).perform()
+}
+
+WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/i_Search_fa fa-search'))
+
 WebUI.click(findTestObject('MTP Locators/campaignfolderLocator'))
 
 WebUI.click(findTestObject('MTP Locators/plusIconOnCampaignFolder'))
@@ -106,12 +128,10 @@ WebUI.dragAndDropToObject(findTestObject('MTP Locators/dragPosition1'), findTest
 WebElement element = driver.findElement(By.cssSelector('div[class=\'growl-message ng-binding\']'))
 
 textOnElement = element.getText()
-
-if (textOnElement.equalsIgnoreCase('Campaign has been moved to QA folder')) {
-    WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/b_Romit Romit'))
-
-    WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
-
-    WebUI.closeBrowser()
-}
+System.out.println(textOnElement)
+Assert.assertEquals(textOnElement, "Campaign has been moved to QA folder")
+WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/b_Romit Romit'))
+WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
+WebUI.closeBrowser()
+	
 
