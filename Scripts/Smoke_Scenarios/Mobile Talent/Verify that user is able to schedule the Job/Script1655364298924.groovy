@@ -53,9 +53,9 @@ WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Bebo Talent  Mob
 //This will load the property file and take the value of Created Template and then store it in keyValue 
 //pro.load(new FileInputStream('console.properties'))
 //keyValue = pro.getProperty('Template')
-
+scheduleJobname = 'Schedule'+'_'+'Software'+RandomStringUtils.randomAlphabetic(2)
 WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Bebo Talent  Mobile Recruitment/input__campaignName'), 
-   'Schedule'+'_'+'Software'+RandomStringUtils.randomAlphabetic(2) //keyValue is the Created Template value "Template"
+   scheduleJobname //keyValue is the Created Template value "Template"
     )
 
 //    
@@ -170,11 +170,11 @@ action.click(selectTemplate).perform()
 
 WebUI.click(findTestObject('Job_Creation/Page_Bebo Talent  Mobile Recruitment/button_Next'))
 
-ac.sendKeys(Keys.PAGE_DOWN).perform()
+WebUI.click(findTestObject('Job_Creation/selectAllLocationCheckBox'))
+
+WebUI.scrollToElement(findTestObject('Job_Creation/Launch Job/button_Next'), 2)
 
 WebUI.click(findTestObject('Job_Creation/Page_Bebo Talent  Mobile Recruitment/button_Next'))
-
-ac.sendKeys(Keys.PAGE_DOWN).perform()
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Bebo Talent  Mobile Recruitment/clickOnScheduleButton'))
 
@@ -192,6 +192,28 @@ WebUI.click(findTestObject('Job_Creation/Page_Bebo Talent  Mobile Recruitment/bu
 Thread.sleep(2000)
 driver.findElement(By.cssSelector('button[class=\'btn btn-black ng-scope\']')).click()
 WebUI.verifyTextPresent('Thank You', false)
-driver.findElement(By.cssSelector("div#wrapper li.dropdown > a > i")).click()
-driver.findElement(By.cssSelector("div#wrapper li.dropdown.open > ul > li:nth-child(2) > a")).click()
+
+driver.findElement(By.xpath('//span[text()=\'All Jobs\']')).click()
+
+Thread.sleep(2000)
+
+driver.findElement(By.cssSelector('span[data-title=\'Search\']')).click()
+
+WebElement element2 = driver.findElement(By.xpath('//*[@id=\'jobTitle\']'))
+
+element2.sendKeys(scheduleJobname)
+
+for (int a = 0; a <= 2; a++) {
+	ac.sendKeys(Keys.PAGE_DOWN).perform()
+}
+
+WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/i_Search_fa fa-search'))
+
+WebUI.verifyElementText(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/div_Software_Testing_geuT'),
+   scheduleJobname)
+
+WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/i_Romit Romit_fas fa-caret-down caret-down-arrow'))
+
+WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
 WebUI.closeBrowser()
+

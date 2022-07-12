@@ -6,135 +6,27 @@
    <elementGuidId>9f268c72-dbb8-409f-8340-e26be5064c4a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;password&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@name='password']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;password&quot;]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>input</value>
-      <webElementGuid>c7381e57-7b61-430c-8f3d-b68e64004b53</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>2f6ea4a6-f4f7-44e5-87ae-e829ca0b741b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>2cae4a38-604d-48aa-9d38-08fcbe6145da</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>2b0791c6-55c7-40d6-9317-4f18c52cabe2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control ng-pristine ng-untouched ng-invalid ng-invalid-required ng-animate ng-pristine-remove ng-invalid-remove ng-invalid-required-remove ng-dirty-add ng-valid-parse-add ng-valid-add ng-valid-required-add</value>
-      <webElementGuid>537c93ce-b8c3-423e-903c-d48668a95387</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>4eac7720-97bc-4fca-97f7-9b273fb3bfc7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;contentMainDiv&quot;)/section[@class=&quot;container login-form ng-scope&quot;]/div[@class=&quot;login-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;hpanel&quot;]/div[@class=&quot;panel-body&quot;]/form[@class=&quot;ng-invalid ng-invalid-required ng-dirty ng-valid-email ng-animate ng-invalid-remove ng-invalid-required-remove ng-valid-parse-add ng-valid-add ng-valid-required-add&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control ng-pristine ng-untouched ng-invalid ng-invalid-required ng-animate ng-pristine-remove ng-invalid-remove ng-invalid-required-remove ng-dirty-add ng-valid-parse-add ng-valid-add ng-valid-required-add&quot;]</value>
-      <webElementGuid>c2022af4-6ca9-4590-8299-65a4e3fabbab</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>input</value>
-      <webElementGuid>8e62d6bf-de78-42c6-a903-4cfece404091</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>5f312cc6-bfc2-4224-8daa-33554c14272b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>f6e02e2a-4ff8-488b-bfd1-0b357ef0e1d9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>6ed798a0-4dc5-44a4-8934-5da9e5ed5b18</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control ng-pristine ng-untouched ng-invalid ng-invalid-required ng-animate ng-pristine-remove ng-invalid-remove ng-invalid-required-remove ng-dirty-add ng-valid-parse-add ng-valid-add ng-valid-required-add</value>
-      <webElementGuid>aca58319-fd9d-48f0-b9fa-4861fdb6851a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>375f2843-a4cd-474d-bb5a-5c0a34e34638</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;contentMainDiv&quot;)/section[@class=&quot;container login-form ng-scope&quot;]/div[@class=&quot;login-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;hpanel&quot;]/div[@class=&quot;panel-body&quot;]/form[@class=&quot;ng-invalid ng-invalid-required ng-dirty ng-valid-email ng-animate ng-invalid-remove ng-invalid-required-remove ng-valid-parse-add ng-valid-add ng-valid-required-add&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control ng-pristine ng-untouched ng-invalid ng-invalid-required ng-animate ng-pristine-remove ng-invalid-remove ng-invalid-required-remove ng-dirty-add ng-valid-parse-add ng-valid-add ng-valid-required-add&quot;]</value>
-      <webElementGuid>64a6657b-475c-4197-9af6-843af27634a2</webElementGuid>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='password']</value>
-      <webElementGuid>8516eb64-d5f5-4792-9e3f-9cecd22820a6</webElementGuid>
+      <webElementGuid>592f6c19-8377-4a44-834f-4c00be3f8012</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +34,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='contentMainDiv']/section/div/div/div/div/div/form/div[3]/input</value>
-      <webElementGuid>7c2084a2-ccc4-45ab-8985-28ee496aa041</webElementGuid>
+      <webElementGuid>d2b923e7-0810-4c42-8244-56c418436705</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +42,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::input[1]</value>
-      <webElementGuid>ed0a2945-9738-4c57-aebf-c2ed17ebe7fa</webElementGuid>
+      <webElementGuid>9b328aaa-c9e1-4458-bcaf-5757e73d2996</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Username is required.'])[1]/following::input[1]</value>
-      <webElementGuid>21d8ed51-11de-4fd2-bf95-2c7f7bdf4bfb</webElementGuid>
+      <webElementGuid>ff3b9d25-def1-4e85-a8d9-04e5def97acd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password is required.'])[1]/preceding::input[1]</value>
-      <webElementGuid>1c2c356c-11d7-49ca-8be9-0526a3741c64</webElementGuid>
+      <webElementGuid>5a85f7ff-2f28-4c33-8e1f-92345c126e48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::input[1]</value>
-      <webElementGuid>30d439c2-be9e-4a09-a977-06e8b1ab1db1</webElementGuid>
+      <webElementGuid>56fd4dc0-5b86-4b20-936f-f202e632428e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -182,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/input</value>
-      <webElementGuid>9f5adb70-5475-4898-99fd-c4ec523a54a7</webElementGuid>
+      <webElementGuid>7e2172a0-2ff7-4971-8f2d-4c22f0d5d0c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -190,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'password' and @name = 'password' and @placeholder = 'Password']</value>
-      <webElementGuid>84fde7f6-514f-4e52-88f8-a2c883ad87fc</webElementGuid>
+      <webElementGuid>8f7edc42-1cd3-4a32-90f1-4c78482b7b35</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

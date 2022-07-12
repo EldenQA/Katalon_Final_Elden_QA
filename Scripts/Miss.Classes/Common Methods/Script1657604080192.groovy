@@ -25,9 +25,11 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 import org.openqa.selenium.By as By
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement
 
+
+//To load the properties Files 
 WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://mobile-recruit.com/')
 FileWriter fw = new FileWriter("console.properties");
 Properties pro = new Properties()
@@ -37,3 +39,39 @@ FileInputStream fis = new FileInputStream("console.properties");
 Input = pro.getProperty("Template")
 WebDriver driver = DriverFactory.getWebDriver()
 driver.findElement(By.cssSelector('#username')).sendKeys(Input)
+
+
+//To select the value form Administration dropdown
+
+List<WebElement> dropdownValues = driver.findElements(By.cssSelector("ul[class='dropdown-menu'] li a"))
+int dropdownValuesCount= dropdownValues.size()
+for (int i =0; i<dropdownValuesCount;i++)
+{
+	dropdownText = dropdownValues.get(i).getText()
+	 if(dropdownText.equalsIgnoreCase("Manage Career Page"))
+	 {
+		 dropdownValues.get(i).click()
+		 break
+	 }
+}
+
+
+//To select the status of the Candidate
+List<WebElement> allStatus = driver.findElements(By.cssSelector('a span[class =\'value-text ng-scope\']'))
+
+int count = allStatus.size()
+
+System.out.println(count)
+
+for (int i = 0; i <= count; i++) {
+	status = allStatus.get(i).getText()
+
+	System.out.println(status)
+
+	if (status.equalsIgnoreCase('Shortlisted')) {
+		allStatus.get(i).click()
+
+		break
+	}	
+}
+	

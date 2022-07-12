@@ -158,4 +158,5 @@ for (int i = 0; i <= count; i++) {
     }
 	
 	}
-	WebUI.closeBrowser()
+WebUI.verifyElementText(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'),'Shortlisted')
+WebUI.closeBrowser()

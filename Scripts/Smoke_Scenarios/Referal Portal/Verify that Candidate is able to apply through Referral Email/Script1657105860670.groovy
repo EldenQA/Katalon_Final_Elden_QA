@@ -99,6 +99,8 @@ WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing
 WebUI.verifyElementText(findTestObject('Registration/Page_Software_Testing_geuT_micrositeCapture/thankyouPopupContinueButton'), 
     'Continue')
 
+
+
 WebUI.closeBrowser()
 Thread.sleep(2000)
 

@@ -112,10 +112,10 @@ WebUI.click(findTestObject('Object Repository/candidate App/Page_/span_Log Out')
 WebUI.click(findTestObject('Object Repository/candidate App/Page_/a_Click here to login again'))
 
 WebUI.setText(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
-    'romgupta@qasource.com')
+    GlobalVariable.userName)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
-    'kz7p4/CQ+93m2i5idrXw6Q==')
+    GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 

@@ -49,4 +49,14 @@
       <initValue>'p4y+y39Ir5OTdtOb306gDg=='</initValue>
       <name>candidateAppPassword</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'panelist777@yopmail.comxxxx21639xxxx'</initValue>
+      <name>EmployeeUserEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'p4y+y39Ir5OTdtOb306gDg=='</initValue>
+      <name>EmployeeUserPassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

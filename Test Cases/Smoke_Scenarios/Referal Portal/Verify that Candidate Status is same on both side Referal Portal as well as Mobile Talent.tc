@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that Candidate Status is same on both side Referal Portal as well as Mobile Talent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0769ac79-488a-4e8c-809a-21226c217e4b</testCaseGuid>
+</TestCaseEntity>

@@ -172,10 +172,24 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>c3a72647-0ad9-4fc7-b315-3229f1972c27</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that Candidate Status is same on both side Referal Portal as well as Mobile Talent</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>4f3e5942-373f-430d-a8f0-55fc93ab0c7b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that user is able to Apply Through Universal Link</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>46aacf89-6c80-4a06-bab3-34509f6aa24f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that Employee user is able to get the Upgrade and Downgrade catagory emails</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
