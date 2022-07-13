@@ -74,4 +74,10 @@ for (int i = 0; i <= count; i++) {
 		break
 	}	
 }
-	
+
+
+//ScreenShots 
+
+WebUI.takeScreenshot('ScreenShots/DownGrade/screenshot_'+ System.currentTimeMillis() + '.jpg')
+
+

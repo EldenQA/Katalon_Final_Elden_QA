@@ -192,4 +192,18 @@
       <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that Employee user is able to get the Upgrade and Downgrade catagory emails</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>009215c5-cc52-4e5f-a7c2-a1b89cb27eb4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that user is able to apply through Carrier Page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>76cd3670-05c4-4162-b7cd-011451f507de</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/CandidateApp/Verify that Candidate is able to search for the Job through Dashboard through JobKeyword</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
