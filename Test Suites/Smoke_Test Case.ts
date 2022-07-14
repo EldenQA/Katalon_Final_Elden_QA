@@ -206,4 +206,11 @@
       <testCaseId>Test Cases/Smoke_Scenarios/CandidateApp/Verify that Candidate is able to search for the Job through Dashboard through JobKeyword</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>973759f0-98ff-49bb-8b67-61554a04c7dd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/CandidateApp/Verify that Candidate is able to apply for another Job from Candidate App</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
