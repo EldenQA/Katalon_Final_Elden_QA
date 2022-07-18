@@ -213,4 +213,11 @@
       <testCaseId>Test Cases/Smoke_Scenarios/CandidateApp/Verify that Candidate is able to apply for another Job from Candidate App</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c65a1089-eff7-43f1-9376-402853d7ad99</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Mobile Talent/New Test Case</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -60,6 +60,7 @@ for (int i =0; i<dropdownValuesCount;i++)
 List<WebElement> allStatus = driver.findElements(By.cssSelector('a span[class =\'value-text ng-scope\']'))
 
 int count = allStatus.size()
+System.out.println(count)
 
 System.out.println(count)
 
