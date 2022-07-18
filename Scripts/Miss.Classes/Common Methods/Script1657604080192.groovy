@@ -81,3 +81,96 @@ for (int i = 0; i <= count; i++) {
 WebUI.takeScreenshot('ScreenShots/DownGrade/screenshot_'+ System.currentTimeMillis() + '.jpg')
 
 
+//If user wants to click on any value of Administration Dropdown 
+WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Administration_2'))
+List<WebElement> allTabsOnAdministration = driver.findElements(By.cssSelector('ul li span[class =\'ng-scope\']'))
+
+count = allTabsOnAdministration.size()
+
+for (int p = 0; p < count; p++) {
+	tabNames = allTabsOnAdministration.get(p).getText()
+
+	System.out.println(tabNames)
+
+	if (tabNames == 'SMS - BOT') {
+		allTabsOnAdministration.get(p).click()
+
+		break
+	}
+}
+WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Administration_2'))
+
+	List<WebElement> allTabsOnAdministration1 = driver.findElements(By.cssSelector('ul li span[class =\'ng-scope\']'))
+
+	count = allTabsOnAdministration1.size()
+
+	for (int l = 0; l < count; l++) {
+		tabNames1 = allTabsOnAdministration1.get(l).getText()
+
+		System.out.println(tabNames1)
+
+		if (tabNames1 == 'Manage Accounts') {
+			allTabsOnAdministration.get(l).click()
+
+			break
+		}
+	}
+	
+	//If user want to select any account on Manage Account
+
+	List<WebElement> accountNames = driver.findElements(By.cssSelector('td a[ng-click = "vm.getAccountDetails(account.id)"]'))
+
+	count1 = accountNames.size()
+
+	for (int i = 0; i < count; i++) {
+		accountNamesText = accountNames.get(i).getText()
+
+		System.out.println(accountNamesText)
+
+		if (accountNamesText == 'Test Account') {
+			driver.findElement(By.cssSelector('i[data-title=\'Account Settings\']')).click()
+
+			break
+		}
+	}
+	
+	//If user want enable the toggle button on account settings 
+	List<WebElement> toggleButtonNamesAccountSetting = driver.findElements(By.cssSelector('div[class=toggle-label]'))
+
+	int countToggleButtons = toggleButtonNamesAccountSetting.size()
+
+	for (int k = 0; k < countToggleButtons; k++) {
+		countToggleButtonsText = toggleButtonNamesAccountSetting.get(k).getText()
+
+		System.out.println(countToggleButtonsText)
+
+		if (countToggleButtonsText == 'Enable Automated SMS') {
+			WebUI.click(findTestObject('Toggle Button/Page_Mobile Talent  Mobile Recruitment/label_Yes'))
+		}
+	}
+
+if (false) {
+	driver.findElement(By.xpath('//span[text()=\'All Jobs\']')).click()
+}
+
+
+//Robot class 
+Robot rb = new Robot()
+
+rb.delay(2000)
+
+StringSelection ss = new StringSelection('C:\\Users\\atsharma\\Pictures\\photos.jpg')
+
+Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null)
+
+rb.keyPress(KeyEvent.VK_CONTROL)
+
+rb.keyPress(KeyEvent.VK_V)
+
+rb.keyRelease(KeyEvent.VK_CONTROL)
+
+rb.keyRelease(KeyEvent.VK_V)
+
+rb.keyPress(KeyEvent.VK_ENTER)
+
+rb.keyRelease(KeyEvent.VK_ENTER)
