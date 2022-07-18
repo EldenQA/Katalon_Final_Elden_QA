@@ -98,10 +98,10 @@ WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Tale
 
 WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Selection Text_fieldValue'), 
     'Options')
-
+Thread.sleep(2000)
 WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Score_optionValue'), 
     'Btech')
-
+Thread.sleep(2000)
 WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/MultilineQuestionNoOption'), 
     'MCA')
 

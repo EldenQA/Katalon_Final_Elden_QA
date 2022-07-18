@@ -41,7 +41,7 @@
    <testCaseLink>
       <guid>ec4aff64-c705-4866-b0d4-80fce673f167</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Mobile Talent/Launch_Job_WithMultipleQuestion_And_Question_File_With_NewTemplate_Created_Through_Automation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -55,7 +55,7 @@
    <testCaseLink>
       <guid>570dbf98-cf06-4253-9e19-e77dcb05f5b1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Mobile Talent/Verify that user is able to submint the details of the Candidate in Mocrosite with location</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -209,7 +209,7 @@
    <testCaseLink>
       <guid>973759f0-98ff-49bb-8b67-61554a04c7dd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/CandidateApp/Verify that Candidate is able to apply for another Job from Candidate App</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

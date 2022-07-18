@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>MultilineQuestionNoOption</name>
+   <name>QuestionniareTab</name>
    <tag></tag>
-   <elementGuidId>ff25ad48-0d89-46bf-a3a5-3f775a80e18b</elementGuidId>
+   <elementGuidId>ea1cd122-356c-424b-92f0-cbe0a9169c1f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//a[text()=' Questionnaire']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>tr:nth-of-type(2)  input[name='optionValue']</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

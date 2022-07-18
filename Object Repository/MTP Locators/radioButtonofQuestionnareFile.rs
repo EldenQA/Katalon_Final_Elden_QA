@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>MultilineQuestionNoOption</name>
+   <name>radioButtonofQuestionnareFile</name>
    <tag></tag>
-   <elementGuidId>ff25ad48-0d89-46bf-a3a5-3f775a80e18b</elementGuidId>
+   <elementGuidId>d125edfb-fb3a-4c0c-9989-b46f3d563906</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,10 +11,11 @@
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>tr:nth-of-type(2)  input[name='optionValue']</value>
+         <value>[role] [ng-class='\{\'active\'\:field\.notAnswered \|\|\(\!field\.answerType \&amp;\&amp; \(\$index\=\=0\)\)\}']:nth-of-type(1) .checkRadioContainer [ng-repeat='option in field\.options']:nth-of-type(1)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

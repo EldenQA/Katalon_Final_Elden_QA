@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>' vinayak pathak'</initValue>
+      <initValue>'Tripura Pandit'</initValue>
       <name>hiredCandidate</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'vinayak@yopmail.com'</initValue>
+      <initValue>'mjain@yopmail.com'</initValue>
       <name>candidateAppUser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
