@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>radioButtonofQuestionnareFile</name>
+   <name>nextButtonOnQuestionniareform</name>
    <tag></tag>
-   <elementGuidId>d125edfb-fb3a-4c0c-9989-b46f3d563906</elementGuidId>
+   <elementGuidId>9c194be5-b997-4dfc-84e9-9bd3bb493b71</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#myCarousel > div > div.item.ng-scope.active > div:nth-child(3) > div.text-center.checkRadioContainer > div:nth-child(1) > input</value>
+         <value>div:nth-of-type(2) > div:nth-of-type(2) > .survey-footer-bar > .btn-next-ques.ng-scope</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

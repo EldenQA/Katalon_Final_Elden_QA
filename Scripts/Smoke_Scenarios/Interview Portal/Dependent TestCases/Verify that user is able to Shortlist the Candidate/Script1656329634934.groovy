@@ -39,6 +39,23 @@ pro.load(new FileInputStream('job.properties'))
 
 keyValue = pro.getProperty('JobName')
 
+
+Properties pro2 = new Properties()
+FileWriter fw2 = new FileWriter("Files/interviewPortal.properties");
+penelistEmailName = (('IP1' + RandomStringUtils.randomAlphabetic(7)) + '@yopmail.com')
+penelistName = ('A' + RandomStringUtils.randomAlphabetic(7))
+penelistEmailName_2 = (('IP2' + RandomStringUtils.randomAlphabetic(7)) + '@yopmail.com')
+penelistName_2 = ('A2' + RandomStringUtils.randomAlphabetic(7))
+pro2.setProperty("PanelistEmailName_1" ,penelistEmailName )
+pro2.setProperty("PanelistName_1" ,penelistName )
+pro2.setProperty("InterviewPortalCandidateName" ,'A' + RandomStringUtils.randomAlphabetic(7) )
+pro2.setProperty("InterviewPortalCandidateEmail" ,('Int' + RandomStringUtils.randomAlphabetic(6)) + '@yopmail.com' )
+pro2.store(fw2, "comments")
+pro2.load(new FileInputStream('Files/interviewPortal.properties'))
+interviewPortalCandidateName = pro2.getProperty('InterviewPortalCandidateName');
+interviewPortalCandidateEmail =pro2.getProperty('InterviewPortalCandidateEmail');
+
+
 WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
     GlobalVariable.userName)
 
@@ -80,23 +97,20 @@ WebUI.click(findTestObject('Registration/Page_Software_Testing_geuT_micrositeCap
 driver.findElement(By.cssSelector('a[class=\'carrot-flat-button ng-scope\']')).click()
 
 WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_First Name_id5236'), 
-    'Dinesh')
+    interviewPortalCandidateName)
 
 WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_Last Name_id5237'), 
-    'Yadav')
+    interviewPortalCandidateName)
 
-email = (('d' + RandomStringUtils.randomAlphabetic(4)) + '@yopmail.com')
-
-System.out.println(email)
 
 WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_Email_id5238'), 
-    email)
+    interviewPortalCandidateEmail)
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/div_Mobile Number_iti-flag mx'))
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/span_India ()'))
 
-driver.findElement(By.cssSelector('input[question=\'Mobile Number\']')).sendKeys('1325' + RandomStringUtils.randomNumeric(
+driver.findElement(By.cssSelector('input[question=\'Mobile Number\']')).sendKeys('01970' + RandomStringUtils.randomNumeric(
         6))
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/label_Do you have any degree , Choose one'))
@@ -132,7 +146,7 @@ emailAddress = WebUI.getText(findTestObject('Registration/Page_Mobile Talent  Mo
 
 System.out.println(emailAddress)
 
-if (emailAddress == email) {
+if (emailAddress == interviewPortalCandidateEmail) {
     WebUI.scrollToElement(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'), 
         2)
 }

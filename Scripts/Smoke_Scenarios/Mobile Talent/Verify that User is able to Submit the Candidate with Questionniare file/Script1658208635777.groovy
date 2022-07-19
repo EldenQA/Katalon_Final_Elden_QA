@@ -126,23 +126,8 @@ WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Automation_Survey
 
 WebUI.click(findTestObject('MTP Locators/radioButtonofQuestionnareFile'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Automation_SurveyFormQuestionnare/button_Next'))
+WebUI.click(findTestObject('MTP Locators/nextButtonOnQuestionniareform'))
 
-WebUI.click(findTestObject('MTP Locators/radioButtonofQuestionnareFile'))
-
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Automation_SurveyFormQuestionnare/button_Next'))
-
-WebUI.click(findTestObject('MTP Locators/radioButtonofQuestionnareFile'))
-
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Automation_SurveyFormQuestionnare/button_Next'))
-
-WebUI.click(findTestObject('MTP Locators/radioButtonofQuestionnareFile'))
-
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Automation_SurveyFormQuestionnare/button_Next'))
-
-WebUI.click(findTestObject('MTP Locators/radioButtonofQuestionnareFile'))
-
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Automation_SurveyFormQuestionnare/button_Next'))
 
 WebUI.verifyElementText(findTestObject('MTP Locators/ThanksLocatorAfterFillingTheQuestionnareForm'), 'Thank you for completing this form! We look forward to connecting with you soon!')
 
@@ -163,5 +148,12 @@ WebUI.scrollToElement(findTestObject('MTP Locators/QuestionniareTab'), 2)
 
 WebUI.click(findTestObject('MTP Locators/QuestionniareTab'))
 
+WebUI.verifyElementText(findTestObject('MTP Locators/surveyQuestionLocator'), GlobalVariable.questionniare)
+
+WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/i_Romit Romit_fas fa-caret-down caret-down-arrow'))
+
+WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
+
+WebUI.closeBrowser()
 
 

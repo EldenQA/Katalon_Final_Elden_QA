@@ -23,10 +23,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 import org.openqa.selenium.By as By
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.ChromeOptions
 import org.openqa.selenium.interactions.Actions as Actions
 
 WebUI.openBrowser('')
+
 
 WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 

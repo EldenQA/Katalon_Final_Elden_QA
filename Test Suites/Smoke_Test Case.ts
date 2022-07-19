@@ -41,7 +41,7 @@
    <testCaseLink>
       <guid>ec4aff64-c705-4866-b0d4-80fce673f167</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Mobile Talent/Launch_Job_WithMultipleQuestion_And_Question_File_With_NewTemplate_Created_Through_Automation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -55,8 +55,8 @@
    <testCaseLink>
       <guid>570dbf98-cf06-4253-9e19-e77dcb05f5b1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Smoke_Scenarios/Mobile Talent/Verify that user is able to submint the details of the Candidate in Mocrosite with location</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Mobile Talent/Verify that user is able to submit the details of the Candidate in Mocrosite with location</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -99,6 +99,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Mobile Talent/Verify that Existed Candidate is able to send back the document after signing it</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c65a1089-eff7-43f1-9376-402853d7ad99</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Mobile Talent/Verify that User is able to Submit the Candidate with Questionniare file</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -158,17 +165,17 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2d76fa67-fa79-4e07-b656-3748264c172e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that Candidate is able to apply through Referral Email</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>115ce1bc-33d5-4100-a9cb-a45ad9f30e13</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that Recruiter is able to Refer the candidate from Refferal Portal</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2d76fa67-fa79-4e07-b656-3748264c172e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that Candidate is able to apply through Referral Email</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -211,13 +218,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/CandidateApp/Verify that Candidate is able to apply for another Job from Candidate App</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c65a1089-eff7-43f1-9376-402853d7ad99</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Smoke_Scenarios/Mobile Talent/New Test Case</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

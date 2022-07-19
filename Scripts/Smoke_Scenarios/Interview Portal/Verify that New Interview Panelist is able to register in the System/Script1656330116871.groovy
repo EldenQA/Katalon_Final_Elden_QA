@@ -34,6 +34,11 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
+Properties pro = new Properties()
+pro.load(new FileInputStream('Files/interviewPortal.properties'))
+candidateName= pro.getProperty('InterviewPortalCandidateName')
+penelistEmailName= pro.getProperty('PanelistEmailName_1')
+penelistName= pro.getProperty('PanelistName_1')
 WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 
 Actions ac = new Actions(driver)
@@ -54,6 +59,8 @@ WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_M
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/i_Filters_fa fa-caret-down ml-3'))
 
+WebUI.sendKeys(findTestObject('InterviewPortal/searchCandidateLocator'), candidateName)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/select_AllNot ScheduledCalendar SharedInter_ca03d5'), 
     'Not Scheduled', true)
 
@@ -63,11 +70,7 @@ WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_M
 
 WebUI.click(findTestObject('Yopmail.com/interviewPanelistSearchLocator'))
 
-penelistEmailName = (('Auto' + RandomStringUtils.randomAlphabetic(4)) + '@yopmail.com')
-
-System.out.println(penelistEmailName)
-
-WebUI.setText(findTestObject('Yopmail.com/interviewPanelistSearchLocator'), RandomStringUtils.randomAlphabetic(4))
+WebUI.setText(findTestObject('Yopmail.com/interviewPanelistSearchLocator'),penelistName )
 
 WebUI.click(findTestObject('Yopmail.com/sendPenelistInviteLocator'))
 
@@ -92,8 +95,6 @@ WebUI.click(findTestObject('Object Repository/InterviewPanelistInvitation/Page_I
 
 WebUI.switchToWindowIndex(2)
 
-penelistName = ('A' + RandomStringUtils.randomAlphabetic(4))
-
 WebUI.setText(findTestObject('Object Repository/InterviewPanelistInvitation/Page_Mobile Talent  Interview Portal/input__firstName'), 
     penelistName)
 
@@ -114,6 +115,7 @@ WebUI.click(findTestObject('Object Repository/InterviewPanelistInvitation/Page_M
 WebUI.click(findTestObject('Object Repository/InterviewPanelistInvitation/Page_Mobile Talent  Interview Portal/input__btn btn-primary w-50 m-auto'))
 
 Thread.sleep(5000)
+
 textOnPage = WebUI.getText(findTestObject('Object Repository/InterviewPanelistInvitation/Page_Mobile Talent  Interview Portal/h2_You have successfully Registered'))
 
 System.out.println(textOnPage)
@@ -122,18 +124,21 @@ WebUI.switchToWindowIndex(0)
 
 driver.navigate().refresh()
 
-List <WebElement> allInterviewPanelist = driver.findElements(By.cssSelector("label[for='{user.firstName} {user.lastName}']"))
-int sizeNumber= allInterviewPanelist.size()
-for (int i = 0 ; i <sizeNumber ;i++)
-{
-	String textOFInterviewPanelist= allInterviewPanelist.get(i).getText()
-	System.out.println(textOFInterviewPanelist)
-	if (textOFInterviewPanelist.equalsIgnoreCase(penelistName+" "+penelistName))
-	{
-        System.out.println("Interview Panelsit Added Successfully")
-	    WebUI.closeBrowser()
-		break
-	}
-}
+List<WebElement> allInterviewPanelist = driver.findElements(By.cssSelector('label[for=\'{user.firstName} {user.lastName}\']'))
 
+int sizeNumber = allInterviewPanelist.size()
+
+for (int i = 0; i < sizeNumber; i++) {
+    String textOFInterviewPanelist = allInterviewPanelist.get(i).getText()
+
+    System.out.println(textOFInterviewPanelist)
+
+    if (textOFInterviewPanelist.equalsIgnoreCase((penelistName + ' ') + penelistName)) {
+        System.out.println('Interview Panelsit Added Successfully')
+
+        WebUI.closeBrowser()
+
+        break
+    }
+}
 

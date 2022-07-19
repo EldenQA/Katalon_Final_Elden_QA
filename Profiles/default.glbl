@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'motzie-staging.mobile-recruit.com/login'</initValue>
+      <initValue>'testaccount.motzie-staging.mobile-recruit.com'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -58,5 +58,40 @@
       <description></description>
       <initValue>'p4y+y39Ir5OTdtOb306gDg=='</initValue>
       <name>EmployeeUserPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://testaccount.motzie-staging.mobile-recruit.com/m/4YKUAVVV'</initValue>
+      <name>surveyFormURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Do you like the hiring process'</initValue>
+      <name>survey</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'What is the Full Form of HTL?'</initValue>
+      <name>questionniare</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'RAIVpflpDOg='</initValue>
+      <name>interviewPanelistPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'.showTab .row [class=&quot;form-group p-0&quot;] textarea'</initValue>
+      <name>feedbackPerameterTextLocator</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'.form-control > input:nth-of-type(1)'</initValue>
+      <name>rangeRadioButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'.showTab .row [class=&quot;form-group p-0&quot;] div'</initValue>
+      <name>feedbackPerameterLocator</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

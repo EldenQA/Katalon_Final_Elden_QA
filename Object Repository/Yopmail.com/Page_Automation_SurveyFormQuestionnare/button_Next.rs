@@ -6,12 +6,12 @@
    <elementGuidId>d63e4b0e-a65c-4a41-90b3-f9c42b6b3dad</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='myCarousel']/div/div/div[2]/div[2]/button[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn-next-ques.ng-scope</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[text()='Next']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>47488179-6005-4e9a-9e13-76e1a7d78615</webElementGuid>
+      <webElementGuid>6a420054-d87c-428e-98db-fcf7fd5909e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>ng-if</name>
       <type>Main</type>
       <value>($index !=(vm.selectedPage.content.fields.fields.length-1))&amp;&amp;!!vm.selectedPage.content.style.timer &amp;&amp; !vm.selectedPage.content.style.timer.enabled &amp;&amp; (field.type != 'textarea')</value>
-      <webElementGuid>0af225b7-bf52-47df-8021-4945e5b3b08d</webElementGuid>
+      <webElementGuid>0772ef2a-4452-4232-bf2f-d699e08ffa18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-slide</name>
       <type>Main</type>
       <value>next</value>
-      <webElementGuid>e4365997-aabc-4f9d-910b-bfc9d1264fa3</webElementGuid>
+      <webElementGuid>1b2221c5-d490-4c0f-8777-20c3a39748bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-target</name>
       <type>Main</type>
       <value>#myCarousel</value>
-      <webElementGuid>62a2ffcd-010a-4a37-b0f9-bed64b9b321b</webElementGuid>
+      <webElementGuid>74775214-6d2b-41c9-9ea0-3feea9729a24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>ng-click</name>
       <type>Main</type>
       <value>vm.questionnariesNavigation('next')</value>
-      <webElementGuid>8d3e00f8-4b07-421b-8800-62a270e37898</webElementGuid>
+      <webElementGuid>e7ec9bcf-701d-4d3a-8cee-eedb1e91eb17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn-next-ques ng-scope</value>
-      <webElementGuid>36971478-88ac-456d-bcb7-7d4c799a5f8b</webElementGuid>
+      <webElementGuid>0e9ba759-9228-4050-9c8a-e4042c3870b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>ng-disabled</name>
       <type>Main</type>
       <value>!field.isAnswered</value>
-      <webElementGuid>245ce16d-0538-493d-8d9b-d6ae6c5342d7</webElementGuid>
+      <webElementGuid>71c3f731-38aa-447f-829e-d64393e1823e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Next </value>
-      <webElementGuid>d02fb993-913f-4170-b059-315f8ac78084</webElementGuid>
+      <webElementGuid>931c55fd-4533-48ce-acc4-e0c3607f0a5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;myCarousel&quot;)/div[@class=&quot;carousel-inner ng-scope&quot;]/div[@class=&quot;item ng-scope active&quot;]/div[2]/div[@class=&quot;survey-footer-bar&quot;]/button[@class=&quot;btn-next-ques ng-scope&quot;]</value>
-      <webElementGuid>b8fb6cf2-0b92-4439-9ac3-68d1d7dc2b16</webElementGuid>
+      <webElementGuid>acb24a75-7255-4c96-b075-bb325f91692d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='myCarousel']/div/div/div[2]/div[2]/button[2]</value>
-      <webElementGuid>d4bfaf87-9f24-41df-8968-d6ddba09ad32</webElementGuid>
+      <webElementGuid>f47ca863-6251-4e84-bbf0-acaef04a7b37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::button[2]</value>
-      <webElementGuid>bcf438c3-6367-41e9-a9f2-b13d3cd3d903</webElementGuid>
+      <webElementGuid>7590ed7b-7028-4e91-a40f-aa8226bcc42c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Do you want to connect again'])[1]/preceding::button[1]</value>
-      <webElementGuid>123759b7-46ec-4b73-8861-20c1a9cf7e7c</webElementGuid>
+      <webElementGuid>c037e792-5a37-421e-98b0-e1f94fe42a3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[2]/preceding::button[1]</value>
-      <webElementGuid>3148a83d-efa6-43b3-a147-d6c67477ca5f</webElementGuid>
+      <webElementGuid>b517e518-7147-407d-882c-b1689b25efb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Next']/parent::*</value>
-      <webElementGuid>2354f6d8-87ee-4987-9ac4-fbdb8fbb55af</webElementGuid>
+      <webElementGuid>5ca8db84-7c65-407e-a3a4-37c9898428f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>6209d93c-d685-4e42-a38e-1a9d5a0304a1</webElementGuid>
+      <webElementGuid>161e5e19-1af8-45df-ba57-acadd3ca24d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Next ' or . = 'Next ')]</value>
-      <webElementGuid>4e475670-500c-46bb-b1d0-06a10f1eb247</webElementGuid>
+      <webElementGuid>1c886ab7-60ba-42e4-9a2c-378e58145cba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

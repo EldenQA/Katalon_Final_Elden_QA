@@ -94,7 +94,7 @@ WebUI.setText(findTestObject('Object Repository/InterviewPanelistInvitation/Page
 	penelistName)
 
 WebUI.setText(findTestObject('Object Repository/InterviewPanelistInvitation/Page_Mobile Talent  Interview Portal/input__phone'),
-	'1325' + RandomStringUtils.randomNumeric(6))
+	'01972' + RandomStringUtils.randomNumeric(6))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/InterviewPanelistInvitation/Page_Mobile Talent  Interview Portal/input__password'),
 	'RAIVpflpDOg=')

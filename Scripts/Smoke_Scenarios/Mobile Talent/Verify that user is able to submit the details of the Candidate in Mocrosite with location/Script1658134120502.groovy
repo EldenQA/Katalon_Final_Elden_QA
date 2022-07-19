@@ -1,3 +1,4 @@
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -63,37 +64,6 @@ for (int i = 0; i <= 2; i++) {
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/i_Search_fa fa-search'))
 
-for (int j = 0; j < 11; j++) {
-    ac.sendKeys(Keys.TAB).perform()
-}
-
-WebUI.click(findTestObject('Survey Form/surveyFormLocator'))
-
-WebUI.click(findTestObject('Object Repository/Survey Form/Page_Mobile Talent  Mobile Recruitment/span_Select microsite'))
-
-WebUI.setText(findTestObject('Survey Form/Page_Mobile Talent  Mobile Recruitment/input_Select microsite_form-control ui-sele_1cb159'), 
-    'Automation_SurveyForm')
-
-ac.sendKeys(Keys.TAB).perform()
-
-WebUI.click(findTestObject('Object Repository/Survey Form/Page_Mobile Talent  Mobile Recruitment/button_Save'))
-
-driver.findElement(By.xpath('//span[text()=\'All Jobs\']')).click()
-
-Thread.sleep(2000)
-
-driver.findElement(By.cssSelector('span[data-title=\'Search\']')).click()
-
-WebElement element3 = driver.findElement(By.xpath('//*[@id=\'jobTitle\']'))
-
-element3.sendKeys(keyValue)
-
-for (int i = 0; i <= 2; i++) {
-    ac.sendKeys(Keys.PAGE_DOWN).perform()
-}
-
-WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/i_Search_fa fa-search'))
-
 WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/div_Software_Testing_geuT'))
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/micrositeLinkLocator'))
@@ -127,9 +97,8 @@ WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/span_India ()'))
 
-phoneNumber = ('1325' + RandomStringUtils.randomNumeric(6))
-
-driver.findElement(By.cssSelector('input[question=\'Mobile Number\']')).sendKeys(phoneNumber)
+driver.findElement(By.cssSelector('input[question=\'Mobile Number\']')).sendKeys('1325' + RandomStringUtils.randomNumeric(
+        6))
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/label_Do you have any degree , Choose one'))
 
@@ -171,8 +140,6 @@ if (emailAddress == email) {
 
 WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'))
 
-Thread.sleep(2000)
-
 List<WebElement> allStatus = driver.findElements(By.cssSelector('a span[class =\'value-text ng-scope\']'))
 
 int count = allStatus.size()
@@ -184,104 +151,12 @@ for (int i = 0; i <= count; i++) {
 
     System.out.println(status)
 
-    if (status.equalsIgnoreCase('Hired')) {
+    if (status.equalsIgnoreCase('Shortlisted')) {
         allStatus.get(i).click()
-
-        WebUI.scrollToElement(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'), 
-            2)
-
-        WebUI.verifyElementText(findTestObject(null), 'Hired')
 
         break
     }
-}
-
+	
+	}
+WebUI.verifyElementText(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'),'Shortlisted')
 WebUI.closeBrowser()
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://yopmail.com/en/')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/Yopmail.com/input_Type the Email name of your choice_login'), email)
-
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_YOPmail - Disposable Email Address/i_'))
-
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Inbox/span_Show pictures'))
-
-WebUI.switchToWindowTitle('Inbox')
-
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Inbox/a_Start Survey'))
-
-WebUI.navigateToUrl(GlobalVariable.surveyFormURL)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_First Name_id5236'), 
-    'Dinesh')
-
-WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_Last Name_id5237'), 
-    'Yadav')
-
-WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_Email_id5238'), 
-    email)
-
-WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/div_Mobile Number_iti-flag mx'))
-
-WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/span_India ()'))
-
-WebDriver driver2 = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
-
-driver2.findElement(By.cssSelector('input[question=\'Mobile Number\']')).sendKeys(phoneNumber)
-
-WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/termsAndConditions'))
-
-WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/button_Connect Now'))
-
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Automation_SurveyFormQuestionnare/input_Do you like the hiring process_Do you_e48fde'))
-
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Automation_SurveyFormQuestionnare/button_Next'))
-
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Automation_SurveyFormQuestionnare/input_Do you want to connect again_Do you w_9cc71c'))
-
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Automation_SurveyFormQuestionnare/button_Done'))
-
-WebUI.closeBrowser()
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url)
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
-    GlobalVariable.userName)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
-    GlobalVariable.password)
-
-WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
-
-WebDriver driver3 = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
-
-driver3.findElement(By.cssSelector('a[title=\'Mobile Talent Pool\'] > .ng-scope')).click()
-
-Thread.sleep(2000)
-
-WebUI.scrollToElement(findTestObject('MTP Locators/surveyLocator'), 2)
-
-WebUI.click(findTestObject('MTP Locators/surveyLocator'))
-
-//questions = WebUI.getText(findTestObject('MTP Locators/surveyQuestionLocator'))
-
-//System.out.println(questions)
-
-WebUI.verifyElementText(findTestObject('MTP Locators/surveyQuestionLocator'), GlobalVariable.survey)
-
-WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/i_Romit Romit_fas fa-caret-down caret-down-arrow'))
-
-WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
-
-WebUI.closeBrowser()
-

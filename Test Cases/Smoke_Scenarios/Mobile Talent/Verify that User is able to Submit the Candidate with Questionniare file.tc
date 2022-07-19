@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case</name>
+   <name>Verify that User is able to Submit the Candidate with Questionniare file</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1e272632-6ef2-4232-9346-7ed9f2f1341e</testCaseGuid>

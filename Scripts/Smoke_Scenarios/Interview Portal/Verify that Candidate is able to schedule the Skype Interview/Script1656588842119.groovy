@@ -131,7 +131,7 @@ WebUI.click(findTestObject('InterviewPortal/logoutButon'))
 WebUI.closeBrowser()
 
 WebUI.openBrowser('')
-
+WebDriver driver2 = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.url)
@@ -160,12 +160,12 @@ WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_M
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_dvicFyopmail.com'))
 
 
-driver.findElement(By.cssSelector('input[title=\'Set as primary\']')).click()
+driver2.findElement(By.cssSelector('input[title=\'Set as primary\']')).click()
 WebUI.click(findTestObject('Object Repository/InterviewPortal/skypeCommunicationModeLocator'))
 
 WebUI.verifyElementText(findTestObject('InterviewPortal/successMessageAfterChangingTheMode'), 'Interview comunication mode changed successfully.')
 
-List<WebElement> allbuttons = driver.findElements(By.cssSelector('[class="btn btn btn-primary ml-3"]'))
+List<WebElement> allbuttons = driver2.findElements(By.cssSelector('[class="btn btn btn-primary ml-3"]'))
 
 int sizeNumber = allbuttons.size()
 
@@ -189,7 +189,7 @@ email = WebUI.getText(findTestObject('Object Repository/InterviewPortal/emailOfT
 
 WebUI.verifyTextPresent('Interview booking link shared with candidate.', true)
 
-    ((driver) as JavascriptExecutor).executeScript('window.open(arguments[0])', 'https://yopmail.com/en/')
+    ((driver2) as JavascriptExecutor).executeScript('window.open(arguments[0])', 'https://yopmail.com/en/')
 
 WebUI.switchToWindowIndex(1)
 
