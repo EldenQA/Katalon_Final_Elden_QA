@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>interviewPanelistSearchLocator</name>
+   <name>selectFirstInterviewPanelistAfterSearching</name>
    <tag></tag>
-   <elementGuidId>bb19bd29-cdd0-4a80-b1a6-c140d3746d45</elementGuidId>
+   <elementGuidId>f7b4b2a1-5f2f-4990-904a-e89f916873c7</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div:nth-of-type(1) > div:nth-of-type(2) > .form-group.p-0 > .dropdown.multi-select-container > input[name='search']</value>
+         <value>span[class='flex-1 pl-3']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

@@ -224,10 +224,10 @@ WebUI.switchToWindowIndex(2)
 
 Thread.sleep(18000)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_271100 AMBusy'), 
+WebUI.waitForElementClickable(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/dayLocatorOnCandidateStandelonePageForIP'), 
     8)
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_271100 AMBusy'), 
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/dayLocatorOnCandidateStandelonePageForIP'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Yopmail.com/forwardIconLocator'))

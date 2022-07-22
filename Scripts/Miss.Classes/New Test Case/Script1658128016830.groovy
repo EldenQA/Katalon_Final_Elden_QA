@@ -1,4 +1,3 @@
-
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -23,6 +22,7 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.remote.server.DriverFactory as DriverFactory
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
+import java.io.BufferedWriter
 
 WebUI.openBrowser('')
 
@@ -32,13 +32,7 @@ WebUI.navigateToUrl(GlobalVariable.url)
 
 WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 
-Properties pro = new Properties()
-
 Actions ac = new Actions(driver)
-
-pro.load(new FileInputStream('job.properties'))
-
-keyValue = pro.getProperty('JobName')
 
 WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
     GlobalVariable.userName)
@@ -56,107 +50,27 @@ driver.findElement(By.cssSelector('span[data-title=\'Search\']')).click()
 
 WebElement element2 = driver.findElement(By.xpath('//*[@id=\'jobTitle\']'))
 
-element2.sendKeys(keyValue)
+element2.sendKeys('Software Engineer_IP_Test_8787')
 
-for (int i = 0; i <= 2; i++) {
+for (int a = 0; a <= 2; a++) {
     ac.sendKeys(Keys.PAGE_DOWN).perform()
 }
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/i_Search_fa fa-search'))
 
-WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/div_Software_Testing_geuT'))
-
+WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/div_Software_Testing_geuT'))
 WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/micrositeLinkLocator'))
 
-WebUI.switchToWindowIndex(1)
+urlMicrosite = WebUI.getUrl()
+System.out.println(urlMicrosite)
+//Properties pro2 = new Properties()
+File f = new File('Files/jg.txt')
+FileWriter fw = new FileWriter(f)
+BufferedWriter bw = new BufferedWriter(fw);
+bw.write(urlMicrosite)
+bw.newLine();
+bw.close()
+//pro2.setProperty('url',urlMicrosite)
+//
+//pro2.store(fw, 'comments')
 
-ac.sendKeys(Keys.PAGE_DOWN).perform()
-
-WebUI.setText(findTestObject('Registration/Page_Software_Testing_geuT_micrositeCapture/zipCodeLocator'), '100')
-
-Thread.sleep(2000)
-
-WebUI.click(findTestObject('Registration/Page_Software_Testing_geuT_micrositeCapture/zipLocationCheckBoxLocator'))
-
-driver.findElement(By.cssSelector('a[class=\'carrot-flat-button ng-scope\']')).click()
-
-WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_First Name_id5236'), 
-    'Dinesh')
-
-WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_Last Name_id5237'), 
-    'Yadav')
-
-email = (('d' + RandomStringUtils.randomAlphabetic(4)) + '@yopmail.com')
-
-System.out.println(email)
-
-WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_Email_id5238'), 
-    email)
-
-WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/div_Mobile Number_iti-flag mx'))
-
-WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/span_India ()'))
-
-driver.findElement(By.cssSelector('input[question=\'Mobile Number\']')).sendKeys('1325' + RandomStringUtils.randomNumeric(
-        6))
-
-WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/label_Do you have any degree , Choose one'))
-
-WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/selectFirstOptionFromDropdown'))
-
-Thread.sleep(2000)
-
-WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/termsAndConditions'))
-
-WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/button_Connect Now'))
-
-WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/p_Thank you for completing this form We loo_f59a68'))
-
-WebUI.verifyElementText(findTestObject('Registration/Page_Software_Testing_geuT_micrositeCapture/thankyouPopupContinueButton'), 
-    'Continue')
-
-WebUI.switchToWindowIndex(0)
-
-driver.findElement(By.cssSelector('.modal-dialog.modal-large .close')).click()
-
-driver.findElement(By.cssSelector('a[title=\'Mobile Talent Pool\'] > .ng-scope')).click()
-
-Thread.sleep(2000)
-
-WebUI.scrollToElement(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/emailOnMTP'), 3)
-
-for (int i = 0; i <= 4; i++) {
-    ac.sendKeys(Keys.PAGE_DOWN).perform()
-}
-
-emailAddress = WebUI.getText(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/emailOnMTP'))
-
-System.out.println(emailAddress)
-
-if (emailAddress == email) {
-    WebUI.scrollToElement(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'), 
-        2)
-}
-
-WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'))
-
-List<WebElement> allStatus = driver.findElements(By.cssSelector('a span[class =\'value-text ng-scope\']'))
-
-int count = allStatus.size()
-
-System.out.println(count)
-
-for (int i = 0; i <= count; i++) {
-    status = allStatus.get(i).getText()
-
-    System.out.println(status)
-
-    if (status.equalsIgnoreCase('Shortlisted')) {
-        allStatus.get(i).click()
-
-        break
-    }
-	
-	}
-WebUI.verifyElementText(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'),'Shortlisted')
-WebUI.closeBrowser()

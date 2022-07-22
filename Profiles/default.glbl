@@ -91,7 +91,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'.showTab .row [class=&quot;form-group p-0&quot;] div'</initValue>
+      <initValue>'.showTab .row [class=&quot;form-group p-0&quot;] input'</initValue>
       <name>feedbackPerameterLocator</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

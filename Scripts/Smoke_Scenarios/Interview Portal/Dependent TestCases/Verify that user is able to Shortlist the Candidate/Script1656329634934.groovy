@@ -44,12 +44,12 @@ Properties pro2 = new Properties()
 FileWriter fw2 = new FileWriter("Files/interviewPortal.properties");
 penelistEmailName = (('IP1' + RandomStringUtils.randomAlphabetic(7)) + '@yopmail.com')
 penelistName = ('A' + RandomStringUtils.randomAlphabetic(7))
-penelistEmailName_2 = (('IP2' + RandomStringUtils.randomAlphabetic(7)) + '@yopmail.com')
-penelistName_2 = ('A2' + RandomStringUtils.randomAlphabetic(7))
 pro2.setProperty("PanelistEmailName_1" ,penelistEmailName )
 pro2.setProperty("PanelistName_1" ,penelistName )
 pro2.setProperty("InterviewPortalCandidateName" ,'A' + RandomStringUtils.randomAlphabetic(7) )
 pro2.setProperty("InterviewPortalCandidateEmail" ,('Int' + RandomStringUtils.randomAlphabetic(6)) + '@yopmail.com' )
+
+
 pro2.store(fw2, "comments")
 pro2.load(new FileInputStream('Files/interviewPortal.properties'))
 interviewPortalCandidateName = pro2.getProperty('InterviewPortalCandidateName');
@@ -110,8 +110,8 @@ WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/span_India ()'))
 
-driver.findElement(By.cssSelector('input[question=\'Mobile Number\']')).sendKeys('01970' + RandomStringUtils.randomNumeric(
-        6))
+driver.findElement(By.cssSelector('input[question=\'Mobile Number\']')).sendKeys('112' + RandomStringUtils.randomNumeric(
+        7))
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/label_Do you have any degree , Choose one'))
 
@@ -178,5 +178,7 @@ WebUI.click(findTestObject('MTP Locators/switchToInterviewPanelLocator'))
 WebUI.verifyElementText(findTestObject('Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/CalanderLinkOnIP'), 
     'Calendar')
 
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/h4_Atish Sharma'))
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/a_Logout'))
 WebUI.closeBrowser()
 

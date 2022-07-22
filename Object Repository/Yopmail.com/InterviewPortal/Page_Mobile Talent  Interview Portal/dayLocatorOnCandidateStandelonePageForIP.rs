@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_271100 AMBusy</name>
+   <name>dayLocatorOnCandidateStandelonePageForIP</name>
    <tag></tag>
    <elementGuidId>479634a9-57ba-49ce-b449-6282274fea30</elementGuidId>
    <selectorCollection>

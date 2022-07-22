@@ -28,6 +28,10 @@ import org.openqa.selenium.remote.server.DriverFactory as DriverFactory
 import org.openqa.selenium.By.ByCssSelector as ByCssSelector
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 import java.awt.List as List
+import java.awt.Robot as Robot
+import java.awt.Toolkit
+import java.awt.datatransfer.StringSelection as StringSelection
+import java.awt.event.KeyEvent as KeyEvent
 import java.io.BufferedReader as BufferedReader
 import java.text.DateFormat as DateFormat
 import java.text.SimpleDateFormat as SimpleDateFormat
@@ -39,6 +43,8 @@ WebUI.openBrowser('')
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.url)
+
+WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 
 WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
     GlobalVariable.userName)
@@ -52,7 +58,7 @@ WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Bebo Talent  Mob
 
 //This will load the property file and take the value of Created Template and then store it in keyValue 
 FileWriter fw = new FileWriter('job.properties')
-
+FileWriter fw2 = new FileWriter('job.properties')
 Properties pro2 = new Properties()
 
 pro2.setProperty('JobName', (((('Auto' + '_') + 'Software') + '_') + 'Enggineer') + RandomStringUtils.randomAlphabetic(4))
@@ -70,9 +76,32 @@ keyValue = pro.getProperty('Template')
 WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Bebo Talent  Mobile Recruitment/input__campaignName'), 
     Input //keyValue is the Created Template value "Template"
     )
+WebUI.click(findTestObject('MTP Locators/metaDataLocator'))
+Thread.sleep(2000)
+File f = new File('download.png')
+
+String logoPath = f.getAbsolutePath()
+
+Robot rb = new Robot()
+
+StringSelection ss = new StringSelection(logoPath)
+
+Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null)
+
+rb.keyPress(KeyEvent.VK_CONTROL)
+
+rb.keyPress(KeyEvent.VK_V)
+
+rb.keyRelease(KeyEvent.VK_CONTROL)
+
+rb.keyRelease(KeyEvent.VK_V)
+
+rb.keyPress(KeyEvent.VK_ENTER)
+
+rb.keyRelease(KeyEvent.VK_ENTER)
 
 //    
-WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
 
 driver.findElement(By.cssSelector('select[name=\'campaignIndustryID\'] > option[value=\'4\']')).click()
 
@@ -193,7 +222,9 @@ WebUI.click(findTestObject('Job_Creation/selectAllLocationCheckBox'))
 WebUI.scrollToElement(findTestObject('Job_Creation/Launch Job/button_Next'), 2)
 
 WebUI.click(findTestObject('Job_Creation/Page_Bebo Talent  Mobile Recruitment/button_Next'))
+
 WebUI.scrollToElement(findTestObject('Job_Creation/Page_Bebo Talent  Mobile Recruitment/button_Next'), 2)
+
 //ac.sendKeys(Keys.END).perform()
 //ac.sendKeys(Keys.PAGE_DOWN).perform()
 Thread.sleep(2000)
@@ -207,7 +238,6 @@ WebUI.click(findTestObject('Job_Creation/Page_Bebo Talent  Mobile Recruitment/bu
 //WebUI.scrollToElement(findTestObject('Job_Creation/Page_Bebo Talent  Mobile Recruitment/button_Next'), 2)
 //
 //WebUI.click(findTestObject('Job_Creation/Page_Bebo Talent  Mobile Recruitment/button_Next'))
-
 driver.findElement(By.cssSelector('.ng-scope > .ng-scope > .btn.btn-black.ng-scope')).click()
 
 driver.findElement(By.xpath('//span[text()=\'All Jobs\']')).click()
@@ -227,10 +257,18 @@ for (int a = 0; a <= 2; a++) {
 WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/i_Search_fa fa-search'))
 
 WebUI.verifyElementText(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/div_Software_Testing_geuT'), 
-   Input)
+    Input)
+
+WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/div_Software_Testing_geuT'))
+
+urlMicrosite = WebUI.getText(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/micrositeLinkLocator'))
+pro2.setProperty('MicroSiteURL',urlMicrosite)
+pro2.store(fw2,'comments')
+
 
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/i_Romit Romit_fas fa-caret-down caret-down-arrow'))
 
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
+
 WebUI.closeBrowser()
 

@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>interviewPanelistSearchLocator</name>
+   <name>saveFeedBackPerameter</name>
    <tag></tag>
-   <elementGuidId>bb19bd29-cdd0-4a80-b1a6-c140d3746d45</elementGuidId>
+   <elementGuidId>d8d1ea7e-b8e0-479c-ae3f-4dd8e2f41e0d</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div:nth-of-type(1) > div:nth-of-type(2) > .form-group.p-0 > .dropdown.multi-select-container > input[name='search']</value>
+         <value>button[class='btn btn-primary']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

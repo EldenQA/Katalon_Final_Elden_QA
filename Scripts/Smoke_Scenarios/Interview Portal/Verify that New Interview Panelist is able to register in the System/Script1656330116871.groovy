@@ -102,13 +102,13 @@ WebUI.setText(findTestObject('Object Repository/InterviewPanelistInvitation/Page
     penelistName)
 
 WebUI.setText(findTestObject('Object Repository/InterviewPanelistInvitation/Page_Mobile Talent  Interview Portal/input__phone'), 
-    '1325' + RandomStringUtils.randomNumeric(6))
+    '113' + RandomStringUtils.randomNumeric(7))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/InterviewPanelistInvitation/Page_Mobile Talent  Interview Portal/input__password'), 
-    'RAIVpflpDOg=')
+    'p4y+y39Ir5OTdtOb306gDg==')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/InterviewPanelistInvitation/Page_Mobile Talent  Interview Portal/input__confPassword'), 
-    'RAIVpflpDOg=')
+    'p4y+y39Ir5OTdtOb306gDg==')
 
 WebUI.click(findTestObject('Object Repository/InterviewPanelistInvitation/Page_Mobile Talent  Interview Portal/input__termsConditions'))
 
@@ -135,7 +135,8 @@ for (int i = 0; i < sizeNumber; i++) {
 
     if (textOFInterviewPanelist.equalsIgnoreCase((penelistName + ' ') + penelistName)) {
         System.out.println('Interview Panelsit Added Successfully')
-
+		WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/h4_Atish Sharma'))
+		WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/a_Logout'))
         WebUI.closeBrowser()
 
         break

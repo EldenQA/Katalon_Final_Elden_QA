@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case</name>
+   <name>Verify that InterviewPanelist is able to add the feedback for the Candidate</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>17ac5ae3-8ed1-4463-819e-cfae5b7d9b0d</testCaseGuid>

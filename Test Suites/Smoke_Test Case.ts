@@ -144,6 +144,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>9e534825-d4a1-4727-b776-75e32f64d18e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that InterviewPanelist is able to add the feedback for the Candidate</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>4922aaaa-71ea-4de3-a811-8ad20c9d3516</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>

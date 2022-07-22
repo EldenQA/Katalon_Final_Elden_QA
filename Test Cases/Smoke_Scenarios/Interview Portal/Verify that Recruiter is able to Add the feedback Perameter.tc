@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that Recruiter is able to Add the feedback Perameter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5605aa29-c7fe-4a69-a67c-78419652a217</testCaseGuid>
+</TestCaseEntity>
