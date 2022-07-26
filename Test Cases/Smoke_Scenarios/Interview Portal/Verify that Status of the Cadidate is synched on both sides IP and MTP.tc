@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that Status of the Cadidate is synched on both sides IP and MTP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee13ead4-6e0d-44f8-9f86-a7a2b2eb2467</testCaseGuid>
+</TestCaseEntity>

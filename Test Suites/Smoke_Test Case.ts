@@ -123,6 +123,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>cb150fa6-c13a-4e53-b4e1-629d65f14763</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that Recruiter is able to Add the feedback Perameter</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>ddfbce50-fe1b-45ae-b712-a6b7ad3b25fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -158,10 +165,31 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>b04f3836-d108-4285-9345-54c1f86b74a0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that user is able to schedule the Interview through Ring Central</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>21e392ec-b420-4d88-87f6-0c2a9bdaafa8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that Candidate is able to schedule the In-Person Interview</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7356304a-ccb6-45dc-bcd2-30db4c336cb7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that user is able to Hire the Candidate</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e602ab02-6dc9-4339-92b4-421e80298922</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that Status of the Cadidate is synched on both sides IP and MTP</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
