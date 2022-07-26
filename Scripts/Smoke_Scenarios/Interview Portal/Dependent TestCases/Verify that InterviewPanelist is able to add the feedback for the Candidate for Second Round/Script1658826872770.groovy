@@ -72,6 +72,8 @@ WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_M
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_dvicFyopmail.com'))
 
+driver.findElement(By.xpath('//p[text()="Technical Evaluation"]')).click()
+
 Actions ac = new Actions(driver)
 
 List<WebElement> superElement = driver.findElements(By.cssSelector(GlobalVariable.feedbackPerameterLocator))

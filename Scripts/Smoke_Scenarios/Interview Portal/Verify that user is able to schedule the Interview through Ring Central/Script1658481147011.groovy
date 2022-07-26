@@ -48,6 +48,7 @@ pro2.load(new FileInputStream('Files/interviewPortal.properties'))
 keyValue = pro.getProperty('JobName')
 
 panelistName = pro2.getProperty('PanelistName_1')
+
 panelistEmail = pro2.getProperty('PanelistEmailName_1')
 
 WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
@@ -124,6 +125,7 @@ WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing
 
 WebUI.verifyElementText(findTestObject('Registration/Page_Software_Testing_geuT_micrositeCapture/thankyouPopupContinueButton'), 
     'Continue')
+
 WebUI.closeWindowIndex(1)
 
 WebUI.switchToWindowIndex(0)
@@ -185,19 +187,23 @@ WebUI.scrollToElement(findTestObject('MTP Locators/switchToInterviewPanelLocator
 
 WebUI.click(findTestObject('MTP Locators/switchToInterviewPanelLocator'))
 
-List <WebElement> communicationMode = driver.findElements(By.cssSelector('span[title]'))
-int communicationModeCount= communicationMode.size()
-for(int j = 0; j<=communicationModeCount;j++)
-{
-	communicationModeValue= communicationMode.get(j).getAttribute('title')
-	if(communicationModeValue.equalsIgnoreCase('In Person'))
-	{
-		communicationMode.get(j).click()
-		break
-	}
-}
-//WebUI.click(findTestObject('Object Repository/InterviewPortal/skypeCommunicationModeLocator'))
+List<WebElement> communicationMode = driver.findElements(By.cssSelector('span[title]'))
 
+int communicationModeCount = communicationMode.size()
+
+for (int j = 0; j <= communicationModeCount; j++) {
+    communicationModeValue = communicationMode.get(j).getAttribute('title')
+
+    if (communicationModeValue.equalsIgnoreCase('Video Conference')) {
+        communicationMode.get(j).click()
+
+        break
+    }
+}
+
+
+
+//WebUI.click(findTestObject('Object Repository/InterviewPortal/skypeCommunicationModeLocator'))
 WebUI.verifyElementText(findTestObject('InterviewPortal/successMessageAfterChangingTheMode'), 'Interview comunication mode changed successfully.')
 
 WebUI.sendKeys(findTestObject('Yopmail.com/interviewPanelistSearchLocator'), panelistName)
@@ -219,12 +225,8 @@ for (int k = 0; k < sizeNumber; k++) {
         break
     }
 }
-
-WebUI.click(findTestObject('Object Repository/InterviewPortal/yesbuttonOnSceduleInterviewPopup'))
-
-WebUI.scrollToElement(findTestObject('Object Repository/InterviewPortal/emailOfTheCandidateLocator'), 2)
-
-//email = WebUI.getText(findTestObject('Object Repository/InterviewPortal/emailOfTheCandidateLocator'))
+WebUI.sendKeys(findTestObject('InterviewPortal/RingCentralCommunicationMode'), 'https://v.ringcentral.com/join/072250978276')
+WebUI.click(findTestObject('InterviewPortal/yesbuttonOnSceduleInterviewPopup'))
 
 WebUI.verifyTextPresent('Interview booking link shared with candidate.', true)
 
@@ -253,20 +255,20 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Yopmail.com/Inte
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/dayLocatorOnCandidateStandelonePageForIP'), 
     FailureHandling.STOP_ON_FAILURE)
 
-for (int z= 0;z<=2;z++)
-{
-	WebUI.click(findTestObject('Yopmail.com/forwardIconLocator'))
+for (int z = 0; z <= 3; z++) {
+    WebUI.click(findTestObject('Yopmail.com/forwardIconLocator'))
 }
 
 WebUI.click(findTestObject('Yopmail.com/FirstSlotBooking'))
 
-//WebUI.sendKeys(findTestObject('InterviewPortal/skypeInputBoxOnCandidateStandelonePage'), '@AutoSkype')
-
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Confirm'))
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_Thank YouYour slot has been booked forJ_f0af19'))
+
 WebUI.closeWindowIndex(2)
+
 WebUI.closeWindowIndex(1)
+
 WebUI.switchToWindowIndex(0)
 
 driver.navigate().refresh()
@@ -328,15 +330,20 @@ for (int a = 0; a < sizeNumbera; a++) {
 		 break
 			 }
 }
-((driver) as JavascriptExecutor).executeScript('window.open(arguments[0])', 'https://yopmail.com/en/')
+
+    ((driver) as JavascriptExecutor).executeScript('window.open(arguments[0])', 'https://yopmail.com/en/')
+
 WebUI.switchToWindowIndex(1)
-WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'),
-	panelistEmail)
+
+WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'), 
+    panelistEmail)
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/i_'))
 
-WebUI.takeScreenshot('ScreenShots/InterviewPortalBookingEmail/InPerson/screenshot_'+ System.currentTimeMillis() + '.jpg')
+WebUI.takeScreenshot(('ScreenShots/InterviewPortalBookingEmail/RingCentral/screenshot_' + System.currentTimeMillis()) + '.jpg')
+
 WebUI.switchToWindowIndex(0)
+
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/h4_Atish Sharma'))
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/a_Logout'))

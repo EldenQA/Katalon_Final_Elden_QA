@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that user is able to scedule the Third Round with same Interview Panelist for same candidate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5d96dbb-5e58-47c4-9c32-cf4e4b865549</testCaseGuid>
+</TestCaseEntity>

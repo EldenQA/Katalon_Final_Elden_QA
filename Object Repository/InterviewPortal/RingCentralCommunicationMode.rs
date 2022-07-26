@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>InPersonCommunicationMode</name>
+   <name>RingCentralCommunicationMode</name>
    <tag></tag>
-   <elementGuidId>e7d185be-a40d-448b-aae4-fa13b1e7406c</elementGuidId>
+   <elementGuidId>4af855f4-97f9-41a9-a89b-7a8f8506058d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value></value>
+         <value>input[type='url']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
          <value></value>
       </entry>
    </selectorCollection>

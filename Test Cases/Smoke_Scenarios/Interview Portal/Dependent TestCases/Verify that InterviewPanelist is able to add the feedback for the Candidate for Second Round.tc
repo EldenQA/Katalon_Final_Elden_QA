@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that InterviewPanelist is able to add the feedback for the Candidate for Second Round</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db0a4ef5-4fe4-4564-a1b6-be7ba52e7879</testCaseGuid>
+</TestCaseEntity>

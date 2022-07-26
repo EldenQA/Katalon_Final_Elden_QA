@@ -57,46 +57,38 @@ WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  
 
 WebUI.scrollToElement(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'), 2)
 
-WebElement statusOfCandidateButton = driver.findElement(By.cssSelector('span[class=\'lead-details-status ng-binding\']'))
-
-textonButton = statusOfCandidateButton.getText()
-
-System.out.println(textonButton)
-
-if (textonButton.equalsIgnoreCase('Already in database')||textonButton.equalsIgnoreCase("Already Available In database")) {
-    WebUI.click(findTestObject('Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/i_Mobile Recruitment Platform_fas fa-chevron-down'))
-
-    WebUI.click(findTestObject('MTP Locators/refferalPortalValueFromDropDown'))
-
-    
-} else {
-    WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'))
-
-    List<WebElement> allStatus = driver.findElements(By.cssSelector('a span[class =\'value-text ng-scope\']'))
-
-    int count = allStatus.size()
-
-    System.out.println(count)
-
-    for (int i = 0; i <= count; i++) {
-        status1 = allStatus.get(i).getText()
-
-        System.out.println(status1)
-
-        if (status1.equalsIgnoreCase('Already in database')||status1.equalsIgnoreCase("Already Available In database")) {
-            allStatus.get(i).click()
-			WebUI.click(findTestObject('Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/i_Mobile Recruitment Platform_fas fa-chevron-down'))
-			WebUI.click(findTestObject('MTP Locators/refferalPortalValueFromDropDown'))
-            break
-        }else {	
-	System.out.println("Status is not same as Mobile Talent")
-	throw new IOException("sorry device error");
-	}		
-		}
-    }
 
 
+WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'))
+List<WebElement> allStatus = driver.findElements(By.cssSelector('a span[class =\'value-text ng-scope\']'))
 
+	int count = allStatus.size()
+
+	System.out.println(count)
+
+	for (int i = 0; i <= count; i++) {
+		status1 = allStatus.get(i).getText()
+
+		System.out.println(status1)
+
+		if (status1.equalsIgnoreCase('Saved For Future Requirement'))
+				{
+				allStatus.get(i).click()
+				break	
+				}
+	}
+	WebElement statusOfCandidateButton = driver.findElement(By.cssSelector('span[class=\'lead-details-status ng-binding\']'))
+	
+	textonButton = statusOfCandidateButton.getText()
+	
+	System.out.println(textonButton)
+	
+	if(textonButton.equalsIgnoreCase('Saved For Future Requirement')) {
+		
+		WebUI.click(findTestObject('Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/i_Mobile Recruitment Platform_fas fa-chevron-down'))
+		WebUI.click(findTestObject('MTP Locators/refferalPortalValueFromDropDown'))	
+	}
+	
 WebUI.click(findTestObject('Referal Portal/closeReferralPopup'))
 List<WebElement> listOfAllElemenets = driver.findElements(By.cssSelector('li[class=\'nav-item \']'))
 
@@ -124,8 +116,7 @@ int sizeofElements = listOfElements2.size()
 for (int k = 0; k < sizeofElements; k++) {
 	textofElements = listOfElements2.get(k).getText()
 	System.out.println(textofElements)
-	
-	if(textofElements.equalsIgnoreCase(emailDetail) && status23.equalsIgnoreCase("Already Available In Database") ||status23.equalsIgnoreCase("Already In Database") ) {
+	if(textofElements.equalsIgnoreCase(emailDetail) && status23.equalsIgnoreCase("Saved For Future Requirement")){
 		
 		driver.findElement(By.cssSelector(".dropdown-toggle.pointer > h4")).click()
 		driver.findElement(By.cssSelector(".dropdown-item.pointer")).click()

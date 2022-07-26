@@ -72,6 +72,8 @@ WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_M
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_dvicFyopmail.com'))
 
+driver.findElement(By.xpath('//p[text()="Technical/Managerial Evaluation"]')).click()
+
 Actions ac = new Actions(driver)
 
 List<WebElement> superElement = driver.findElements(By.cssSelector(GlobalVariable.feedbackPerameterLocator))
@@ -111,7 +113,7 @@ for (int q = 0; q <= buttonWebElementonFeedBackPagesize; q++) {
 
     System.out.println(buttonWebElementonFeedBackPagesizeText)
 
-    if (buttonWebElementonFeedBackPagesizeText.equalsIgnoreCase('Selected')) {
+    if (buttonWebElementonFeedBackPagesizeText.equalsIgnoreCase('Hired')) {
         buttonWebElementonFeedBackPage.get(q).click()
 
         break

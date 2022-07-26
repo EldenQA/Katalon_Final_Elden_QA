@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that user is able to schedule the Interview through Ring Central</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>227ce748-8381-4eca-9b7d-9636003cba64</testCaseGuid>
+</TestCaseEntity>

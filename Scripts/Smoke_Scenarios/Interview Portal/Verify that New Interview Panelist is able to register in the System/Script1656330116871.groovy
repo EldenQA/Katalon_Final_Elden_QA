@@ -73,11 +73,11 @@ WebUI.click(findTestObject('Yopmail.com/interviewPanelistSearchLocator'))
 WebUI.setText(findTestObject('Yopmail.com/interviewPanelistSearchLocator'),penelistName )
 
 WebUI.click(findTestObject('Yopmail.com/sendPenelistInviteLocator'))
-
+Thread.sleep(2)
 WebUI.click(findTestObject('Yopmail.com/sendInterviewInviteEmail'))
-
+Thread.sleep(2)
 WebUI.setText(findTestObject('Yopmail.com/sendInterviewInviteEmail'), penelistEmailName)
-
+Thread.sleep(2)
 WebUI.click(findTestObject('Yopmail.com/InterviewPortal/inviteButtonLocator'))
 
     ((driver) as JavascriptExecutor).executeScript('window.open(arguments[0])', 'https://yopmail.com/en/')

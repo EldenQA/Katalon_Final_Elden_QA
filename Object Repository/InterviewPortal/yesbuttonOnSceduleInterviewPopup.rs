@@ -6,12 +6,11 @@
    <elementGuidId>06fc6ddd-abfb-4675-b962-1ee53869a310</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>.btn.btn-lg.btn-primary</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

@@ -21,7 +21,6 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.remote.server.DriverFactory as DriverFactory
-import org.testng.Assert as Assert
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 import org.apache.commons.lang3.RandomUtils as RandomUtils
 import java.text.DateFormat as DateFormat
@@ -47,11 +46,11 @@ penelistEmailName = pro.getProperty('PanelistEmailName_1')
 
 penelistName = pro.getProperty('PanelistName_1')
 
-WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
-    GlobalVariable.userName)
+WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'),
+	GlobalVariable.userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
-    GlobalVariable.password)
+WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'),
+	GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
@@ -65,14 +64,16 @@ WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_M
 
 WebUI.sendKeys(findTestObject('InterviewPortal/searchCandidateLocator'), candidateName)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/select_AllNot ScheduledCalendar SharedInter_ca03d5'), 
-    'Not Scheduled', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/select_AllNot ScheduledCalendar SharedInter_ca03d5'),
+	'Not Scheduled', true)
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Apply'))
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_dvicFyopmail.com'))
 
-driver.findElement(By.cssSelector('input[title=\'Set as primary\']')).click()
+WebUI.sendKeys(findTestObject('Yopmail.com/interviewPanelistSearchLocator'), penelistName)
+
+WebUI.click(findTestObject('InterviewPortal/selectFirstInterviewPanelistAfterSearching'))
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/TaletMeetCommunicationMode'))
 
@@ -83,15 +84,15 @@ List<WebElement> allbuttons = driver.findElements(By.cssSelector('button[type="b
 int sizeNumber = allbuttons.size()
 
 for (int j = 0; j < sizeNumber; j++) {
-    String textOFbuttons = allbuttons.get(j).getText()
+	String textOFbuttons = allbuttons.get(j).getText()
 
-    System.out.println(textOFbuttons)
+	System.out.println(textOFbuttons)
 
-    if (textOFbuttons.equalsIgnoreCase('Schedule Interview')) {
-        allbuttons.get(j).click()
+	if (textOFbuttons.equalsIgnoreCase('Schedule Interview')) {
+		allbuttons.get(j).click()
 
-        break
-    }
+		break
+	}
 }
 
 WebUI.click(findTestObject('Object Repository/InterviewPortal/yesbuttonOnSceduleInterviewPopup'))
@@ -102,14 +103,14 @@ email = WebUI.getText(findTestObject('Object Repository/InterviewPortal/emailOfT
 
 WebUI.verifyTextPresent('Interview booking link shared with candidate.', true)
 
-    ((driver) as JavascriptExecutor).executeScript('window.open(arguments[0])', 'https://yopmail.com/en/')
+	((driver) as JavascriptExecutor).executeScript('window.open(arguments[0])', 'https://yopmail.com/en/')
 
 WebUI.switchToWindowIndex(1)
 
 WebUI.navigateToUrl('https://yopmail.com/en/')
 
-WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'), 
-    email)
+WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'),
+	email)
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/i_'))
 
@@ -123,21 +124,27 @@ WebUI.switchToWindowIndex(2)
 
 Thread.sleep(18000)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/dayLocatorOnCandidateStandelonePageForIP'), 
-    8)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/dayLocatorOnCandidateStandelonePageForIP'),
+	8)
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/dayLocatorOnCandidateStandelonePageForIP'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/dayLocatorOnCandidateStandelonePageForIP'),
+	FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Yopmail.com/forwardIconLocator'))
+WebUI.click(findTestObject('Yopmail.com/forwardIconLocator'))
+WebUI.click(findTestObject('Yopmail.com/forwardIconLocator'))
+
 
 WebUI.click(findTestObject('Yopmail.com/FirstSlotBooking'))
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Confirm'))
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_Thank YouYour slot has been booked forJ_f0af19'))
+
 WebUI.closeWindowIndex(2)
+
 WebUI.closeWindowIndex(1)
+
 WebUI.switchToWindowIndex(0)
 
 driver.navigate().refresh()
@@ -147,13 +154,13 @@ List<WebElement> tabsOnInterviewPortal = driver.findElements(By.cssSelector('li[
 int tabsOnInterviewPortalCount = tabsOnInterviewPortal.size()
 
 for (int o = 0; o <= tabsOnInterviewPortalCount; o++) {
-    tabsOnInterviewPortaltext = tabsOnInterviewPortal.get(o).getText()
+	tabsOnInterviewPortaltext = tabsOnInterviewPortal.get(o).getText()
 
-    if (tabsOnInterviewPortaltext.equalsIgnoreCase('Candidates')) {
-        tabsOnInterviewPortal.get(o).click()
+	if (tabsOnInterviewPortaltext.equalsIgnoreCase('Candidates')) {
+		tabsOnInterviewPortal.get(o).click()
 
-        break
-    }
+		break
+	}
 }
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Clear Filter(s)'))
@@ -162,8 +169,8 @@ WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_M
 
 WebUI.sendKeys(findTestObject('InterviewPortal/searchCandidateLocator'), candidateName)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/select_AllNot ScheduledCalendar SharedInter_ca03d5'), 
-    'Interview Scheduled', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/select_AllNot ScheduledCalendar SharedInter_ca03d5'),
+	'Interview Scheduled', true)
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Apply'))
 
@@ -172,47 +179,46 @@ List<WebElement> candidateInformationElements = driver.findElements(By.cssSelect
 int candidateInformationElementsCount = candidateInformationElements.size()
 
 for (int p = 0; p <= candidateInformationElementsCount; p++) {
-    candidateInformationElementsText = candidateInformationElements.get(p).getText()
+	candidateInformationElementsText = candidateInformationElements.get(p).getText()
 
-    System.out.println(candidateInformationElementsText)
+	System.out.println(candidateInformationElementsText)
 
-    if (candidateInformationElementsText.equalsIgnoreCase((candidateName + ' ') + candidateName)) {
-        candidateInformationElements.get(p).click()
+	if (candidateInformationElementsText.equalsIgnoreCase((candidateName + ' ') + candidateName)) {
+		candidateInformationElements.get(p).click()
 
-        break
-    }
+		break
+	}
 }
+
 List<WebElement> allbuttonsa = driver.findElements(By.cssSelector('button[type="button"]'))
+
 int sizeNumbera = allbuttonsa.size()
+
 for (int a = 0; a < sizeNumbera; a++) {
 	String textOFbuttonsa = allbuttonsa.get(a).getText()
 
 	System.out.println(textOFbuttonsa)
 
 	if (textOFbuttonsa.equalsIgnoreCase('Schedule Interview')) {
-         System.out.println(" Interview is not booked ")	
-		 
-		 }else {
-			 System.out.println(" Interview is booked ")
-		 break
-			 }
+		System.out.println(' Interview is not booked ')
+	} else {
+		System.out.println(' Interview is booked ')
+
+		break
+	}
 }
 
+	((driver) as JavascriptExecutor).executeScript('window.open(arguments[0])', 'https://yopmail.com/en/')
 
-
-
-
-
-
-//WebUI.verifyElementText(findTestObject('InterviewPortal/scheduleButtonLocator'), 'Schedule Interview')
-
-((driver) as JavascriptExecutor).executeScript('window.open(arguments[0])', 'https://yopmail.com/en/')
 WebUI.switchToWindowIndex(1)
+
 WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'),
 	penelistEmailName)
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/i_'))
-WebUI.takeScreenshot('ScreenShots/InterviewPortalBookingEmail/TalentMeet/screenshot_'+ System.currentTimeMillis() + '.jpg')
+
+WebUI.takeScreenshot(('ScreenShots/InterviewPortalBookingEmail/TalentMeet/screenshot_' + System.currentTimeMillis()) + '.jpg')
+
 WebUI.switchToWindowIndex(0)
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/h4_Atish Sharma'))
@@ -220,4 +226,3 @@ WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_M
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/a_Logout'))
 
 WebUI.closeBrowser()
-

@@ -193,7 +193,7 @@ WebUI.sendKeys(findTestObject('Yopmail.com/interviewPanelistSearchLocator'), pan
 
 WebUI.click(findTestObject('InterviewPortal/selectFirstInterviewPanelistAfterSearching'))
 
-List<WebElement> allbuttons = driver.findElements(By.cssSelector('[class="btn btn btn-primary ml-3"]'))
+List<WebElement> allbuttons = driver.findElements(By.cssSelector('button[type="button"]'))
 
 int sizeNumber = allbuttons.size()
 
@@ -242,9 +242,10 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Yopmail.com/Inte
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/dayLocatorOnCandidateStandelonePageForIP'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Yopmail.com/forwardIconLocator'))
-
-WebUI.click(findTestObject('Yopmail.com/forwardIconLocator'))
+for (int z= 0;z<=1;z++)
+{
+	WebUI.click(findTestObject('Yopmail.com/forwardIconLocator'))
+}
 
 WebUI.click(findTestObject('Yopmail.com/FirstSlotBooking'))
 
@@ -299,13 +300,27 @@ for (int r = 0; r <= candidateInformationElementsCount; r++) {
         break
     }
 }
+List<WebElement> allbuttonsa = driver.findElements(By.cssSelector('button[type="button"]'))
 
-WebUI.verifyElementNotPresent(findTestObject('InterviewPortal/scheduleButtonLocator'), 2)
+int sizeNumbera = allbuttonsa.size()
+for (int a = 0; a < sizeNumbera; a++) {
+	String textOFbuttonsa = allbuttonsa.get(a).getText()
+
+	System.out.println(textOFbuttonsa)
+
+	if (textOFbuttonsa.equalsIgnoreCase('Schedule Interview')) {
+		 System.out.println(" Interview is not booked ")
+		 
+		 }else {
+			 System.out.println(" Interview is booked ")
+		 break
+			 }
+}
+//WebUI.verifyElementNotPresent(findTestObject('InterviewPortal/scheduleButtonLocator'), 2)
 ((driver) as JavascriptExecutor).executeScript('window.open(arguments[0])', 'https://yopmail.com/en/')
 WebUI.switchToWindowIndex(1)
 WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'),
 	panelistEmail)
-
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/i_'))
 
 WebUI.takeScreenshot('ScreenShots/InterviewPortalBookingEmail/Skype/screenshot_'+ System.currentTimeMillis() + '.jpg')
