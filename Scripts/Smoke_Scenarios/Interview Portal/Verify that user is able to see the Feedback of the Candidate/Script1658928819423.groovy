@@ -75,75 +75,21 @@ WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_M
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_dvicFyopmail.com'))
 
 driver.findElement(By.xpath('//p[text()="HR Evaluation"]')).click()
+Actions ac = new Actions(driver)
+ac.sendKeys(Keys.PAGE_DOWN).perform()
+WebUI.takeScreenshot('ScreenShots/FeedBackRoundWise/screenshot_'+ System.currentTimeMillis() + '.jpg')
+ac.sendKeys(Keys.PAGE_UP).perform()
 
-List <WebElement> feedbackForm = driver.findElements(By.cssSelector('button[type=button]'))
-int size= feedbackForm.size()
-for (int q=0;q<size;q++)
-{
-	textFeedBackForm= feedbackForm.get(q).getText()
-	System.out.println(textFeedBackForm)
-	if(textFeedBackForm.equalsIgnoreCase('Selected'))
-	{
-		driver.findElement(By.xpath('//p[text()="Technical Evaluation"]')).click()
-		break
-	}
-	else if(textFeedBackForm.equalsIgnoreCase(''))
-	{
-		driver.findElement(By.xpath('//p[text()="Technical Evaluation"]')).click()
-		break
-	}
-	else {
-		throw new IOException('User is not able to see the feedback')
-	}
-}
-
-
-List <WebElement> feedbackForm2 = driver.findElements(By.cssSelector('button[type=button]'))
-int size2= feedbackForm2.size()
-for (int q2=0;q2<size2;q2++)
-{
-	textFeedBackForm2= feedbackForm2.get(q2).getText()
-	System.out.println(textFeedBackForm2)
-	if(textFeedBackForm2.equalsIgnoreCase('Selected'))
-		{
-			driver.findElement(By.xpath('//p[text()="Technical/Managerial Evaluation"]')).click()
-			break
-		}
-		
-		else if(textFeedBackForm2.equalsIgnoreCase(''))
-			{
-				driver.findElement(By.xpath('//p[text()="Technical/Managerial Evaluation"]')).click()
-				break
-			}
-			else {
-				throw new IOException('User is not able to see the feedback')
-			}
-}
-
-
-
-List <WebElement> feedbackForm3 = driver.findElements(By.cssSelector('button[type=button]'))
-int size3= feedbackForm3.size()
-for (int q3=0;q3<size3;q3++)
-{
-	textFeedBackForm3= feedbackForm3.get(q3).getText()
-	System.out.println(textFeedBackForm3)
-	if(textFeedBackForm3.equalsIgnoreCase('Hired'))
-		{
-			System.out.println('User is able to see the Feedback of all rounds ')
-			break
-		}	
-		else if(textFeedBackForm3.equalsIgnoreCase(''))
-			{
-				System.out.println('User is able to see the Feedback of all rounds')
-				break
-			}
-			else {
-				throw new IOException('User is not able to see the feedback')
-			}
-}
 driver.findElement(By.xpath('//p[text()="Technical Evaluation"]')).click()
-driver.findElement(By.xpath('//p[text()="HR Evaluation"]')).click()
+ac.sendKeys(Keys.PAGE_DOWN).perform()
+WebUI.takeScreenshot('ScreenShots/FeedBackRoundWise/screenshot_'+ System.currentTimeMillis() + '.jpg')
+ac.sendKeys(Keys.PAGE_UP).perform()
+
+driver.findElement(By.xpath('//p[text()="Technical/Managerial Evaluation"]')).click()
+ac.sendKeys(Keys.PAGE_DOWN).perform()
+WebUI.takeScreenshot('ScreenShots/FeedBackRoundWise/screenshot_'+ System.currentTimeMillis() + '.jpg')
+ac.sendKeys(Keys.PAGE_UP).perform()
+
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/h4_Atish Sharma'))
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/a_Logout'))
 WebUI.closeBrowser()

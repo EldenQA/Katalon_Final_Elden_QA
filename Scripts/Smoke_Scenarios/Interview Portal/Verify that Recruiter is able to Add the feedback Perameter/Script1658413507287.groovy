@@ -72,7 +72,9 @@ for (int g = 0; g <= deletePerametercount; g++) {
 	deleteValue = deletePerameter.get(g).getAttribute('value')
 
 	if (deleteValue.equalsIgnoreCase('Automate')) {
+		Thread.sleep(3000)
 		WebUI.click(findTestObject('InterviewPortal/deleteFeedbackPerameter'))
+		Thread.sleep(3000)
 		WebUI.click(findTestObject('InterviewPortal/deleteFeedbackPerameterPopup'))
 		break
 	}

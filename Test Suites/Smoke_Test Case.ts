@@ -34,7 +34,7 @@
    <testCaseLink>
       <guid>ec12a508-715a-4c26-a380-cadca62e36f5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Mobile Talent/Verify that user is able to create the template with Multiple Questions,file,Location fields</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -125,7 +125,7 @@
    <testCaseLink>
       <guid>cb150fa6-c13a-4e53-b4e1-629d65f14763</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that Recruiter is able to Add the feedback Perameter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -188,14 +188,14 @@
    <testCaseLink>
       <guid>e602ab02-6dc9-4339-92b4-421e80298922</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that Status of the Cadidate is synched on both sides IP and MTP</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>94285772-f571-4565-aaad-8420d109a5a4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that user is able to see the Feedback of the Candidate</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -209,7 +209,7 @@
    <testCaseLink>
       <guid>115ce1bc-33d5-4100-a9cb-a45ad9f30e13</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that Recruiter is able to Refer the candidate from Refferal Portal</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -258,7 +258,7 @@
    <testCaseLink>
       <guid>973759f0-98ff-49bb-8b67-61554a04c7dd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/CandidateApp/Verify that Candidate is able to apply for another Job from Candidate App</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

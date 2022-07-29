@@ -97,7 +97,7 @@ else if (currentURL.equalsIgnoreCase(productionURL))
 
         if (textOfALLOptions.equalsIgnoreCase('Log Out')) {
             allListElements.get(i).click()
-
+            WebUI.closeBrowser()
             break
         }
     }

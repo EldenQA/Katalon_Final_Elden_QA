@@ -114,7 +114,8 @@ for (int j = 0; j < sizeofElements; j++) {
 	if(textofElements.equalsIgnoreCase(emailAddress)&& status.equalsIgnoreCase("REFERRED") ) {
 		driver.findElement(By.cssSelector(".dropdown-toggle.pointer > h4")).click()
 		driver.findElement(By.cssSelector(".dropdown-item.pointer")).click()
+		
 		break				
 	}
 }
-
+WebUI.closeBrowser()
