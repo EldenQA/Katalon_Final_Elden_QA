@@ -27,7 +27,11 @@ import org.openqa.selenium.remote.DriverCommand as DriverCommand
 import org.openqa.selenium.remote.server.DriverFactory as DriverFactory
 import org.openqa.selenium.By.ByCssSelector as ByCssSelector
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
-import java.awt.List as List
+import java.awt.List
+import java.awt.Robot as Robot
+import java.awt.Toolkit as Toolkit
+import java.awt.datatransfer.StringSelection as StringSelection
+import java.awt.event.KeyEvent as KeyEvent
 import java.io.BufferedReader as BufferedReader
 import java.text.DateFormat as DateFormat
 import java.text.SimpleDateFormat as SimpleDateFormat
@@ -60,6 +64,32 @@ WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Bebo Talent  M
 
 //    
 WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
+WebUI.click(findTestObject('MTP Locators/metaDataLocator'))
+
+Thread.sleep(2000)
+
+File f = new File('download.png')
+
+String logoPath = f.getAbsolutePath()
+
+Robot rb = new Robot()
+
+StringSelection ss = new StringSelection(logoPath)
+
+Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null)
+
+rb.keyPress (KeyEvent.VK_CONTROL)
+
+rb.keyPress(KeyEvent.VK_V)
+
+rb.keyRelease(KeyEvent.VK_CONTROL)
+
+rb.keyRelease(KeyEvent.VK_V)
+
+rb.keyPress(KeyEvent.VK_ENTER)
+
+rb.keyRelease(KeyEvent.VK_ENTER)
 
 driver.findElement(By.cssSelector('select[name=\'campaignIndustryID\'] > option[value=\'4\']')).click()
 

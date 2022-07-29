@@ -34,6 +34,9 @@ WebUI.navigateToUrl(GlobalVariable.url)
 WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 
 Actions ac = new Actions(driver)
+Properties pro = new Properties()
+pro.load(new FileInputStream('Files/interviewPortal.properties'))
+candidateName= pro.getProperty('InterviewPortalCandidateName')
 
 WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
     GlobalVariable.userName)
@@ -50,6 +53,8 @@ WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_M
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Clear Filter(s)'))
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/i_Filters_fa fa-caret-down ml-3'))
+
+WebUI.sendKeys(findTestObject('InterviewPortal/searchCandidateLocator'), candidateName)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/select_AllNot ScheduledCalendar SharedInter_ca03d5'), 
     'Not Scheduled', true)

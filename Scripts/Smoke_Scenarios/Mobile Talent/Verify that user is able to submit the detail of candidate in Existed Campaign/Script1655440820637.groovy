@@ -52,7 +52,7 @@ Thread.sleep(2000)
 driver.findElement(By.cssSelector('span[data-title=\'Search\']')).click()
 
 WebElement element2 = driver.findElement(By.xpath('//*[@id=\'jobTitle\']'))
-
+Thread.sleep(2000)
 element2.sendKeys(GlobalVariable.JobName)
 
 for (int i = 0; i <= 2; i++) {

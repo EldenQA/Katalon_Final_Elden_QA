@@ -73,7 +73,7 @@ WebUI.click(findTestObject('CarrierPage/PreviewCarrierPageLocator'))
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.sendKeys(findTestObject('CarrierPage/JobSearchLocator'), 'JOB_3696')
+WebUI.sendKeys(findTestObject('CarrierPage/JobSearchLocator'), Jobname)
 
 WebUI.click(findTestObject('CarrierPage/SearchLocator'))
 

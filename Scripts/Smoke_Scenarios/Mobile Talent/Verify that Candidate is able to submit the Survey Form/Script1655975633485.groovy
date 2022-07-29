@@ -47,11 +47,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobil
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-driver.findElement(By.xpath('//span[text()=\'All Jobs\']')).click()
+driver.findElement(By.xpath(GlobalVariable.allJobsLocator)).click()
 
 Thread.sleep(2000)
 
-driver.findElement(By.cssSelector('span[data-title=\'Search\']')).click()
+driver.findElement(By.cssSelector('span[data-title="Search"]')).click()
 
 WebElement element2 = driver.findElement(By.xpath('//*[@id=\'jobTitle\']'))
 
@@ -78,7 +78,7 @@ ac.sendKeys(Keys.TAB).perform()
 
 WebUI.click(findTestObject('Object Repository/Survey Form/Page_Mobile Talent  Mobile Recruitment/button_Save'))
 
-driver.findElement(By.xpath('//span[text()=\'All Jobs\']')).click()
+driver.findElement(By.xpath(GlobalVariable.allJobsLocator)).click()
 
 Thread.sleep(2000)
 
@@ -109,12 +109,12 @@ Thread.sleep(2000)
 WebUI.click(findTestObject('Registration/Page_Software_Testing_geuT_micrositeCapture/zipLocationCheckBoxLocator'))
 
 driver.findElement(By.cssSelector('a[class=\'carrot-flat-button ng-scope\']')).click()
-
+surveyCandidate= 'Survey'+RandomStringUtils.randomAlphabetic(6)
 WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_First Name_id5236'), 
-    'Dinesh')
+    surveyCandidate)
 
 WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_Last Name_id5237'), 
-    'Yadav')
+    'Candidate')
 
 email = (('d' + RandomStringUtils.randomAlphabetic(4)) + '@yopmail.com')
 
@@ -151,6 +151,16 @@ WebUI.switchToWindowIndex(0)
 driver.findElement(By.cssSelector('.modal-dialog.modal-large .close')).click()
 
 driver.findElement(By.cssSelector('a[title=\'Mobile Talent Pool\'] > .ng-scope')).click()
+
+WebUI.click(findTestObject('MTP Locators/searchFilterOnCPPLocator'))
+
+WebUI.scrollToElement(findTestObject('MTP Locators/filterByNameLocator'), 1)
+
+WebUI.sendKeys(findTestObject('MTP Locators/filterByNameLocator'), surveyCandidate)
+
+WebUI.scrollToElement(findTestObject('MTP Locators/searchLocator'), 1)
+
+WebUI.click(findTestObject('MTP Locators/searchLocator'))
 
 Thread.sleep(2000)
 
@@ -190,7 +200,7 @@ for (int i = 0; i <= count; i++) {
         WebUI.scrollToElement(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'), 
             2)
 
-        WebUI.verifyElementText(findTestObject(null), 'Hired')
+        WebUI.verifyElementText(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'), 'Hired')
 
         break
     }

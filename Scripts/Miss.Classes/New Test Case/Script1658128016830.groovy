@@ -22,7 +22,10 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.remote.server.DriverFactory as DriverFactory
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
-import java.io.BufferedWriter
+import java.io.BufferedWriter as BufferedWriter
+
+By searchBy = By.cssSelector('span[data-title=\'Search\']')
+By jobTitleBy = By.cssSelector('#jobTitle')
 
 WebUI.openBrowser('')
 
@@ -46,11 +49,10 @@ driver.findElement(By.xpath('//span[text()=\'All Jobs\']')).click()
 
 Thread.sleep(2000)
 
-driver.findElement(By.cssSelector('span[data-title=\'Search\']')).click()
 
-WebElement element2 = driver.findElement(By.xpath('//*[@id=\'jobTitle\']'))
 
-element2.sendKeys('Software Engineer_IP_Test_8787')
+CustomKeywords.'packag.keyword.clickElement'(searchBy)
+CustomKeywords.'packag.keyword.getSendKeysElement'(jobTitleBy, 'Software Engineer_IP_Test_8787')
 
 for (int a = 0; a <= 2; a++) {
     ac.sendKeys(Keys.PAGE_DOWN).perform()
@@ -59,18 +61,23 @@ for (int a = 0; a <= 2; a++) {
 WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/i_Search_fa fa-search'))
 
 WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/div_Software_Testing_geuT'))
+
 WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/micrositeLinkLocator'))
 
 urlMicrosite = WebUI.getUrl()
+
 System.out.println(urlMicrosite)
+
 //Properties pro2 = new Properties()
 File f = new File('Files/jg.txt')
+
 FileWriter fw = new FileWriter(f)
-BufferedWriter bw = new BufferedWriter(fw);
+
+BufferedWriter bw = new BufferedWriter(fw)
+
 bw.write(urlMicrosite)
-bw.newLine();
+
+bw.newLine()
+
 bw.close()
-//pro2.setProperty('url',urlMicrosite)
-//
-//pro2.store(fw, 'comments')
 

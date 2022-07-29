@@ -94,4 +94,9 @@
       <initValue>'.showTab .row [class=&quot;form-group p-0&quot;] input'</initValue>
       <name>feedbackPerameterLocator</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'//span[text()=\'All Jobs\']'</initValue>
+      <name>allJobsLocator</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

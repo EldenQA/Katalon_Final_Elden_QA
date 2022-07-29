@@ -42,10 +42,10 @@ class keyword {
 	/**
 	 * Refresh browser
 	 */
+	WebDriver webDriver = DriverFactory.getWebDriver()
 	@Keyword
 	def refreshBrowser() {
 		KeywordUtil.logInfo("Refreshing")
-		WebDriver webDriver = DriverFactory.getWebDriver()
 		webDriver.navigate().refresh()
 		KeywordUtil.markPassed("Refresh successfully")
 	}
@@ -55,12 +55,37 @@ class keyword {
 	 * @param to Katalon test object
 	 */
 	@Keyword
-	def clickElement(TestObject to) {
+	def clickElement(By by) {
 		try {
-			WebElement element = WebUiBuiltInKeywords.findWebElement(to);
+			WebElement element = webDriver.findElement(by);
 			KeywordUtil.logInfo("Clicking element")
 			element.click()
 			KeywordUtil.markPassed("Element has been clicked")
+		} catch (WebElementNotFoundException e) {
+			KeywordUtil.markFailed("Element not found")
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Fail to click on element")
+		}
+	}
+
+	@Keyword
+	def getMultipleElement(By by) {
+		try {
+			webDriver.findElement(by);
+			KeywordUtil.markPassed("Element has been clicked")
+		} catch (WebElementNotFoundException e) {
+			KeywordUtil.markFailed("Element not found")
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Fail to click on element")
+		}
+	}
+
+	@Keyword
+	def getSendKeysElement(By by, String key) {
+		try {
+			WebElement element = webDriver.findElement(by);
+			element.sendKeys(key)
+			KeywordUtil.markPassed("send keys success")
 		} catch (WebElementNotFoundException e) {
 			KeywordUtil.markFailed("Element not found")
 		} catch (Exception e) {

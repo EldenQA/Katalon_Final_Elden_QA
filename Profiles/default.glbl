@@ -46,12 +46,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'p4y+y39Ir5OTdtOb306gDg=='</initValue>
+      <initValue>'p4y+y39Ir5OGTVofeYR+5w=='</initValue>
       <name>candidateAppPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'panelist777@yopmail.comxxxx21639xxxx'</initValue>
+      <initValue>'IP1rnCezJJ@yopmail.comxxxx21915xxxx'</initValue>
       <name>EmployeeUserEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -93,5 +93,10 @@
       <description></description>
       <initValue>'.showTab .row [class=&quot;form-group p-0&quot;] input'</initValue>
       <name>feedbackPerameterLocator</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'//span[text()=\'All Jobs\']'</initValue>
+      <name>allJobsLocator</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

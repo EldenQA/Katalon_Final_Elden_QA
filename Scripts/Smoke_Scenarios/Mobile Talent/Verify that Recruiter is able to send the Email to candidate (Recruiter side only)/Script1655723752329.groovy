@@ -52,8 +52,7 @@ WebUI.click(findTestObject('MTP Locators/MobileTalentPoolLocatorOnDashboardBar')
 
 WebUI.click(findTestObject('MTP Locators/searchFilterOnCPPLocator'))
 
-WebUI.scrollToElement(findTestObject('MTP Locators/filterByNameLocator'), 
-    1)
+WebUI.scrollToElement(findTestObject('MTP Locators/filterByNameLocator'), 1)
 
 WebUI.sendKeys(findTestObject('MTP Locators/filterByNameLocator'), 'Elden QA')
 
@@ -73,23 +72,25 @@ int size = allEmailSent.size()
 int expectedSize = size + 1
 
 System.out.println(size)
+
 //*
 WebUI.click(findTestObject('MTP Locators/ComposeEmailLocator'))
 
 WebUI.click(findTestObject('MTP Locators/subjectOfEmailLocator'))
 
-WebUI.sendKeys(findTestObject('MTP Locators/subjectOfEmailLocator'), 'This email is from Recruiter')
+message = 'Message'+ RandomStringUtils.randomAlphabetic(10)
+WebUI.sendKeys(findTestObject('MTP Locators/subjectOfEmailLocator'), message)
 
 Actions ac = new Actions(driver)
 
 ac.sendKeys(Keys.PAGE_DOWN).perform()
 
-WebUI.sendKeys(findTestObject('MTP Locators/emailBodyLocator'), 'this is the email body ')
+WebUI.sendKeys(findTestObject('MTP Locators/emailBodyLocator'), 'This is message from Recruiter')
 
 Thread.sleep(1000)
 
-WebUI.click(findTestObject('MTP Locators/uploadButtonOnComposeEmailLocator'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('MTP Locators/uploadButtonOnComposeEmailLocator'), FailureHandling.STOP_ON_FAILURE)
+
 //This would upload the png file 
 File f = new File('download.png')
 
@@ -140,15 +141,18 @@ for (int b = 0; b < a; b++) {
     }
 }
 
-List<WebElement> allEmailSentAfter = driver.findElements(By.cssSelector('div[class="th-head"]'))
-
+List<WebElement> allEmailSentAfter = driver.findElements(By.cssSelector('li[class="col-two ng-binding"]'))
+//
 int sizeAfterSendingTheEmail = allEmailSentAfter.size()
-System.out.println(sizeAfterSendingTheEmail)
-if (sizeAfterSendingTheEmail == expectedSize) 
-	
+for (int y = 0 ; y<sizeAfterSendingTheEmail;y++)
+{
+	messageEmail = allEmailSentAfter.get(y).getText()
+	System.out.println(messageEmail)
+	if(messageEmail.equalsIgnoreCase(message))
 	{
-	System.out.println('Email Sent Successfully')
+		WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/b_Romit Romit'))
+		WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
+		WebUI.closeBrowser()
+		break
+	}
 }
-WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/b_Romit Romit'))
-WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
-WebUI.closeBrowser()

@@ -5,7 +5,7 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient>atsharma@qasource.com;</mailRecipient>
-   <numberOfRerun>1</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>5</pageLoadTimeout>
    <pageLoadTimeoutDefault>false</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
@@ -125,7 +125,7 @@
    <testCaseLink>
       <guid>cb150fa6-c13a-4e53-b4e1-629d65f14763</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that Recruiter is able to Add the feedback Perameter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -153,7 +153,7 @@
    <testCaseLink>
       <guid>9e534825-d4a1-4727-b776-75e32f64d18e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that InterviewPanelist is able to add the feedback for the Candidate</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -167,7 +167,7 @@
    <testCaseLink>
       <guid>b04f3836-d108-4285-9345-54c1f86b74a0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that user is able to schedule the Interview through Ring Central</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -181,7 +181,7 @@
    <testCaseLink>
       <guid>7356304a-ccb6-45dc-bcd2-30db4c336cb7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that user is able to Hire the Candidate</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -190,6 +190,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that Status of the Cadidate is synched on both sides IP and MTP</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>94285772-f571-4565-aaad-8420d109a5a4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that user is able to see the Feedback of the Candidate</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "08C95FCCEF13BD34ED479F7600E19716",
+  "keywordFileContentHash": "F98BB77B33CF18177BBA2669660C6E6F",
   "keywordClasses": [
     {
       "name": "packag.keyword",
@@ -7,17 +7,17 @@
         {
           "name": "refreshBrowser",
           "parameters": [],
-          "javadoc": "/**\r\n\t * Refresh browser\r\n\t */"
+          "javadoc": ""
         },
         {
           "name": "clickElement",
           "parameters": [
             {
-              "name": "to",
+              "name": "by",
               "initialExpression": "",
               "type": {
-                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
-                "unresolvedClassName": "TestObject",
+                "fullClassName": "org.openqa.selenium.By",
+                "unresolvedClassName": "By",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
                 "hasImmutableClassName": false,
@@ -27,6 +27,57 @@
             }
           ],
           "javadoc": "/**\r\n\t * Click element\r\n\t * @param to Katalon test object\r\n\t */"
+        },
+        {
+          "name": "getMultipleElement",
+          "parameters": [
+            {
+              "name": "by",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.openqa.selenium.By",
+                "unresolvedClassName": "By",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getSendKeysElement",
+          "parameters": [
+            {
+              "name": "by",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.openqa.selenium.By",
+                "unresolvedClassName": "By",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "key",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
         },
         {
           "name": "getHtmlTableRows",
