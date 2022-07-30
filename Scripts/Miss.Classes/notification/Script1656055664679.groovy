@@ -27,7 +27,7 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mobile-recruit.com/login')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.maximizeWindow()
 
@@ -47,3 +47,6 @@ for (int i=0 ; i<=500; i++)
 	
 	WebUI.click(findTestObject('MTP Locators/notificationText'))
 }
+
+
+

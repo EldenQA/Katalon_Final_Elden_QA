@@ -27,17 +27,17 @@ import java.text.DateFormat as DateFormat
 import java.text.SimpleDateFormat as SimpleDateFormat
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 
-//WebUI.callTestCase(findTestCase('Smoke_Scenarios/Interview Portal/Verify that New Interview Panelist is able to register in the System'), 
-//    [:], FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.callTestCase(findTestCase('Smoke_Scenarios/Interview Portal/Verify that Candidate is able to schedule the Talent Meet Interview'), 
-//    [:], FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.callTestCase(findTestCase('Smoke_Scenarios/Interview Portal/Verify that InterviewPanelist is able to add the feedback for the Candidate'), 
-//    [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Smoke_Scenarios/Interview Portal/Verify that New Interview Panelist is able to register in the System'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.callTestCase(findTestCase('Smoke_Scenarios/Interview Portal/Dependent TestCases/Verify that user is able to scedule the Second Round with same Interview Panelist for same candidate'), 
-//    [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Smoke_Scenarios/Interview Portal/Verify that Candidate is able to schedule the Talent Meet Interview'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Smoke_Scenarios/Interview Portal/Verify that InterviewPanelist is able to add the feedback for the Candidate'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Smoke_Scenarios/Interview Portal/Dependent TestCases/Verify that user is able to scedule the Second Round with same Interview Panelist for same candidate'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Smoke_Scenarios/Interview Portal/Dependent TestCases/Verify that InterviewPanelist is able to add the feedback for the Candidate for Second Round'), 
     [:], FailureHandling.STOP_ON_FAILURE)

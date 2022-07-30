@@ -75,7 +75,7 @@ WebUI.sendKeys(findTestObject('Yopmail.com/interviewPanelistSearchLocator'), pen
 
 WebUI.click(findTestObject('InterviewPortal/selectFirstInterviewPanelistAfterSearching'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/TaletMeetCommunicationMode'))
+WebUI.click(findTestObject('Object Repository/InterviewPortal/skypeCommunicationModeLocator'))
 
 WebUI.verifyElementText(findTestObject('InterviewPortal/successMessageAfterChangingTheMode'), 'Interview comunication mode changed successfully.')
 
@@ -134,7 +134,7 @@ WebUI.click(findTestObject('Yopmail.com/forwardIconLocator'))
 WebUI.click(findTestObject('Yopmail.com/forwardIconLocator'))
 
 WebUI.click(findTestObject('Yopmail.com/FirstSlotBooking'))
-
+WebUI.sendKeys(findTestObject('InterviewPortal/skypeInputBoxOnCandidateStandelonePage'), '@AutoSkype')
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Confirm'))
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_Thank YouYour slot has been booked forJ_f0af19'))

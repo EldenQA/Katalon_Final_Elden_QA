@@ -75,7 +75,19 @@ WebUI.sendKeys(findTestObject('Yopmail.com/interviewPanelistSearchLocator'), pen
 
 WebUI.click(findTestObject('InterviewPortal/selectFirstInterviewPanelistAfterSearching'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/TaletMeetCommunicationMode'))
+List<WebElement> communicationMode = driver.findElements(By.cssSelector('div[class="interviewMode"] span'))
+
+int communicationModeCount = communicationMode.size()
+
+for (int j = 0; j <= communicationModeCount; j++) {
+    communicationModeValue = communicationMode.get(j).getAttribute('title')
+
+    if (communicationModeValue.equalsIgnoreCase('Video Conference')) {
+        communicationMode.get(j).click()
+
+        break
+    }
+}
 
 WebUI.verifyElementText(findTestObject('InterviewPortal/successMessageAfterChangingTheMode'), 'Interview comunication mode changed successfully.')
 
@@ -95,7 +107,8 @@ for (int j = 0; j < sizeNumber; j++) {
 	}
 }
 
-WebUI.click(findTestObject('Object Repository/InterviewPortal/yesbuttonOnSceduleInterviewPopup'))
+WebUI.sendKeys(findTestObject('InterviewPortal/RingCentralCommunicationMode'), 'https://v.ringcentral.com/join/072250978276')
+WebUI.click(findTestObject('InterviewPortal/yesbuttonOnSceduleInterviewPopup'))
 
 WebUI.scrollToElement(findTestObject('Object Repository/InterviewPortal/emailOfTheCandidateLocator'), 2)
 

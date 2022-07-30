@@ -63,7 +63,7 @@ FileWriter fw2 = new FileWriter('job.properties')
 
 Properties pro2 = new Properties()
 
-pro2.setProperty('JobName', (((('Auto' + '_') + 'Software') + '_') + 'Enggineer') + RandomStringUtils.randomAlphabetic(4))
+pro2.setProperty('JobName', (((('Auto' + '_') + 'Software') + '_') + 'Enggineer'+'_') + RandomStringUtils.randomNumeric(5))
 
 pro2.store(fw, 'comments')
 
