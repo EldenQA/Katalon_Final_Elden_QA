@@ -57,7 +57,6 @@ WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent 
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'),
 GlobalVariable.interviewPanelistPassword)
-//WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'),'RAIVpflpDOg=')
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
