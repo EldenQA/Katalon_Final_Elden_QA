@@ -143,7 +143,7 @@ for (int i = 0; i < size; i++) {
 WebElement listOfElements3 = driver2.findElement(By.cssSelector('tr:nth-of-type(1) > td:nth-of-type(7) > .badge.badge-primary'))
 status= listOfElements3.getText()
 System.out.println('Status of the Candidate'+ status)
-
+System.out.println('Status of the Candidate'+ status)
 List<WebElement> listOfElements2 = driver2.findElements(By.cssSelector('tr>td:nth-of-type(4)'))
 int sizeofElements = listOfElements2.size()
 for (int j = 0; j < sizeofElements; j++) {
