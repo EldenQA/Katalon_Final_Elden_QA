@@ -77,17 +77,17 @@ WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_M
 driver.findElement(By.xpath('//p[text()="HR Evaluation"]')).click()
 Actions ac = new Actions(driver)
 ac.sendKeys(Keys.PAGE_DOWN).perform()
-WebUI.takeScreenshot('ScreenShots/FeedBackRoundWise/screenshot_'+ System.currentTimeMillis() + '.jpg')
+WebUI.takeScreenshot('ScreenShots/FeedBackRoundWise/FirstRound/screenshot_'+ System.currentTimeMillis() + '.jpg')
 ac.sendKeys(Keys.PAGE_UP).perform()
 
 driver.findElement(By.xpath('//p[text()="Technical Evaluation"]')).click()
 ac.sendKeys(Keys.PAGE_DOWN).perform()
-WebUI.takeScreenshot('ScreenShots/FeedBackRoundWise/screenshot_'+ System.currentTimeMillis() + '.jpg')
+WebUI.takeScreenshot('ScreenShots/FeedBackRoundWise/SecondRound/screenshot_'+ System.currentTimeMillis() + '.jpg')
 ac.sendKeys(Keys.PAGE_UP).perform()
 
 driver.findElement(By.xpath('//p[text()="Technical/Managerial Evaluation"]')).click()
 ac.sendKeys(Keys.PAGE_DOWN).perform()
-WebUI.takeScreenshot('ScreenShots/FeedBackRoundWise/screenshot_'+ System.currentTimeMillis() + '.jpg')
+WebUI.takeScreenshot('ScreenShots/FeedBackRoundWise/ThirdRound/screenshot_'+ System.currentTimeMillis() + '.jpg')
 ac.sendKeys(Keys.PAGE_UP).perform()
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/h4_Atish Sharma'))
