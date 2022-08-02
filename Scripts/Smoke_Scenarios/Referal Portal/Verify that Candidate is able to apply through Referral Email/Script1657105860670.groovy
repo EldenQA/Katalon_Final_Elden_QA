@@ -32,16 +32,23 @@ WebUI.navigateToUrl('https:yopmail.com/en/')
 
 WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 
-
 Properties pro = new Properties()
+
+Properties pro2 = new Properties()
 
 Actions ac = new Actions(driver)
 
 pro.load(new FileInputStream('Referral.properties'))
 
 email = pro.getProperty('EmailAddress')
-phone = pro.getProperty("PhoneNumber")
-name=pro.getProperty("NameOfCandidate")
+
+phone = pro.getProperty('PhoneNumber')
+
+name = pro.getProperty('NameOfCandidate')
+
+pro2.load(new FileInputStream('Files/interviewPortal.properties'))
+
+InterviewPanelist = pro2.getProperty('PanelistEmailName_1')
 
 WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'), 
     email)
@@ -74,7 +81,6 @@ WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testi
 WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_Last Name_id5237'), 
     name)
 
-
 WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_Email_id5238'), 
     email)
 
@@ -99,60 +105,134 @@ WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing
 WebUI.verifyElementText(findTestObject('Registration/Page_Software_Testing_geuT_micrositeCapture/thankyouPopupContinueButton'), 
     'Continue')
 
-
-
 WebUI.closeBrowser()
+
 Thread.sleep(2000)
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl(GlobalVariable.url)
+
+WebDriver driver2 = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
+WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
+    GlobalVariable.userName)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
+    GlobalVariable.password)
+
+WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
+
+driver2.findElement(By.cssSelector('a[title=\'Mobile Talent Pool\'] > .ng-scope')).click()
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('MTP Locators/searchFilterOnCPPLocator'))
+
+WebUI.scrollToElement(findTestObject('MTP Locators/filterByNameLocator'), 1)
+
+WebUI.sendKeys(findTestObject('MTP Locators/filterByNameLocator'), name)
+
+WebUI.scrollToElement(findTestObject('MTP Locators/searchLocator'), 1)
+
+WebUI.click(findTestObject('MTP Locators/searchLocator'))
+
+WebUI.scrollToElement(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'), 2)
+
+WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'))
+
+List<WebElement> allStatus = driver2.findElements(By.cssSelector('a span[class =\'value-text ng-scope\']'))
+
+int count = allStatus.size()
+
+System.out.println(count)
+
+for (int j = 0; j <= count; j++) {
+    status = allStatus.get(j).getText()
+
+    System.out.println(status)
+
+    if (status.equalsIgnoreCase('Joined')) {
+        allStatus.get(j).click()
+
+        break
+    }
+}
+
+WebUI.scrollToElement(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'), 2)
+
+WebUI.verifyElementText(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'), 'Joined')
+
+WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/b_Romit Romit'))
+
+WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
 
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.url)
-WebDriver driver2 = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
-WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'),
-	GlobalVariable.userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'),
-	GlobalVariable.password)
+WebDriver driver3 = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
+WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
+    InterviewPanelist)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
+    GlobalVariable.interviewPanelistPassword)
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/i_Mobile Recruitment Platform_fas fa-chevron-down'))
+WebUI.click(findTestObject('InterviewPortal/navigatorDropdown'))
 
-WebUI.click(findTestObject('MTP Locators/refferalPortalValueFromDropDown'))
+WebUI.click(findTestObject('InterviewPortal/selectReferalPortal'))
 
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Referal Portal/closeReferralPopup'))
 
-List<WebElement> listOfAllElemenets = driver2.findElements(By.cssSelector('li[class=\'nav-item \']'))
+List<WebElement> listOfAllElemenets = driver3.findElements(By.cssSelector('li[class=\'nav-item \']'))
 
 int size = listOfAllElemenets.size()
 
 for (int i = 0; i < size; i++) {
-	text = listOfAllElemenets.get(i).getText()
+    text = listOfAllElemenets.get(i).getText()
 
-	if (text.equalsIgnoreCase('Referral(s)')) {
-		listOfAllElemenets.get(i).click()
+    if (text.equalsIgnoreCase('Referral(s)')) {
+        listOfAllElemenets.get(i).click()
 
-		break
-	}
+        break
+    }
 }
 
-WebElement listOfElements3 = driver2.findElement(By.cssSelector('tr:nth-of-type(1) > td:nth-of-type(7) > .badge.badge-primary'))
-status= listOfElements3.getText()
-System.out.println('Status of the Candidate'+ status)
-System.out.println('Status of the Candidate'+ status)
-List<WebElement> listOfElements2 = driver2.findElements(By.cssSelector('tr>td:nth-of-type(4)'))
+WebUI.sendKeys(findTestObject('Referal Portal/searchJobLocator'), email)
+
+WebElement listOfElements3 = driver3.findElement(By.cssSelector('tr:nth-of-type(1) > td:nth-of-type(7) > .badge.badge-primary'))
+
+status = listOfElements3.getText()
+
+System.out.println('Status of the Candidate' + status)
+
+System.out.println('Status of the Candidate' + status)
+
+List<WebElement> listOfElements2 = driver3.findElements(By.cssSelector('tr>td:nth-of-type(4)'))
+
 int sizeofElements = listOfElements2.size()
+
 for (int j = 0; j < sizeofElements; j++) {
-	textofElements = listOfElements2.get(j).getText()
-	System.out.println(textofElements)
-	
-	if(textofElements.equalsIgnoreCase(email)&& status.equalsIgnoreCase("APPLIED") ) {
-		driver2.findElement(By.cssSelector(".dropdown-toggle.pointer > h4")).click()
-		driver2.findElement(By.cssSelector(".dropdown-item.pointer")).click()
-		break
-	}
+    textofElements = listOfElements2.get(j).getText()
+
+    System.out.println(textofElements)
+
+    if (textofElements.equalsIgnoreCase(email) && status.equalsIgnoreCase('Joined')) {
+        driver3.findElement(By.cssSelector('.dropdown-toggle.pointer > h4')).click()
+        driver3.findElement(By.cssSelector('.dropdown-item.pointer')).click()
+		WebUI.closeBrowser()
+
+        break
+    } else {
+        throw new IOException('Status is not same')
+    }
 }
+

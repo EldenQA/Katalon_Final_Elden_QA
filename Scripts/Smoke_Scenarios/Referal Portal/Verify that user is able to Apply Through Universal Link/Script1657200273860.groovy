@@ -43,22 +43,26 @@ Actions ac = new Actions(driver)
 Robot rb = new Robot()
 
 Properties pro = new Properties()
+Properties pro3 = new Properties()
 
 pro.load(new FileInputStream('job.properties'))
+pro3.load(new FileInputStream('Files/interviewPortal.properties'))
+
+InterviewPanelist = pro3.getProperty('PanelistEmailName_1')
 
 Jobname = pro.getProperty('JobName')
 
 WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
-    GlobalVariable.userName)
+    InterviewPanelist)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
-    GlobalVariable.password)
+    GlobalVariable.interviewPanelistPassword)
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/i_Mobile Recruitment Platform_fas fa-chevron-down'))
+WebUI.click(findTestObject('InterviewPortal/navigatorDropdown'))
 
-WebUI.click(findTestObject('MTP Locators/refferalPortalValueFromDropDown'))
+WebUI.click(findTestObject('InterviewPortal/selectReferalPortal'))
 
 Thread.sleep(2000)
 
@@ -101,6 +105,7 @@ WebUI.scrollToElement(findTestObject('CarrierPage/ReferAFriendButtonOuter'), 2)
 WebUI.click(findTestObject('CarrierPage/ReferAFriendButtonOuter'))
 
 email = (('refer' + RandomStringUtils.randomNumeric(4)) + '@yopmail.com')
+UniversalName= 'Universal'+RandomStringUtils.randomNumeric(6)
 
 System.out.println(email)
 
@@ -108,9 +113,9 @@ phoneNumber = ('1325' + RandomStringUtils.randomNumeric(6))
 
 System.out.println(phoneNumber)
 
-WebUI.sendKeys(findTestObject('CarrierPage/ReferOuterFirstName'), 'Refer')
+WebUI.sendKeys(findTestObject('CarrierPage/ReferOuterFirstName'), UniversalName)
 
-WebUI.sendKeys(findTestObject('CarrierPage/ReferOuterLastName'), 'Universal')
+WebUI.sendKeys(findTestObject('CarrierPage/ReferOuterLastName'), 'yadav')
 
 WebUI.sendKeys(findTestObject('CarrierPage/ReferOuterEmail'), email)
 
@@ -174,10 +179,10 @@ WebUI.click(findTestObject('Registration/Page_Software_Testing_geuT_micrositeCap
 driver2.findElement(By.cssSelector('a[class=\'carrot-flat-button ng-scope\']')).click()
 
 WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_First Name_id5236'),
-	"Universal")
+	UniversalName)
 
 WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_Last Name_id5237'),
-	"Refer")
+	'yadav')
 
 
 WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_Email_id5238'),
@@ -221,41 +226,112 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobil
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/i_Mobile Recruitment Platform_fas fa-chevron-down'))
+driver3.findElement(By.cssSelector('a[title=\'Mobile Talent Pool\'] > .ng-scope')).click()
 
-WebUI.click(findTestObject('MTP Locators/refferalPortalValueFromDropDown'))
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('MTP Locators/searchFilterOnCPPLocator'))
+
+WebUI.scrollToElement(findTestObject('MTP Locators/filterByNameLocator'), 1)
+
+WebUI.sendKeys(findTestObject('MTP Locators/filterByNameLocator'), UniversalName)
+
+WebUI.scrollToElement(findTestObject('MTP Locators/searchLocator'), 1)
+
+WebUI.click(findTestObject('MTP Locators/searchLocator'))
+
+WebUI.scrollToElement(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'), 2)
+
+WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'))
+
+List<WebElement> allStatus = driver3.findElements(By.cssSelector('a span[class =\'value-text ng-scope\']'))
+
+int count = allStatus.size()
+
+System.out.println(count)
+
+for (int j = 0; j <= count; j++) {
+	status = allStatus.get(j).getText()
+
+	System.out.println(status)
+
+	if (status.equalsIgnoreCase('Joined')) {
+		allStatus.get(j).click()
+
+		break
+	}
+}
+WebUI.scrollToElement(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'), 2)
+
+WebUI.verifyElementText(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'), 'Joined')
+
+WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/b_Romit Romit'))
+
+WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
+WebUI.closeBrowser()
+
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl(GlobalVariable.url)
+
+WebDriver driver4 = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
+WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
+    InterviewPanelist)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
+    GlobalVariable.interviewPanelistPassword)
+
+WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
+
+WebUI.click(findTestObject('InterviewPortal/navigatorDropdown'))
+
+WebUI.click(findTestObject('InterviewPortal/selectReferalPortal'))
 
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Referal Portal/closeReferralPopup'))
 
-List<WebElement> listOfAllElemenets = driver3.findElements(By.cssSelector('li[class=\'nav-item \']'))
+List<WebElement> listOfAllElemenets = driver.findElements(By.cssSelector('li[class=\'nav-item \']'))
 
-countOFReferal= listOfAllElemenets.size()
- for (int b=0; b<countOFReferal;b++)
- {
-	 textReferral = listOfAllElemenets.get(b).getText()
-	 if (textReferral.equalsIgnoreCase("Referral(s)"))
-	 {
-		 listOfAllElemenets.get(b).click()
-	 }
- }
+int size = listOfAllElemenets.size()
+
+for (int i = 0; i < size; i++) {
+    textr = listOfAllElemenets.get(i).getText()
+
+    if (textr.equalsIgnoreCase('Referral(s)')) {
+        listOfAllElemenets.get(i).click()
+
+        break
+    }
+}
+
+WebUI.sendKeys(findTestObject('Referal Portal/searchJobLocator'), email)
 
 WebElement listOfElements3 = driver3.findElement(By.cssSelector('tr:nth-of-type(1) > td:nth-of-type(7) > .badge.badge-primary'))
-status= listOfElements3.getText()
-System.out.println('Status of the Candidate'+ status)
+
+status = listOfElements3.getText()
+
+System.out.println('Status of the Candidate' + status)
 
 List<WebElement> listOfElements2 = driver3.findElements(By.cssSelector('tr>td:nth-of-type(4)'))
-int sizeofElements = listOfElements2.size()
-for (int k = 0; k < sizeofElements; k++) {
-	textofElements = listOfElements2.get(k).getText()
-	System.out.println(textofElements)
-	
-	if(textofElements.equalsIgnoreCase(email)&& status.equalsIgnoreCase("APPLIED") ) {
-		driver3.findElement(By.cssSelector(".dropdown-toggle.pointer > h4")).click()
-		driver3.findElement(By.cssSelector(".dropdown-item.pointer")).click()
-		break
-	}
-}
-WebUI.closeBrowser()
 
+int sizeofElements = listOfElements2.size()
+
+for (int j = 0; j < sizeofElements; j++) {
+    textofElements = listOfElements2.get(j).getText()
+
+    System.out.println(textofElements)
+
+    if (textofElements.equalsIgnoreCase(email) && status.equalsIgnoreCase('Joined')) {
+        driver3.findElement(By.cssSelector('.dropdown-toggle.pointer > h4')).click()
+        driver3.findElement(By.cssSelector('.dropdown-item.pointer')).click()
+		WebUI.closeBrowser()
+
+        break
+    } else {
+        throw new IOException('Status is not same')
+    }
+}

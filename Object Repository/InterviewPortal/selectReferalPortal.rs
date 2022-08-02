@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>successMessageLocator</name>
+   <name>selectReferalPortal</name>
    <tag></tag>
-   <elementGuidId>cac7dbe3-4047-4ef8-bbcb-d14754264ed8</elementGuidId>
+   <elementGuidId>e8984fe5-66f8-4faa-af70-583dbca94a34</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div[class='growl-message ng-binding']</value>
+         <value>.dropdown-menu.dropdown-menu-right.show > a[role='button']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

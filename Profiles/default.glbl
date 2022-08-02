@@ -6,12 +6,12 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'atsharma@qasource.com'</initValue>
+      <initValue>'romgupta@qasource.com'</initValue>
       <name>userName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'p4y+y39Ir5OGTVofeYR+5w=='</initValue>
+      <initValue>'p4y+y39Ir5OTdtOb306gDg=='</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

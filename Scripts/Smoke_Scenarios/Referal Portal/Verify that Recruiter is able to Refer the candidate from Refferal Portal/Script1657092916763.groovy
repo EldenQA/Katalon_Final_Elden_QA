@@ -31,36 +31,49 @@ WebUI.navigateToUrl(GlobalVariable.url)
 
 WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 
-
 Properties pro1 = new Properties()
+
 Properties pro = new Properties()
+
+Properties pro2 = new Properties()
+
 FileWriter fw = new FileWriter('Referral.properties')
+
 pro1.load(new FileInputStream('Referral.properties'))
 
-pro1.setProperty('EmailAddress', 'Refer'+ RandomStringUtils.randomAlphabetic(4)+'@yopmail.com')
+pro1.setProperty('EmailAddress', ('Refer' + RandomStringUtils.randomAlphabetic(4)) + '@yopmail.com')
+
 pro1.setProperty('PhoneNumber', '1325' + RandomStringUtils.randomNumeric(6))
-pro1.setProperty("NameOfCandidate",'Referral' + RandomStringUtils.randomAlphanumeric(5) )
+
+pro1.setProperty('NameOfCandidate', 'Referral' + RandomStringUtils.randomAlphanumeric(5))
+
 pro1.store(fw, 'Comments')
 
 emailAddress = pro1.getProperty('EmailAddress')
+
 nameOFCandidateToBeRefered = pro1.getProperty('NameOfCandidate')
+
 Actions ac = new Actions(driver)
 
 pro.load(new FileInputStream('job.properties'))
 
 keyValue = pro.getProperty('JobName')
 
+pro2.load(new FileInputStream('Files/interviewPortal.properties'))
+
+InterviewPanelist = pro2.getProperty('PanelistEmailName_1')
+
 WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
-    GlobalVariable.userName)
+    InterviewPanelist)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
-    GlobalVariable.password)
+    GlobalVariable.interviewPanelistPassword)
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/i_Mobile Recruitment Platform_fas fa-chevron-down'))
+WebUI.click(findTestObject('InterviewPortal/navigatorDropdown'))
 
-WebUI.click(findTestObject('MTP Locators/refferalPortalValueFromDropDown'))
+WebUI.click(findTestObject('InterviewPortal/selectReferalPortal'))
 
 Thread.sleep(2000)
 
@@ -86,10 +99,7 @@ WebUI.scrollToElement(findTestObject('Referal Portal/referButtonLocator'), 0)
 
 WebUI.click(findTestObject('Referal Portal/referButtonLocator'))
 
-
-
 //emailOFTheCandidate = (('Refer' + RandomStringUtils.randomNumeric(4)) + '@yopmail.com')
-
 System.out.println('Candidate Name=' + nameOFCandidateToBeRefered)
 
 System.out.println('Email of the Candidate =' + nameOFCandidateToBeRefered)
@@ -101,21 +111,30 @@ WebUI.sendKeys(findTestObject('Referal Portal/emailAddressLocator'), emailAddres
 WebUI.sendKeys(findTestObject('Referal Portal/phoneNumberLocator'), '1325' + RandomStringUtils.randomNumeric(6))
 
 WebUI.click(findTestObject('Referal Portal/ReferAFriendLocator'))
+
 WebElement listOfElements3 = driver.findElement(By.cssSelector('tr:nth-of-type(1) > td:nth-of-type(7) > .badge.badge-primary'))
-status= listOfElements3.getText()
-System.out.println('Status of the Candidate'+ status)
+
+status = listOfElements3.getText()
+
+System.out.println('Status of the Candidate' + status)
 
 List<WebElement> listOfElements2 = driver.findElements(By.cssSelector('tr>td:nth-of-type(4)'))
+
 int sizeofElements = listOfElements2.size()
+
 for (int j = 0; j < sizeofElements; j++) {
     textofElements = listOfElements2.get(j).getText()
+
     System.out.println(textofElements)
-	
-	if(textofElements.equalsIgnoreCase(emailAddress)&& status.equalsIgnoreCase("REFERRED") ) {
-		driver.findElement(By.cssSelector(".dropdown-toggle.pointer > h4")).click()
-		driver.findElement(By.cssSelector(".dropdown-item.pointer")).click()
-		
-		break				
-	}
+
+    if (textofElements.equalsIgnoreCase(emailAddress) && status.equalsIgnoreCase('REFERRED')) {
+        driver.findElement(By.cssSelector('.dropdown-toggle.pointer > h4')).click()
+
+        driver.findElement(By.cssSelector('.dropdown-item.pointer')).click()
+
+        break
+    }
 }
+
 WebUI.closeBrowser()
+

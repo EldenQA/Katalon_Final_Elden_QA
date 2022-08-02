@@ -23,8 +23,8 @@ import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.remote.server.DriverFactory as DriverFactory
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-//WebUI.callTestCase(findTestCase('Smoke_Scenarios/Mobile Talent/Verify that Recruiter is able to send the doucument to candidate'), [:], 
-//FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Smoke_Scenarios/Mobile Talent/Verify that Recruiter is able to send the doucument to candidate'), [:], 
+FailureHandling.STOP_ON_FAILURE)
 
 WebUI.openBrowser('')
 
@@ -90,7 +90,7 @@ for (int l = 0; l < listallTabsCount; l++) {
 Thread.sleep(2000)
 WebUI.click(findTestObject('Object Repository/candidate App/Page_/button_View'))
 
-Thread.sleep(2000)
+Thread.sleep(3000)
 WebUI.click(findTestObject('Object Repository/candidate App/Page_/li_Signature'))
 
 WebElement element = driver.findElement(By.xpath('//canvas[@id="signature-pad"]'))
