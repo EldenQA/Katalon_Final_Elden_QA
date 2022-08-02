@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>successMessageLocator</name>
+   <name>navigatorDropdown</name>
    <tag></tag>
-   <elementGuidId>cac7dbe3-4047-4ef8-bbcb-d14754264ed8</elementGuidId>
+   <elementGuidId>83489d93-2dfb-4921-ab4c-694d650c1b14</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div[class='growl-message ng-binding']</value>
+         <value>button#dropdown-menu-align-left</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

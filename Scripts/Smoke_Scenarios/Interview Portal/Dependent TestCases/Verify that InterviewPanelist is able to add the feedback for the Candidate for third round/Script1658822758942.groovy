@@ -59,109 +59,111 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobil
 	GlobalVariable.interviewPanelistPassword)
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-//WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Clear Filter(s)'))
-//
-//WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/i_Filters_fa fa-caret-down ml-3'))
-//
-//WebUI.sendKeys(findTestObject('InterviewPortal/searchCandidateLocator'), candidateName)
-//
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/select_AllNot ScheduledCalendar SharedInter_ca03d5'), 
-//    'Interview Scheduled', true)
-//
-//WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Apply'))
-//
-//WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_dvicFyopmail.com'))
-//
-//driver.findElement(By.xpath('//p[text()="Technical/Managerial Evaluation"]')).click()
-//
-//Actions ac = new Actions(driver)
-//
-//List<WebElement> superElement = driver.findElements(By.cssSelector(GlobalVariable.feedbackPerameterLocator))
-//
-//int ct = superElement.size()
-//
-//System.out.println(ct)
-//
-//for (WebElement s : superElement) {
-//    m = s.getAttribute('type')
-//
-//    System.out.println(m)
-//
-//    if (m == 'range') {
-//        ac.clickAndHold(s).moveToElement(s, 10, 5).build().perform()
-//    } else if (m == 'radio') {
-//        s.click()
-//    }
-//}
-//
-//List<WebElement> TextPerameter = driver.findElements(By.cssSelector(GlobalVariable.feedbackPerameterTextLocator))
-//
-//int countOfText = TextPerameter.size()
-//
-//System.out.println(countOfText)
-//
-//for (WebElement t : TextPerameter) {
-//    t.sendKeys('Yes')
-//}
-//
-//List<WebElement> buttonWebElementonFeedBackPage = driver.findElements(By.cssSelector('button[type=button]'))
-//
-//int buttonWebElementonFeedBackPagesize = buttonWebElementonFeedBackPage.size()
-//
-//for (int q = 0; q <= buttonWebElementonFeedBackPagesize; q++) {
-//    buttonWebElementonFeedBackPagesizeText = buttonWebElementonFeedBackPage.get(q).getText()
-//
-//    System.out.println(buttonWebElementonFeedBackPagesizeText)
-//
-//    if (buttonWebElementonFeedBackPagesizeText.equalsIgnoreCase('Hired')) {
-//        buttonWebElementonFeedBackPage.get(q).click()
-//
-//        break
-//    }
-//}
-//
-//for (int w = 0; w <= buttonWebElementonFeedBackPagesize; w++) {
-//    buttonWebElementonFeedBackPagesizeText = buttonWebElementonFeedBackPage.get(w).getText()
-//
-//    System.out.println(buttonWebElementonFeedBackPagesizeText)
-//
-//    if (buttonWebElementonFeedBackPagesizeText.equalsIgnoreCase('Upload Screenshot(s)')) {
-//        buttonWebElementonFeedBackPage.get(w).click()
-//
-//        break
-//    }
-//}
-//
-//File f = new File('download.png')
-//
-//String logoPath = f.getAbsolutePath()
-//
-//Robot rb = new Robot()
-//
-//rb.delay(2000)
-//
-//StringSelection ss = new StringSelection(logoPath)
-//
-//Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null)
-//
-//rb.keyPress(KeyEvent.VK_CONTROL)
-//
-//rb.keyPress(KeyEvent.VK_V)
-//
-//rb.keyRelease(KeyEvent.VK_CONTROL)
-//
-//rb.keyRelease(KeyEvent.VK_V)
-//
-//rb.keyPress(KeyEvent.VK_ENTER)
-//
-//rb.keyRelease(KeyEvent.VK_ENTER)
-//
-//WebUI.click(findTestObject('CarrierPage/SubmitButton'))
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Clear Filter(s)'))
+
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/i_Filters_fa fa-caret-down ml-3'))
+
+WebUI.sendKeys(findTestObject('InterviewPortal/searchCandidateLocator'), candidateName)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/select_AllNot ScheduledCalendar SharedInter_ca03d5'), 
+    'Interview Scheduled', true)
+
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Apply'))
+
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_dvicFyopmail.com'))
+
+driver.findElement(By.xpath('//p[text()="Technical/Managerial Evaluation"]')).click()
+
+Actions ac = new Actions(driver)
+
+List<WebElement> superElement = driver.findElements(By.cssSelector(GlobalVariable.feedbackPerameterLocator))
+
+int ct = superElement.size()
+
+System.out.println(ct)
+
+for (WebElement s : superElement) {
+    m = s.getAttribute('type')
+
+    System.out.println(m)
+
+    if (m == 'range') {
+        ac.clickAndHold(s).moveToElement(s, 10, 5).build().perform()
+    } else if (m == 'radio') {
+        s.click()
+    }
+}
+
+List<WebElement> TextPerameter = driver.findElements(By.cssSelector(GlobalVariable.feedbackPerameterTextLocator))
+
+int countOfText = TextPerameter.size()
+
+System.out.println(countOfText)
+
+for (WebElement t : TextPerameter) {
+    t.sendKeys('Yes')
+}
+
+List<WebElement> buttonWebElementonFeedBackPage = driver.findElements(By.cssSelector('button[type=button]'))
+
+int buttonWebElementonFeedBackPagesize = buttonWebElementonFeedBackPage.size()
+
+for (int q = 0; q <= buttonWebElementonFeedBackPagesize; q++) {
+    buttonWebElementonFeedBackPagesizeText = buttonWebElementonFeedBackPage.get(q).getText()
+
+    System.out.println(buttonWebElementonFeedBackPagesizeText)
+
+    if (buttonWebElementonFeedBackPagesizeText.equalsIgnoreCase('Hired')) {
+        buttonWebElementonFeedBackPage.get(q).click()
+
+        break
+    }
+}
+
+for (int w = 0; w <= buttonWebElementonFeedBackPagesize; w++) {
+    buttonWebElementonFeedBackPagesizeText = buttonWebElementonFeedBackPage.get(w).getText()
+
+    System.out.println(buttonWebElementonFeedBackPagesizeText)
+
+    if (buttonWebElementonFeedBackPagesizeText.equalsIgnoreCase('Upload Screenshot(s)')) {
+        buttonWebElementonFeedBackPage.get(w).click()
+
+        break
+    }
+}
+
+File f = new File('download.png')
+
+String logoPath = f.getAbsolutePath()
+
+Robot rb = new Robot()
+
+rb.delay(3000)
+
+StringSelection ss = new StringSelection(logoPath)
+
+Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null)
+
+rb.keyPress(KeyEvent.VK_CONTROL)
+
+rb.keyPress(KeyEvent.VK_V)
+
+rb.keyRelease(KeyEvent.VK_CONTROL)
+
+rb.keyRelease(KeyEvent.VK_V)
+
+rb.keyPress(KeyEvent.VK_ENTER)
+
+rb.keyRelease(KeyEvent.VK_ENTER)
+
+Thread.sleep(2000)
+WebUI.click(findTestObject('CarrierPage/SubmitButton'))
+Thread.sleep(1000)
 ((driver) as JavascriptExecutor).executeScript('window.open(arguments[0])', 'https://yopmail.com/en/')
 
 WebUI.switchToWindowIndex(1)
 
-//WebUI.navigateToUrl('https://yopmail.com')
+WebUI.navigateToUrl('https://yopmail.com')
 
 WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'),
 	candidateEmail)

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that user is able to Change the License Type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a51bd510-8d60-4e0b-b7af-7c8fb2cd0d16</testCaseGuid>
+</TestCaseEntity>

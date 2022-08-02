@@ -25,6 +25,9 @@ import org.openqa.selenium.remote.server.DriverFactory as DriverFactory
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 
+//WebUI.callTestCase(findTestCase('Smoke_Scenarios/Mobile Talent/Verify that user is able to Change the License Type'), [:], 
+  //  FailureHandling.STOP_ON_FAILURE)
+
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
@@ -34,6 +37,7 @@ WebUI.navigateToUrl(GlobalVariable.url)
 WebDriver driver1 = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 
 Properties pro1 = new Properties()
+Properties pro3 = new Properties()
 
 Properties pro = new Properties()
 
@@ -59,14 +63,21 @@ pro.load(new FileInputStream('job.properties'))
 
 keyValue = pro.getProperty('JobName')
 
+pro3.load(new FileInputStream('Files/interviewPortal.properties'))
+
+InterviewPanelist = pro3.getProperty('PanelistEmailName_1')
+
 WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
-    GlobalVariable.EmployeeUserEmail)
+    InterviewPanelist)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
-    GlobalVariable.EmployeeUserPassword)
+    GlobalVariable.interviewPanelistPassword)
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
+WebUI.click(findTestObject('InterviewPortal/navigatorDropdown'))
+
+WebUI.click(findTestObject('InterviewPortal/selectReferalPortal'))
 
 Thread.sleep(2000)
 
@@ -93,6 +104,7 @@ WebUI.scrollToElement(findTestObject('Referal Portal/referButtonLocator'), 0)
 WebUI.click(findTestObject('Referal Portal/referButtonLocator'))
 
 emailOFTheCandidate = (('Refer' + RandomStringUtils.randomNumeric(4)) + '@yopmail.com')
+
 System.out.println('Candidate Name=' + nameOFCandidateToBeRefered)
 
 System.out.println('Email of the Candidate =' + nameOFCandidateToBeRefered)
@@ -130,6 +142,7 @@ for (int j = 0; j < sizeofElements; j++) {
         WebUI.closeBrowser()
     }
 }
+
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
@@ -137,9 +150,11 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https:yopmail.com/en/')
 
 WebDriver driver2 = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
 Properties pro2 = new Properties()
 
 Actions ac2 = new Actions(driver2)
+
 pro2.load(new FileInputStream('Referral.properties'))
 
 email = pro2.getProperty('EmailAddress')
@@ -204,6 +219,7 @@ WebUI.verifyElementText(findTestObject('Registration/Page_Software_Testing_geuT_
     'Continue')
 
 WebUI.closeBrowser()
+
 Thread.sleep(2000)
 
 WebUI.openBrowser('')
@@ -264,16 +280,16 @@ for (int e = 0; e <= count5; e++) {
 
 WebUI.switchToWindowIndex(1)
 
-
-WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'),
-	GlobalVariable.EmployeeUserEmail)
+WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'), 
+    InterviewPanelist)
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/i_'))
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Inbox/span_Show pictures'))
 
 WebUI.switchToWindowTitle('Inbox')
-WebUI.takeScreenshot('ScreenShots/Upgrade/screenshot_'+ System.currentTimeMillis() + '.jpg')
+
+WebUI.takeScreenshot(('ScreenShots/Upgrade/screenshot_' + System.currentTimeMillis()) + '.jpg')
 
 WebUI.switchToWindowIndex(0)
 
@@ -286,22 +302,32 @@ int count6 = allStatus6.size()
 System.out.println(count6)
 
 for (int f = 0; f <= count6; f++) {
-	status6 = allStatus6.get(f).getText()
+    status6 = allStatus6.get(f).getText()
 
-	System.out.println(status6)
+    System.out.println(status6)
 
-	if (status6.equalsIgnoreCase('Separated')) {
-		allStatus6.get(f).click()
+    if (status6.equalsIgnoreCase('Separated')) {
+        allStatus6.get(f).click()
 
-		WebUI.verifyElementText(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'),
-			'Separated')
-		break
-	}
+        WebUI.verifyElementText(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'), 
+            'Separated')
+
+        break
+    }
 }
+
 WebUI.switchToWindowIndex(1)
+
 WebUI.refresh()
+
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Inbox/span_Show pictures'))
-WebUI.takeScreenshot('ScreenShots/DownGrade/screenshot_'+ System.currentTimeMillis() + '.jpg')
+
+WebUI.takeScreenshot(('ScreenShots/DownGrade/screenshot_' + System.currentTimeMillis()) + '.jpg')
+
 WebUI.switchToWindowIndex(0)
+
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/i_Romit Romit_fas fa-caret-down caret-down-arrow'))
+
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
+WebUI.closeBrowser()
+
