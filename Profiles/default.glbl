@@ -6,12 +6,12 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'romgupta@qasource.com'</initValue>
+      <initValue>'atsharma@qasource.com'</initValue>
       <name>userName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'p4y+y39Ir5OTdtOb306gDg=='</initValue>
+      <initValue>'p4y+y39Ir5OGTVofeYR+5w=='</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,17 +21,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Perl Developer'</initValue>
+      <initValue>'Software Engineer_Perl Developer'</initValue>
       <name>JobName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'prajakta'</initValue>
+      <initValue>'Saransh Mehta'</initValue>
       <name>candidateName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'vinayak pathak'</initValue>
+      <initValue>'auto user(dontUse)'</initValue>
       <name>hiredCandidate</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -41,12 +41,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'vinayak@yopmail.comxxxx21753xxxx'</initValue>
+      <initValue>'autouser@yopmail.com'</initValue>
       <name>candidateAppUser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'p4y+y39Ir5OGTVofeYR+5w=='</initValue>
+      <initValue>'p4y+y39Ir5OTdtOb306gDg=='</initValue>
       <name>candidateAppPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

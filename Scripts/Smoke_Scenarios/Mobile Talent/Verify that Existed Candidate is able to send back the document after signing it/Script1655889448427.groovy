@@ -23,9 +23,8 @@ import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.remote.server.DriverFactory as DriverFactory
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-WebUI.callTestCase(findTestCase('Smoke_Scenarios/Mobile Talent/Verify that Recruiter is able to send the doucument to candidate'), [:], 
-FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.callTestCase(findTestCase('Smoke_Scenarios/Mobile Talent/Verify that Recruiter is able to send the doucument to candidate'), [:], 
+//FailureHandling.STOP_ON_FAILURE)
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url)
@@ -33,7 +32,9 @@ WebUI.navigateToUrl(GlobalVariable.url)
 WebUI.maximizeWindow()
 
 WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
 Actions ac = new Actions(driver)
+
 WebUI.setText(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
     GlobalVariable.candidateAppUser)
 
@@ -87,26 +88,33 @@ for (int l = 0; l < listallTabsCount; l++) {
         break
     }
 }
+
 Thread.sleep(2000)
+
 WebUI.click(findTestObject('Object Repository/candidate App/Page_/button_View'))
 
 Thread.sleep(3000)
+
 WebUI.click(findTestObject('Object Repository/candidate App/Page_/li_Signature'))
 
 WebElement element = driver.findElement(By.xpath('//canvas[@id="signature-pad"]'))
+
 WebElement element2 = driver.findElement(By.xpath('//mat-checkbox[@id="mat-checkbox-1"]/label/div'))
+
 //ac.clickAndHold()..build().perform()
-for(int m = 0 ; m<=6;m++)
-{
- v = RandomStringUtils.randomNumeric(2);
- s=  RandomStringUtils.randomNumeric(2);
-int x = Integer.parseInt(v);
-int z = Integer.parseInt(s);
-ac.clickAndHold(element).moveToElement(element, x, z).build().perform()
-ac.clickAndHold(element).moveToElement(element, -(z), -(x)).build().perform()
+for (int m = 0; m <= 6; m++) {
+    v = RandomStringUtils.randomNumeric(2)
+
+    s = RandomStringUtils.randomNumeric(2)
+
+    int x = Integer.parseInt(v)
+
+    int z = Integer.parseInt(s)
+
+    ac.clickAndHold(element).moveToElement(element, x, z).build().perform()
+
+    ac.clickAndHold(element).moveToElement(element, -(z), -(x)).build().perform()
 }
-
-
 
 WebUI.click(findTestObject('Object Repository/candidate App/Page_/div_Clear Canvas_mat-checkbox-inner-contain_2f2c24'))
 
@@ -139,7 +147,7 @@ WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/i_All Candidates_fa fa-search'))
 
 WebUI.setText(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/input_Name_Name'), 
-   GlobalVariable.hiredCandidate )
+    GlobalVariable.hiredCandidate)
 
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/button_Search'))
 
@@ -147,6 +155,7 @@ WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  
 
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/i_Signed_fas fa-eye icon-grey ng-scope'))
 
+WebUI.scrollToElement(findTestObject('candidate App/Page_Mobile Talent  Mobile Recruitment/button_Close'), 2)
 
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/button_Close'))
 
@@ -157,5 +166,4 @@ WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
 
 WebUI.closeBrowser()
-
 

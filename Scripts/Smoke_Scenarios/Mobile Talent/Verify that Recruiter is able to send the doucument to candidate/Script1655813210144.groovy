@@ -114,6 +114,7 @@ rb.keyRelease(KeyEvent.VK_ENTER)
 
 ac.sendKeys(Keys.PAGE_DOWN).perform()
 
+Thread.sleep(1000)
 WebUI.click(findTestObject('Upload Document/nextButtonLocatorAfterUpload'))
 
 //WebUI.dragAndDropToObject(findTestObject('Upload Document/dragSignatureLocation1'), findTestObject('Upload Document/dragSignatureLocation2'))
