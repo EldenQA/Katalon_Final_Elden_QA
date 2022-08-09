@@ -175,3 +175,9 @@ rb.keyRelease(KeyEvent.VK_V)
 rb.keyPress(KeyEvent.VK_ENTER)
 
 rb.keyRelease(KeyEvent.VK_ENTER)
+
+
+//logout from MT portla 
+    WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/b_Romit Romit'))
+
+    WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
