@@ -32,7 +32,7 @@ WebUI.openBrowser('')
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebUI.navigateToUrl('https://motzie-staging.mobile-recruit.com/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
     'romgupta@qasource.com')

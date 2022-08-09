@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that action icons and buttons are displayed on Dashboard page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8249aa2-b21f-4894-8dbc-1fec93f26b0b</testCaseGuid>
+</TestCaseEntity>

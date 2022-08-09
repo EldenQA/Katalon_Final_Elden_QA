@@ -39,7 +39,8 @@ Properties pro = new Properties()
 pro.load(new FileInputStream('Files/interviewPortal.properties'))
 
 InterViewPanelist = pro.getProperty('PanelistEmailName_1')
-ipName= pro.getProperty('PanelistName_1')
+
+ipName = pro.getProperty('PanelistName_1')
 
 WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
     GlobalVariable.userName)
@@ -105,6 +106,11 @@ sl.selectByValue('11')
 
 WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/createSourceButton'))
 
-WebUI.verifyElementText(findTestObject('MTP Locators/successMessageLocator'), 'User'+' '+ ipName+' '+ipName+' '+'has been updated successfully.')
+WebUI.verifyElementText(findTestObject('MTP Locators/successMessageLocator'), ((((('User' + ' ') + ipName) + ' ') + ipName) + 
+    ' ') + 'has been updated successfully.')
+
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/b_Romit Romit'))
+
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
+
+
