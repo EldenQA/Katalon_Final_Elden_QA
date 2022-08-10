@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that action icons and buttons are displayed on All Job page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5464bd04-4bdc-4d19-87b6-7e5abc7ac60f</testCaseGuid>
+</TestCaseEntity>

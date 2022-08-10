@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that user is successfully able to create the template(Italian (IT))</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e33243e-5203-4f6d-8f1d-b16c36ec24f5</testCaseGuid>
+</TestCaseEntity>

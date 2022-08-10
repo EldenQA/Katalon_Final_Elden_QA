@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that user is successfully able to create the template(French (FR)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2567af28-8cdc-42ce-9065-8b186c696beb</testCaseGuid>
+</TestCaseEntity>

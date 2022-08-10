@@ -3,6 +3,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import java.util.concurrent.ConcurrentHashMap.KeySetView as KeySetView
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -15,38 +16,38 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.By as By
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.remote.server.DriverFactory as DriverFactory
+import org.openqa.selenium.support.ui.Select as Select
+import org.testng.Assert as Assert
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
-import java.text.DateFormat as DateFormat
-import java.text.SimpleDateFormat as SimpleDateFormat
+import org.openqa.selenium.By as By
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.url)
-
 WebUI.maximizeWindow()
+
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 
-WebUI.setText(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
+Actions ac = new Actions(driver)
+
+WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
     GlobalVariable.userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
     GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-for (int i=0 ; i<=500; i++)
-{
-	WebUI.click(findTestObject('MTP Locators/Notification'))
-	
-	WebUI.click(findTestObject('MTP Locators/notificationText'))
-}
+WebUI.scrollToElement(findTestObject('Dashboard/firstJobLocator'), 2)
 
+WebUI.click(findTestObject('Dashboard/firstJobLocator'))
 
+WebUI.verifyElementPresent(findTestObject('Dashboard/buttonInsidePhonePreview'), 2)
 

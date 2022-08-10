@@ -74,13 +74,7 @@ Input = pro2.getProperty('JobName')
 pro.load(new FileInputStream('console.properties'))
 
 keyValue = pro.getProperty('Template')
-
-WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Bebo Talent  Mobile Recruitment/input__campaignName'), 
-    Input //keyValue is the Created Template value "Template"
-    )
-
 WebUI.click(findTestObject('MTP Locators/metaDataLocator'))
-
 Thread.sleep(2000)
 
 File f = new File('download.png')
@@ -104,6 +98,13 @@ rb.keyRelease(KeyEvent.VK_V)
 rb.keyPress(KeyEvent.VK_ENTER)
 
 rb.keyRelease(KeyEvent.VK_ENTER)
+WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Bebo Talent  Mobile Recruitment/input__campaignName'), 
+    Input //keyValue is the Created Template value "Template"
+    )
+
+
+
+
 
 //    
 driver.findElement(By.cssSelector('select[name=\'campaignIndustryID\'] > option[value=\'4\']')).click()

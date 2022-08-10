@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>metaDataLocator</name>
+   <name>buttonInsidePhonePreview</name>
    <tag></tag>
-   <elementGuidId>c825c5ad-152c-4608-a0ff-265579416512</elementGuidId>
+   <elementGuidId>3c2ae178-ba54-44d6-b8df-6c57743f4040</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>.col-lg-4.col-md-4.ng-scope  render-microsite .device</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>[class='col-md-6 col-lg-6 col-sm-6'] .upload-container .ng-scope</value>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>metaDataLocator</name>
+   <name>languageDropdownLocator</name>
    <tag></tag>
-   <elementGuidId>c825c5ad-152c-4608-a0ff-265579416512</elementGuidId>
+   <elementGuidId>c60a6049-aa24-473a-bdb0-348cdb3f8b5e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>[class='col-md-6 col-lg-6 col-sm-6'] .upload-container .ng-scope</value>
+         <value>.ui-select-match > .btn.btn-default.form-control.ui-select-toggle</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

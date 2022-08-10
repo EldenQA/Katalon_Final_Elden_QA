@@ -57,16 +57,8 @@ WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Bebo Talent  Mob
 //This will load the property file and take the value of Created Template and then store it in keyValue 
 //pro.load(new FileInputStream('console.properties'))
 //keyValue = pro.getProperty('Template')
-scheduleJobname = 'Schedule'+'_'+'Software'+RandomStringUtils.randomAlphabetic(2)
-WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Bebo Talent  Mobile Recruitment/input__campaignName'), 
-   scheduleJobname //keyValue is the Created Template value "Template"
-    )
-
-//    
-WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 
 WebUI.click(findTestObject('MTP Locators/metaDataLocator'))
-
 Thread.sleep(2000)
 
 File f = new File('download.png')
@@ -79,7 +71,7 @@ StringSelection ss = new StringSelection(logoPath)
 
 Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null)
 
-rb.keyPress (KeyEvent.VK_CONTROL)
+rb.keyPress(KeyEvent.VK_CONTROL)
 
 rb.keyPress(KeyEvent.VK_V)
 
@@ -90,6 +82,17 @@ rb.keyRelease(KeyEvent.VK_V)
 rb.keyPress(KeyEvent.VK_ENTER)
 
 rb.keyRelease(KeyEvent.VK_ENTER)
+
+
+scheduleJobname = 'Schedule'+'_'+'Software'+RandomStringUtils.randomAlphabetic(2)
+WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Bebo Talent  Mobile Recruitment/input__campaignName'), 
+   scheduleJobname //keyValue is the Created Template value "Template"
+    )
+
+//    
+WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
+
 
 driver.findElement(By.cssSelector('select[name=\'campaignIndustryID\'] > option[value=\'4\']')).click()
 

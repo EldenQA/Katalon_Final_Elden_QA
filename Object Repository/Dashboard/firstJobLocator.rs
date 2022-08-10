@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>metaDataLocator</name>
+   <name>firstJobLocator</name>
    <tag></tag>
-   <elementGuidId>c825c5ad-152c-4608-a0ff-265579416512</elementGuidId>
+   <elementGuidId>ce6f3007-86df-4ca0-aea2-6ab81974b304</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>[class='col-md-6 col-lg-6 col-sm-6'] .upload-container .ng-scope</value>
+         <value>tr:nth-of-type(1) > td:nth-of-type(3) > .link-color-black.link-text.ng-binding</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
