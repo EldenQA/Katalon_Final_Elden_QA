@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Thank you for completing the pre-qualific_50c718</name>
+   <tag></tag>
+   <elementGuidId>2c146d21-b3bd-4351-9769-0fed10e762c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='taTextElement7270844986416516']/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#taTextElement7270844986416516 > p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>c7546a6a-dbdc-4865-8aff-05a57df9f034</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.</value>
+      <webElementGuid>75cfcda0-aba2-4d87-9747-2a5629889326</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;taTextElement7270844986416516&quot;)/p[1]</value>
+      <webElementGuid>69178026-fb8f-4bda-9a72-fe604ff6356a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='taTextElement7270844986416516']/p</value>
+      <webElementGuid>d22985c0-453e-4680-9e16-dfceb2dee1f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please enter minimum 200 characters.'])[1]/preceding::p[1]</value>
+      <webElementGuid>7a7032dd-cb9e-441c-8e70-44360102acc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please enter job description.'])[1]/preceding::p[1]</value>
+      <webElementGuid>420379a5-bfa6-4219-9190-8aab9902b921</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.']/parent::*</value>
+      <webElementGuid>3df71564-842e-4eac-b9d2-3e2d9aca0b55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/p</value>
+      <webElementGuid>402ffab7-7770-4953-89d0-18985938dac0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.' or . = 'Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.Thank you for completing the pre-qualification form. We will be in touch soon with next steps.')]</value>
+      <webElementGuid>bde39a3a-df10-49f3-872e-2b9505d154c2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

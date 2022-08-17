@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Welcome to the Mobile Talent_Text_Locator</name>
+   <tag></tag>
+   <elementGuidId>1e039893-0c9a-40af-a11d-371059110194</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='contentMainDiv']/div[3]/div/div/div/div/h2</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h2.ng-binding</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>30a80037-2480-4deb-85a5-b69b0deb2f29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>467275cb-652b-4490-83e3-36e07b6d732c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Welcome to the Mobile Talent - Mobile Recruitment Platform </value>
+      <webElementGuid>94338bfc-2028-4a03-99ec-0dae174deb84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contentMainDiv&quot;)/div[@class=&quot;container-main ng-scope&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;animate-panel&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12 text-center&quot;]/h2[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>04ecb26d-fef3-411c-8677-371dc992ef30</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='contentMainDiv']/div[3]/div/div/div/div/h2</value>
+      <webElementGuid>6f2197db-dcf9-4731-bc4b-711ef6ae0614</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[2]/following::h2[1]</value>
+      <webElementGuid>37dffacc-f36f-4340-8a55-0a2c50824f49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Account Folder'])[2]/following::h2[1]</value>
+      <webElementGuid>b3be85e1-a09a-4a83-a0dc-44cf9b44c227</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active Jobs'])[1]/preceding::h2[1]</value>
+      <webElementGuid>cd1f547d-0dad-4c9c-8bd4-f843bbdddfd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Timezone : Asia/Calcutta'])[1]/preceding::h2[1]</value>
+      <webElementGuid>ee8ce572-9d40-4ba0-9870-e9f30c625582</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Welcome to the Mobile Talent - Mobile Recruitment Platform']/parent::*</value>
+      <webElementGuid>ad0b169a-6374-4cbe-8b38-e31d5381e2a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>98d9fa39-2c3f-4b47-b70c-264df2fc6cfc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = ' Welcome to the Mobile Talent - Mobile Recruitment Platform ' or . = ' Welcome to the Mobile Talent - Mobile Recruitment Platform ')]</value>
+      <webElementGuid>3c3f25fa-3d6a-412b-ad76-482ad1fa0ec4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

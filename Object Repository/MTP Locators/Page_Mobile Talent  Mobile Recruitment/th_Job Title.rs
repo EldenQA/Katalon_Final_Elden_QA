@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>th_Job Title</name>
+   <tag></tag>
+   <elementGuidId>4dba378a-57fb-42e4-b57c-cfeaf0a920e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='contentMainDiv']/div[3]/div/div[3]/div/div[2]/div/div/table/thead/tr/th[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>09724f76-d1a5-4d33-ada6-62d6f0982735</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Job Title    </value>
+      <webElementGuid>f01c7115-4c42-4c68-a30b-fad3484d96db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contentMainDiv&quot;)/div[@class=&quot;container-main ng-scope&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12 dashboard-main&quot;]/div[@class=&quot;panel border-panel&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;table-responsive campaign-table dashboard-table dashboard-table-small&quot;]/table[@class=&quot;table table-striped table-hover draggable-table campaign-table min-table ng-scope&quot;]/thead[1]/tr[@class=&quot;ng-scope&quot;]/th[3]</value>
+      <webElementGuid>9eaeb1f8-78fd-4a5c-94c9-ae8ca8a1fab2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='contentMainDiv']/div[3]/div/div[3]/div/div[2]/div/div/table/thead/tr/th[3]</value>
+      <webElementGuid>b308fc89-c92f-42c1-891f-73a9e7113528</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Job ID'])[1]/following::th[1]</value>
+      <webElementGuid>e6daef24-3503-44a9-9f24-12fe342b2055</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#'])[1]/following::th[2]</value>
+      <webElementGuid>1fff99be-4b26-493a-ae89-9b58ac8a5d37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Launch Date'])[1]/preceding::th[1]</value>
+      <webElementGuid>87512751-3f9d-4faf-9d16-df6483a45180</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[3]</value>
+      <webElementGuid>3795f485-1a7f-49b5-b3db-8dd43fe18a79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = ' Job Title    ' or . = ' Job Title    ')]</value>
+      <webElementGuid>22d623db-5ea5-4603-a917-d45638c812bf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

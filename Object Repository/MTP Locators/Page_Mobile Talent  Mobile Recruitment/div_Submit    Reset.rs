@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Submit    Reset</name>
+   <tag></tag>
+   <elementGuidId>7262aa39-8de0-4f29-9d20-7b737170061a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='step1']/div/div/div/div[12]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-sm-9 > div.form-group</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>06706506-ff39-4b33-aa20-44057a128872</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-group</value>
+      <webElementGuid>084db007-98ed-41af-b8c8-fc528e77152e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>   Submit    Reset  </value>
+      <webElementGuid>16df0ee4-4f2d-42f0-98d0-483f7e5157df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;step1&quot;)/div[@class=&quot;panel-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-7&quot;]/div[@class=&quot;col-sm-9&quot;]/div[@class=&quot;form-group&quot;]</value>
+      <webElementGuid>663fa8fa-9d20-460c-8f30-8c1b286c8014</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='step1']/div/div/div/div[12]/div</value>
+      <webElementGuid>7c6d4492-1106-476b-adf1-8af7b9171d0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please enter job description.'])[1]/following::div[3]</value>
+      <webElementGuid>7e73e833-bb64-4b2a-b549-a017b0edb396</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please enter minimum 200 characters.'])[1]/following::div[3]</value>
+      <webElementGuid>a32c13e2-1ede-4934-a0d5-3c149686de34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/div</value>
+      <webElementGuid>5d1ee28b-8cb3-490b-86f6-a08bf9005e2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '   Submit    Reset  ' or . = '   Submit    Reset  ')]</value>
+      <webElementGuid>e58fc284-89c0-4dae-a904-6fdb318f23bc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

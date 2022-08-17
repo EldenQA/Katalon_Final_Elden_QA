@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ELD-TC-45812-Verify that user is able to see Microsite Dialog on clicking the View Microsite action Icon</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>acd5b73d-223f-41ef-b300-c8c4f9f0ca30</testCaseGuid>
+</TestCaseEntity>

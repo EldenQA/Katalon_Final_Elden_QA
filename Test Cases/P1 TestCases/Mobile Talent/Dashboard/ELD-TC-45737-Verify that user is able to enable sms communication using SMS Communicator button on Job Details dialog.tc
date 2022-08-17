@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify that user is able to enable sms communication using SMS Communicator button on Job Details dialog</name>
+   <name>ELD-TC-45737-Verify that user is able to enable sms communication using SMS Communicator button on Job Details dialog</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e105682e-0225-4fe7-a805-8beceedd6449</testCaseGuid>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ELD-TC-45738-Verify that user navigates to Edit Job Microsite page after clicking on Edit Campaign icon on Dashboard page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6dfed8b-b4c0-4b50-9a0b-5c967682b99f</testCaseGuid>
+</TestCaseEntity>

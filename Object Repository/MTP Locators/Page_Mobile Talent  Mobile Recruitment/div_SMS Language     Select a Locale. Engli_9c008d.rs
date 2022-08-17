@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_SMS Language     Select a Locale. Engli_9c008d</name>
+   <tag></tag>
+   <elementGuidId>163be8b0-3a5b-4872-8b77-c167ea4a74bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='step1']/div/div/div/div[9]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-lg-12 > div.panel-body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d51c8eb5-6431-471f-a4d0-ff5494307715</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>panel-body</value>
+      <webElementGuid>27465138-7221-49fc-a06d-bc42094a3ff5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>    * SMS Language     Select a Locale... English     Please select a Language...             * Welcome Message        The message cannot be blank.         </value>
+      <webElementGuid>44c7a3dd-ab53-4ae9-86ca-d55c55e61756</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;step1&quot;)/div[@class=&quot;panel-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-7&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;panel-body&quot;]</value>
+      <webElementGuid>52b8130c-1324-4f75-8a34-a36b83456a2c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='step1']/div/div/div/div[9]/div/div</value>
+      <webElementGuid>5c1296a2-6215-4ebf-bc6b-407fefd95cde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please enter job location.'])[1]/following::div[3]</value>
+      <webElementGuid>0a672166-0d92-4046-81ca-4e9b921a0125</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bristol Center NC'])[1]/following::div[3]</value>
+      <webElementGuid>4e1e71cd-0fdd-4f3f-9622-92b10b421ec4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div</value>
+      <webElementGuid>b2c852ee-d7ed-4136-8d82-8084a0d55104</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '    * SMS Language     Select a Locale... English     Please select a Language...             * Welcome Message        The message cannot be blank.         ' or . = '    * SMS Language     Select a Locale... English     Please select a Language...             * Welcome Message        The message cannot be blank.         ')]</value>
+      <webElementGuid>3fba06a6-87da-4e9c-bdb1-dc6e18770530</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

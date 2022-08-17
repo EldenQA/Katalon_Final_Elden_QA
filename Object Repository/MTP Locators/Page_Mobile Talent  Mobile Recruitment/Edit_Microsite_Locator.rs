@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Edit_Microsite_Locator</name>
+   <tag></tag>
+   <elementGuidId>c2d6972e-dd9d-4075-adf0-1463e38d6712</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='contentMainDiv']/div[3]/div/div[3]/div/div[2]/div/div/table/tbody/tr/td[13]/div/a/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fas.fa-pen.fa-lg.icon-grey.ng-scope</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+</WebElementEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify that user is able to view the mobile view of job on Job Details dialog</name>
+   <name>ELD-TC-45803-Verify that user is able to view the mobile view of job on Job Details dialog</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1e8460e9-40b9-4389-a8a7-efc9d730f1b0</testCaseGuid>

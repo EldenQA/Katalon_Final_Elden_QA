@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Thank You  Your campaign has been updat_ebd5ab</name>
+   <tag></tag>
+   <elementGuidId>f50a8cf0-c8d6-4d97-8a4d-67c9af76b4bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='contentMainDiv']/div[2]/div/div[2]/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mid-wizard</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>81319150-dfba-4d1b-a8ba-81fd942fb686</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mid-wizard</value>
+      <webElementGuid>ec0f9108-811e-4296-98ef-82b64c81d809</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Thank You ! Your campaign has been updated successfully   Dashboard </value>
+      <webElementGuid>5a3a6654-b238-4f0b-a2d6-5a0b27f93795</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contentMainDiv&quot;)/div[@class=&quot;container-main ng-scope&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;edit-campaign ng-scope&quot;]/div[@class=&quot;wizard-area&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;mid-wizard&quot;]</value>
+      <webElementGuid>7fe59e83-0d3b-4e79-8977-0e44475659e7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='contentMainDiv']/div[2]/div/div[2]/div/div/div/div</value>
+      <webElementGuid>25c39dc5-efda-4f13-8b6a-7918ad3635ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Job Microsite(s)'])[1]/following::div[9]</value>
+      <webElementGuid>048a8090-cd2f-48a1-b73c-8b22de3584e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Account Folder'])[2]/following::div[9]</value>
+      <webElementGuid>65186a0e-1a90-4346-a544-5336b2141a88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div/div</value>
+      <webElementGuid>6b186903-e603-4445-bb3c-c31fbbeeb128</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Thank You ! Your campaign has been updated successfully   Dashboard ' or . = ' Thank You ! Your campaign has been updated successfully   Dashboard ')]</value>
+      <webElementGuid>78bc97e2-a013-42dd-9a34-67769f696c5d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

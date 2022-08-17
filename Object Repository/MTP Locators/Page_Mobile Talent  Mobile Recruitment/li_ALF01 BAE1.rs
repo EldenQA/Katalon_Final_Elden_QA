@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_ALF01 BAE1</name>
+   <tag></tag>
+   <elementGuidId>b1ebf9c6-531c-464e-a98a-37b34cead43c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='step1']/div/div/div/div[8]/div/oi-multiselect/div[2]/ul/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.multiselect-dropdown-optgroup-option.ng-binding.ng-scope.active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>0ba81af4-a097-4423-96f4-ca7870b96149</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multiselect-dropdown-optgroup-option ng-binding ng-scope active</value>
+      <webElementGuid>4de5283c-076f-4d00-9722-6cb014e03837</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-repeat</name>
+      <type>Main</type>
+      <value>option in options</value>
+      <webElementGuid>5b939aa3-b838-431c-b326-fe1337e74c1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{'active': selectorPosition === groupPos[group] + $index}</value>
+      <webElementGuid>08d2c037-8027-4207-b10d-2e1cd9719834</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>addItem(option)</value>
+      <webElementGuid>03135a3e-6f30-4668-a6a0-3f81424331b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-mouseenter</name>
+      <type>Main</type>
+      <value>setSelection(groupPos[group] + $index)</value>
+      <webElementGuid>51fbf732-cd5c-4e69-aa97-1ef4c27daeb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind-html</name>
+      <type>Main</type>
+      <value>getDropdownLabel(option)</value>
+      <webElementGuid>8c43d9d2-211a-4cba-b603-93ba3d91b506</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ALF01 BAE1</value>
+      <webElementGuid>d4f60428-7c96-4bbe-8c8b-ed147697e075</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;step1&quot;)/div[@class=&quot;panel-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-7&quot;]/div[@class=&quot;form-group overflow-visible&quot;]/div[@class=&quot;col-sm-6 text-left&quot;]/oi-multiselect[@class=&quot;ng-pristine ng-untouched ng-isolate-scope ng-invalid ng-invalid-required&quot;]/div[@class=&quot;multiselect-dropdown&quot;]/ul[@class=&quot;multiselect-dropdown-optgroup ng-scope&quot;]/li[@class=&quot;multiselect-dropdown-optgroup-option ng-binding ng-scope active&quot;]</value>
+      <webElementGuid>c54b8529-46da-46f7-989f-970db5587359</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='step1']/div/div/div/div[8]/div/oi-multiselect/div[2]/ul/li</value>
+      <webElementGuid>b7e2d428-9249-4316-b30a-ef043d832b35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::li[3]</value>
+      <webElementGuid>34d206fa-d7a0-43b5-9b9e-4e1e4b48b644</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ALH01 BAE2'])[1]/preceding::li[1]</value>
+      <webElementGuid>a71a1bb7-bc38-4e6e-807e-322ba9f6b626</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ALH14 BAE3'])[1]/preceding::li[2]</value>
+      <webElementGuid>bdb2bf89-b9d4-41bd-b59a-8fe1d22e527a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ALF01 BAE1']/parent::*</value>
+      <webElementGuid>a638a43f-ce1b-4462-9bce-40758589d93d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li</value>
+      <webElementGuid>8fa6b17d-fc48-47dc-9a0d-f00fc6410f71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'ALF01 BAE1' or . = 'ALF01 BAE1')]</value>
+      <webElementGuid>68c50ec9-9fac-4699-a485-5dedfa8386e8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
