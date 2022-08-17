@@ -27,7 +27,6 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 import org.openqa.selenium.By as By
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 
-//
 
 
 
@@ -51,6 +50,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobil
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
 driver.findElement(By.xpath('//span[text()=\'All Jobs\']')).click()
+
+
 List < WebElement > buttonsOnDashboard = driver.findElements(By.cssSelector('tbody > tr:nth-of-type(1) i[data-title]'))
 int buttonsOnDashboardSize = buttonsOnDashboard.size()
 System.out.println(buttonsOnDashboardSize)

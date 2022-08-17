@@ -19,27 +19,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4d36f6f3-82ee-4331-89bc-90ee8619423a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Dashboard/ELD-TC-45736-Verify that action icons and buttons are displayed on Dashboard page</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e808c460-1d3f-4f62-bc46-e9366bca36cc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Dashboard/ELD-TC-45737-Verify that user is able to enable sms communication using SMS Communicator button on Job Details dialog</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6adbd118-9b3b-42a2-a2bf-1614f0c9493a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Dashboard/ELD-TC-45803-Verify that user is able to view the mobile view of job on Job Details dialog</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>e6e86bb3-4b22-421a-882f-3bc496407045</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -72,6 +51,55 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/P1 TestCases/Mobile Talent/ManageTemplate/Verify that user is successfully able to create the template(Portuguese (Brazil)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>22c4dde5-7e3e-4fc8-ae38-48a35e6ace8d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Dashboard/ELD-TC-45736-Verify that action icons and buttons are displayed on Dashboard page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9fe73c12-50c3-47e2-8898-72ecd26b3514</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Dashboard/ELD-TC-45737-Verify that user is able to enable sms communication using SMS Communicator button on Job Details dialog</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>69341d79-6554-4025-b4dd-ccbcb676302f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Dashboard/ELD-TC-45738-Verify that user navigates to Edit Job Microsite page after clicking on Edit Campaign icon on Dashboard page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>34ec1c29-7fca-419e-923b-6180095dcfbd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Dashboard/ELD-TC-45739-Verify that different buttons displayed on Job Details dialog</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>592554e9-4af7-42a4-8e0b-beaa491574fb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Dashboard/ELD-TC-45803-Verify that user is able to view the mobile view of job on Job Details dialog</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1cab90b7-1190-48f2-8a48-72c149297632</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Dashboard/ELD-TC-45812-Verify that user is able to see Microsite Dialog on clicking the View Microsite action Icon</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f5abd007-10c6-445e-89f1-a0a7f9d6b550</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Dashboard/ELD-TC-45813-Verify that user is navigated to CPP on clicking the Candidate Count action icon from Dashboard Jobs</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
