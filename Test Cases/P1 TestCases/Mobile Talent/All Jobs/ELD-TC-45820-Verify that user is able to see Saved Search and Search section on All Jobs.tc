@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ELD-TC-45820-Verify that user is able to see Saved Search and Search section on All Jobs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af25a00b-a17f-4ce2-91d8-8bdb81bde271</testCaseGuid>
+</TestCaseEntity>

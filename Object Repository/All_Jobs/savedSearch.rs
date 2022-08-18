@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>closeViewMicrositePopup</name>
+   <name>savedSearch</name>
    <tag></tag>
-   <elementGuidId>3623e14a-1902-45dc-9bd6-298e498fe01f</elementGuidId>
+   <elementGuidId>27548337-5678-49dd-ad12-3ea7459540bc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div#micrositeDialog > .modal-dialog.modal-lg .close</value>
+         <value>.ng-isolate-scope > div > button span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

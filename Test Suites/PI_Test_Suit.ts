@@ -19,6 +19,34 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>90cea6ad-584f-4115-b4fe-faf0cb59f49d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/All Jobs/ELD-TC-45816-Verify that user is able to create the Duplicate Campaign through all Jobs</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7d3a3b79-205a-4cba-9484-61430df3bb40</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/All Jobs/ELD-TC-45819-Verify Duplicate Campaign dialog and fields after clicking on Duplicate Campaign icon on All Jobs page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9fdb3753-5bb8-41d0-a728-159f1c3356f4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/All Jobs/ELD-TC-45820-Verify that user is able to see Saved Search and Search section on All Jobs</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>29c60996-b027-4e85-9f97-77905a84da86</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/All Jobs/ELD-TC-45823-Verify table columns on All Jobs page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>e6e86bb3-4b22-421a-882f-3bc496407045</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>

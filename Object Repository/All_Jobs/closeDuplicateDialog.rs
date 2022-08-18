@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>closeViewMicrositePopup</name>
+   <name>closeDuplicateDialog</name>
    <tag></tag>
-   <elementGuidId>3623e14a-1902-45dc-9bd6-298e498fe01f</elementGuidId>
+   <elementGuidId>920acb95-276a-44d8-9a92-a12b4749be48</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div#micrositeDialog > .modal-dialog.modal-lg .close</value>
+         <value>form[name='cloneCampaignForm'] .close</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
