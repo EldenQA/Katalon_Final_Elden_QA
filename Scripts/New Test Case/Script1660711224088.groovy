@@ -33,22 +33,36 @@ WebUI.navigateToUrl('https://mobile-recruit.com/login')
 
 WebUI.maximizeWindow()
 
-WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+WebUI.setText(findTestObject('null'), 'atsharma@qasource.com')
 
-Actions ac = new Actions(driver)
-WebUI.setText(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
-    'atsharma@qasource.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('null'), 
     'p4y+y39Ir5OGTVofeYR+5w==')
 
-WebUI.click(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/button_Login'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/Welcome to the Mobile Talent_Text_Locator'))
+WebUI.click(findTestObject('null'))
 
-ac.sendKeys(Keys.PAGE_DOWN).perform()
+WebUI.click(findTestObject('null'))
 
-//WebUI.click(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/th_Job Title'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/Edit_Microsite_Locator'))
+WebUI.setText(findTestObject('null'), 'renox')
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.setText(findTestObject('null'), 'pragpur')
+
+WebUI.setText(findTestObject('null'), 
+    '<p style="">adssssssssssssssssssssssssssssssss</p>')
+
+WebUI.setText(findTestObject('null'), 
+    '<p style="">adssssssssssssssssssssssssssssssssasdasdasdasdsdasdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</p>')
+
+WebUI.click(findTestObject('null'))
 

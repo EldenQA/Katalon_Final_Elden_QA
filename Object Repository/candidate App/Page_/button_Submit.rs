@@ -10,11 +10,15 @@
          <value>//div[@id='cdk-accordion-child-0']/div/div/div[3]/div[2]/button[2]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Submit' or . = 'Submit')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.btn-submit.ng-star-inserted</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ccf86642-24fe-4850-951b-f561399734b9</webElementGuid>
+      <webElementGuid>cd7ba756-5475-42ad-884c-bd092dc61723</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn-submit ng-star-inserted</value>
-      <webElementGuid>128d2f4a-bce8-4e2e-acba-b04879fffb33</webElementGuid>
+      <webElementGuid>0a2b5098-4a7a-4575-a80d-5699cc233fd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Submit</value>
-      <webElementGuid>b5ba12bf-f807-4434-acf6-95f26d0db10e</webElementGuid>
+      <webElementGuid>3ee7421a-d9f2-4d50-9844-bd45a1768b1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-accordion-child-0&quot;)/div[@class=&quot;mat-expansion-panel-body&quot;]/div[@class=&quot;doc-container ng-star-inserted&quot;]/div[@class=&quot;doc-footer&quot;]/div[@class=&quot;btn-group&quot;]/button[@class=&quot;btn-submit ng-star-inserted&quot;]</value>
-      <webElementGuid>a14a20c8-8053-4fce-b742-d937c802dae6</webElementGuid>
+      <webElementGuid>0a2d5e95-8a63-456e-8545-36d8ced346ae</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-accordion-child-0']/div/div/div[3]/div[2]/button[2]</value>
-      <webElementGuid>d0423f5e-8d89-4f0f-a6b4-b1aa4d52d4bf</webElementGuid>
+      <webElementGuid>a8b6439f-e020-4a84-bb4f-a9468846e569</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]</value>
-      <webElementGuid>1bf293bf-6b18-479d-9441-c156aa349e62</webElementGuid>
+      <webElementGuid>bd40e851-bc04-4913-8be2-cf10d33db52c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Instructions'])[1]/following::button[4]</value>
-      <webElementGuid>2a0bf1ab-bf90-4647-95a1-4beea13da519</webElementGuid>
+      <webElementGuid>f8067bb9-d1f4-427e-9d29-44bbff1d5ca6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Document Verification'])[1]/preceding::button[1]</value>
-      <webElementGuid>535ce780-80a2-404a-927c-a2c1aa1447b8</webElementGuid>
+      <webElementGuid>2cfe8823-bff9-4310-9e02-95f2b19998a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2022 Mobile Talent. All Rights Reserved.'])[1]/preceding::button[1]</value>
-      <webElementGuid>028fc449-bb52-46b1-9b72-29ef6f56d2b1</webElementGuid>
+      <webElementGuid>3b1f0902-4ed4-4831-8c6b-06fc4c43f545</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Submit']/parent::*</value>
-      <webElementGuid>7d0266a1-2205-4369-922a-105347220fb5</webElementGuid>
+      <webElementGuid>fa9aa4b4-4620-44e7-bfe0-77778e920c24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button[2]</value>
-      <webElementGuid>b3cfd0ec-16ed-470e-9ff8-8146e49d8a86</webElementGuid>
+      <webElementGuid>1782ce8d-dcaa-4545-bb18-42cffae5e32c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Submit' or . = 'Submit')]</value>
-      <webElementGuid>8f3e7482-97ee-46a8-a06b-dd3c12dc534a</webElementGuid>
+      <webElementGuid>f3960785-47d1-4ca4-8e16-dc77b943b256</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

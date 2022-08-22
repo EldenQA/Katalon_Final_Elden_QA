@@ -6,12 +6,12 @@
    <elementGuidId>879451fc-60bd-4d21-b51d-6c8697d95d1d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@type='text'])[12]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input.form-control.ng-pristine.ng-untouched.ng-invalid.ng-invalid-required.ng-invalid-date.ng-invalid-min.ng-invalid-max</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[12]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1fe2931f-ec54-4e5c-9fd0-c46fd25acba6</webElementGuid>
+      <webElementGuid>3e9ae6d9-c785-40ed-9ff3-6e7ce8956468</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control ng-pristine ng-untouched ng-invalid ng-invalid-required ng-invalid-date ng-invalid-min ng-invalid-max</value>
-      <webElementGuid>44884931-b968-412a-96fd-2072100a9618</webElementGuid>
+      <webElementGuid>e30ab447-24da-409b-80cb-114aa0265fdf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>499bdb34-826c-4f22-af78-91f9de41a6c2</webElementGuid>
+      <webElementGuid>56bcace3-f835-41dd-aee1-b3a0f3efaf93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>ng-model</name>
       <type>Main</type>
       <value>schedule.scheduleDate</value>
-      <webElementGuid>d14a930c-fee4-4e68-ab84-56501375ea57</webElementGuid>
+      <webElementGuid>e816ce18-5ad8-4104-bd2e-b2353f8c32b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>data-date-format</name>
       <type>Main</type>
       <value>MM/dd/yyyy</value>
-      <webElementGuid>0e142c08-9e42-4787-aa81-51be471ff1f0</webElementGuid>
+      <webElementGuid>57128b55-6c1a-4e74-bbdd-c9fc60b6966b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>mm/dd/yyyy</value>
-      <webElementGuid>c39a0c0a-1a9d-4f6c-92f0-bec1238d45f3</webElementGuid>
+      <webElementGuid>bc9535b9-bae8-4adc-8bb9-2fc0391b9e5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>data-min-date</name>
       <type>Main</type>
       <value>1655963305506</value>
-      <webElementGuid>07464623-835c-4e5b-ae8c-6c5a91ea402b</webElementGuid>
+      <webElementGuid>ea235a27-0845-4e6a-a5a1-f6ed94845b56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>data-autoclose</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>3d9e839d-a83f-4191-b41a-78885323e69a</webElementGuid>
+      <webElementGuid>fb236816-3376-436f-8eea-480cd64e3f82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>ng-change</name>
       <type>Main</type>
       <value>bulkSmsCtrl.setTime($index);</value>
-      <webElementGuid>6f5f2542-86e6-469e-9282-499ff084426b</webElementGuid>
+      <webElementGuid>04c049c6-4d98-4548-ba14-9cfa07ecac39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>bottom-right</value>
-      <webElementGuid>bb5b5bbf-96ca-42f6-9e4c-58dbaad925e3</webElementGuid>
+      <webElementGuid>d255a3f8-4df3-4b3e-b0d6-ada7a37eee4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;bulkSms&quot;)/div[@class=&quot;modal-dialog modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body no-padding modal-bulk-sms&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;schedule-block&quot;]/form[@class=&quot;ng-invalid ng-invalid-required ng-valid-maxlength ng-invalid-date ng-invalid-min ng-invalid-max ng-dirty ng-valid-parse&quot;]/fieldset[@class=&quot;ng-scope&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-10 col-lg-10 calendar-icon&quot;]/input[@class=&quot;form-control ng-pristine ng-untouched ng-invalid ng-invalid-required ng-invalid-date ng-invalid-min ng-invalid-max&quot;]</value>
-      <webElementGuid>da3a6663-3990-4450-8552-9fa096d65ae5</webElementGuid>
+      <webElementGuid>310a214a-25d3-4f00-a576-7ecf95ff2cfe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@type='text'])[12]</value>
-      <webElementGuid>d2b7ed9d-24b4-4c81-a688-f5c397c42e00</webElementGuid>
+      <webElementGuid>5b71522b-62a7-49b9-9dc6-8e8637536a00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='bulkSms']/div/div/div[2]/div/div/div[5]/form/fieldset/div[2]/div/input</value>
-      <webElementGuid>a23bb792-b640-47b8-912a-2f728d26bbe3</webElementGuid>
+      <webElementGuid>3a8abbd1-a8e0-4dd2-82e8-069cbe7d8550</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>b72989db-7aff-4c70-b713-c42a77bbd2a5</webElementGuid>
+      <webElementGuid>d22ef4d6-9043-4f19-afa8-d7439c98dd7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'mm/dd/yyyy']</value>
-      <webElementGuid>eda2aef7-e73e-48c9-87e2-a75da4272fa8</webElementGuid>
+      <webElementGuid>1bc86489-c68a-4eac-a52a-f3cc5bdc3b4a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

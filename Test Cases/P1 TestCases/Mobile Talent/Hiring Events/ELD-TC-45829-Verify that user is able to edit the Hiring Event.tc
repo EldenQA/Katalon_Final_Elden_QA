@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ELD-TC-45829-Verify that user is able to edit the Hiring Event</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca6fc55c-2381-4c3c-94e0-755657e20c1c</testCaseGuid>
+</TestCaseEntity>

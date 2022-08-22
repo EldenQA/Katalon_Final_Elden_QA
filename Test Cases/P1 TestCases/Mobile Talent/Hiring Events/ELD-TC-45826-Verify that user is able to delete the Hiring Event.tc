@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ELD-TC-45826-Verify that user is able to delete the Hiring Event</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d083b013-70e9-47dd-9cde-06022f0679be</testCaseGuid>
+</TestCaseEntity>
