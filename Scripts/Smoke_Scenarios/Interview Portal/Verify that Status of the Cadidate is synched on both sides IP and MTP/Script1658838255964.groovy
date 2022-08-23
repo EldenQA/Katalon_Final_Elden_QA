@@ -122,6 +122,7 @@ if (candidateStatusTextOnMTP.equalsIgnoreCase(currentStatusOfCandidateOnIP)) {
     System.out.println('The status of Candidate is same on both sides')
     WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/h4_Atish Sharma'))
     WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/a_Logout'))
+	WebUI.closeBrowser()
 } else {
     throw new IOException('Candidate Status is not synched')
 }

@@ -10,7 +10,7 @@
       <name>userName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Password@3</description>
       <initValue>'p4y+y39Ir5NjfX6yBiU+Hw=='</initValue>
       <name>password</name>
    </GlobalVariableEntity>
@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'auto user(dontUse)'</initValue>
+      <initValue>'Dharamatma Singh'</initValue>
       <name>hiredCandidate</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -41,21 +41,21 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'autouser@yopmail.com'</initValue>
+      <initValue>'candidate@qasource.com'</initValue>
       <name>candidateAppUser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'p4y+y39Ir5OTdtOb306gDg=='</initValue>
+      <description>Password@3</description>
+      <initValue>'p4y+y39Ir5NjfX6yBiU+Hw=='</initValue>
       <name>candidateAppPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'IP1rnCezJJ@yopmail.comxxxx21915xxxx'</initValue>
+      <initValue>'AutohVHx@yopmail.comxxxx27242xxxx'</initValue>
       <name>EmployeeUserEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Password@1</description>
       <initValue>'p4y+y39Ir5OTdtOb306gDg=='</initValue>
       <name>EmployeeUserPassword</name>
    </GlobalVariableEntity>

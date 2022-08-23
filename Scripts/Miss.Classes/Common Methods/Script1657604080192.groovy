@@ -57,7 +57,7 @@ for (int i =0; i<dropdownValuesCount;i++)
 
 
 //To select the status of the Candidate
-List<WebElement> allStatus = driver.findElements(By.cssSelector('a span[class =\'value-text ng-scope\']'))
+List<WebElement> allStatus = driver.findElements(By.cssSelector('a span[class ="value-text ng-scope"]'))
 
 int count = allStatus.size()
 System.out.println(count)
@@ -66,7 +66,6 @@ System.out.println(count)
 
 for (int i = 0; i <= count; i++) {
 	status = allStatus.get(i).getText()
-
 	System.out.println(status)
 
 	if (status.equalsIgnoreCase('Shortlisted')) {

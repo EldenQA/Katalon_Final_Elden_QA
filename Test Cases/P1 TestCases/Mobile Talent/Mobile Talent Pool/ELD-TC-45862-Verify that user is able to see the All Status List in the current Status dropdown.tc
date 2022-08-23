@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ELD-TC-45862-Verify that user is able to see the All Status List in the current Status dropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>373b1990-1091-49c8-8992-c7fa419d93f7</testCaseGuid>
+</TestCaseEntity>

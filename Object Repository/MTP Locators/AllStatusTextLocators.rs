@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>clickOnCandidateStatus</name>
+   <name>AllStatusTextLocators</name>
    <tag></tag>
-   <elementGuidId>e2583750-6025-4e73-b4dc-5da8b2604c65</elementGuidId>
+   <elementGuidId>4bc6d4c6-7acf-4630-8db6-32db85829b41</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>span[class='lead-details-status ng-binding']</value>
+         <value>li > .list-group-item.ng-scope.text-success > .ng-scope.value-text</value>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
          <value></value>
       </entry>
    </selectorCollection>
