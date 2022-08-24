@@ -99,4 +99,19 @@
       <initValue>'//span[text()=\'All Jobs\']'</initValue>
       <name>allJobsLocator</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'master@qasource.com'</initValue>
+      <name>masterUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password@1</description>
+      <initValue>'p4y+y39Ir5OTdtOb306gDg=='</initValue>
+      <name>masterPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'//toggle-settings[@class=&quot;ng-isolate-scope&quot;]//span[@class=&quot;ng-binding&quot;]'</initValue>
+      <name>ManageAccountToggleButton</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

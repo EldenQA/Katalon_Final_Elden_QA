@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ELD-TC-45921-Master-Verify that user is able to see Candidate Download action icon as disabled</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dca80c8a-c220-4fda-968d-d86d86947e43</testCaseGuid>
+</TestCaseEntity>

@@ -134,6 +134,39 @@ WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Tale
 		}
 	}
 	
+	//To clcik on Action icon on Account Settings 
+	WebUI.click(findTestObject('Object Repository/Toggle Button/Page_Mobile Talent  Mobile Recruitment/Page_Mobile Talent  Mobile Recruitment/i_Create New Account_fa fa-search'))
+	
+	List<WebElement> manageAccountAction = driver.findElements(By.cssSelector('.ng-scope tr a i'))
+	
+	for (WebElement singleActionItem : manageAccountAction) {
+		singleActionItemText = singleActionItem.getAttribute('data-title')
+	
+		if (singleActionItemText.equalsIgnoreCase('Account Settings')) {
+			singleActionItem.click()
+	
+			break
+		}
+	}
+	
+	Thread.sleep(2000)
+	//To clcik on toggle button of any field on Account Settings
+	List<WebElement> toggleButton = driver.findElements(By.xpath(GlobalVariable.ManageAccountToggleButton))
+	
+	for (WebElement singleElement : toggleButton) {
+		toggleButtonText = singleElement.getText()
+	
+		System.out.println(toggleButtonText)
+	
+		if (toggleButtonText.equalsIgnoreCase('Enable Candidate Excel Download')) {
+			WebElement element = driver.findElement(By.cssSelector('.toggle-container .btn-switch'))
+			element.click()
+			WebUI.verifyElementText(findTestObject('MTP Locators/successMessageLocator'), 'Account Settings have been disabled successfully.')
+	
+			break
+		}
+	}
+	
 	//If user want enable the toggle button on account settings 
 	List<WebElement> toggleButtonNamesAccountSetting = driver.findElements(By.cssSelector('div[class=toggle-label]'))
 
