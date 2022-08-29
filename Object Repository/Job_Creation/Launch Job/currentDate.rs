@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>breadcrumbCandidatePoolPage</name>
+   <name>currentDate</name>
    <tag></tag>
-   <elementGuidId>121de2dc-33f2-4ad0-8b15-260a88e24770</elementGuidId>
+   <elementGuidId>79ddfd1a-3d26-4be7-afce-e963ed2c14c2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,11 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.col-lg-12 .breadcrumb</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>.btn.btn-default.btn-info.btn-today > .ng-binding</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>breadcrumbCandidatePoolPage</name>
+   <name>closePopuponLauchJobCancelCampaign</name>
    <tag></tag>
-   <elementGuidId>121de2dc-33f2-4ad0-8b15-260a88e24770</elementGuidId>
+   <elementGuidId>85e07593-2e93-4a46-86c2-cf6a2cca78e9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>.col-lg-12 .breadcrumb</value>
+         <value>[ng-click='\$hide\(\)']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
          <value></value>
       </entry>
    </selectorCollection>

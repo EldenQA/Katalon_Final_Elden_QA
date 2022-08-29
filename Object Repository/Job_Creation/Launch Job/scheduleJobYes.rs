@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>breadcrumbCandidatePoolPage</name>
+   <name>scheduleJobYes</name>
    <tag></tag>
-   <elementGuidId>121de2dc-33f2-4ad0-8b15-260a88e24770</elementGuidId>
+   <elementGuidId>cd4d0da5-f238-476f-998a-982763697605</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.col-lg-12 .breadcrumb</value>
+         <value>[for='radioScheduleYes']</value>
       </entry>
       <entry>
          <key>XPATH</key>

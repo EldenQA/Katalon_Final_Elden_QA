@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>breadcrumbCandidatePoolPage</name>
+   <name>buttonsOnCancelCampaignPopup</name>
    <tag></tag>
-   <elementGuidId>121de2dc-33f2-4ad0-8b15-260a88e24770</elementGuidId>
+   <elementGuidId>eb473b7a-4ef6-4f21-8077-e8839a36cd08</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>.col-lg-12 .breadcrumb</value>
+         <value>.modal-footer button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
          <value></value>
       </entry>
    </selectorCollection>

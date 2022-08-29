@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>breadcrumbCandidatePoolPage</name>
+   <name>actionIconsManageTemplate</name>
    <tag></tag>
-   <elementGuidId>121de2dc-33f2-4ad0-8b15-260a88e24770</elementGuidId>
+   <elementGuidId>b53007d4-c097-41e6-b37d-9cca04abfd40</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,11 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.col-lg-12 .breadcrumb</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>tr:nth-of-type(1) >  td a i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

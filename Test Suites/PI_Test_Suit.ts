@@ -176,7 +176,7 @@
       <guid>8c28618e-8301-4544-9ee3-17171833881b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Mobile Talent Pool/Verify Send Email button is disabled on Bulk Email dialog under Mobile Talent Pool page</testCaseId>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Mobile Talent Pool/ELD-TC-45985-Verify Send Email button is disabled on Bulk Email dialog under Mobile Talent Pool page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

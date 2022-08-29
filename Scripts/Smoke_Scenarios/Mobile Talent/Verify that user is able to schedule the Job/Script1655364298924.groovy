@@ -27,7 +27,7 @@ import org.openqa.selenium.remote.DriverCommand as DriverCommand
 import org.openqa.selenium.remote.server.DriverFactory as DriverFactory
 import org.openqa.selenium.By.ByCssSelector as ByCssSelector
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
-import java.awt.List
+import java.awt.List as List
 import java.awt.Robot as Robot
 import java.awt.Toolkit as Toolkit
 import java.awt.datatransfer.StringSelection as StringSelection
@@ -52,12 +52,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobil
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Bebo Talent  Mobile Recruitment/span_Launch New Job'))
+WebUI.click(findTestObject('Job_Creation/Launch Job/a_Launch New Job'))
 
 //This will load the property file and take the value of Created Template and then store it in keyValue 
-//pro.load(new FileInputStream('console.properties'))
-//keyValue = pro.getProperty('Template')
-
+pro.load(new FileInputStream('console.properties'))
+keyValue = pro.getProperty('Template')
 WebUI.click(findTestObject('MTP Locators/metaDataLocator'))
 Thread.sleep(2000)
 
@@ -83,16 +82,13 @@ rb.keyPress(KeyEvent.VK_ENTER)
 
 rb.keyRelease(KeyEvent.VK_ENTER)
 
+scheduleJobname = ((('Schedule' + '_') + 'Software') + RandomStringUtils.randomAlphabetic(2))
 
-scheduleJobname = 'Schedule'+'_'+'Software'+RandomStringUtils.randomAlphabetic(2)
-WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Bebo Talent  Mobile Recruitment/input__campaignName'), 
-   scheduleJobname //keyValue is the Created Template value "Template"
+WebUI.setText(findTestObject('Job_Creation/Launch Job/jobNameInput'), scheduleJobname //keyValue is the Created Template value "Template"
     )
 
 //    
 WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
-
-
 
 driver.findElement(By.cssSelector('select[name=\'campaignIndustryID\'] > option[value=\'4\']')).click()
 
@@ -169,7 +165,7 @@ Actions ac = new Actions(driver)
 
 ac.sendKeys(Keys.PAGE_DOWN).perform()
 
-WebUI.click(findTestObject('Job_Creation/Page_Bebo Talent  Mobile Recruitment/button_Next'))
+WebUI.click(findTestObject('Job_Creation/Launch Job/button_Next'))
 
 ac.sendKeys(Keys.PAGE_DOWN).perform()
 
@@ -201,29 +197,34 @@ WebElement selectTemplate = driver.findElement(selectTemplateBy)
 
 action.click(selectTemplate).perform()
 
-WebUI.click(findTestObject('Job_Creation/Page_Bebo Talent  Mobile Recruitment/button_Next'))
+WebUI.click(findTestObject('Job_Creation/Launch Job/button_Next'))
 
 WebUI.click(findTestObject('Job_Creation/selectAllLocationCheckBox'))
 
 WebUI.scrollToElement(findTestObject('Job_Creation/Launch Job/button_Next'), 2)
 
-WebUI.click(findTestObject('Job_Creation/Page_Bebo Talent  Mobile Recruitment/button_Next'))
+WebUI.click(findTestObject('Job_Creation/Launch Job/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Bebo Talent  Mobile Recruitment/clickOnScheduleButton'))
+WebUI.click(findTestObject('Job_Creation/Launch Job/scheduleJobYes'))
 
 ac.sendKeys(Keys.END).perform()
 
-WebUI.click(findTestObject('Job_Creation/Page_Bebo Talent  Mobile Recruitment/button_Next'))
+WebUI.click(findTestObject('Job_Creation/Launch Job/button_Next'))
 
 Thread.sleep(2000)
 
 System.out.println(currentDate)
 
 driver.findElement(By.cssSelector('input[name="startDate"]')).click()
+
 driver.findElement(By.cssSelector('button[class="btn btn-default btn-info btn-today"]')).click()
-WebUI.click(findTestObject('Job_Creation/Page_Bebo Talent  Mobile Recruitment/button_Next'))
+
+WebUI.click(findTestObject('Job_Creation/Launch Job/button_Next'))
+
 Thread.sleep(2000)
+
 driver.findElement(By.cssSelector('button[class=\'btn btn-black ng-scope\']')).click()
+
 WebUI.verifyTextPresent('Thank You', false)
 
 driver.findElement(By.xpath('//span[text()=\'All Jobs\']')).click()
@@ -237,16 +238,17 @@ WebElement element2 = driver.findElement(By.xpath('//*[@id=\'jobTitle\']'))
 element2.sendKeys(scheduleJobname)
 
 for (int a = 0; a <= 2; a++) {
-	ac.sendKeys(Keys.PAGE_DOWN).perform()
+    ac.sendKeys(Keys.PAGE_DOWN).perform()
 }
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/i_Search_fa fa-search'))
 
-WebUI.verifyElementText(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/div_Software_Testing_geuT'),
-   scheduleJobname)
+WebUI.verifyElementText(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/div_Software_Testing_geuT'), 
+    scheduleJobname)
 
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/i_Romit Romit_fas fa-caret-down caret-down-arrow'))
 
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
+
 WebUI.closeBrowser()
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ELD-TC-46002-Verify that user is able to Launch the job in Italian Language</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3e4961e-aca8-49bf-ad6d-1e97040c4619</testCaseGuid>
+</TestCaseEntity>

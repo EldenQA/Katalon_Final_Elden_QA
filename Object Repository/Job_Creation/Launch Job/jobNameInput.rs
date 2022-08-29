@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>breadcrumbCandidatePoolPage</name>
+   <name>jobNameInput</name>
    <tag></tag>
-   <elementGuidId>121de2dc-33f2-4ad0-8b15-260a88e24770</elementGuidId>
+   <elementGuidId>e67e6f69-5269-4c3a-9f20-68c9b6dfd68c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,11 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.col-lg-12 .breadcrumb</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>input[name='campaignName']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

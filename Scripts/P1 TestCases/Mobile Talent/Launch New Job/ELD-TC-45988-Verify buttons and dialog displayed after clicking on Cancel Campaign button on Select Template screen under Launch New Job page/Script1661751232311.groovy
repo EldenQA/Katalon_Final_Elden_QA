@@ -14,6 +14,7 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
@@ -25,9 +26,10 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.remote.DriverCommand as DriverCommand
 import org.openqa.selenium.remote.server.DriverFactory as DriverFactory
+import org.testng.Assert as Assert
 import org.openqa.selenium.By.ByCssSelector as ByCssSelector
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
-import java.awt.List as List
+import java.util.List as List
 import java.awt.Robot as Robot
 import java.awt.Toolkit as Toolkit
 import java.awt.datatransfer.StringSelection as StringSelection
@@ -35,6 +37,8 @@ import java.awt.event.KeyEvent as KeyEvent
 import java.io.BufferedReader as BufferedReader
 import java.text.DateFormat as DateFormat
 import java.text.SimpleDateFormat as SimpleDateFormat
+
+Properties pro = new Properties()
 
 WebUI.openBrowser('')
 
@@ -45,7 +49,7 @@ WebUI.navigateToUrl(GlobalVariable.url)
 WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 
 Actions ac = new Actions(driver)
-Properties pro = new Properties()
+
 WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
     GlobalVariable.userName)
 
@@ -76,7 +80,7 @@ pro.load(new FileInputStream('console.properties'))
 
 keyValue = pro.getProperty('Template')
 
-WebUI.click(findTestObject('MTP Locators/metaDataLocator'))
+//WebUI.click(findTestObject('MTP Locators/metaDataLocator'))
 Thread.sleep(2000)
 
 File f = new File('download.png')
@@ -158,89 +162,36 @@ WebUI.click(findTestObject('Job_Creation/Launch Job/input__dueDate'))
 
 WebUI.click(findTestObject('Job_Creation/Launch Job/currentDate'))
 
-//WebUI.sendKeys(findTestObject('Job_Creation/Launch Job/currentDate'), Keys.chord(Keys.ENTER))
-
 WebUI.click(findTestObject('Job_Creation/Launch Job/button_Next'))
 
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.END))
 
+WebUI.click(findTestObject('Job_Creation/Launch Job/cancelCampaignButton'))
 
-ac.sendKeys(Keys.PAGE_DOWN).perform()
+TestObject testObj = findTestObject('Job_Creation/Launch Job/buttonsOnCancelCampaignPopup')
 
-pro.load(new FileInputStream('console.properties'))
+List<WebElement> elements = WebUI.findWebElements(testObj, 2)
 
-keyValue = pro.getProperty('Template')
-
-driver.findElement(By.cssSelector('span [class = \'fa fa-search\']')).click()
-
-driver.findElement(By.cssSelector('input[type = \'Text\']')).sendKeys(keyValue)
-
-ac.sendKeys(Keys.PAGE_DOWN).perform()
-
-Thread.sleep(2000)
-
-driver.findElement(By.xpath('//button[text() = \' Search\']')).click()
-
-By buttonBy = By.cssSelector('div[class=\'select-template\']')
-
-By selectTemplateBy = By.cssSelector('button[class=\'btn btn-yellow\']')
-
-WebElement button_s = driver.findElement(buttonBy)
-
-ac.moveToElement(button_s).perform()
-
-Thread.sleep(3000)
-
-WebElement selectTemplate = driver.findElement(selectTemplateBy)
-
-ac.click(selectTemplate).perform()
-
-WebUI.click(findTestObject('Job_Creation/Launch Job/button_Next'))
-
-WebUI.click(findTestObject('Job_Creation/selectAllLocationCheckBox'))
-
-WebUI.scrollToElement(findTestObject('Job_Creation/Launch Job/button_Next'), 2)
-
-WebUI.click(findTestObject('Job_Creation/Launch Job/button_Next'))
-
-WebUI.scrollToElement(findTestObject('Job_Creation/Launch Job/button_Next'), 2)
-
-//ac.sendKeys(Keys.END).perform()
-//ac.sendKeys(Keys.PAGE_DOWN).perform()
-Thread.sleep(2000)
-
-WebUI.click(findTestObject('Job_Creation/Launch Job/button_Next'))
-
-//Thread.sleep(2000)
-//
-//ac.sendKeys(Keys.END).perform()
-//
-//WebUI.scrollToElement(findTestObject('null'), 2)
-//
-//WebUI.click(findTestObject('null'))
-driver.findElement(By.cssSelector('.ng-scope > .ng-scope > .btn.btn-black.ng-scope')).click()
-
-driver.findElement(By.xpath('//span[text()=\'All Jobs\']')).click()
-
-Thread.sleep(2000)
-
-driver.findElement(By.cssSelector('span[data-title=\'Search\']')).click()
-
-WebElement element2 = driver.findElement(By.xpath('//*[@id=\'jobTitle\']'))
-
-element2.sendKeys(Input)
-
-for (int a = 0; a <= 2; a++) {
-    ac.sendKeys(Keys.PAGE_DOWN).perform()
+for (WebElement ele : elements) {
+    text = ele.getText()
+System.out.println(text)
+    if (text.equalsIgnoreCase('')) {
+        KeywordUtil.logInfo('button is present')
+    } else if (text.equalsIgnoreCase('Cancel ')) {
+        KeywordUtil.logInfo('button is present')
+    } else if (text.equalsIgnoreCase('Confirm')) {
+        KeywordUtil.logInfo('button is present')
+		break
+    } else {
+        throw new com.kms.katalon.core.exception.StepFailedException()
+    }
 }
 
-WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/i_Search_fa fa-search'))
+WebUI.click(findTestObject('Job_Creation/Launch Job/closePopuponLauchJobCancelCampaign'))
 
-WebUI.verifyElementText(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/div_Software_Testing_geuT'), 
-    Input)
+WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/b_Romit Romit'))
 
-WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/i_Romit Romit_fas fa-caret-down caret-down-arrow'))
-
-WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
+WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
 
 WebUI.closeBrowser()
 

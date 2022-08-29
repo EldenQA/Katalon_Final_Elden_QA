@@ -23,8 +23,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 import org.openqa.selenium.By as By
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.WebElement
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions as ChromeOptions
 import org.openqa.selenium.interactions.Actions as Actions
@@ -51,7 +51,11 @@ WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Tale
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/button_Create New Template'))
 
-Input = 'Template_French_'+RandomStringUtils.randomNumeric(6)
+FileWriter fw = new FileWriter('Files/P1_Template.properties')
+Properties pro = new Properties()
+Input = ('Template_French_' + RandomStringUtils.randomNumeric(6))
+pro.setProperty('Template_French', Input)
+pro.store(fw, 'comments')
 
 WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input__templateName'), 
     Input)
@@ -76,22 +80,25 @@ WebUI.scrollToElement(findTestObject('Template Creation/Page_Mobile Talent  Mobi
 
 WebUI.click(findTestObject('Template Creation/Page_Mobile Talent  Mobile Recruitment/languageDropdownLocator'))
 
-List <WebElement> languageElemets = driver.findElements(By.xpath('//li[@id="ui-select-choices-2"]//div[@class="ng-binding ng-scope"]'))
-int languageElemetsSize= languageElemets.size()
-for(int m = 0 ; m<languageElemetsSize;m++)
-{
-	textLanguage = languageElemets.get(m).getText()
-	if (textLanguage.equalsIgnoreCase('French (FR)'))
-	{
-		languageElemets.get(m).click()
-		break
-	}
-}
+TestObject objects = findTestObject('Template Creation/Page_Mobile Talent  Mobile Recruitment/templateLanguage')
 
+List<WebElement> languageElements = WebUI.findWebElements(objects, 2)
+
+for(WebElement languageElement: languageElements)
+	
+	{
+		languageElementText= languageElement.getText()
+	    System.out.println(languageElementText)
+	 if(languageElementText.equalsIgnoreCase('French (FR)'))
+	 {
+		 languageElement.click()
+		 break
+	 }	
+}		
 WebUI.click(findTestObject('Template Creation/Page_Mobile Talent  Mobile Recruitment/clickONAddPagePlusButton'))
 
-WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Enter Page Name_form-control ng-prist_3b5161'),
-	'Capture')
+WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Enter Page Name_form-control ng-prist_3b5161'), 
+    'Capture')
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/Click on Capcture Icon'))
 
@@ -99,43 +106,44 @@ WebUI.click(findTestObject('Template Creation/Page_Mobile Talent  Mobile Recruit
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/ClickOnInputFields'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/MultiLineQuestion'),
-	3)
+WebUI.scrollToElement(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/MultiLineQuestion'), 
+    3)
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/MultiLineQuestion'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/ScrollToMultilineSetting'),
-	3)
+WebUI.scrollToElement(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/ScrollToMultilineSetting'), 
+    3)
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Required_glyphicon glyphicon-wrench'))
 
-WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Question Text_displayName'),
-	'Do you have any degree , Choose one')
+WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Question Text_displayName'), 
+    'Do you have any degree , Choose one')
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/a_Response'))
 
-WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Selection Text_fieldValue'),
-	'Options')
+WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Selection Text_fieldValue'), 
+    'Options')
 
-WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Score_optionValue'),
-	'Btech')
+WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Score_optionValue'), 
+    'Btech')
 
-WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/MultilineQuestionNoOption'),
-	'MCA')
+WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/MultilineQuestionNoOption'), 
+    'MCA')
 
-WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Score_form-control numeric-include-ne_41ab90'),
-	'10')
+WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Score_form-control numeric-include-ne_41ab90'), 
+    '10')
 
-WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/MultiLineQuestionNoScore'),
-	'0')
+WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/MultiLineQuestionNoScore'), 
+    '0')
 
-WebUI.scrollToElement(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/AddQuestionWithCapture'),
-	3)
+WebUI.scrollToElement(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/AddQuestionWithCapture'), 
+    3)
 
 WebUI.click(findTestObject('Template Creation/Page_Mobile Talent  Mobile Recruitment/clickOnQuestionniareText'))
 
-WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Enter Page Name_form-control ng-prist_3b5161'),
-	'Ques')
+WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input_Enter Page Name_form-control ng-prist_3b5161'), 
+    'Ques')
+
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/QuestionniareForm'))
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/ClickOnInputFields'))
@@ -147,17 +155,29 @@ WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Tale
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Template Creation/Page_Mobile Talent  Mobile Recruitment/UploadFileForQuestionnareThrouhVariable'))
+
 Thread.sleep(2000)
+
 File f = new File('Speciman.csv')
+
 String logoPath = f.getAbsolutePath()
+
 Robot rb = new Robot()
+
 StringSelection ss = new StringSelection(logoPath)
+
 Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null)
+
 rb.keyPress(KeyEvent.VK_CONTROL)
+
 rb.keyPress(KeyEvent.VK_V)
+
 rb.keyRelease(KeyEvent.VK_CONTROL)
+
 rb.keyRelease(KeyEvent.VK_V)
+
 rb.keyPress(KeyEvent.VK_ENTER)
+
 rb.keyRelease(KeyEvent.VK_ENTER)
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/clickOnQuestionniareName'))
@@ -176,15 +196,10 @@ ac.sendKeys(Keys.ARROW_UP).perform()
 
 WebUI.verifyTextPresent('Questions has been added to Input Fields.', false)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/button_Save'),
-	3)
-
-
-
+WebUI.scrollToElement(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/button_Save'), 
+    3)
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/button_Save'))
-
-WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/div_Template has been saved successfully'))
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/div_Template has been saved successfully'))
 
@@ -192,7 +207,21 @@ WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Tale
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Manage Templates'))
 
-WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/i_Romit Romit_fa fa-share-alt fa-lg color-g_72fb5f'))
+TestObject testObj = findTestObject('Template Creation/Page_Mobile Talent  Mobile Recruitment/actionIconsManageTemplate')
+
+List<WebElement> elements = WebUI.findWebElements(testObj, 2)
+
+for (WebElement ele : elements) {
+    text = ele.getAttribute('data-title')
+
+    System.out.println(text)
+
+    if (text.equalsIgnoreCase('Publish')) {
+        ele.click()
+
+        break
+    }
+}
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/button_Confirm'))
 
@@ -203,10 +232,4 @@ WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Tale
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
 
 WebUI.closeBrowser()
-
-
-
-
-
-
 

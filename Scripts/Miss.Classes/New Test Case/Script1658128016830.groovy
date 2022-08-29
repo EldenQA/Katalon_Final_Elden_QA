@@ -24,60 +24,25 @@ import org.openqa.selenium.remote.server.DriverFactory as DriverFactory
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 import java.io.BufferedWriter as BufferedWriter
 
-By searchBy = By.cssSelector('span[data-title=\'Search\']')
-By jobTitleBy = By.cssSelector('#jobTitle')
-
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.navigateToUrl('https://mobile-recruit.com/login')
 
-WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+WebUI.setText(findTestObject('Object Repository/french/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
+    'atsharma@qasource.com')
 
-Actions ac = new Actions(driver)
+WebUI.setEncryptedText(findTestObject('Object Repository/french/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
+    'p4y+y39Ir5NjfX6yBiU+Hw==')
 
-WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
-    GlobalVariable.userName)
+WebUI.click(findTestObject('Object Repository/french/Page_Mobile Talent  Mobile Recruitment/span_Login'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
-    GlobalVariable.password)
+WebUI.click(findTestObject('Object Repository/french/Page_Mobile Talent  Mobile Recruitment/span_Launch New Job'))
 
-WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
+WebUI.setText(findTestObject('Object Repository/french/Page_Mobile Talent  Mobile Recruitment/input__campaignName'), 'firefox')
 
-driver.findElement(By.xpath('//span[text()=\'All Jobs\']')).click()
+WebUI.click(findTestObject('Object Repository/french/Page_Mobile Talent  Mobile Recruitment/span_English'))
 
-Thread.sleep(2000)
-
-
-
-CustomKeywords.'packag.keyword.clickElement'(searchBy)
-CustomKeywords.'packag.keyword.getSendKeysElement'(jobTitleBy, 'Software Engineer_IP_Test_8787')
-
-for (int a = 0; a <= 2; a++) {
-    ac.sendKeys(Keys.PAGE_DOWN).perform()
-}
-
-WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/i_Search_fa fa-search'))
-
-WebUI.click(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/div_Software_Testing_geuT'))
-
-WebUI.click(findTestObject('Object Repository/Registration/Page_Mobile Talent  Mobile Recruitment/micrositeLinkLocator'))
-
-urlMicrosite = WebUI.getUrl()
-
-System.out.println(urlMicrosite)
-
-//Properties pro2 = new Properties()
-File f = new File('Files/jg.txt')
-
-FileWriter fw = new FileWriter(f)
-
-BufferedWriter bw = new BufferedWriter(fw)
-
-bw.write(urlMicrosite)
-
-bw.newLine()
-
-bw.close()
+WebUI.click(findTestObject('Object Repository/french/Page_Mobile Talent  Mobile Recruitment/div_French (FR)'))
 

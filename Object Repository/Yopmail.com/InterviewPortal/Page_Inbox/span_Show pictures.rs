@@ -6,11 +6,11 @@
    <elementGuidId>835dd0ee-48da-4533-8dd4-9fc067f51e69</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/following::span[1]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/following::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -38,14 +38,6 @@
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;bodymail yscrollbar&quot;]/header[1]/div[@class=&quot;fl&quot;]/div[@class=&quot;noprint&quot;]/button[@class=&quot;md but text f18 #6666CC&quot;]/span[1]</value>
       <webElementGuid>a545de15-3155-4c68-8c66-23298b45d022</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Yopmail.com/InterviewPortal/Page_Inbox/iframe_Undo_ifmail</value>
-      <webElementGuid>540b46e5-5d24-4ec5-bd42-e7a44b28fb9b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

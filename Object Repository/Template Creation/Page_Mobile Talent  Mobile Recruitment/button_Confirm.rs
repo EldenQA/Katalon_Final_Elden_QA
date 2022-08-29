@@ -6,15 +6,15 @@
    <elementGuidId>2ce2d670-737c-4d44-bf23-43cd33adf983</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-yellow.ng-binding</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[11]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-yellow.ng-binding</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>26b550cf-2281-4d30-a335-6c6025076031</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>e12ee8e2-06c8-48fb-b9a2-fa477891b9bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>ng-click</name>
       <type>Main</type>
       <value>answer('yes')</value>
+      <webElementGuid>ed850400-14f7-421b-b78f-2b8c07370a95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-yellow ng-binding</value>
+      <webElementGuid>366c1b0c-db33-43a7-b9d0-94d1f9d76693</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>  Confirm </value>
+      <webElementGuid>6759563c-b224-4102-a23d-e59c41837684</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;mt modal-open modal-with-am-fade&quot;]/div[@class=&quot;modal fade campaign-model ng-scope top am-fade&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-yellow ng-binding&quot;]</value>
+      <webElementGuid>3d8391e9-84fd-4389-8728-c806ce764d3e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[11]</value>
+      <webElementGuid>4065eda4-a1ff-4dc2-99a0-b368b62c60fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to publish this template?'])[1]/following::button[2]</value>
+      <webElementGuid>77d23691-9fa7-4769-a6af-b041daf9f408</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button[2]</value>
+      <webElementGuid>ef5815b2-22d9-4d0a-a88d-87580ae3de33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = '  Confirm ' or . = '  Confirm ')]</value>
+      <webElementGuid>d3ad3d60-3e40-4d9d-a3a8-46c17c7f6b68</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

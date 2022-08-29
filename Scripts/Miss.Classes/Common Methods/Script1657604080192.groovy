@@ -14,7 +14,8 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -207,6 +208,28 @@ rb.keyRelease(KeyEvent.VK_V)
 rb.keyPress(KeyEvent.VK_ENTER)
 
 rb.keyRelease(KeyEvent.VK_ENTER)
+
+
+//Find Elements method with Katalon
+
+TestObject testObj = findTestObject('Job_Creation/Launch Job/buttonsOnCancelCampaignPopup')
+
+List<WebElement> elements = WebUI.findWebElements(testObj, 2)
+
+for (WebElement ele : elements) {
+	text = ele.getText()
+System.out.println(text)
+	if (text.equalsIgnoreCase('')) {
+		KeywordUtil.logInfo('button is present')
+	} else if (text.equalsIgnoreCase('Cancel ')) {
+		KeywordUtil.logInfo('button is present')
+	} else if (text.equalsIgnoreCase('Confirm')) {
+		KeywordUtil.logInfo('button is present')
+		break
+	} else {
+		throw new com.kms.katalon.core.exception.StepFailedException()
+	}
+}
 
 
 //logout from MT portla 

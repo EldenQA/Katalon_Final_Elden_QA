@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ELD-TC-45990-Verify that user is able to create a job in French Language</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf35e7c2-7045-410e-93c2-3f2e7022731a</testCaseGuid>
+</TestCaseEntity>

@@ -14,7 +14,7 @@
          <value>li.dropdown.ng-scope > a.dropdown-toggle.js-activated.disabled</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d390d2b2-c22b-4a68-b211-887183588f49</webElementGuid>
+      <webElementGuid>51a773bd-1496-498f-abb7-0eb64a7918e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>ea402256-8a4b-4349-8bfd-0a7cf665ceb9</webElementGuid>
+      <webElementGuid>a708a7fe-8429-4cf3-984b-00e5b48d29a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-type</name>
       <type>Main</type>
       <value>dropdownHover</value>
-      <webElementGuid>e1d4618b-8c71-461b-ad9e-d39ae4136f51</webElementGuid>
+      <webElementGuid>97368335-1e71-4778-929e-7548825a28c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Launch New Job</value>
-      <webElementGuid>d20208c2-7b82-4b00-95bc-0a3f1193ff2b</webElementGuid>
+      <webElementGuid>e5ed5487-67e6-439c-967e-79b5966938d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>dropdown</value>
-      <webElementGuid>197be850-c770-4a9f-bb15-4db290df2f13</webElementGuid>
+      <webElementGuid>eca1a710-e487-4bc5-a712-23569206ec2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>ui-sref-opts</name>
       <type>Main</type>
       <value>{reload: true}</value>
-      <webElementGuid>55a93e4f-16e0-4462-b018-3b0becc69bc7</webElementGuid>
+      <webElementGuid>46a2ff88-b8f8-4c1a-891f-330037a651b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dropdown-toggle js-activated disabled</value>
-      <webElementGuid>36feab8d-c298-43a4-96c7-5af52b2454a1</webElementGuid>
+      <webElementGuid>db4a1b2f-ba6c-43e2-b46c-15370ec5db7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>ui-sref</name>
       <type>Main</type>
       <value>campaignWizard.details({isNew : true,isBack:false, campaignId:null})</value>
-      <webElementGuid>3e29a372-8fd7-4025-a04e-6f4209b52d04</webElementGuid>
+      <webElementGuid>31740a62-af56-4515-9034-3a38259f7592</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/campaignWizard/details?isNew=true&amp;isBack=false</value>
-      <webElementGuid>156bd4da-fb54-4d33-aa1d-4e9ab1effdce</webElementGuid>
+      <webElementGuid>13a2dcc6-2066-4881-8936-560089693bb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -94,7 +94,7 @@
       <name>text</name>
       <type>Main</type>
       <value>  Launch New Job </value>
-      <webElementGuid>d7fbf8e1-1fd6-4d20-a05f-09bac0437836</webElementGuid>
+      <webElementGuid>f7a2e61c-8d11-4b75-ba85-a5aebe0562ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;bs-example-navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav active-menu&quot;]/li[@class=&quot;dropdown ng-scope&quot;]/a[@class=&quot;dropdown-toggle js-activated disabled&quot;]</value>
-      <webElementGuid>2f1a6086-39b9-4e48-a155-b3ad8a012216</webElementGuid>
+      <webElementGuid>e8a39917-216d-47cf-90b1-10248dbcaeff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='bs-example-navbar-collapse-1']/ul/li[3]/a</value>
-      <webElementGuid>a2f95b02-c23e-47ae-9289-cfee1daa6d50</webElementGuid>
+      <webElementGuid>5b24658b-58f5-432b-927c-e40dc53fcf4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All Jobs'])[1]/following::a[1]</value>
-      <webElementGuid>e8ff56b2-7d1b-48da-b7a5-09d35929fc73</webElementGuid>
+      <webElementGuid>34df9519-d56a-4ca5-8ff0-e7bbab9a088f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::a[2]</value>
-      <webElementGuid>a67c3ccc-8766-4b2e-ba12-f70b99128dfb</webElementGuid>
+      <webElementGuid>5be27f08-78e3-42f6-88fa-322426e0910c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Support'])[1]/preceding::a[1]</value>
-      <webElementGuid>4cc41ead-dfc2-4353-afb2-5f146067ff92</webElementGuid>
+      <webElementGuid>1c5d237d-6d18-4dd1-8c2d-690fef8ce958</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/campaignWizard/details?isNew=true&amp;isBack=false')]</value>
-      <webElementGuid>36168bb9-8828-48fc-b56f-2913946eef5c</webElementGuid>
+      <webElementGuid>f843d954-bde6-4be9-90e3-8a4ffd63de35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +150,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul/li[3]/a</value>
-      <webElementGuid>30de2d7f-b036-4426-937f-e0ca1655ceab</webElementGuid>
+      <webElementGuid>47b54289-7d06-4028-91e6-d49759a671a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,6 +158,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@title = 'Launch New Job' and @href = '/campaignWizard/details?isNew=true&amp;isBack=false' and (text() = '  Launch New Job ' or . = '  Launch New Job ')]</value>
-      <webElementGuid>42cbcd09-5d08-4512-9560-92811398a945</webElementGuid>
+      <webElementGuid>25e63b2c-a5a1-40c9-8c53-34850fffa397</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

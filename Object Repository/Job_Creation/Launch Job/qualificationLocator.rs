@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>breadcrumbCandidatePoolPage</name>
+   <name>qualificationLocator</name>
    <tag></tag>
-   <elementGuidId>121de2dc-33f2-4ad0-8b15-260a88e24770</elementGuidId>
+   <elementGuidId>71cea44a-9080-43a3-adc0-611389f90be6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[(text() = '  * Qualification     ' or . = '  * Qualification     ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.col-lg-12 .breadcrumb</value>
+         <value>input[name=&quot;qualification&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -19,5 +19,5 @@
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
 </WebElementEntity>
