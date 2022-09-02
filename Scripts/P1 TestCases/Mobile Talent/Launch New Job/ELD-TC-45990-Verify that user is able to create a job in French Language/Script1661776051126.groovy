@@ -29,8 +29,9 @@ import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions as ChromeOptions
 import org.openqa.selenium.interactions.Actions as Actions
 
-//WebUI.callTestCase(findTestCase('P1 TestCases/Mobile Talent/ManageTemplate/Verify that user is successfully able to create the template(French (FR)'), 
-//    [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('P1 TestCases/Mobile Talent/ManageTemplate/Verify that user is successfully able to create the template(French (FR)'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
@@ -53,9 +54,8 @@ WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  M
 
 WebUI.click(findTestObject('Job_Creation/Launch Job/a_Launch New Job'))
 
-
-
 WebUI.click(findTestObject('MTP Locators/metaDataLocator'))
+
 Thread.sleep(2000)
 
 File f = new File('download.png')
@@ -81,12 +81,16 @@ rb.keyPress(KeyEvent.VK_ENTER)
 rb.keyRelease(KeyEvent.VK_ENTER)
 
 FileWriter fw = new FileWriter('Files/P1_Job.properties')
+
 Input = ('Campaign_French_' + RandomStringUtils.randomNumeric(6))
+
 pro.setProperty('Campaign_French', Input)
+
 pro.store(fw, 'comments')
 
 WebUI.setText(findTestObject('Job_Creation/Launch Job/jobNameInput'), Input //keyValue is the Created Template value "Template"
     )
+
 WebUI.click(findTestObject('Job_Creation/Launch Job/campaignLanguageLocator'))
 
 TestObject objects = findTestObject('Job_Creation/Launch Job/campaignLanguageSelector')

@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>descriptionInputBox</name>
+   <name>pageTitleStandeloneMicrosite</name>
    <tag></tag>
-   <elementGuidId>c278a675-c0f0-4bbe-8456-253739ae41fc</elementGuidId>
+   <elementGuidId>80dec8f1-a13a-493c-a4db-f9f523ca4f91</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
          <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.placeholder-text</value>
+         <value>input[name='pageTitle']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

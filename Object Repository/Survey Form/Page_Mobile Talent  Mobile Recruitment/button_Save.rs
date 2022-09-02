@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f6b25351-3c88-4f6d-98d5-027434c9b666</webElementGuid>
+      <webElementGuid>5bc499c2-df6e-4f2f-8ef1-4b7d1f64e849</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4bf335cc-f754-440a-9fcb-f6f453e0d347</webElementGuid>
+      <webElementGuid>de73fabe-fb0e-45e1-b408-d65cbc14a017</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>1cd9974c-b26c-4220-82ef-6010dc48c551</webElementGuid>
+      <webElementGuid>2db4c74a-65ce-4108-b447-5eb925220045</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-dismiss</name>
       <type>Main</type>
       <value>modal</value>
-      <webElementGuid>86e84cac-df30-46c7-951c-70d2012d362e</webElementGuid>
+      <webElementGuid>e7319f86-2458-4f56-8455-f2322dc27b0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>ng-click</name>
       <type>Main</type>
       <value>vm.addSurveyToCampaign()</value>
-      <webElementGuid>576e5369-5a69-46f4-a39f-b70476287f34</webElementGuid>
+      <webElementGuid>4e184b4e-2dd2-4488-85e5-a10565f8d3eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>ng-disabled</name>
       <type>Main</type>
       <value>!vm.selectedSurvey.name</value>
-      <webElementGuid>b350d243-dca1-4cb7-84d5-e8d0c698c73d</webElementGuid>
+      <webElementGuid>2ced792a-f729-40c1-a97b-61364faa2122</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Save </value>
-      <webElementGuid>28c5a3db-c71a-4524-9bef-a309ad635c2d</webElementGuid>
+      <webElementGuid>8649196f-d1ec-472d-b866-91be1fe93670</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;assignSurveyPopup&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content overflow-visible&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>fb2b00e4-ff84-4540-915a-ec956cb47f18</webElementGuid>
+      <webElementGuid>9f97900c-0fd6-4273-976e-81e30101cf98</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[26]</value>
-      <webElementGuid>144d15f6-588b-4a1c-8e58-0aa075530a7f</webElementGuid>
+      <webElementGuid>6e641fd0-5763-4e76-a0c8-55cb97b0306a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='assignSurveyPopup']/div/div/div[3]/button</value>
-      <webElementGuid>fac2df39-1e40-4fc8-b5fe-83a40ef1a1ff</webElementGuid>
+      <webElementGuid>7cefc837-e68d-4c7f-8c45-6232a57f9d1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Automation_SurveyForm'])[1]/following::button[1]</value>
-      <webElementGuid>a65640a7-fc43-46b8-aa3b-2459ded0a58d</webElementGuid>
+      <webElementGuid>b3ee576f-4eb0-42a0-a4b0-2785460580e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select microsite'])[1]/following::button[1]</value>
-      <webElementGuid>f7b6bf68-c3b5-48c7-8c94-3b511db35d1f</webElementGuid>
+      <webElementGuid>65ebfb48-8774-4efe-a64d-20bb7948f681</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/preceding::button[1]</value>
-      <webElementGuid>8054ec01-ba1e-4042-bd88-f64752fe6121</webElementGuid>
+      <webElementGuid>9fac9109-d17b-41ba-8218-26f7d51a8ced</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//include-template-directive[8]/div/div/div/div[3]/button</value>
-      <webElementGuid>b2619d40-e849-4e90-b2a7-a0cbab80a66b</webElementGuid>
+      <webElementGuid>2a1e3c90-27c2-46ce-8b07-9d265849dd3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' Save ' or . = ' Save ')]</value>
-      <webElementGuid>0098bd6d-fb2f-4f79-b43b-cf1ddd3232e8</webElementGuid>
+      <webElementGuid>ba67eb07-be1a-45de-82e9-d1b0ecab55f7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

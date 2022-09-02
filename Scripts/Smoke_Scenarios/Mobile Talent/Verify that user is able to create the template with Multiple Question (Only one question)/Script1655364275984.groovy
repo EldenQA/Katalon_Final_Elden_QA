@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Tale
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Manage Templates'))
 
-WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/button_Create New Template'))
+WebUI.click(findTestObject('Object Repository/Administration/Manage_Microsite/create_Button'))
 
 FileWriter fw = new FileWriter('console.properties')
 

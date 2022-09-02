@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>descriptionInputBox</name>
+   <name>addLandingPage</name>
    <tag></tag>
-   <elementGuidId>c278a675-c0f0-4bbe-8456-253739ae41fc</elementGuidId>
+   <elementGuidId>d290162d-e572-4191-bb8b-55240b420b30</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
          <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.placeholder-text</value>
+         <value>.map-list [alt='Landing Page']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

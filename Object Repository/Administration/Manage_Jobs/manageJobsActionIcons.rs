@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>descriptionInputBox</name>
+   <name>manageJobsActionIcons</name>
    <tag></tag>
-   <elementGuidId>c278a675-c0f0-4bbe-8456-253739ae41fc</elementGuidId>
+   <elementGuidId>a01dccd7-0c1b-4d90-bfa9-c4d1b9006003</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
          <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.placeholder-text</value>
+         <value>tr:nth-of-type(1) > .launch-manage-source a i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

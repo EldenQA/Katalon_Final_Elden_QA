@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>descriptionInputBox</name>
+   <name>jobsTitle</name>
    <tag></tag>
-   <elementGuidId>c278a675-c0f0-4bbe-8456-253739ae41fc</elementGuidId>
+   <elementGuidId>8d5cf9ad-5c9f-48d9-aecf-6069c349cc05</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
          <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.placeholder-text</value>
+         <value>tr > td:nth-of-type(2) a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

@@ -125,13 +125,8 @@ for(WebElement hiringEventElement: hiringEvent)
 	
 	hiringEventElementText= hiringEventElement.getText()
 	System.out.println(hiringEventElementText)
-	if(hiringEventElementText.equalsIgnoreCase('Hiring Event' + EventName))
-	{
-		Assert.assertEquals(hiringEventElementText, 'Hiring Event' + EventName)
-	}
-	else {
-		throw new IOException('Hiring event is not created ')
-		}
+	Assert.assertEquals(hiringEventElementText, 'Hiring Event' + EventName)
+	break
 }
 	WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/i_Romit Romit_fas fa-caret-down caret-down-arrow'))
 	

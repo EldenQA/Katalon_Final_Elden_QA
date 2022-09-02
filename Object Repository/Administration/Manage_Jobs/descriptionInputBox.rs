@@ -3,18 +3,17 @@
    <description></description>
    <name>descriptionInputBox</name>
    <tag></tag>
-   <elementGuidId>c278a675-c0f0-4bbe-8456-253739ae41fc</elementGuidId>
+   <elementGuidId>af88d4e9-8136-4ab6-baa2-8f30b6476ae1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.placeholder-text</value>
+         <value>.col-lg-7 div[class='ta-scroll-window ng-scope ta-text ta-editor form-control']  div p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

@@ -77,6 +77,8 @@ WebUI.sendKeys(findTestObject('Administration/Manage_Hiring_Events/eventName'), 
 
 WebUI.click(findTestObject('Administration/Manage_Hiring_Events/startDataLocator'))
 
+
+
 WebUI.click(findTestObject('Administration/Manage_Hiring_Events/30DateLocator'))
 
 WebUI.click(findTestObject('Administration/Manage_Hiring_Events/endDate'))

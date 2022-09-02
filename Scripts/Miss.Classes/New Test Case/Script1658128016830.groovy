@@ -22,27 +22,34 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.remote.server.DriverFactory as DriverFactory
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
-import java.io.BufferedWriter as BufferedWriter
+import java.text.DateFormat as DateFormat
+import java.text.SimpleDateFormat as SimpleDateFormat
 
 WebUI.openBrowser('')
 
+WebUI.navigateToUrl(GlobalVariable.url)
+
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://mobile-recruit.com/login')
+WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 
-WebUI.setText(findTestObject('Object Repository/french/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
-    'atsharma@qasource.com')
+WebUI.setText(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
+    GlobalVariable.userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/french/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
-    'p4y+y39Ir5NjfX6yBiU+Hw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
+    GlobalVariable.password)
 
-WebUI.click(findTestObject('Object Repository/french/Page_Mobile Talent  Mobile Recruitment/span_Login'))
+WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/french/Page_Mobile Talent  Mobile Recruitment/span_Launch New Job'))
+for(int i=0; i<=20; i++)
+{
+	driver.findElement(By.xpath('//span[text()=\'All Jobs\']')).click()	
+	WebUI.click(findTestObject('MTP Locators/MobileTalentPoolLocatorOnDashboardBar'))
+	
+}
+WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/b_Romit Romit'))
+WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
+WebUI.closeBrowser()
 
-WebUI.setText(findTestObject('Object Repository/french/Page_Mobile Talent  Mobile Recruitment/input__campaignName'), 'firefox')
 
-WebUI.click(findTestObject('Object Repository/french/Page_Mobile Talent  Mobile Recruitment/span_English'))
-
-WebUI.click(findTestObject('Object Repository/french/Page_Mobile Talent  Mobile Recruitment/div_French (FR)'))
 
