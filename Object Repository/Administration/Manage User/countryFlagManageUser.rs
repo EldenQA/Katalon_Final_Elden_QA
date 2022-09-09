@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>editIconManageMicrosite</name>
+   <name>countryFlagManageUser</name>
    <tag></tag>
-   <elementGuidId>396aa24b-68a2-4f79-8cc4-6ce5332d40d2</elementGuidId>
+   <elementGuidId>2e97dfb3-76fe-4ba1-994b-2e6716a1d30a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>div.modal[style*='display: block;'] div.selected-flag</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>tr:nth-of-type(1) > td:nth-of-type(6) > a:nth-of-type(1) > .fa-edit.fa-lg.fas.icon-grey-p.ng-scope</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

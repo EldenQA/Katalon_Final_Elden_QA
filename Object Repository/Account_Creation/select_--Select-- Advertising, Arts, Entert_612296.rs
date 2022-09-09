@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--Select-- Advertising, Arts, Entert_612296</name>
+   <tag></tag>
+   <elementGuidId>8d66dcbb-83a1-447f-9a31-d746834f5752</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='vm.accountDetailsForm.accountIndustryID']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;vm.accountDetailsForm.accountIndustryID&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>7bf768d8-352e-4eeb-92ca-ca332c66a9a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>vm.accountDetailsForm.accountIndustryID</value>
+      <webElementGuid>0930b19c-fcb1-48c5-9208-c1da4e11f60c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>vm.accountDetailsForm.accountIndustryID</value>
+      <webElementGuid>430b9172-7abc-4426-8b24-7f7aab1f556b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-invalid ng-invalid-required</value>
+      <webElementGuid>8cac9592-fa37-41dd-9b85-a9712c4d245a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>industry.id as industry.label for industry in vm.accountData.industries | orderBy:'label'</value>
+      <webElementGuid>9a8536b0-872d-408f-8560-8c431e81881d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--Select-- Advertising, Arts, Entertainment &amp; MediaAgriculture, Forestry, Fishing &amp; HuntingAutomotive, Aviation, Rail &amp; NauticalBiotechnology &amp; Medical ScienceBusiness, Finance, Insurance, Legal &amp; Real EstateEducation &amp; Social ServicesEnergy &amp; Environmental ServicesEnergy, Refinery &amp; UtilitiesGovernment &amp; Public AdministrationHospitality &amp; Consumer ServicesManagement of Companies and EnterprisesManufacturing &amp; ConstructionMilitary &amp; DefensePublic Administration &amp; Non-profitRetail &amp; Wholesale TradeTechnology, Electronics &amp; CommunicationsTransportation &amp; Warehousing</value>
+      <webElementGuid>cb0e4354-4bc1-4e21-b43e-69e7cb64971e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;step1&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;row&quot;]/form[@class=&quot;ng-invalid ng-invalid-required ng-dirty ng-valid-parse ng-valid-exists ng-invalid-pattern ng-valid-ng-intl-tel-input&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-7&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-invalid ng-invalid-required&quot;]</value>
+      <webElementGuid>bb8ce724-3af8-40c5-91c1-f510c052aecc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='vm.accountDetailsForm.accountIndustryID']</value>
+      <webElementGuid>d9aa43eb-da47-41d9-ae48-364146cd163a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='step1']/div/div/div[2]/div/form/div[5]/div/div/div/select</value>
+      <webElementGuid>f58dd029-12c1-4ab3-a96d-f2e01353008f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::select[1]</value>
+      <webElementGuid>cbf8cdd3-8ff9-4b4e-b30d-a48911455079</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Industry is required.'])[1]/preceding::select[1]</value>
+      <webElementGuid>ccae37f4-4a5f-46f9-b397-a81c3ccf37b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GA Code'])[1]/preceding::select[1]</value>
+      <webElementGuid>7a51dfab-3817-4982-8d51-e102a72c44e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>d7393c8d-2b70-4058-9e43-d442469d027c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'vm.accountDetailsForm.accountIndustryID' and (text() = '--Select-- Advertising, Arts, Entertainment &amp; MediaAgriculture, Forestry, Fishing &amp; HuntingAutomotive, Aviation, Rail &amp; NauticalBiotechnology &amp; Medical ScienceBusiness, Finance, Insurance, Legal &amp; Real EstateEducation &amp; Social ServicesEnergy &amp; Environmental ServicesEnergy, Refinery &amp; UtilitiesGovernment &amp; Public AdministrationHospitality &amp; Consumer ServicesManagement of Companies and EnterprisesManufacturing &amp; ConstructionMilitary &amp; DefensePublic Administration &amp; Non-profitRetail &amp; Wholesale TradeTechnology, Electronics &amp; CommunicationsTransportation &amp; Warehousing' or . = '--Select-- Advertising, Arts, Entertainment &amp; MediaAgriculture, Forestry, Fishing &amp; HuntingAutomotive, Aviation, Rail &amp; NauticalBiotechnology &amp; Medical ScienceBusiness, Finance, Insurance, Legal &amp; Real EstateEducation &amp; Social ServicesEnergy &amp; Environmental ServicesEnergy, Refinery &amp; UtilitiesGovernment &amp; Public AdministrationHospitality &amp; Consumer ServicesManagement of Companies and EnterprisesManufacturing &amp; ConstructionMilitary &amp; DefensePublic Administration &amp; Non-profitRetail &amp; Wholesale TradeTechnology, Electronics &amp; CommunicationsTransportation &amp; Warehousing')]</value>
+      <webElementGuid>29b3c309-a84e-491c-993d-ffd453c2e212</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

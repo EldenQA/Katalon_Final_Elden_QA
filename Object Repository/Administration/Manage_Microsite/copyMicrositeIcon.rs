@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>editIconManageMicrosite</name>
+   <name>copyMicrositeIcon</name>
    <tag></tag>
-   <elementGuidId>396aa24b-68a2-4f79-8cc4-6ce5332d40d2</elementGuidId>
+   <elementGuidId>daa48fab-2fde-49a9-a2ba-45ac80a5e8bf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>tr > td:nth-of-type(6) > a:nth-of-type(2) i</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>tr:nth-of-type(1) > td:nth-of-type(6) > a:nth-of-type(1) > .fa-edit.fa-lg.fas.icon-grey-p.ng-scope</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

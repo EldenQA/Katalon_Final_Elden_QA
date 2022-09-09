@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>editIconManageMicrosite</name>
+   <name>buttonsOnAccountDetailsPage</name>
    <tag></tag>
-   <elementGuidId>396aa24b-68a2-4f79-8cc4-6ce5332d40d2</elementGuidId>
+   <elementGuidId>2acdcfb6-99be-445f-9f17-2243b4492d91</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>tr:nth-of-type(1) > td:nth-of-type(6) > a:nth-of-type(1) > .fa-edit.fa-lg.fas.icon-grey-p.ng-scope</value>
+         <value>.select-brand-popup button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

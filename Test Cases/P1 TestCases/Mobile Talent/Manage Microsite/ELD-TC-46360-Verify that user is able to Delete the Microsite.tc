@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ELD-TC-46360-Verify that user is able to Delete the Microsite</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1acb915-b369-42a1-9a32-33b1b9499d07</testCaseGuid>
+</TestCaseEntity>

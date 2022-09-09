@@ -43,13 +43,13 @@ pro.load(new FileInputStream('job.properties'))
 
 Jobname = pro.getProperty('JobName')
 
-WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
+WebUI.setText(findTestObject('Object Repository/Account_Creation/input_Username_username'), 
     GlobalVariable.userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Account_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Account_Creation/input_Password_password'), 
     GlobalVariable.password)
 
-WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
+WebUI.click(findTestObject('Object Repository/Account_Creation/button_Login'))
 
 //WebElement drop = driver.findElement(By.cssSelector("a[title='Administration']"))
 driver.findElement(By.cssSelector('a[title=\'Administration\']')).click()

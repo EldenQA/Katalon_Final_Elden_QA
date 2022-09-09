@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ul__multiselect-search-list</name>
+   <tag></tag>
+   <elementGuidId>c2058d25-a36a-40d2-9267-42d705a61edb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='step2']/div/div/div/div/form/div[2]/div/div/div/oi-multiselect/div/ul</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.multiselect-search-list</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ul</value>
+      <webElementGuid>4143cf82-3bdc-4b57-bee3-b8badbd8c769</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multiselect-search-list</value>
+      <webElementGuid>d648ee7e-03d2-4529-8aeb-c37739a2eb6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;step2&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;panel-body padding-top-none&quot;]/div[@class=&quot;row&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-invalid-required&quot;]/div[@class=&quot;col-lg-6&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;oi-form-group text-left&quot;]/div[@class=&quot;col-lg-6 search-users&quot;]/oi-multiselect[@class=&quot;ng-pristine ng-untouched ng-isolate-scope ng-invalid ng-invalid-required&quot;]/div[@class=&quot;multiselect-search&quot;]/ul[@class=&quot;multiselect-search-list&quot;]</value>
+      <webElementGuid>b99bd73e-62c0-414d-bcdb-7d6b6fdf8f8e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='step2']/div/div/div/div/form/div[2]/div/div/div/oi-multiselect/div/ul</value>
+      <webElementGuid>75732e5d-9793-4b2a-add2-0c8a0d006730</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::ul[1]</value>
+      <webElementGuid>c31203c5-df8c-444b-a3aa-11f7843b6305</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::ul[1]</value>
+      <webElementGuid>1c1d5968-be5d-49ab-87ba-0f736f887540</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add User'])[1]/preceding::ul[1]</value>
+      <webElementGuid>ae993248-c070-4c74-81f9-86be446c48a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//oi-multiselect/div/ul</value>
+      <webElementGuid>0da24b96-83bf-46bb-8e6f-626e6425c30e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

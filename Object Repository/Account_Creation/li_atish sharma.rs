@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_atish sharma</name>
+   <tag></tag>
+   <elementGuidId>34ee675e-b490-44e3-bcc9-af586490a3a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='step2']/div/div/div/div/form/div[2]/div/div/div/oi-multiselect/div[2]/ul/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.multiselect-dropdown-optgroup-option.ng-binding.ng-scope.active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>856380a0-df25-43ab-a8bb-b70921e4cf23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multiselect-dropdown-optgroup-option ng-binding ng-scope active</value>
+      <webElementGuid>d5af3669-9728-480f-947d-7e65f39aa13f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-repeat</name>
+      <type>Main</type>
+      <value>option in options</value>
+      <webElementGuid>33df7f63-530d-441f-93f6-2384fc705daa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{'active': selectorPosition === groupPos[group] + $index}</value>
+      <webElementGuid>884d9791-0fcd-4b27-97c0-6fce72bf9ea5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>addItem(option)</value>
+      <webElementGuid>671296d9-3f3a-453e-8904-dd07bd547811</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-mouseenter</name>
+      <type>Main</type>
+      <value>setSelection(groupPos[group] + $index)</value>
+      <webElementGuid>c58a20bc-97dc-4723-ba41-8281836403c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind-html</name>
+      <type>Main</type>
+      <value>getDropdownLabel(option)</value>
+      <webElementGuid>95cb369d-8196-49ac-9a76-856550076e5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>atish sharma</value>
+      <webElementGuid>90164025-5b47-4e03-9db0-0f41759c25a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;step2&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;panel-body padding-top-none&quot;]/div[@class=&quot;row&quot;]/form[@class=&quot;ng-invalid ng-invalid-required ng-dirty ng-valid-parse&quot;]/div[@class=&quot;col-lg-6&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;oi-form-group text-left&quot;]/div[@class=&quot;col-lg-6 search-users&quot;]/oi-multiselect[@class=&quot;ng-pristine ng-untouched ng-isolate-scope ng-invalid ng-invalid-required&quot;]/div[@class=&quot;multiselect-dropdown&quot;]/ul[@class=&quot;multiselect-dropdown-optgroup ng-scope&quot;]/li[@class=&quot;multiselect-dropdown-optgroup-option ng-binding ng-scope active&quot;]</value>
+      <webElementGuid>cb0c1c1f-fb7b-4ca0-b609-28923afe0469</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='step2']/div/div/div/div/form/div[2]/div/div/div/oi-multiselect/div[2]/ul/li</value>
+      <webElementGuid>12a6fd1e-5887-443e-995b-39fca5b18cac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::li[3]</value>
+      <webElementGuid>905e7e0f-b06a-4b0d-86fe-42ef2e4dec41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li</value>
+      <webElementGuid>4afe1c10-d1ea-4199-ab45-a7cffc2356fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'atish sharma' or . = 'atish sharma')]</value>
+      <webElementGuid>3f131a3e-b161-49e7-ad32-56b221481299</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>editIconManageMicrosite</name>
+   <name>searchMicrositeByName</name>
    <tag></tag>
-   <elementGuidId>396aa24b-68a2-4f79-8cc4-6ce5332d40d2</elementGuidId>
+   <elementGuidId>2886cf15-d223-4c96-ab3b-c05a18704574</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>tr:nth-of-type(1) > td:nth-of-type(6) > a:nth-of-type(1) > .fa-edit.fa-lg.fas.icon-grey-p.ng-scope</value>
+         <value>.input-calendar [type]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

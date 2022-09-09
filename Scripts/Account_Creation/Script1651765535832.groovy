@@ -34,16 +34,16 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
+WebUI.setText(findTestObject('Object Repository/Account_Creation/input_Username_username'), 
     'romgupta@qasource.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Account_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Account_Creation/input_Password_password'), 
     'kz7p4/CQ+93m2i5idrXw6Q==')
 
-WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
-WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/span_Administration'))
-WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/span_Manage Accounts'))
-WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/button_Create New Account'))
+WebUI.click(findTestObject('Object Repository/Account_Creation/button_Login'))
+WebUI.click(findTestObject('Object Repository/Account_Creation/span_Administration'))
+WebUI.click(findTestObject('Object Repository/Account_Creation/span_Manage Accounts'))
+WebUI.click(findTestObject('Object Repository/Account_Creation/button_Create New Account'))
 
 FileWriter fw = new FileWriter("console.properties");
 Properties pro = new Properties()
@@ -52,22 +52,22 @@ pro.store(fw, "comments")
 FileInputStream fis = new FileInputStream("console.properties");
 Input = pro.getProperty("Account Name")
 
-WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/input__accountName'), 
+WebUI.setText(findTestObject('Object Repository/Account_Creation/input__accountName'), 
     Input)
-WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/input__email'), 'katalon@yopmail.com')
-WebUI.click(findTestObject('Account_Creation/Page_Bebo Talent  Mobile Recruitment/div__selected-flag'))
-WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/span_India ()'))
-WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/input_United States_primaryPhoneNumber'), 
+WebUI.setText(findTestObject('Object Repository/Account_Creation/input__email'), 'katalon@yopmail.com')
+WebUI.click(findTestObject('Account_Creation/div__selected-flag'))
+WebUI.click(findTestObject('Object Repository/Account_Creation/span_India ()'))
+WebUI.setText(findTestObject('Object Repository/Account_Creation/input_United States_primaryPhoneNumber'), 
     '9623521252')
-WebUI.selectOptionByValue(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/select_--Select-- Advertising, Arts, Entert_612296'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Account_Creation/select_--Select-- Advertising, Arts, Entert_612296'), 
     '0', true)
-WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/input__vm.accountDetailsForm.contactDTO.pri_503879'), 
+WebUI.setText(findTestObject('Object Repository/Account_Creation/input__vm.accountDetailsForm.contactDTO.pri_503879'), 
     '73 Ray St, Pleasanton, CA 94566, United States')
-WebUI.selectOptionByValue(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/select_--Select-- GBARBRCACOMXPHPLUSIN'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Account_Creation/select_--Select-- GBARBRCACOMXPHPLUSIN'), 
     '9', true)
-WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/input__vm.accountDetailsForm.contactDTO.zip'), 
+WebUI.setText(findTestObject('Object Repository/Account_Creation/input__vm.accountDetailsForm.contactDTO.zip'), 
     '177107')
-WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/input__vm.accountDetailsForm.contactDTO.city'), 
+WebUI.setText(findTestObject('Object Repository/Account_Creation/input__vm.accountDetailsForm.contactDTO.city'), 
 'Pleasanton')
 driver.findElement(By.cssSelector("div.btn.btn-primary.btn-file")).click()
 Robot rb = new Robot()
@@ -80,26 +80,26 @@ rb.keyRelease(KeyEvent.VK_CONTROL)
 rb.keyRelease(KeyEvent.VK_V)
 rb.keyPress(KeyEvent.VK_ENTER)
 rb.keyRelease(KeyEvent.VK_ENTER)
-WebUI.selectOptionByValue(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/select_--Select-- PunjabAndaman And nicobar_78b03e'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Account_Creation/select_--Select-- PunjabAndaman And nicobar_78b03e'), 
     '13', true)
-WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/input__contactFirstName'), 
+WebUI.setText(findTestObject('Object Repository/Account_Creation/input__contactFirstName'), 
     'katalon_3')
-WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/input__contactLastName'), 
+WebUI.setText(findTestObject('Object Repository/Account_Creation/input__contactLastName'), 
     'katalon')
-WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/input__contactEmail'), 
+WebUI.setText(findTestObject('Object Repository/Account_Creation/input__contactEmail'), 
     'katalon@yopmail.com')
-WebUI.scrollToElement(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/label_Use account address'), 
+WebUI.scrollToElement(findTestObject('Object Repository/Account_Creation/label_Use account address'), 
     5, FailureHandling.STOP_ON_FAILURE)
-WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/input_United States_contactPhoneNumber'), 
+WebUI.setText(findTestObject('Object Repository/Account_Creation/input_United States_contactPhoneNumber'), 
     '3152779908')
-WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/label_Use account address'))
-WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/button_Next'))
-WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/ul__multiselect-search-list'))
-WebUI.setText(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/input__ng-pristine ng-untouched ng-valid ng_084d1e'), 
+WebUI.click(findTestObject('Object Repository/Account_Creation/label_Use account address'))
+WebUI.click(findTestObject('Object Repository/Account_Creation/button_Next'))
+WebUI.click(findTestObject('Object Repository/Account_Creation/ul__multiselect-search-list'))
+WebUI.setText(findTestObject('Object Repository/Account_Creation/input__ng-pristine ng-untouched ng-valid ng_084d1e'), 
     'atish')
-WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/li_atish sharma'))
-WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/span_Add User'))
-WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/button_Next_1'))
-WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/h3_Thank You for the confirmation. Account _7daf0d'))
-WebUI.click(findTestObject('Object Repository/Account_Creation/Page_Bebo Talent  Mobile Recruitment/h3_Thank You for the confirmation. Account _7daf0d'))
+WebUI.click(findTestObject('Object Repository/Account_Creation/li_atish sharma'))
+WebUI.click(findTestObject('Object Repository/Account_Creation/span_Add User'))
+WebUI.click(findTestObject('Object Repository/Account_Creation/button_Next_1'))
+WebUI.click(findTestObject('Object Repository/Account_Creation/h3_Thank You for the confirmation. Account _7daf0d'))
+WebUI.click(findTestObject('Object Repository/Account_Creation/h3_Thank You for the confirmation. Account _7daf0d'))
 
