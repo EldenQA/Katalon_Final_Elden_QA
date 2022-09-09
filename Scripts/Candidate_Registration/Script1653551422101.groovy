@@ -37,6 +37,4 @@ WebUI.navigateToUrl('https://testaccount.motzie-staging.mobile-recruit.com/regis
 WebDriverWait wait = new WebDriverWait(driver, 10);
 WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath('//*[@id="contentMainDiv"]/candidate-register/section/div/div[1]/div/div[2]/div/form/div[6]/div/label/text()')));
 element.click();
-WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath('//*[@id="contentMainDiv"]/candidate-register/section/div/div[1]/div/div[2]/div/form/div[6]/div/label/text()')));
- element.click();
 //driver.findElement(By.cssSelector('form[role="login"] > .boost-parameters')).click()
