@@ -123,6 +123,6 @@ WebUI.verifyElementText(findTestObject('Registration/Page_Mobile Talent  Mobile 
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/i_Romit Romit_fas fa-caret-down caret-down-arrow'))
 
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
-
+WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
 WebUI.closeBrowser()
 
