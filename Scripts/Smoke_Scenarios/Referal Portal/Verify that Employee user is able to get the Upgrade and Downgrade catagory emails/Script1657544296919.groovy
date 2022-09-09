@@ -168,7 +168,7 @@ WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/i_'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Inbox/span_Show pictures'))
+WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Inbox/span_Show pictures'))
 
 WebUI.switchToWindowTitle('Inbox')
 
@@ -285,7 +285,7 @@ WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/i_'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Inbox/span_Show pictures'))
+WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Inbox/span_Show pictures'))
 
 WebUI.switchToWindowTitle('Inbox')
 
@@ -320,7 +320,7 @@ WebUI.switchToWindowIndex(1)
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Inbox/span_Show pictures'))
+WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Inbox/span_Show pictures'))
 
 WebUI.takeScreenshot(('ScreenShots/DownGrade/screenshot_' + System.currentTimeMillis()) + '.jpg')
 

@@ -41,6 +41,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'Dharamatma Singh'</initValue>
+      <name>CandidateAppUserName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'candidate@qasource.com'</initValue>
       <name>candidateAppUser</name>
    </GlobalVariableEntity>

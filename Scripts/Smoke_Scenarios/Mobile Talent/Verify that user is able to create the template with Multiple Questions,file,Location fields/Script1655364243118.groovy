@@ -23,9 +23,10 @@ import internal.GlobalVariable as GlobalVariable
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 import org.openqa.selenium.By as By
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.chrome.ChromeDriver
-import org.openqa.selenium.chrome.ChromeOptions
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
+import org.openqa.selenium.chrome.ChromeOptions as ChromeOptions
 import org.openqa.selenium.interactions.Actions as Actions
 
 WebUI.openBrowser('')
@@ -184,7 +185,43 @@ WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Tale
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Manage Templates'))
 
-WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/i_Romit Romit_fa fa-share-alt fa-lg color-g_72fb5f'))
+TestObject testObj = findTestObject('Template Creation/Page_Mobile Talent  Mobile Recruitment/actionIconsManageTemplate')
+
+java.util.List<WebElement> elements = WebUI.findWebElements(testObj, 2)
+
+for (WebElement ele : elements) {
+	text = ele.getAttribute('data-title')
+
+	System.out.println(text)
+
+	if (text.equalsIgnoreCase('Publish')) {
+		ele.click()
+
+		break
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/i_Romit Romit_fa fa-share-alt fa-lg color-g_72fb5f'))
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/button_Confirm'))
 

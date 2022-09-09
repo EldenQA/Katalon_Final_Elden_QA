@@ -55,7 +55,7 @@ WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/i_'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Inbox/span_Show pictures'))
+WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Inbox/span_Show pictures'))
 
 WebUI.switchToWindowTitle('Inbox')
 

@@ -147,7 +147,7 @@ WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/i_All Candidates_fa fa-search'))
 
 WebUI.setText(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/input_Name_Name'), 
-    GlobalVariable.hiredCandidate)
+    GlobalVariable.candidateAppUser)
 
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/button_Search'))
 

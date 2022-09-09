@@ -52,7 +52,7 @@ WebUI.click(findTestObject('MTP Locators/searchFilterOnCPPLocator'))
 
 WebUI.scrollToElement(findTestObject('MTP Locators/filterByNameLocator'), 1)
 
-WebUI.sendKeys(findTestObject('MTP Locators/filterByNameLocator'), GlobalVariable.hiredCandidate)
+WebUI.sendKeys(findTestObject('MTP Locators/filterByNameLocator'), GlobalVariable.CandidateAppUserName)
 
 WebUI.scrollToElement(findTestObject('MTP Locators/searchLocator'), 1)
 
@@ -130,7 +130,7 @@ WebUI.click(findTestObject('MTP Locators/searchFilterOnCPPLocator'))
 
 WebUI.scrollToElement(findTestObject('MTP Locators/filterByNameLocator'), 1)
 
-WebUI.sendKeys(findTestObject('MTP Locators/filterByNameLocator'), GlobalVariable.hiredCandidate)
+WebUI.sendKeys(findTestObject('MTP Locators/filterByNameLocator'), GlobalVariable.CandidateAppUserName)
 
 WebUI.scrollToElement(findTestObject('MTP Locators/searchLocator'), 1)
 

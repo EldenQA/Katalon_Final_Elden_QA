@@ -27,29 +27,16 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.navigateToUrl('https://yopmail.com/en/')
 
-WebUI.maximizeWindow()
+WebUI.setText(findTestObject('Object Repository/Yopmail/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'), 
+    'drizt@yopmail.com')
 
-WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+WebUI.click(findTestObject('Object Repository/Yopmail/Page_YOPmail - Disposable Email Address/i_'))
 
-WebUI.setText(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
-    GlobalVariable.userName)
+WebUI.click(findTestObject('Object Repository/Yopmail/Page_Inbox/span_Show pictures'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/MTP Locators/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
-    GlobalVariable.password)
+WebUI.switchToWindowTitle('Inbox')
 
-WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
-
-for(int i=0; i<=20; i++)
-{
-	driver.findElement(By.xpath('//span[text()=\'All Jobs\']')).click()	
-	WebUI.click(findTestObject('MTP Locators/MobileTalentPoolLocatorOnDashboardBar'))
-	
-}
-WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/b_Romit Romit'))
-WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
-WebUI.closeBrowser()
-
-
+WebUI.click(findTestObject('Object Repository/Yopmail/Page_Inbox/a_Start Survey'))
 

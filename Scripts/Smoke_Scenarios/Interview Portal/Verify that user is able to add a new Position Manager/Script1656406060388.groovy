@@ -46,13 +46,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobil
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/i_Mobile Recruitment Platform_fas fa-chevron-down'))
+WebUI.click(findTestObject('MTP Locators/applicationNavigatorDropdown'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/a_Interview Portal'))
+WebUI.click(findTestObject('MTP Locators/interviewPortalSelector'))
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Clear Filter(s)'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/i_Filters_fa fa-caret-down ml-3'))
+WebUI.click(findTestObject('InterviewPortal/filterButton'))
 
 WebUI.sendKeys(findTestObject('InterviewPortal/searchCandidateLocator'), candidateName)
 
@@ -61,17 +61,17 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Yopmail.com/Intervie
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Apply'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_dvicFyopmail.com'))
+WebUI.click(findTestObject('InterviewPortal/viewCandidate'))
 
 WebUI.clearText(findTestObject('InterviewPortal/positionManagerInputLocator'))
 penelistEmailName = (('Position' + RandomStringUtils.randomAlphabetic(4)) + '@yopmail.com')
 System.out.println(penelistEmailName)
 WebUI.setText(findTestObject('InterviewPortal/positionManagerInputLocator'), RandomStringUtils.randomAlphabetic(4))
-WebUI.click(findTestObject('Yopmail.com/sendPenelistInviteLocator'))
+WebUI.click(findTestObject('InterviewPortal/inviteNewPanelist'))
 
-WebUI.click(findTestObject('Yopmail.com/sendInterviewInviteEmail'))
+WebUI.click(findTestObject('CarrierPage/ReferOuterEmail'))
 
-WebUI.setText(findTestObject('Yopmail.com/sendInterviewInviteEmail'), penelistEmailName)
+WebUI.setText(findTestObject('CarrierPage/ReferOuterEmail'), penelistEmailName)
 
 WebUI.click(findTestObject('Yopmail.com/InterviewPortal/inviteButtonLocator'))
 
@@ -79,12 +79,12 @@ WebUI.click(findTestObject('Yopmail.com/InterviewPortal/inviteButtonLocator'))
 	
 WebUI.switchToWindowIndex(1)
 
-WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'),
+WebUI.setText(findTestObject('Object Repository/Yopmail.com/input_Type the Email name of your choice_login'),
 	penelistEmailName)
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/i_'))
+WebUI.click(findTestObject('Object Repository/Yopmail/Page_YOPmail - Disposable Email Address/i_'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Inbox/span_Show pictures'))
+WebUI.click(findTestObject('Object Repository/Yopmail/Page_Inbox/span_Show pictures'))
 
 WebUI.click(findTestObject('Object Repository/InterviewPanelistInvitation/Page_Inbox/a_Register'))
 
@@ -122,11 +122,11 @@ driver.navigate().refresh()
 WebUI.clearText(findTestObject('InterviewPortal/positionManagerInputLocator'))
 
 WebUI.setText(findTestObject('InterviewPortal/positionManagerInputLocator'), RandomStringUtils.randomAlphabetic(4))
-WebUI.click(findTestObject('Yopmail.com/sendPenelistInviteLocator'))
+WebUI.click(findTestObject('InterviewPortal/inviteNewPanelist'))
 
-WebUI.click(findTestObject('Yopmail.com/sendInterviewInviteEmail'))
+WebUI.click(findTestObject('CarrierPage/ReferOuterEmail'))
 
-WebUI.setText(findTestObject('Yopmail.com/sendInterviewInviteEmail'), penelistEmailName)
+WebUI.setText(findTestObject('CarrierPage/ReferOuterEmail'), penelistEmailName)
 
 WebUI.click(findTestObject('Yopmail.com/InterviewPortal/inviteButtonLocator'))
 

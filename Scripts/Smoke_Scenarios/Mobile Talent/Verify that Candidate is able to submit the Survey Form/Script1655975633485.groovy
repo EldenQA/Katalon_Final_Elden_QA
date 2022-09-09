@@ -207,7 +207,6 @@ for (int i = 0; i <= count; i++) {
 }
 
 WebUI.closeBrowser()
-
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://yopmail.com/en/')
@@ -215,14 +214,15 @@ WebUI.navigateToUrl('https://yopmail.com/en/')
 WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Object Repository/Yopmail.com/input_Type the Email name of your choice_login'), email)
+//WebUI.setText(findTestObject('Object Repository/Yopmail.com/input_Type the Email name of your choice_login'), 'drizt@yopmail.com')
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_YOPmail - Disposable Email Address/i_'))
+WebUI.click(findTestObject('Object Repository/Yopmail/Page_YOPmail - Disposable Email Address/i_'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Inbox/span_Show pictures'))
+WebUI.click(findTestObject('Object Repository/Yopmail/Page_Inbox/span_Show pictures'))
 
 WebUI.switchToWindowTitle('Inbox')
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Inbox/a_Start Survey'))
+WebUI.click(findTestObject('Object Repository/Yopmail/Page_Inbox/a_Start Survey'))
 
 WebUI.navigateToUrl(GlobalVariable.surveyFormURL)
 
@@ -235,7 +235,9 @@ WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testi
     'Yadav')
 
 WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_Email_id5238'), 
-    email)
+  email)
+//WebUI.setText(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/input_Email_id5238'), 
+    //'drizt@yopmail.com')
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/div_Mobile Number_iti-flag mx'))
 
@@ -249,13 +251,13 @@ WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Software_Testing_geuT_micrositeCapture/button_Connect Now'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Automation_SurveyFormQuestionnare/input_Do you like the hiring process_Do you_e48fde'))
+//WebUI.click(findTestObject('Registration/surveyForm/firstRadioButton'))
+WebUI.click(findTestObject('MTP Locators/radioButtonofQuestionnareFile'))
+WebUI.click(findTestObject('Registration/nextButtonOnQuestionnareForm'))
+WebUI.click(findTestObject('MTP Locators/radioButtonofQuestionnareFile'))
+//WebUI.click(findTestObject('Registration/surveyForm/firstRadioButton'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Automation_SurveyFormQuestionnare/button_Next'))
-
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Automation_SurveyFormQuestionnare/input_Do you want to connect again_Do you w_9cc71c'))
-
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Automation_SurveyFormQuestionnare/button_Done'))
+WebUI.click(findTestObject('Registration/doneButtonOnQuestionnarePage'))
 
 WebUI.closeBrowser()
 
@@ -284,9 +286,7 @@ WebUI.scrollToElement(findTestObject('MTP Locators/surveyLocator'), 2)
 WebUI.click(findTestObject('MTP Locators/surveyLocator'))
 
 //questions = WebUI.getText(findTestObject('MTP Locators/surveyQuestionLocator'))
-
 //System.out.println(questions)
-
 WebUI.verifyElementText(findTestObject('MTP Locators/surveyQuestionLocator'), GlobalVariable.survey)
 
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/i_Romit Romit_fas fa-caret-down caret-down-arrow'))

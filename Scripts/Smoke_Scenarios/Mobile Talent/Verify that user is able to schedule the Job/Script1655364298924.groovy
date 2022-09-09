@@ -57,7 +57,7 @@ WebUI.click(findTestObject('Job_Creation/Launch Job/a_Launch New Job'))
 //This will load the property file and take the value of Created Template and then store it in keyValue 
 pro.load(new FileInputStream('console.properties'))
 keyValue = pro.getProperty('Template')
-WebUI.click(findTestObject('MTP Locators/metaDataLocator'))
+//WebUI.click(findTestObject('MTP Locators/metaDataLocator'))
 Thread.sleep(2000)
 
 File f = new File('download.png')

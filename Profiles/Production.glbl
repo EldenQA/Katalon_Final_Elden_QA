@@ -45,6 +45,11 @@
       <name>candidateAppUser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Megha jain'</initValue>
+      <name>CandidateAppUserName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description>Password@2</description>
       <initValue>'p4y+y39Ir5OGTVofeYR+5w=='</initValue>
       <name>candidateAppPassword</name>

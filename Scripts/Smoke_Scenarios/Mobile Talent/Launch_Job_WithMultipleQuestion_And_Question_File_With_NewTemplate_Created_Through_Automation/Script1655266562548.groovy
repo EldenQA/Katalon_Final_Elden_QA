@@ -76,7 +76,7 @@ pro.load(new FileInputStream('console.properties'))
 
 keyValue = pro.getProperty('Template')
 
-WebUI.click(findTestObject('MTP Locators/metaDataLocator'))
+//WebUI.click(findTestObject('MTP Locators/metaDataLocator'))
 Thread.sleep(2000)
 
 File f = new File('download.png')

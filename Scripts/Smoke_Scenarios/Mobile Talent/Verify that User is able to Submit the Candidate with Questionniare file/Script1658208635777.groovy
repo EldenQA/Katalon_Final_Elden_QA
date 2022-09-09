@@ -122,12 +122,11 @@ WebUI.click(findTestObject('MTP Locators/startQuestionnareTestLocator'))
 
 WebUI.click(findTestObject('MTP Locators/radioButtonofQuestionnareFile'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Automation_SurveyFormQuestionnare/button_Next'))
+WebUI.click(findTestObject('Registration/nextButtonOnQuestionnareForm'))
 
 WebUI.click(findTestObject('MTP Locators/radioButtonofQuestionnareFile'))
 
-WebUI.click(findTestObject('MTP Locators/nextButtonOnQuestionniareform'))
-
+WebUI.click(findTestObject('Registration/doneButtonOnQuestionnarePage'))
 
 WebUI.verifyElementText(findTestObject('MTP Locators/ThanksLocatorAfterFillingTheQuestionnareForm'), 'Thank you for completing this form! We look forward to connecting with you soon!')
 
@@ -155,5 +154,4 @@ WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
 
 WebUI.closeBrowser()
-
 
