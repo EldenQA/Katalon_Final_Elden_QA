@@ -54,13 +54,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobil
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/i_Mobile Recruitment Platform_fas fa-chevron-down'))
+WebUI.click(findTestObject('MTP Locators/applicationNavigatorDropdown'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/a_Interview Portal'))
+WebUI.click(findTestObject('MTP Locators/interviewPortalSelector'))
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Clear Filter(s)'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/i_Filters_fa fa-caret-down ml-3'))
+WebUI.click(findTestObject('InterviewPortal/filterButton'))
 
 WebUI.sendKeys(findTestObject('InterviewPortal/searchCandidateLocator'), candidateName)
 
@@ -69,7 +69,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Yopmail.com/Intervie
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Apply'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_dvicFyopmail.com'))
+WebUI.click(findTestObject('InterviewPortal/viewCandidate'))
 
 WebUI.sendKeys(findTestObject('Yopmail.com/interviewPanelistSearchLocator'), penelistName)
 
@@ -109,12 +109,12 @@ WebUI.switchToWindowIndex(1)
 
 WebUI.navigateToUrl('https://yopmail.com/en/')
 
-WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'),
+WebUI.setText(findTestObject('Object Repository/Yopmail.com/input_Type the Email name of your choice_login'),
 	email)
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/i_'))
+WebUI.click(findTestObject('Object Repository/Yopmail/Page_YOPmail - Disposable Email Address/i_'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Inbox/span_Show pictures'))
+WebUI.click(findTestObject('Object Repository/Yopmail/Page_Inbox/span_Show pictures'))
 
 WebUI.switchToWindowTitle('Inbox')
 
@@ -137,7 +137,7 @@ WebUI.click(findTestObject('Yopmail.com/FirstSlotBooking'))
 WebUI.sendKeys(findTestObject('InterviewPortal/skypeInputBoxOnCandidateStandelonePage'), '@AutoSkype')
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Confirm'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_Thank YouYour slot has been booked forJ_f0af19'))
+WebUI.click(findTestObject('InterviewPortal/thankyouPageCandiadateBooking'))
 
 WebUI.closeWindowIndex(2)
 
@@ -163,7 +163,7 @@ for (int o = 0; o <= tabsOnInterviewPortalCount; o++) {
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Clear Filter(s)'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/i_Filters_fa fa-caret-down ml-3'))
+WebUI.click(findTestObject('InterviewPortal/filterButton'))
 
 WebUI.sendKeys(findTestObject('InterviewPortal/searchCandidateLocator'), candidateName)
 
@@ -210,17 +210,16 @@ for (int a = 0; a < sizeNumbera; a++) {
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'),
+WebUI.setText(findTestObject('Object Repository/Yopmail.com/input_Type the Email name of your choice_login'),
 	penelistEmailName)
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/i_'))
+WebUI.click(findTestObject('Object Repository/Yopmail/Page_YOPmail - Disposable Email Address/i_'))
 
 WebUI.takeScreenshot(('ScreenShots/InterviewPortalBookingEmail/TalentMeet/screenshot_' + System.currentTimeMillis()) + '.jpg')
 
 WebUI.switchToWindowIndex(0)
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/h4_Atish Sharma'))
-
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/a_Logout'))
 
 WebUI.closeBrowser()
