@@ -221,12 +221,12 @@ WebUI.verifyTextPresent('Interview booking link shared with candidate.', true)
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'), 
+WebUI.setText(findTestObject('Object Repository/Yopmail.com/input_Type the Email name of your choice_login'), 
     interviewMail)
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/i_'))
+WebUI.click(findTestObject('Object Repository/Yopmail/Page_YOPmail - Disposable Email Address/i_'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Inbox/span_Show pictures'))
+WebUI.click(findTestObject('Object Repository/Yopmail/Page_Inbox/span_Show pictures'))
 
 WebUI.switchToWindowTitle('Inbox')
 
@@ -253,7 +253,7 @@ WebUI.sendKeys(findTestObject('InterviewPortal/skypeInputBoxOnCandidateStandelon
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Confirm'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_Thank YouYour slot has been booked forJ_f0af19'))
+WebUI.click(findTestObject('InterviewPortal/thankyouPageCandiadateBooking'))
 WebUI.closeWindowIndex(2)
 WebUI.closeWindowIndex(1)
 WebUI.switchToWindowIndex(0)
@@ -276,7 +276,7 @@ for (int o = 0; o <= tabsOnInterviewPortalCount; o++) {
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Clear Filter(s)'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/i_Filters_fa fa-caret-down ml-3'))
+WebUI.click(findTestObject('InterviewPortal/filterButton'))
 
 WebUI.sendKeys(findTestObject('InterviewPortal/searchCandidateLocator'), interViewCad)
 
@@ -319,14 +319,13 @@ for (int a = 0; a < sizeNumbera; a++) {
 //WebUI.verifyElementNotPresent(findTestObject('InterviewPortal/scheduleButtonLocator'), 2)
 ((driver) as JavascriptExecutor).executeScript('window.open(arguments[0])', 'https://yopmail.com/en/')
 WebUI.switchToWindowIndex(1)
-WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'),
+WebUI.setText(findTestObject('Object Repository/Yopmail.com/input_Type the Email name of your choice_login'),
 	panelistEmail)
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/i_'))
+WebUI.click(findTestObject('Object Repository/Yopmail/Page_YOPmail - Disposable Email Address/i_'))
 
 WebUI.takeScreenshot('ScreenShots/InterviewPortalBookingEmail/Skype/screenshot_'+ System.currentTimeMillis() + '.jpg')
 WebUI.switchToWindowIndex(0)
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/h4_Atish Sharma'))
-
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/a_Logout'))
 
 WebUI.closeBrowser()

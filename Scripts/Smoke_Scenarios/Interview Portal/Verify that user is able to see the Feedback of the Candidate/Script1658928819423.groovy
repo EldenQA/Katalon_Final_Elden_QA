@@ -62,7 +62,7 @@ WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  M
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Clear Filter(s)'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/i_Filters_fa fa-caret-down ml-3'))
+WebUI.click(findTestObject('InterviewPortal/filterButton'))
 
 WebUI.sendKeys(findTestObject('InterviewPortal/searchCandidateLocator'), candidateName)
 
@@ -71,7 +71,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Yopmail.com/Intervie
 
 WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Apply'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_dvicFyopmail.com'))
+WebUI.click(findTestObject('InterviewPortal/viewCandidate'))
 
 driver.findElement(By.xpath('//p[text()="HR Evaluation"]')).click()
 Actions ac = new Actions(driver)

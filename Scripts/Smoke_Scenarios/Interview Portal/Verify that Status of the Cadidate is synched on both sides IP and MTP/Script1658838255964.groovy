@@ -76,13 +76,13 @@ WebUI.scrollToElement(findTestObject('Registration/Page_Mobile Talent  Mobile Re
 candidateStatusTextOnMTP=WebUI.getText(findTestObject('Registration/Page_Mobile Talent  Mobile Recruitment/clickOnCandidateStatus'))
 
 if (candidateStatusTextOnMTP.equalsIgnoreCase('Hired')) {
-    WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/i_Mobile Recruitment Platform_fas fa-chevron-down'))
+WebUI.click(findTestObject('MTP Locators/applicationNavigatorDropdown'))
 
-    WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/a_Interview Portal'))
+WebUI.click(findTestObject('MTP Locators/interviewPortalSelector'))
 
     WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Clear Filter(s)'))
 
-    WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/i_Filters_fa fa-caret-down ml-3'))
+    WebUI.click(findTestObject('InterviewPortal/filterButton'))
 
     WebUI.sendKeys(findTestObject('InterviewPortal/searchCandidateLocator'), candidateName)
 
@@ -91,7 +91,7 @@ if (candidateStatusTextOnMTP.equalsIgnoreCase('Hired')) {
 
     WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Apply'))
 
-    WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/div_dvicFyopmail.com'))
+    WebUI.click(findTestObject('InterviewPortal/viewCandidate'))
 } else {
     throw new IOException('Candidate is not Hired Yet')
 }

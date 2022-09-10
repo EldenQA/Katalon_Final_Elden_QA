@@ -44,9 +44,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobil
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/i_Mobile Recruitment Platform_fas fa-chevron-down'))
+WebUI.click(findTestObject('MTP Locators/applicationNavigatorDropdown'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/a_Interview Portal'))
+WebUI.click(findTestObject('MTP Locators/interviewPortalSelector'))
 
 List<WebElement> tabsOnInterviewPortal = driver.findElements(By.cssSelector('li[class="nav-item submenu "]'))
 
