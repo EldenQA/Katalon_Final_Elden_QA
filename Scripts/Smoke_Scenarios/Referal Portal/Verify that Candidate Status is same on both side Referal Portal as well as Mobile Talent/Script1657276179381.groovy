@@ -85,7 +85,7 @@ List<WebElement> allStatus = driver.findElements(By.cssSelector('a span[class =\
 	
 	if(textonButton.equalsIgnoreCase('Saved For Future Requirement')) {
 		
-		WebUI.click(findTestObject('Yopmail.com/InterviewPortal/Page_Mobile Talent  Mobile Recruitment/i_Mobile Recruitment Platform_fas fa-chevron-down'))
+		WebUI.click(findTestObject('MTP Locators/applicationNavigatorDropdown'))
 		WebUI.click(findTestObject('MTP Locators/refferalPortalValueFromDropDown'))	
 	}
 	
