@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify that Buttons are displayed on the Account Details page</name>
+   <name>ELD-TC-46438-Verify that Buttons are displayed on the Account Details page</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>7e39c0bb-e3dd-42bb-83db-76495f26af4e</testCaseGuid>

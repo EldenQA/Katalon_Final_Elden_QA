@@ -30,15 +30,13 @@ import org.openqa.selenium.WebDriver as WebDriver
 
 WebUI.openBrowser('')
 
-WebDriver driver = DriverFactory.getWebDriver()
+WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.setText(findTestObject('Object Repository/Account_Creation/input_Username_username'), 
-    'romgupta@qasource.com')
+WebUI.setText(findTestObject('Object Repository/Account_Creation/input_Username_username'), GlobalVariable.userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Account_Creation/input_Password_password'), 
-    'kz7p4/CQ+93m2i5idrXw6Q==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Account_Creation/input_Password_password'), GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/Account_Creation/button_Login'))
 WebUI.click(findTestObject('Object Repository/Account_Creation/span_Administration'))
@@ -100,6 +98,6 @@ WebUI.setText(findTestObject('Object Repository/Account_Creation/input__ng-prist
 WebUI.click(findTestObject('Object Repository/Account_Creation/li_atish sharma'))
 WebUI.click(findTestObject('Object Repository/Account_Creation/span_Add User'))
 WebUI.click(findTestObject('Object Repository/Account_Creation/button_Next_1'))
-WebUI.click(findTestObject('Object Repository/Account_Creation/h3_Thank You for the confirmation. Account _7daf0d'))
-WebUI.click(findTestObject('Object Repository/Account_Creation/h3_Thank You for the confirmation. Account _7daf0d'))
+//WebUI.click(findTestObject('Object Repository/Account_Creation/h3_Thank You for the confirmation. Account _7daf0d'))
+//WebUI.click(findTestObject('Object Repository/Account_Creation/h3_Thank You for the confirmation. Account _7daf0d'))
 

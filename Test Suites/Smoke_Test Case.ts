@@ -5,7 +5,7 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient>atsharma@qasource.com;</mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>5</pageLoadTimeout>
    <pageLoadTimeoutDefault>false</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
@@ -42,7 +42,7 @@
    <testCaseLink>
       <guid>d1571802-d399-4073-9822-c3e04cc01a67</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Mobile Talent/Verify that User is able to Submit the Candidate with Questionniare file</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -124,10 +124,24 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>35e81aea-9119-46d7-8d6e-78e6a8da76bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that InterviewPanelist is able to add the feedback for the Candidate</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>b82759a2-c67f-480d-958d-26b11e52df4f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that Candidate is able to schedule the Skype Interview</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9586de13-d5dc-47a9-a246-213d0dfa1dd3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that InterviewPanelist is able to add the feedback for the Candidate</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -142,13 +156,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that user is able to schedule the Interview through Ring Central</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>35e81aea-9119-46d7-8d6e-78e6a8da76bd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Smoke_Scenarios/Interview Portal/Verify that InterviewPanelist is able to add the feedback for the Candidate</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -180,27 +187,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>28640bfe-6c5a-476e-84ce-cfac5d3e067f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that Candidate is able to apply through Referral Email</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8cc27877-32dd-46b5-9a95-8a4811797730</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that Candidate Status is same on both side Referal Portal as well as Mobile Talent</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>740b1ab7-9961-4cd6-9344-ad0fcacc25e6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that Employee user is able to get the Upgrade and Downgrade catagory emails</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>2dbf33b0-0ba5-4caa-85fd-f16e6fd103f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -210,22 +196,43 @@
    <testCaseLink>
       <guid>d8c41c4c-984e-4da5-a92f-00df34d934fa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that Recruiter is able to Refer the candidate from Refferal Portal</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e38c2c68-c280-445b-baea-07165944bd48</guid>
+      <guid>28640bfe-6c5a-476e-84ce-cfac5d3e067f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that user is able to apply through Carrier Page</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that Candidate is able to apply through Referral Email</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>2f47e61a-589a-4028-a9ff-373900664040</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that user is able to Apply Through Universal Link</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e38c2c68-c280-445b-baea-07165944bd48</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that user is able to apply through Carrier Page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>740b1ab7-9961-4cd6-9344-ad0fcacc25e6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that Employee user is able to get the Upgrade and Downgrade catagory emails</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8cc27877-32dd-46b5-9a95-8a4811797730</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke_Scenarios/Referal Portal/Verify that Candidate Status is same on both side Referal Portal as well as Mobile Talent</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -149,12 +149,12 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https:yopmail.com/en/')
 WebDriver driver2 = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 Actions ac2 = new Actions(driver2)
-WebUI.setText(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'),
+WebUI.setText(findTestObject('Object Repository/Yopmail.com/input_Type the Email name of your choice_login'),
 	email)
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_YOPmail - Disposable Email Address/i_'))
+WebUI.click(findTestObject('Object Repository/Yopmail/Page_YOPmail - Disposable Email Address/i_'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Inbox/span_Show pictures'))
+WebUI.click(findTestObject('Object Repository/Yopmail/Page_Inbox/span_Show pictures'))
 
 WebUI.switchToWindowTitle('Inbox')
 
@@ -294,7 +294,7 @@ Thread.sleep(2000)
 
 WebUI.click(findTestObject('Referal Portal/closeReferralPopup'))
 
-List<WebElement> listOfAllElemenets = driver.findElements(By.cssSelector('li[class=\'nav-item \']'))
+List<WebElement> listOfAllElemenets = driver4.findElements(By.cssSelector('li[class=\'nav-item \']'))
 
 int size = listOfAllElemenets.size()
 
@@ -310,13 +310,13 @@ for (int i = 0; i < size; i++) {
 
 WebUI.sendKeys(findTestObject('Referal Portal/searchJobLocator'), email)
 
-WebElement listOfElements3 = driver3.findElement(By.cssSelector('tr:nth-of-type(1) > td:nth-of-type(7) > .badge.badge-primary'))
+WebElement listOfElements3 = driver4.findElement(By.cssSelector('tr:nth-of-type(1) > td:nth-of-type(7) > .badge.badge-primary'))
 
 status = listOfElements3.getText()
 
 System.out.println('Status of the Candidate' + status)
 
-List<WebElement> listOfElements2 = driver3.findElements(By.cssSelector('tr>td:nth-of-type(4)'))
+List<WebElement> listOfElements2 = driver4.findElements(By.cssSelector('tr>td:nth-of-type(4)'))
 
 int sizeofElements = listOfElements2.size()
 
@@ -326,8 +326,8 @@ for (int j = 0; j < sizeofElements; j++) {
     System.out.println(textofElements)
 
     if (textofElements.equalsIgnoreCase(email) && status.equalsIgnoreCase('Joined')) {
-        driver3.findElement(By.cssSelector('.dropdown-toggle.pointer > h4')).click()
-        driver3.findElement(By.cssSelector('.dropdown-item.pointer')).click()
+        driver4.findElement(By.cssSelector('.dropdown-toggle.pointer > h4')).click()
+        driver4.findElement(By.cssSelector('.dropdown-item.pointer')).click()
 		WebUI.closeBrowser()
 
         break

@@ -6,11 +6,12 @@
    <elementGuidId>b3a1509d-f6ed-4337-8a32-eb9bd01feeeb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='mail']/div/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/a</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[@id='mail']/div/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a610c4f0-100a-4b24-89a3-0b4db7486f76</webElementGuid>
+      <webElementGuid>95e47d71-0199-4526-8f5f-ec541f306702</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>http://mobile-recruit.com/interview-portal/candidate-calendar?token=bb65b034cb</value>
-      <webElementGuid>4ba598f4-9021-490c-9cf5-922de99d11d8</webElementGuid>
+      <webElementGuid>e47d7105-716f-4745-9443-b6d93a1e1299</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Book Now</value>
-      <webElementGuid>1e780347-6c06-4dca-a811-9d1598078cfd</webElementGuid>
+      <webElementGuid>e45fc02d-e15c-4670-9f8a-9ca8f914e234</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +46,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mail&quot;)/div[1]/center[1]/table[1]/tbody[1]/tr[1]/td[1]/table[2]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/a[1]</value>
-      <webElementGuid>f1daec9c-3e0d-4f91-a091-4fb1489c0028</webElementGuid>
+      <webElementGuid>acc9f8df-d8a1-4d53-ab11-b2338e5ceeda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Yopmail.com/Page_Inbox/iframe_Undo_ifmail</value>
+      <webElementGuid>c8be9975-515d-43b5-9093-49b973b9f6a1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mail']/div/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/a</value>
-      <webElementGuid>ac6deafd-4ae5-42f8-b808-fa5f9f8653e6</webElementGuid>
+      <webElementGuid>fc699c6c-95b3-42c7-a7f5-ce92ccaad882</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Book Now')]</value>
-      <webElementGuid>983f693b-b6bc-48a2-8d9f-5b167025a806</webElementGuid>
+      <webElementGuid>f1e7b832-32e2-47e4-a58d-b56679eb9f8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hi Dinesh Yadav'])[1]/following::a[1]</value>
-      <webElementGuid>f875814d-6af6-4bdc-abaf-b1433cece701</webElementGuid>
+      <webElementGuid>1971de67-063a-432c-b81f-c87254432077</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/following::a[2]</value>
-      <webElementGuid>5bc21485-68d8-4c9f-b479-1dd10331eff0</webElementGuid>
+      <webElementGuid>a1aa7891-d3a9-4bcc-81ca-30904f8d6a8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Booking is allowed for the next 48 hours only'])[1]/preceding::a[1]</value>
-      <webElementGuid>686329bd-0e37-4424-a6ce-ef35337b4389</webElementGuid>
+      <webElementGuid>91cdacb0-3340-44b7-88a6-4fcad1fdfad4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='For Any Query Contact At'])[1]/preceding::a[1]</value>
-      <webElementGuid>7e26fb68-27e9-458a-9d02-aa9000335354</webElementGuid>
+      <webElementGuid>e47a0f48-589b-4102-92a2-09edf828e27a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Book Now']/parent::*</value>
-      <webElementGuid>39a8c84e-8379-4939-8d8e-998a33c8385b</webElementGuid>
+      <webElementGuid>347df89d-3717-4225-a4e1-38d9882a8255</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +118,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[@href='http://mobile-recruit.com/interview-portal/candidate-calendar?token=bb65b034cb']</value>
-      <webElementGuid>8f392f62-79ad-4aa7-97d5-f57b48148696</webElementGuid>
+      <webElementGuid>3d73f0e5-fc63-4cd2-a480-f83022281bd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[2]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/a</value>
-      <webElementGuid>8d6e2fb8-c0fd-486a-8939-1cbd21e6c386</webElementGuid>
+      <webElementGuid>5d2fc8b9-4c96-45e8-a0b8-6babe767c026</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'http://mobile-recruit.com/interview-portal/candidate-calendar?token=bb65b034cb' and (text() = ' Book Now' or . = ' Book Now')]</value>
-      <webElementGuid>e3dd7f53-dcd9-4773-8e06-f4d640ed0487</webElementGuid>
+      <webElementGuid>4ea6a4ec-10f8-47d0-810e-091ba39ee01d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

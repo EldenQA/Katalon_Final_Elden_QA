@@ -74,6 +74,7 @@ WebUI.click(findTestObject('InterviewPortal/viewCandidate'))
 
 driver.findElement(By.xpath('//p[text()="Technical Evaluation"]')).click()
 
+
 Actions ac = new Actions(driver)
 
 List<WebElement> superElement = driver.findElements(By.cssSelector(GlobalVariable.feedbackPerameterLocator))
@@ -88,9 +89,11 @@ for (WebElement s : superElement) {
     System.out.println(m)
 
     if (m == 'range') {
-        ac.clickAndHold(s).moveToElement(s, 10, 5).build().perform()
+        Thread.sleep(500)
+		ac.clickAndHold(s).moveToElement(s, 10, 5).build().perform()
     } else if (m == 'radio') {
-        s.click()
+		Thread.sleep(500)
+		 s.click()
     }
 }
 
@@ -101,7 +104,8 @@ int countOfText = TextPerameter.size()
 System.out.println(countOfText)
 
 for (WebElement t : TextPerameter) {
-    t.sendKeys('Yes')
+	Thread.sleep(500)
+	t.sendKeys('Yes')
 }
 
 List<WebElement> buttonWebElementonFeedBackPage = driver.findElements(By.cssSelector('button[type=button]'))
@@ -155,8 +159,10 @@ rb.keyRelease(KeyEvent.VK_V)
 rb.keyPress(KeyEvent.VK_ENTER)
 
 rb.keyRelease(KeyEvent.VK_ENTER)
-
+Thread.sleep(5000)
 WebUI.click(findTestObject('CarrierPage/SubmitButton'))
+
+Thread.sleep(5000)
 ((driver) as JavascriptExecutor).executeScript('window.open(arguments[0])', 'https://yopmail.com/en/')
 
 WebUI.switchToWindowIndex(1)

@@ -153,8 +153,9 @@ rb.keyRelease(KeyEvent.VK_V)
 rb.keyPress(KeyEvent.VK_ENTER)
 
 rb.keyRelease(KeyEvent.VK_ENTER)
-
+Thread.sleep(5000)
 WebUI.click(findTestObject('CarrierPage/SubmitButton'))
+Thread.sleep(5000)
 ((driver) as JavascriptExecutor).executeScript('window.open(arguments[0])', 'https://yopmail.com/en/')
 
 WebUI.switchToWindowIndex(1)

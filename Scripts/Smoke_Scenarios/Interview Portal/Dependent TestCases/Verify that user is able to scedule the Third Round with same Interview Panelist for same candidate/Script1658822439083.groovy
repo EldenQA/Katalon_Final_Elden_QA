@@ -58,9 +58,11 @@ WebUI.click(findTestObject('MTP Locators/applicationNavigatorDropdown'))
 
 WebUI.click(findTestObject('MTP Locators/interviewPortalSelector'))
 
+WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/button_Clear Filter(s)'))
+
 WebUI.click(findTestObject('InterviewPortal/filterButton'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/i_Filters_fa fa-caret-down ml-3'))
+//WebUI.click(findTestObject('Object Repository/Yopmail.com/InterviewPortal/Page_Mobile Talent  Interview Portal/i_Filters_fa fa-caret-down ml-3'))
 
 WebUI.sendKeys(findTestObject('InterviewPortal/searchCandidateLocator'), candidateName)
 

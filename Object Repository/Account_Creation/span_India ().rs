@@ -6,12 +6,12 @@
    <elementGuidId>ea320f05-358f-4cff-a4b4-95bf4d25f647</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='step1']/div/div/div[2]/div/form/div[3]/div/div/div[2]/div/div/div/ul/li[5]/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>li.country.highlight > span.country-name</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='step1']/div/div/div[2]/div/form/div[3]/div/div/div[2]/div/div/div/ul/li[7]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>fc918c6d-7f5d-4716-a3e4-a5527bba4971</webElementGuid>
+      <webElementGuid>7ff7d35d-ca07-4cfc-957f-aed2faaf6c58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>country-name</value>
-      <webElementGuid>2e32bfd7-11f3-4ea4-abfb-901279879bf4</webElementGuid>
+      <webElementGuid>fd9bf195-a068-4b70-aab4-6644e0b9d8ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>India (भारत)</value>
-      <webElementGuid>ee0ff166-b554-4fba-aac3-ebe90320d168</webElementGuid>
+      <webElementGuid>748823a3-0ea4-4788-9e12-02a717b15af3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;step1&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;row&quot;]/form[@class=&quot;ng-invalid ng-invalid-required ng-valid-ng-intl-tel-input ng-dirty ng-valid-parse ng-valid-exists ng-invalid-pattern&quot;]/div[@class=&quot;row mot-country-code&quot;]/div[@class=&quot;col-lg-6&quot;]/div[@class=&quot;county-code-form&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;col-sm-7&quot;]/div[@class=&quot;intl-tel-input allow-dropdown&quot;]/div[@class=&quot;flag-container&quot;]/ul[@class=&quot;country-list&quot;]/li[@class=&quot;country highlight&quot;]/span[@class=&quot;country-name&quot;]</value>
-      <webElementGuid>699eb015-7a29-43f6-b707-84e914829d78</webElementGuid>
+      <webElementGuid>a6ef12f4-ef65-4365-aee0-76807ee7a2a7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='step1']/div/div/div[2]/div/form/div[3]/div/div/div[2]/div/div/div/ul/li[5]/span</value>
-      <webElementGuid>1e570e5e-592e-49af-9383-172f2923596f</webElementGuid>
+      <webElementGuid>47009fef-0e75-4aa5-8ecb-5b074caf7cc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Colombia'])[1]/following::span[2]</value>
-      <webElementGuid>3e7916a0-8dbd-44e3-8dcf-63f546746605</webElementGuid>
+      <webElementGuid>1012a448-5003-490a-8596-271f8446200c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Canada'])[1]/following::span[4]</value>
-      <webElementGuid>a6eb5b50-3828-47f7-9706-da35744be07c</webElementGuid>
+      <webElementGuid>bba7afb3-1f42-4e36-b35c-1040f43d8381</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mexico (México)'])[1]/preceding::span[2]</value>
-      <webElementGuid>32b15b10-d40a-47ec-9a6f-6978c8754c9e</webElementGuid>
+      <webElementGuid>0713e3cb-9150-4d80-b014-0be9938a516e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Philippines'])[1]/preceding::span[4]</value>
-      <webElementGuid>ef14fc9e-e080-4680-a0f5-c99d0104f88d</webElementGuid>
+      <webElementGuid>79c7c9d6-6b75-4030-a5b7-187d0c1e17cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul/li[5]/span</value>
-      <webElementGuid>76095699-9239-49d0-9063-e08b84a16041</webElementGuid>
+      <webElementGuid>31c6a107-3f96-4671-9a23-074bf1900c9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'India (भारत)' or . = 'India (भारत)')]</value>
-      <webElementGuid>8f1c965b-e784-4852-b985-0d506fe9120c</webElementGuid>
+      <webElementGuid>b8689ccc-fc67-4d63-9b02-47297b08e40e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

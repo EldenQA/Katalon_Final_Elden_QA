@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ELD-TC-46470-Verify that the Action icons are displayed under Action field for Master User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc259701-772f-4927-92db-6195e4cc413d</testCaseGuid>
+</TestCaseEntity>

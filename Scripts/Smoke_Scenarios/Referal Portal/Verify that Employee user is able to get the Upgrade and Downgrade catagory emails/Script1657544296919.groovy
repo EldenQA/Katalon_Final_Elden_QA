@@ -70,10 +70,10 @@ pro3.load(new FileInputStream('Files/interviewPortal.properties'))
 InterviewPanelist = pro3.getProperty('PanelistEmailName_1')
 
 WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
-    GlobalVariable.EmployeeUserEmail)
+    InterviewPanelist)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
-    GlobalVariable.EmployeeUserPassword)
+    GlobalVariable.interviewPanelistPassword)
 
 WebUI.click(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
@@ -283,7 +283,7 @@ for (int e = 0; e <= count5; e++) {
 WebUI.switchToWindowIndex(1)
 
 WebUI.setText(findTestObject('Object Repository/Yopmail.com/input_Type the Email name of your choice_login'), 
-    GlobalVariable.EmployeeUserEmail)
+    InterviewPanelist)
 
 WebUI.click(findTestObject('Object Repository/Yopmail/Page_YOPmail - Disposable Email Address/i_'))
 
