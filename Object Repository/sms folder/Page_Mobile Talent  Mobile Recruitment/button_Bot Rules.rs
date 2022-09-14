@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Bot Rules</name>
+   <tag></tag>
+   <elementGuidId>7735c4e9-f6d5-4514-847e-c0bc576a4e03</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='contentMainDiv']/sms-bot-setting/div[3]/div/div/div/div[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-toggle-setting</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>58c4c0eb-a3ba-4f46-a45d-8490718c3e85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-toggle-setting</value>
+      <webElementGuid>5569b136-86ec-48b7-8414-58949633ae50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ui-sref</name>
+      <type>Main</type>
+      <value>sms-bot</value>
+      <webElementGuid>43d02765-95db-4e02-ba14-d9a68cda0de1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/sms-bot</value>
+      <webElementGuid>4b4e71b4-c7c3-44b0-b2b5-ce01774b58c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Bot Rules</value>
+      <webElementGuid>0b3ba073-2392-4903-bd2a-0caeb3774857</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contentMainDiv&quot;)/sms-bot-setting[@class=&quot;ng-scope&quot;]/div[@class=&quot;container-main sms-bot&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;inner-banner&quot;]/div[@class=&quot;col-md-6 pull-right text-right&quot;]/button[@class=&quot;btn btn-toggle-setting&quot;]</value>
+      <webElementGuid>376fd5e6-77a1-4d98-ad41-f498dfa0794f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='contentMainDiv']/sms-bot-setting/div[3]/div/div/div/div[2]/button</value>
+      <webElementGuid>306a2cb8-3438-4d85-a4c5-5feb988f6b89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bot Setting'])[1]/following::button[1]</value>
+      <webElementGuid>7c8f9ebe-7cf1-4dd8-8939-a8b3d4f850e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SMS Bot'])[1]/following::button[1]</value>
+      <webElementGuid>b267b086-0d00-49b4-bf58-38babc2120c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Bot Rules']/parent::*</value>
+      <webElementGuid>74e6481c-a7d4-4944-a97a-3a22a5753686</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/button</value>
+      <webElementGuid>697652df-d2f8-46ee-8031-0b75c36ba2e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@href = '/sms-bot' and (text() = ' Bot Rules' or . = ' Bot Rules')]</value>
+      <webElementGuid>8cd8ccfc-fb43-48b3-9a57-c311e6223d79</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

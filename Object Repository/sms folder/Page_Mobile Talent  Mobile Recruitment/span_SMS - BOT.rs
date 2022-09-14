@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_SMS - BOT</name>
+   <tag></tag>
+   <elementGuidId>186cc3be-5de1-4b68-87cb-9e2545aa6e13</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='bs-example-navbar-collapse-1']/ul/li[6]/ul/li[10]/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.border-none.ng-scope > span.ng-scope</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>273b15ca-9b4a-42dd-9482-8fcb1d37bdec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-translate</name>
+      <type>Main</type>
+      <value>label.manage.SMSBOT</value>
+      <webElementGuid>39d23163-c1ab-4d89-9a8a-f7718e685da5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-scope</value>
+      <webElementGuid>a7f0179e-2d07-4211-921c-b3bb228eb5eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SMS - BOT</value>
+      <webElementGuid>f219d2ff-c7df-42f2-861d-55125ba585ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bs-example-navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav active-menu&quot;]/li[@class=&quot;dropdown ng-scope open&quot;]/ul[@class=&quot;dropdown-menu&quot;]/li[10]/a[@class=&quot;border-none ng-scope&quot;]/span[@class=&quot;ng-scope&quot;]</value>
+      <webElementGuid>2bbb24c7-29ac-443e-8ece-688ec60989b6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bs-example-navbar-collapse-1']/ul/li[6]/ul/li[10]/a/span</value>
+      <webElementGuid>5edf56db-c937-4756-85e1-a05ca15628f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage On Boarding'])[1]/following::span[1]</value>
+      <webElementGuid>30a397d0-65a7-46a3-b44e-ba8800181e55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Hiring Events'])[1]/following::span[2]</value>
+      <webElementGuid>d49d3e29-0505-4dde-a0a7-b63b9862f66e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reports'])[1]/preceding::span[1]</value>
+      <webElementGuid>a31b9284-1a0f-4b54-9afe-0d2ba215daf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Campaign Folders'])[1]/preceding::span[2]</value>
+      <webElementGuid>ef03cb5c-0d24-4cc8-828a-21fcf7b3b24b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SMS - BOT']/parent::*</value>
+      <webElementGuid>7e8fc7a0-8a09-402c-b21a-fc82c7941ef6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[10]/a/span</value>
+      <webElementGuid>3c3f9c7c-0c21-4483-90e3-49026047f0df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'SMS - BOT' or . = 'SMS - BOT')]</value>
+      <webElementGuid>1ff7f8fe-f9d8-4e60-8ebe-38fd45992238</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

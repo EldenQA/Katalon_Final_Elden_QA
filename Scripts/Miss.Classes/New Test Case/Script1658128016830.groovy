@@ -27,16 +27,23 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://yopmail.com/en/')
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Yopmail/Page_YOPmail - Disposable Email Address/input_Type the Email name of your choice_login'), 
-    'drizt@yopmail.com')
+WebUI.navigateToUrl('https://mobile-recruit.com/login')
 
-WebUI.click(findTestObject('Object Repository/Yopmail/Page_YOPmail - Disposable Email Address/i_'))
+WebUI.setText(findTestObject('Object Repository/sms folder/Page_Mobile Talent  Mobile Recruitment/input_Username_username'), 
+    'atsharma@qasource.com')
 
-WebUI.click(findTestObject('Object Repository/Yopmail/Page_Inbox/span_Show pictures'))
+WebUI.setEncryptedText(findTestObject('Object Repository/sms folder/Page_Mobile Talent  Mobile Recruitment/input_Password_password'), 
+    'p4y+y39Ir5NjfX6yBiU+Hw==')
 
-WebUI.switchToWindowTitle('Inbox')
+WebUI.click(findTestObject('Object Repository/sms folder/Page_Mobile Talent  Mobile Recruitment/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Yopmail/Page_Inbox/a_Start Survey'))
+WebUI.click(findTestObject('Object Repository/sms folder/Page_Mobile Talent  Mobile Recruitment/a_Administration'))
+
+WebUI.click(findTestObject('Object Repository/sms folder/Page_Mobile Talent  Mobile Recruitment/span_SMS - BOT'))
+
+WebUI.click(findTestObject('Object Repository/sms folder/Page_Mobile Talent  Mobile Recruitment/button_Bot Settings'))
+
+WebUI.click(findTestObject('Object Repository/sms folder/Page_Mobile Talent  Mobile Recruitment/button_Bot Rules'))
 
