@@ -39,9 +39,9 @@ Actions ac = new Actions(driver)
 
 Properties pro = new Properties()
 
-pro.load(new FileInputStream('job.properties'))
+pro.load(new FileInputStream('Files/P1_Job.properties'))
 
-keyValue = pro.getProperty('JobName')
+keyValue = pro.getProperty('Job')
 
 WebUI.setText(findTestObject('Object Repository/Job_Creation/Page_Mobile Talent  Mobile Recruitment/Username_username'), 
     GlobalVariable.userName)
@@ -122,7 +122,6 @@ WebUI.verifyElementText(findTestObject('Registration/Page_Mobile Talent  Mobile 
 
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/i_Romit Romit_fas fa-caret-down caret-down-arrow'))
 
-WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
 WebUI.click(findTestObject('Object Repository/candidate App/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
 WebUI.closeBrowser()
 

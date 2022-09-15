@@ -84,7 +84,7 @@ FileWriter fw = new FileWriter('Files/P1_Job.properties')
 
 Input = ('Campaign_Port_' + RandomStringUtils.randomNumeric(6))
 
-pro.setProperty('Campaign_Port', Input)
+pro.setProperty('Job', Input)
 
 pro.store(fw, 'comments')
 

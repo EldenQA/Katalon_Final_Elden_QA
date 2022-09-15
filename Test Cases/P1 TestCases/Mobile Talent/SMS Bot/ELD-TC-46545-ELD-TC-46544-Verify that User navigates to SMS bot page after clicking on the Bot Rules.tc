@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify that User navigates to SMS bot page after clicking on the Bot Rules</name>
+   <name>ELD-TC-46545-ELD-TC-46544-Verify that User navigates to SMS bot page after clicking on the Bot Rules</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>fb0b9088-e89a-4eb4-9ef6-35ed1d27b3df</testCaseGuid>

@@ -43,12 +43,8 @@ WebUI.click(findTestObject('Object Repository/Account_Creation/span_Administrati
 WebUI.click(findTestObject('Object Repository/Account_Creation/span_Manage Accounts'))
 WebUI.click(findTestObject('Object Repository/Account_Creation/button_Create New Account'))
 
-FileWriter fw = new FileWriter("console.properties");
-Properties pro = new Properties()
-pro.setProperty("Account Name" , 'Auto' + RandomStringUtils.randomAlphabetic(4))
-pro.store(fw, "comments")
-FileInputStream fis = new FileInputStream("console.properties");
-Input = pro.getProperty("Account Name")
+
+Input = 'Auto' + RandomStringUtils.randomAlphabetic(4)
 
 WebUI.setText(findTestObject('Object Repository/Account_Creation/input__accountName'), 
     Input)

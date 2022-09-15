@@ -84,7 +84,7 @@ FileWriter fw = new FileWriter('Files/P1_Job.properties')
 
 Input = ('Campaign_Italian (IT)_' + RandomStringUtils.randomNumeric(6))
 
-pro.setProperty('Campaign_Italian', Input)
+pro.setProperty('Job', Input)
 
 pro.store(fw, 'comments')
 

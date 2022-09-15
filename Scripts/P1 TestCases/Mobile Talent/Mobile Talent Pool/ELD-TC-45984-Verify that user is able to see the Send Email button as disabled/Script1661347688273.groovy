@@ -72,6 +72,8 @@ WebUI.click(findTestObject('MTP Locators/ComposeEmailLocator'))
 
 WebUI.verifyElementNotClickable(findTestObject('MTP Locators/sendEmailLocator'))
 
+WebUI.click(findTestObject('MTP Locators/closePopup'))
+
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/b_Romit Romit'))
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Logout'))
 WebUI.closeBrowser()

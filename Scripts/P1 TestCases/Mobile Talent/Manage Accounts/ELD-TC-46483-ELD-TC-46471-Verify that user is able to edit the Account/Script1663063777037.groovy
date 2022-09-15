@@ -159,6 +159,8 @@ for (WebElement ele7 : elements7) {
         break
     }
 }
+
+
 WebUI.verifyElementText(findTestObject('Account_Creation/addressFieldOnAccountDetail'), '73 Ray St,' + address + 
     'Pleasanton, , United States')
 

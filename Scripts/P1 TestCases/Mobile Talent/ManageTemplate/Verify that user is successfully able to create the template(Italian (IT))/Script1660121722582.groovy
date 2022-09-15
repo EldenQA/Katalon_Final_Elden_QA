@@ -54,7 +54,7 @@ WebUI.click(findTestObject('Object Repository/Administration/Manage_Microsite/cr
 FileWriter fw = new FileWriter('Files/P1_Template.properties')
 Properties pro = new Properties()
 Input = ('Italian (IT)_' + RandomStringUtils.randomNumeric(6))
-pro.setProperty('Template_Italian', Input)
+pro.setProperty('Template', Input)
 pro.store(fw, 'comments')
 
 WebUI.setText(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/input__templateName'), 

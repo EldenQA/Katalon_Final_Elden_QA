@@ -6,18 +6,17 @@
    <elementGuidId>e7420d44-e1cb-4fa5-91e4-42fda582e9d7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[text()='30']</value>
+         <key>CSS</key>
+         <value>tr:nth-of-type(5) > td:nth-of-type(6) > .btn.btn-default</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//td[@class='text-center ng-scope'] span[text()='30'] </value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

@@ -223,7 +223,7 @@ for (int i = 0; i < dropdownValuesCount; i++) {
         break
     }
 }
-
+Thread.sleep(4000)
 //TestCase_2-ELD-TC-46177
 TestObject testCase_1 = findTestObject('Administration/Manage_Jobs/jobsTitle')
 
@@ -243,7 +243,7 @@ for (WebElement testCase_1Element : testCase_1elements) {
         WebUI.click(findTestObject('All_Jobs/closeJobDetailDialogPopup'))
     }
 }
-
+Thread.sleep(4000)
 //p1-TestCase-3-ELD-TC-46272
 TestObject jobTitles = findTestObject('Administration/Manage_Jobs/jobsTitle')
 
@@ -278,7 +278,7 @@ for (WebElement jobTitlesSingle : jobTitleselements) {
     
     break
 }
-
+Thread.sleep(4000)
 //Test_Case_4_ELD-TC-46337-Verify that user is able to complete the Job from manage Job
 TestObject jobTitles2 = findTestObject('Administration/Manage_Jobs/jobsTitle')
 
@@ -301,6 +301,7 @@ for (WebElement jobTitlesSingle2 : jobTitleselements2) {
 
             if (attribute22.equalsIgnoreCase('Complete Campaign')) {
                 ele222.click()
+				System.out.println('Campaign has been Completed successfully.')
                 WebUI.verifyElementText(findTestObject('MTP Locators/successMessageLocator'), 'Campaign has been completed successfully.')
 				break
             }
@@ -310,7 +311,7 @@ for (WebElement jobTitlesSingle2 : jobTitleselements2) {
     }
 }
 
-
+Thread.sleep(4000)
 //Test_Case_5_ELD-TC-46347-Verify that user is able to launch the Job from manage Job
 
 TestObject launchJob = findTestObject('Administration/Manage_Jobs/jobsTitle')
@@ -333,7 +334,9 @@ for (WebElement launchJobSingle2 : launchJobelements2) {
 			System.out.println(launchJobAttribute)
 
 			if (launchJobAttribute.equalsIgnoreCase('Launch Campaign')) {
+				
 				launchJob222.click()
+				System.out.println('Campaign has been launched successfully.')
 				WebUI.verifyElementText(findTestObject('MTP Locators/successMessageLocator'), 'Campaign has been launched successfully.')
 				break
 			}
@@ -342,6 +345,7 @@ for (WebElement launchJobSingle2 : launchJobelements2) {
 		break
 	}
 }
+Thread.sleep(4000)
 //Test_Case_3-ELD-TC-46272
 pro.load(new FileInputStream('README.md'))
 
@@ -376,7 +380,7 @@ for (WebElement ele : elements) {
     
     break
 }
-
+Thread.sleep(4000)
 WebUI.scrollToElement(findTestObject('Administration/Manage_Jobs/descriptionInputBox'), 2)
 
 WebUI.clearText(findTestObject('Administration/Manage_Jobs/descriptionInputBox'))

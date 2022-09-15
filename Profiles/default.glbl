@@ -119,4 +119,14 @@
       <initValue>'//toggle-settings[@class=&quot;ng-isolate-scope&quot;]//span[@class=&quot;ng-binding&quot;]'</initValue>
       <name>ManageAccountToggleButton</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'romgupta@qasource.com'</initValue>
+      <name>accountAdmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password@3</description>
+      <initValue>'p4y+y39Ir5NjfX6yBiU+Hw=='</initValue>
+      <name>accountAdminPassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

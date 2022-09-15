@@ -12,6 +12,69 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>44077ee4-c241-4e83-9152-ef808b1049e7</testSuiteGuid>
    <testCaseLink>
+      <guid>06216cea-59d3-46e3-9e25-ef3b9374a44e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/ManageTemplate/Verify that user is successfully able to create the template(French (FR)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d1463f58-9791-449a-a230-51757d3d83bb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Launch New Job/ELD-TC-45990-Verify that user is able to create a job in French Language</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dbc1882e-7f8a-4364-91bf-5be61255f398</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/ManageTemplate/Verify that user is successfully able to create the template(Italian (IT))</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f4fe9927-8b5d-43e3-8aff-3c2321b2b306</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Launch New Job/ELD-TC-46002-Verify that user is able to Launch the job in Italian Language</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a3c819d8-f31e-44ce-b443-3805d1cf3a6c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/ManageTemplate/Verify that user is successfully able to create the template(Portuguese (Brazil)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6ccec8b9-c0f1-4d7e-ad88-9bcba615ebfc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Launch New Job/ELD-TC-46016-Verify that user is able to Launch the Job in Portuguese Language</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7f60b758-3f40-4ded-9268-b7497c9bbae7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Launch New Job/ELD-TC-45986-Verify that user is able to Navigate to DashBoard on Clicking Cancel Campaign on select template page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>24991545-e9b8-4d04-82b9-92bd96c12b27</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Launch New Job/ELD-TC-45987-Verify Please Confirm dialog displayed after clicking on Cancel Campaign button on Launch New Job page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ecb929f6-893a-4d88-b033-781f61df8930</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Launch New Job/ELD-TC-45988-Verify buttons and dialog displayed after clicking on Cancel Campaign button on Select Template screen under Launch New Job page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>73d0095f-e271-4d75-9a4b-3e6ee5b01355</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -117,48 +180,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7f60b758-3f40-4ded-9268-b7497c9bbae7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Launch New Job/ELD-TC-45986-Verify that user is able to Navigate to DashBoard on Clicking Cancel Campaign on select template page</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>24991545-e9b8-4d04-82b9-92bd96c12b27</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Launch New Job/ELD-TC-45987-Verify Please Confirm dialog displayed after clicking on Cancel Campaign button on Launch New Job page</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ecb929f6-893a-4d88-b033-781f61df8930</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Launch New Job/ELD-TC-45988-Verify buttons and dialog displayed after clicking on Cancel Campaign button on Select Template screen under Launch New Job page</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d1463f58-9791-449a-a230-51757d3d83bb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Launch New Job/ELD-TC-45990-Verify that user is able to create a job in French Language</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f4fe9927-8b5d-43e3-8aff-3c2321b2b306</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Launch New Job/ELD-TC-46002-Verify that user is able to Launch the job in Italian Language</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6ccec8b9-c0f1-4d7e-ad88-9bcba615ebfc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Launch New Job/ELD-TC-46016-Verify that user is able to Launch the Job in Portuguese Language</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>774e80ba-37b9-4860-ad39-7cdd69b22fc2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -177,27 +198,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Manage Jobs/ELD-TC-46272 , ELD-TC-46177, ELD-TC-46176,ELD-TC-46337,ELD-TC-46347</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>06216cea-59d3-46e3-9e25-ef3b9374a44e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/ManageTemplate/Verify that user is successfully able to create the template(French (FR)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>dbc1882e-7f8a-4364-91bf-5be61255f398</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/ManageTemplate/Verify that user is successfully able to create the template(Italian (IT))</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a3c819d8-f31e-44ce-b443-3805d1cf3a6c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/ManageTemplate/Verify that user is successfully able to create the template(Portuguese (Brazil)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -226,6 +226,62 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Mobile Talent Pool/ELD-TC-45985-Verify Send Email button is disabled on Bulk Email dialog under Mobile Talent Pool page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>93cd814f-5d78-4f66-b6a0-e2e173fa7cda</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Manage Accounts/ELD-TC-46438-Verify that Buttons are displayed on the Account Details page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5e366525-03d7-41f1-80d1-38d9c2d7df7a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Manage Accounts/ELD-TC-46470-Verify that the Action icons are displayed under Action field for Master User</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4e5ee228-66ef-4669-9c1d-9f6a48415c07</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Manage Accounts/ELD-TC-46483-ELD-TC-46471-Verify that user is able to edit the Account</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>477d7bdd-59e1-463a-8e46-93d2a4c2807d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Manage Accounts/ELD-TC-46483-ELD-TC-46474-Verify that user is able to create the Account</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b8c65b23-5933-4948-bb76-5fbf5b555677</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Manage Accounts/ELD-TC-46491-Verify that user is able to upload the location file after selecting Overwrite existing location</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c3aee6cc-858b-4f53-b46e-f557466662e9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Manage Microsite/ELD-TC-46355-ELD-TC-46356-ELD-TC-46361</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d4314f90-c52d-49a7-b2b9-8eee0d016ac9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Manage Microsite/ELD-TC-46360-Verify that user is able to Delete the Microsite</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>238b6865-5248-4fa8-ad2a-90ce845cf264</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/Manage Users/ELD-TC-46431-ELD-TC-46363-ELD-TC-46437</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

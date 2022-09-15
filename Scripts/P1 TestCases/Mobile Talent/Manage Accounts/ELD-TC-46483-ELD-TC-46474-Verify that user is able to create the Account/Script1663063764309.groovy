@@ -46,7 +46,7 @@ WebUI.click(findTestObject('Object Repository/Account_Creation/span_Manage Accou
 
 WebUI.click(findTestObject('Object Repository/Account_Creation/button_Create New Account'))
 
-AccountName = ('Account' + RandomStringUtils.random(6))
+AccountName = ('Account' + RandomStringUtils.randomNumeric(8))
 
 WebUI.setText(findTestObject('Object Repository/Account_Creation/input__accountName'), AccountName)
 

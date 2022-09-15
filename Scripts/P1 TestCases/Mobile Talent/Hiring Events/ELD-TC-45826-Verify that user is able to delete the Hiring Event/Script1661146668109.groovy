@@ -77,8 +77,6 @@ WebUI.sendKeys(findTestObject('Administration/Manage_Hiring_Events/eventName'), 
 
 WebUI.click(findTestObject('Administration/Manage_Hiring_Events/startDataLocator'))
 
-
-
 WebUI.click(findTestObject('Administration/Manage_Hiring_Events/30DateLocator'))
 
 WebUI.click(findTestObject('Administration/Manage_Hiring_Events/endDate'))
@@ -86,26 +84,22 @@ WebUI.click(findTestObject('Administration/Manage_Hiring_Events/endDate'))
 WebUI.click(findTestObject('Administration/Manage_Hiring_Events/30DateLocator'))
 
 WebUI.sendKeys(findTestObject('Administration/Manage_Hiring_Events/locationLocatorHiringEvent'), 'Pragpur, Himachal Pradesh, India')
-
 WebElement element3 = driver.findElement(By.cssSelector('div > input[name="eventLocation"]'))
-
-ac.sendKeys(element3, Keys.SPACE).build().perform()
-
-ac.sendKeys(Keys.ARROW_DOWN).build().perform()
-
-ac.sendKeys(Keys.ENTER).build().perform()
-
+ac.sendKeys(element3, Keys.SPACE).build(). perform()
+ac.sendKeys(Keys.ARROW_DOWN).build(). perform()
+ac.sendKeys(Keys.ENTER).build(). perform()
+Thread.sleep(3000)
 pro.load(new FileInputStream('README.md'))
 
 keyValue = pro.getProperty('Message')
 
-pro.load(new FileInputStream('job.properties'))
+pro.load(new FileInputStream('Files/P1_Job.properties'))
 
-jobName = pro.getProperty('JobName')
+keyValue2 = pro.getProperty('Job')
 
 WebUI.sendKeys(findTestObject('Administration/Manage_Hiring_Events/descriptionHiringEvent'), keyValue)
 
-WebUI.sendKeys(findTestObject('Administration/Manage_Hiring_Events/campaignInputField'), jobName)
+WebUI.sendKeys(findTestObject('Administration/Manage_Hiring_Events/campaignInputField'), keyValue2)
 
 WebUI.click(findTestObject('Administration/Manage_Hiring_Events/selectCampaign'))
 
