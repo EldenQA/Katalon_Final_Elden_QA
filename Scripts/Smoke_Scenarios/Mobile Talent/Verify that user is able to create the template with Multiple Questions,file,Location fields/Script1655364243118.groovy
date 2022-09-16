@@ -146,14 +146,20 @@ WebUI.click(findTestObject('Template Creation/Page_Mobile Talent  Mobile Recruit
 Thread.sleep(2000)
 File f = new File('Speciman.csv')
 String logoPath = f.getAbsolutePath()
-Robot rb = new Robot()
 StringSelection ss = new StringSelection(logoPath)
 Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null)
+
+Robot rb = new Robot()
 rb.keyPress(KeyEvent.VK_CONTROL)
+
 rb.keyPress(KeyEvent.VK_V)
+
 rb.keyRelease(KeyEvent.VK_CONTROL)
+
 rb.keyRelease(KeyEvent.VK_V)
+
 rb.keyPress(KeyEvent.VK_ENTER)
+
 rb.keyRelease(KeyEvent.VK_ENTER)
 
 WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/clickOnQuestionniareName'))

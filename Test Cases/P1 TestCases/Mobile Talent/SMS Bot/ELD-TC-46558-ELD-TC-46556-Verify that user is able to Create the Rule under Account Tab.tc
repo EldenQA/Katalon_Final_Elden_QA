@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ELD-TC-46558-ELD-TC-46556-Verify that user is able to Create the Rule under Account Tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8848992f-57db-433e-b780-c93cd7b61da8</testCaseGuid>
+</TestCaseEntity>

@@ -62,10 +62,10 @@ File f = new File('download.png')
 
 String logoPath = f.getAbsolutePath()
 
-Robot rb = new Robot()
+
 
 StringSelection ss = new StringSelection(logoPath)
-
+Robot rb = new Robot()
 Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null)
 
 rb.keyPress(KeyEvent.VK_CONTROL)
