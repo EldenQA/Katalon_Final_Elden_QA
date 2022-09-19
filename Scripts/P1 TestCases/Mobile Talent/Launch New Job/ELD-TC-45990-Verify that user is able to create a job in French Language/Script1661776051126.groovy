@@ -169,7 +169,7 @@ ac.sendKeys(Keys.PAGE_DOWN).perform()
 
 pro.load(new FileInputStream('Files/P1_Template.properties'))
 
-keyValue = pro.getProperty('Template_French')
+keyValue = pro.getProperty('Template')
 
 driver.findElement(By.cssSelector('span [class = \'fa fa-search\']')).click()
 
