@@ -16,6 +16,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import org.openqa.selenium.By as By
 import org.openqa.selenium.By.ByLinkText as ByLinkText
@@ -61,9 +62,35 @@ for (int l = 0; l < count; l++) {
         break
     }
 }
-WebUI.scrollToElement(findTestObject('Administration/Manage Carrer Page/addAnnouncement'), 2)
 
-WebUI.click(findTestObject('Administration/Manage Carrer Page/addAnnouncement'))
-//Actions ac = new Actions(driver)
-//ac.sendKeys(Keys.ENTER).perform()
+
+
+WebUI.scrollToElement(findTestObject('Administration/Manage Carrer Page/addEvent'), 2)
+
+WebUI.click(findTestObject('Administration/Manage Carrer Page/addEvent'))
+
+Title = ('Testimonial' + RandomStringUtils.randomNumeric(6))
+
+WebUI.sendKeys(findTestObject('Administration/Manage Carrer Page/eventTitle'), Title)
+
+pro.load(new FileInputStream('README.md'))
+
+description = pro.getProperty('TestimonialDescription')
+
+WebUI.setText(findTestObject('Administration/Manage Carrer Page/descriptionAreaEvent'), description)
+
+Date date = new Date()
+
+SimpleDateFormat df = new SimpleDateFormat('MM/dd/yyyy')
+
+currentDate = df.format(date)
+
+WebUI.sendKeys(findTestObject('Administration/Manage Carrer Page/dateSelector'), currentDate)
+
+WebUI.click(findTestObject('Administration/Manage Carrer Page/saveEvent'))
+
+WebUI.scrollToElement(findTestObject('MTP Locators/successMessageLocator'), 2)
+textD= WebUI.getText(findTestObject('MTP Locators/successMessageLocator'))
+System.out.println(textD)
+WebUI.verifyElementText(findTestObject('MTP Locators/successMessageLocator'), 'Event Created Successfully')
 

@@ -30,38 +30,46 @@ import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 
 WebUI.openBrowser('')
 
-//WebUI.navigateToUrl('https://yopmail.com/en/')
+WebUI.maximizeWindow()
 
-//WebUI.setText(findTestObject('null'), 
-//    'intfjxaee@yopmail.com')
-//
-//WebUI.click(findTestObject('null'))
-//
-//WebUI.click(findTestObject('null'))
-//
-//WebUI.switchToWindowTitle('Inbox')
-//
-//WebUI.click(findTestObject('null'))
+WebUI.navigateToUrl(GlobalVariable.url)
 
+WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 
+Properties pro = new Properties()
 
+WebUI.setText(findTestObject('Object Repository/Account_Creation/input_Username_username'), GlobalVariable.accountAdmin)
 
+WebUI.setEncryptedText(findTestObject('Object Repository/Account_Creation/input_Password_password'), GlobalVariable.accountAdminPassword)
 
+WebUI.click(findTestObject('Object Repository/Account_Creation/button_Login'))
 
+WebUI.click(findTestObject('Object Repository/Template Creation/Page_Mobile Talent  Mobile Recruitment/span_Administration_2'))
 
+List<WebElement> allTabsOnAdministration1 = driver.findElements(By.cssSelector('ul li span[class =\'ng-scope\']'))
 
+count = allTabsOnAdministration1.size()
 
-WebUI.navigateToUrl('https://yopmail.com/en/')
+for (int l = 0; l < count; l++) {
+    tabNames1 = allTabsOnAdministration1.get(l).getText()
 
-WebUI.setText(findTestObject('Object Repository/Yopmail.com/input_Type the Email name of your choice_login'), 'intfjxaee@yopmail.com')
+    System.out.println(tabNames1)
 
-WebUI.click(findTestObject('Object Repository/Yopmail/Page_YOPmail - Disposable Email Address/i_'))
+    if (tabNames1 == 'Manage Career Page') {
+        allTabsOnAdministration1.get(l).click()
 
-WebUI.click(findTestObject('Object Repository/Yopmail/Page_Inbox/span_Show pictures'))
+        break
+    }
+}
 
-WebUI.switchToWindowTitle('Inbox')
+Title = ('Testimonial' + RandomStringUtils.randomNumeric(6))
+pro.load(new FileInputStream('README.md'))
+
+description = pro.getProperty('Testimonial Description')
 WebUI.click(findTestObject('null'))
-//WebUI.click(findTestObject('Object Repository/Yopmail.com/Page_Inbox/a_Book Now'))
 
-WebUI.switchToWindowIndex(2)
+WebUI.click(findTestObject('null'))
+
+WebUI.setText(findTestObject('null'), 
+    description)
 
