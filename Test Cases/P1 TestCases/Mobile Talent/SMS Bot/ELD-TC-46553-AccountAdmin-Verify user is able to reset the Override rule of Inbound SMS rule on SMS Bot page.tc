@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>AccountAdmin-Verify user is able to reset the Override rule of Inbound SMS rule on SMS Bot page</name>
+   <name>ELD-TC-46553-AccountAdmin-Verify user is able to reset the Override rule of Inbound SMS rule on SMS Bot page</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1efa3857-09a9-4c84-822a-a2b1d85afc5a</testCaseGuid>

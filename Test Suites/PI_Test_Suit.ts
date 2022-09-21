@@ -288,7 +288,7 @@
       <guid>2b6c8cf7-246a-474f-8abe-2a4e0bce2667</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/SMS Bot/AccountAdmin-Verify user is able to reset the Override rule of Inbound SMS rule on SMS Bot page</testCaseId>
+      <testCaseId>Test Cases/P1 TestCases/Mobile Talent/SMS Bot/ELD-TC-46553-AccountAdmin-Verify user is able to reset the Override rule of Inbound SMS rule on SMS Bot page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

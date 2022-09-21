@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify following fields are displayed under dropdown on SMS Bot page</name>
+   <name>ELD-TC-46559-Verify following fields are displayed under dropdown on SMS Bot page</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>0baeb5c4-39df-49ac-b342-3791bd50237d</testCaseGuid>

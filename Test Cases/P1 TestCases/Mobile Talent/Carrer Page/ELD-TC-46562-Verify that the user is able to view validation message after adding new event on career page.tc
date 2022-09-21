@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify that the user is able to view validation message after adding new event on career page</name>
+   <name>ELD-TC-46562-Verify that the user is able to view validation message after adding new event on career page</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>aa9eaaf7-81ad-4d08-b80c-3a74a5c3858b</testCaseGuid>
